@@ -2,7 +2,7 @@ Write a description of your own twist of the macro pad idea, and the challenges 
 
 Next, make sure you go through **each item** in the following checklist. Delete this line after!
 
-- [ ] I have read the steps to [getting a hackpad]([https://github.com/hackclub/hackpad/blob/main/README.md](https://github.com/hackclub/hackpad/blob/main/README.md))
+- [ ] I have read the steps to [getting a hackpad](https://github.com/hackclub/hackpad?tab=readme-ov-file#-submission-info--details-click-me)
 - [ ] I am submitting a MacroPad that...
   - [ ] is original and fully my design
   - [ ] has my own twist on the macropad/keyboard idea
