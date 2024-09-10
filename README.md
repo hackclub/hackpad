@@ -23,6 +23,8 @@ That's it! Only additional requirement is that your macropad be meaningful disti
 
 Glad you asked! Here are some pretty useful guides:
 - [ai03's PCB Design guide](https://wiki.ai03.com/books/pcb-design)
+- [How a Keyboard Matrix Works](https://docs.qmk.fm/how_a_matrix_works)
+- [Rollover, blocking and ghosting](https://deskthority.net/wiki/Rollover,_blocking_and_ghosting)
 - ADDMORE
 
 ## Anything else?
