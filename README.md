@@ -27,7 +27,7 @@ This is something you definitely don't want to miss out, so make sure to join #h
 - A grab bag of DSA keycaps, and a custom Hack Club keycap too
 
 
-You can get the macropads soldered if you don't have a soldering iron, or we can send you the parts directly if you're up for a soldering task.
+You can get the macropads soldered if you don't have a soldering iron, or we can send you the parts directly if you're up for a soldering task. The only catch is that if you want it to be soldered, you *must* use through-hole components only!
 
 #### Requirements:
 - You design a macropad that integrates a [Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) as the main MCU. Nothing else allowed, sorry!
@@ -39,8 +39,6 @@ You can get the macropads soldered if you don't have a soldering iron, or we can
 Once that's done, you can go on and make a PR. The instructions will be in the template.
 
 </details>
-
-
 
 ## I have no clue how to make one!
 
