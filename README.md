@@ -31,8 +31,8 @@ You can get the macropads soldered if you don't have a soldering iron, or we can
 
 #### Requirements:
 - You design a macropad that integrates a [Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) as the main MCU. Nothing else allowed, sorry!
-- It has less than 20 keyswitches
-- It is meaningfully unique to you. This could be as simple as changing the layout and adding some decor, or as elaborate as writing an entire firmware in Rust
+- It has 20 or less switches
+- It is meaningfully unique to you. This could be as simple as making a custom layout and adding some decor, or as elaborate as writing an entire firmware in Rust
 - The PCB only uses 2 layers
 - Don't make a macropad with 40 screens. Or out of pure gold. Please!!
 
