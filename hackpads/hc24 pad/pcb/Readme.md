@@ -1,4 +1,5 @@
 # Made with love, swirly
+Btw, to whoever is reading this, I'd like a black pcb please!
 
 ![image](https://github.com/user-attachments/assets/8149a1e7-f47d-4c23-b0f5-0ba76c557410)
 ![image](https://github.com/user-attachments/assets/9f8b5942-2080-4fae-80e4-427d4774c714)
