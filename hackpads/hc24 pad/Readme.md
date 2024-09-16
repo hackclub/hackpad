@@ -1,10 +1,6 @@
-# Case
-
-for the 2nd cad i've ever designed, dosent look all too that bad!<br/>
-
-**I perfer getting it machined, but if thats not possible, 3d prints work for me too!<br/>**
-**base.stl:** made from a white/transparent please<br/>
-**top.stl:** black. just black :)<br/>
-![image](https://github.com/user-attachments/assets/04ad864e-5b56-4508-ab3a-e111c22ad6d4)
-![image](https://github.com/user-attachments/assets/593ce748-4119-4ad5-b491-d3a69ea26d91)
-
+# hackclub 24 pad
+with love, from swirly!
+![image](https://github.com/user-attachments/assets/6f83f020-a5ce-4086-ad1a-7a605ca76dfe)
+![image](https://github.com/user-attachments/assets/7f277403-bbd4-4984-9d08-49a98737e0b2)
+![image](https://github.com/user-attachments/assets/83e3af63-4460-4a28-963a-8e065bafd167)
+![image](https://github.com/user-attachments/assets/dc6474c2-dd23-49e7-a028-ab8ffbde19d5)
