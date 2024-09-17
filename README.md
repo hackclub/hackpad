@@ -67,8 +67,8 @@ Misc great info:
 This YSWS is only guaranteed to run through September 30th, so make sure to get yours submitted before then. Depending on skill level, this should take roughly 6-12 hours to finish.
 
 List of questions from the slack that you may want answered too:
-<details>
-<summary> <h3> FAQ: (click me)</summary>
+
+### FAQ
 
 Can I use SMD parts?
 - You can! Only catch is that PCBAlex will not assemble them for you
@@ -92,7 +92,6 @@ When are we getting more guides???
 - soonTM
 
 
-</details>
 
 
 
