@@ -76,9 +76,10 @@ Can I use SMD parts?
 How do I write the firmware without having hackpad available?
 - Pre-existing firmwares like QMK and KMK are pretty reliable - we'll do a final check once we get your hackpad at HQ to make sure it actually works
 
+What switches do I use?
+- PCBs that can take MX-style or Choc switches are allowed. Please run anything else by me first @alexren in #hackpad. As for specific ones (i.e reds yellows etc), selection is TBD.
 
-
-Can I use... (for any of these you MUST write the firmware for it)
+Can I use... (for any of these you must be able to provide firmware that actually works)
 - IO expanders? YES!
 - OLED displays? YES! Just make sure they're the small i2c ones
 - Joysticks? YES!
@@ -91,6 +92,8 @@ How expensive can the components be?
 When are we getting more guides???
 - soonTM
 
+How much will the package value be?
+- This will depend on your configuration, but generally you should expect $10 for a barebones setup.
 
 
 
