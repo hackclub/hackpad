@@ -47,11 +47,11 @@ Not to fret! There are a *ton* of guides out there that teach you every step of 
 PCB Design:
 - [ai03's PCB guide](https://wiki.ai03.com/books/pcb-design) (note: you can skip the part about wiring up the MCU)
 - [How a matrix works (qmk)](https://docs.qmk.fm/how_a_matrix_works)
-- [Layout & Design](https://youtu.be/IJxuzyO9b8M?si=CIvNhJDQls7RqvDT)
+- [Layout & Design YouTube Video](https://youtu.be/IJxuzyO9b8M?si=CIvNhJDQls7RqvDT)
 - Feel free to make a PR to add stuff here
 
 CAD:
-- [KiCad KeyPad Tutorial by Joe Scotto](https://youtu.be/8WXpGTIbxlQ?si=sk5_wpz1GwqhG3e_)
+- [KiCad KeyPad Video Tutorial](https://youtu.be/8WXpGTIbxlQ?si=sk5_wpz1GwqhG3e_)
 - Feel free to make a PR to add stuff here
 
 
