@@ -66,6 +66,33 @@ Misc great info:
 
 This YSWS is only guaranteed to run through September 30th, so make sure to get yours submitted before then. Depending on skill level, this should take roughly 6-12 hours to finish.
 
+List of questions from the slack that you may want answered too:
+<details>
+<summary> <h3> FAQ: (click me)</summary>
+
+Can I use SMD parts?
+- You can! Only catch is that PCBAlex will not assemble them for you
+
+How do I write the firmware without having hackpad available?
+- Pre-existing firmwares like QMK and KMK are pretty reliable - we'll do a final check once we get your hackpad at HQ to make sure it actually works
+
+
+
+Can I use... (for any of these you MUST write the firmware for it)
+- IO expanders? YES!
+- OLED displays? YES! Just make sure they're the small i2c ones
+- Joysticks? YES!
+- Rotary encoders? YES!
+- a 70 inch TV? NO!!!!
+
+How expensive can the components be?
+- Please run by me what you want to get @alexren on the slack
+
+When are we getting more guides???
+- soonTM
+
+
+</details>
 
 
 
