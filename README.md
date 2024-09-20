@@ -42,7 +42,7 @@ Once that's done, you can go on and make a PR. The instructions will be in the t
 
 ## I have no clue how to make one!
 
-Not to fret! There are a *ton* of guides out there that teach you every step of the way. For each task:
+Not to fret! There are a *ton* of resources, inspiration, and guides out there to help you with each bit!
 
 PCB Design:
 - [ai03's PCB guide](https://wiki.ai03.com/books/pcb-design) (note: you can skip the part about wiring up the MCU)
@@ -50,7 +50,7 @@ PCB Design:
 - Feel free to make a PR to add stuff here
 
 CAD:
-- Feel free to make a PR to add stuff here
+- 
 
 
 Firmware:
