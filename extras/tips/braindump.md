@@ -3,7 +3,7 @@
 Here lies a braindump of everything useful I've picked up over the years. Will add more as I think of stuff
 
 ### The REALLY good stuff:
-- Most DIY Keyboards are at least partially open source. You can go to their repositories on github and copy their tolerances
+- Most DIY Keyboards are at least partially open source. You can go to their repositories onq github and copy their tolerances
 
 - Use [The Keyboard Atelier's discord](https://kbatelier.org/). Insanely useful resource to work with.
 
@@ -28,9 +28,15 @@ Here lies a braindump of everything useful I've picked up over the years. Will a
 - Keyswitches: https://grabcad.com/library/cherry-mx-switches-mx-1
 - Stabilizers: https://grabcad.com/library/cherry-mx-stabilizer-mx-1
 
+#### KiCad Footprints:
+- General: https://github.com/ai03-2725/MX_V2
+- Rotary Encoder (EC11) https://kicad.github.io/footprints/Rotary_Encoder
 
-### Personal tips for certain parts
 
+### Personal tips for adding parts
+
+**Custom Designs**
+- Adding graphics in KiCad is really annoying. Instead, you can use Figma to design an overlay, and then simply put that on your PCB at the end.
 
 **Rotary Encoders**:
 - Use the Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm footprint in KiCad. These are clickable EC11's, which is what you'll find 90% of the time.
