@@ -34,6 +34,7 @@ Here lies a braindump of everything useful I've picked up over the years. Will a
 
 **Rotary Encoders**:
 - Use the Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm footprint in KiCad. These are clickable EC11's, which is what you'll find 90% of the time.
+- [This](https://europe1.discourse-cdn.com/arduino/original/4X/d/4/6/d4660aa66768f23a3dece96d1ba2be53300ff1e4.png) image shows you how to wire it. The order of A and B does not matter, you can define it in firmware. [QMK ref](https://docs.qmk.fm/features/encoders)
 
 **Screens**:
 - Use generic i2c OLEDs
