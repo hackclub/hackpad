@@ -31,9 +31,10 @@ You can get the macropads soldered if you don't have a soldering iron, or we can
 
 #### Requirements:
 - You design a macropad that integrates a [Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) as the main MCU. Nothing else allowed, sorry!
-- It has 20 or less switches
+- It has 20 or less inputs. A single input includes a rotary encoder, switch etc.
 - It is meaningfully unique to you. This could be as simple as making a custom layout and adding some decor, or as elaborate as writing an entire firmware in Rust
 - The PCB only uses 2 layers
+- The PCB does not exceed 100mm in length in any direction
 - Don't make a macropad with 40 screens. Or out of pure gold. Please!!
 
 Once that's done, you can go on and make a PR. The instructions will be in the template.
@@ -69,6 +70,9 @@ This YSWS is only guaranteed to run through September 30th, so make sure to get 
 List of questions from the slack that you may want answered too:
 
 ### FAQ
+
+What thickness is the acrylic?
+- 3mm
 
 Can I use SMD parts?
 - You can! Only catch is that PCBAlex will not assemble them for you
