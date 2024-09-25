@@ -52,7 +52,7 @@ export default function App() {
             <br></br>
             <p>
               A macropad is a small, minified keyboard that you can program to
-              do <i>anything</i> you want it to!. People mainly use them for
+              do <i>anything</i> you want it to! People mainly use them for
               shortcuts, custom keybinds, typing whole sentences, and even a
               MIDI controller! Some amazing examples:
               <div className="flex justify-center py-6">
