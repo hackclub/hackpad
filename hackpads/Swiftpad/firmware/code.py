@@ -1,6 +1,6 @@
-"""
+'''
 SwiftPad
-
+'''
 import board
 import busio
 from kmk.kmk_keyboard import KMKKeyboard
@@ -54,6 +54,7 @@ display = Display(
     off_time=1200,
     brightness=1,
 )
+keyboard.extensions.append(display)
 
 # Keymap
 keyboard.keymap = [
