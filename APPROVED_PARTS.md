@@ -1,5 +1,7 @@
 # List of approved parts
 
+Here is the list of approved parts!! If there's anything you think should be here please send it in #hackpad!
+
 NOTE: For parts that we do *not* have at HQ, it may take significantly longer (1-2+ more weeks) for your parts to arrive. 
 
 NOTE 2: If you use any SMD parts (including hotswap sockets!), I will *not* solder any of it for you!!
