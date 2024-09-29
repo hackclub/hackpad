@@ -113,7 +113,7 @@ export default function App() {
                   <li>
                     Probably! You can check the list of approved parts{" "}
                     <a
-                      href="https://github.com/hackclub/hackpad/APPROVED_PARTS.md"
+                      href="https://github.com/hackclub/hackpad/blob/main/APPROVED_PARTS.md"
                       target="_blank"
                     >
                       here
