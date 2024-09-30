@@ -1,9 +1,11 @@
-// import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
     <div>
-      <div className="sm:fixed right-0 sm:right-5">{/* <NavBar /> */}</div>
+      <div className="sm:fixed max-w-32 right-0 sm:right-5 md:right-10">
+        <NavBar />
+      </div>
       <div className="flex justify-center text-center">
         <div className="mt-16 text-slate-950 mx-20 md:max-w-6xl font-mono">
           <div className="flex justify-center items-center align-middle">
@@ -13,7 +15,7 @@ export default function App() {
           </div>
           <div>
             {/* <h2 className="text-3xl">How does it work?</h2> */}
-            <div className="flex flex-col md:flex-row items-center justify-center md:space-x-24 space-y-6 md:space-y-0 py-6 text-2xl font-bold">
+            <div className="flex flex-row md:flex-row items-center justify-center md:space-x-24 space-y-6 md:space-y-0 py-6 text-2xl font-bold">
               <div>
                 <h3>Design a PCB</h3>
                 <img
@@ -113,7 +115,7 @@ export default function App() {
                   <li>
                     Probably! You can check the list of approved parts{" "}
                     <a
-                      href="https://github.com/hackclub/hackpad/APPROVED_PARTS.md"
+                      href="hhttps://github.com/hackclub/hackpad/blob/main/APPROVED_PARTS.md"
                       target="_blank"
                     >
                       here
