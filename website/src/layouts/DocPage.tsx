@@ -1,6 +1,6 @@
 import SideBar from "../components/SideBar.tsx";
 
-const DocPage = ({ Tutorial }) => {
+const DocPage = ({ Content } : {Content:any}) => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
@@ -34,7 +34,7 @@ const DocPage = ({ Tutorial }) => {
 
         {/* Main Content */}
         <main className="flex-1 p-8 prose-ul:list-disc prose-sm font-mono max-w-4xl mx-auto sm:ml-48">
-          <Tutorial />
+          <Content />
         </main>
       </div>
     </div>
