@@ -115,7 +115,11 @@ export default function App() {
                   <li>
                     Probably! You can check the list of approved parts{" "}
                     <a
+<<<<<<< HEAD
                       href="hhttps://github.com/hackclub/hackpad/blob/main/APPROVED_PARTS.md"
+=======
+                      href="https://github.com/hackclub/hackpad/blob/main/APPROVED_PARTS.md"
+>>>>>>> refs/remotes/origin/main
                       target="_blank"
                     >
                       here
