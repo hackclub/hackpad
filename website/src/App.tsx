@@ -1,40 +1,45 @@
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <div>
-      <div className="sm:fixed max-w-32 right-0 sm:right-5 md:right-10">
+      <div className="fixed max-w-48 right-4 sm:right-5 md:right-10">
         <NavBar />
       </div>
       <div className="flex justify-center text-center">
         <div className="mt-16 text-slate-950 mx-20 md:max-w-6xl font-mono">
           <div className="flex justify-center items-center align-middle">
             <div className="bg-green-400 inline-block p-2 mb-8">
-              <h1 className="text-6xl font-bold">HACKPAD</h1>
+              <h1 className="text-5xl sm:text-6xl font-bold">HACKPAD</h1>
             </div>
           </div>
+          <img
+            src="orpheuspadpic.png"
+            className="w-full max-w-xl mx-auto"
+          ></img>
           <div>
             {/* <h2 className="text-3xl">How does it work?</h2> */}
-            <div className="flex flex-row md:flex-row items-center justify-center md:space-x-24 space-y-6 md:space-y-0 py-6 text-2xl font-bold">
+            <div className="flex flex-col md:flex-row items-center justify-center md:space-x-8 space-y-6 md:space-y-0 py-6 text-2xl font-bold">
               <div>
                 <h3>Design a PCB</h3>
                 <img
                   src="pcb_design_2.png"
-                  className="max-h-56 sm:max-h-96 rounded-sm my-6 border-slate-600 border-4 p-2 border-dashed"
+                  className="max-h-56 sm:max-h-80 md:max-h-96 rounded-sm my-6 border-slate-600 border-4 p-2 border-dashed"
                 ></img>
               </div>
               <div>
                 <h3>Build a case</h3>
                 <img
                   src="cad_design_2.png"
-                  className="max-h-56 sm:max-h-96 rounded-sm my-6 border-slate-600 border-4 p-2 border-dashed"
+                  className="max-h-56 sm:max-h-80 md:max-h-96 rounded-sm my-6 border-slate-600 border-4 p-2 border-dashed"
                 ></img>
               </div>
               <div>
                 <h3>Code firmware</h3>
                 <img
-                  src="firmware_2.png"
-                  className="max-h-56 sm:max-h-96 rounded-sm my-6 border-slate-600 border-4 p-2 border-dashed"
+                  src="firmware_3.png"
+                  className="max-h-56 sm:max-h-80 md:max-h-96 rounded-sm my-6 border-slate-600 border-4 p-2 border-dashed"
                 ></img>
               </div>
             </div>
@@ -48,8 +53,9 @@ export default function App() {
           <div>
             <h2 className="text-xl py-3">What exactly is this?</h2>
             <p>
-              Hackpad is a limited-time You Ship, We Ship (YSWS) where you can
-              get your own custom macropad!
+              Hackpad is a limited-time You Ship, We Ship (YSWS) where you can <a href="/guide" target="_blank" className="text-xl underline">learn</a>
+              {" "}how to make your own macropad, and then we ship <b className="text-xl">your</b> design
+              to you! Ends October 15th.
             </p>
             <br></br>
             <p>
@@ -83,7 +89,7 @@ export default function App() {
                         href="https://learn.adafruit.com/qtpy-lemon-mechanical-keypad-macropad/overview"
                         target="_blank"
                       >
-                        This Lemon Keypad!
+                        This Lemon Keypad
                       </a>
                     </li>
                     <li>
@@ -95,41 +101,6 @@ export default function App() {
                 </div>
               </div>
             </p>
-          </div>
-          <div>
-            <h2 className="text-2xl py-3 font-semibold">FAQ</h2>
-            <p>{/* Some common questions you may have, answered here! */}</p>
-            <div className="flex justify-center text-left">
-              <div>
-                <ul className="list-disc max-w-2xl">
-                  <p className="font-bold text-lg">
-                    Will my PCB come assembled?
-                  </p>
-                  <li>
-                    {" "}
-                    If you use only through-hole parts, It'll be assembled here
-                    at HQ! If there are any SMD parts though, you'll have to
-                    solder them yourself!
-                  </li>
-                  <p className="font-bold text-lg pt-4">Can I use X part??</p>
-                  <li>
-                    Probably! You can check the list of approved parts{" "}
-                    <a
-<<<<<<< HEAD
-                      href="hhttps://github.com/hackclub/hackpad/blob/main/APPROVED_PARTS.md"
-=======
-                      href="https://github.com/hackclub/hackpad/blob/main/APPROVED_PARTS.md"
->>>>>>> refs/remotes/origin/main
-                      target="_blank"
-                    >
-                      here
-                    </a>
-                    . If it's not there, run it by me @alexren on slack! Chances
-                    are it's probably good to go
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
           <div>
             <h2 className="text-2xl py-3 font-semibold">Requirements</h2>
@@ -164,6 +135,9 @@ export default function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="max-h-96 pt-16">
+        <Footer />
       </div>
     </div>
   );

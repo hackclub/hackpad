@@ -10,7 +10,13 @@ export default {
     extend: {
       'backgroundColor': '#150C21',
     },
+    fontFamily: {
+      mono: ['Space Mono', 'monospace'],
+    }
+
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 
