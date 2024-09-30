@@ -65,7 +65,7 @@ Misc great info:
 
 ## Anything else?
 
-This YSWS is only guaranteed to run through September 30th, so make sure to get yours submitted before then. Depending on skill level, this should take roughly 6-12 hours to finish.
+This YSWS is only guaranteed to run through October 15th, so make sure to get yours submitted before then. Depending on skill level, this should take roughly 6-12 hours to finish.
 
 List of questions from the slack that you may want answered too:
 
