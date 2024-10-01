@@ -61,7 +61,7 @@ export default function App() {
             <h2 className="text-xl py-3">What exactly is this?</h2>
             <p>
               Hackpad is a limited-time You Ship, We Ship (YSWS) where you can
-              learm how to make your own macropad, and then we ship{" "}
+              learn how to make your own macropad, and then we ship{" "}
               <b className="font-bold">your</b> design to you! Join{" "}
               <a>#hackpad</a> in the slack to stay up to date and see what other
               people are working on! Ends October 21st.
