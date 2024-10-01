@@ -53,6 +53,7 @@ export default function App() {
                   Learn how to get your hackpad ➜
                 </p>
               </a>
+              <p className="text-xl font-semibold pt-2">...and join us in <a href="https://hackclub.slack.com/archives/C07LESGH0B0/p1727813799029559" target="_blank">#hackpad</a> on <a href="https://hackclub.com/slack/" target="_blank"> Hack Club Slack</a> as well!</p>
             </div>
           </div>
 
