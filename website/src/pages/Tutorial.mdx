@@ -1,5 +1,42 @@
 # Make your own macropad!
 
-Hey! Have no clue where to start?? Me too.
+Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place!
 
-WIP...
+This process is going to be broken into 3 parts:
+1. PCB Design
+2. Case Design 
+3. Firmware
+
+First, we're going to start with...
+
+## Designing your PCB
+For this guide we're going to be using [KiCad](https://www.kicad.org/), which is an open source PCB designer tool.
+
+To start, we're going to have to import the necessary footprints. For this tutorial, you only need 2 footprints:
+- [Keyswitch footprints](https://github.com/ai03-2725/MX_V2)
+- [XIAO RP2040 footprint](https://github.com/Seeed-Studio/OPL_Kicad_Library) (use the SAMD21 footprint for now, it's identical in pinout)
+
+
+
+
+## Create your case
+This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
+
+Before we start designing, it's useful to familiarize yourself with the different types of [keyboard mounts](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7)
+
+It's a long process, but the gist of it is:
+
+1. Sketch a rectangle the size of your PCB
+2. Sketch a larger rectangle around the PCB
+3. Extrude a box with the sketches
+4. Cut a 3mm gap for the plate
+5. Add mounting holes
+6. Add eyecandy
+
+This graphic serves as a good reference for dimensions (stolen from [The Keyboard Atelier](https://kbatelier.org/)):
+<img src="https://media.discordapp.net/attachments/728572752440590366/999008682706747554/unknown.png?ex=66fd8656&is=66fc34d6&hm=87dab0d23e4af7195cba1c7566108a90b73f81fe12d2c8b7505aece960b80f0e&=&format=webp&quality=lossless" className="max-w-96"/>
+
+
+## Build your firmware
+This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You can find out how to port your keyboard here: \
+[QMK Porting Guide](https://docs.qmk.fm/porting_your_keyboard_to_qmk)

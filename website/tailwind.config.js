@@ -11,7 +11,8 @@ export default {
       'backgroundColor': '#150C21',
     },
     fontFamily: {
-      mono: ['Space Mono', 'monospace'],
+      mono: ['Ubuntu Mono', 'monospace'],
+      sans: ['Poppins', 'sans-serif'],
     }
 
   },
