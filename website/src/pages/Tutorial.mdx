@@ -1,14 +1,19 @@
-# NOT DONE YET, FINISHING WITHIN 24 HOURS
-
 # Make your own macropad!
 
 Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial,
-we're going to make this nifty little thing:
+we're going to make a 3-key macropad!
 
-This process is going to be broken into 3 parts:
+This process is going to be broken into 3 parts, each with its own sub-parts:
 1. PCB Design
+    1. Drawing the schematic
+    2. Routing the PCB
+    3. Defining the edges
 2. Case Design 
+    1. Creating the bottom
+    2. Creating the plate
+    3. Adding mounting holes
 3. Firmware
+    1. code.
 
 If anything is unclear, 9 times out of 10 you can usually google it! If you're still stuck, feel free to ask in #hackpad on the slack!
 
@@ -75,24 +80,43 @@ This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/persona
 Before we start designing, it's useful to familiarize yourself with the different types of [keyboard mounts](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7).
 For this guide, we'll be using a sandwich-mount style. 
 
-To start, make a new sketch. Draw a rectangle with the same dimensions as our PCB from earlier
+To start, make a new sketch. Draw a rectangle with the same dimensions as our PCB from earlier:
+<img src="docs/sketch1.png" className="max-w-96" />
 
-Next, draw a larger rectangle with a 10mm margin.
+Next, draw a larger rectangle with a 10mm margin:
+<img src="docs/sketchmarg.png" className="max-w-96" />
 
-Next, we're going to draw the screw holes for it. 
+Next, we're going to draw the accomodating holes for it:
+<img src="docs/sketchhole.png" className="max-w-96" />
 
-It's a long process, but the gist of it is:
+Extrude the base of the case by 3mm:
+<img src="docs/extrudebase.png" className="max-w-96" />
 
-1. Sketch a rectangle the size of your PCB
-2. Sketch a larger rectangle around the PCB
-3. Extrude a box with the sketches
-4. Cut a 3mm gap for the plate
-5. Add mounting holes
+Extrude the sides by 10mm (it should be 13mm tall in total!):
+<img src="docs/extrudewall.png" className="max-w-96" />
 
-This graphic serves as a good reference for dimensions (stolen from [The Keyboard Atelier](https://kbatelier.org/)):
-<img src="https://media.discordapp.net/attachments/728572752440590366/999008682706747554/unknown.png?ex=66fd8656&is=66fc34d6&hm=87dab0d23e4af7195cba1c7566108a90b73f81fe12d2c8b7505aece960b80f0e&=&format=webp&quality=lossless" className="max-w-96"/>
+That's the bottom half of the plate done. Next, we're going to make the plate. Head on over to [ai03's plate generator](https://kbplate.ai03.com/)
+and paste in the following data:
+
+```
+["","",""],
+```
+
+That should generate a plate. Hit download DXF, and then import that into Fusion 360
+<img src="docs/platesketch.png" className="max-w-96" />
+
+Extrude the plate by 3mm:
+<img src="docs/extrudeplate.png" className="max-w-96" />
+
+Lastly, add a USB cutout:
+<img src="docs/usbcutout.png" className="max-w-96" />
+
+Congrats!! You are now done your case
 
 
 ## Build your firmware
 This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You can find out how to port your keyboard here: \
 [QMK Porting Guide](https://docs.qmk.fm/porting_your_keyboard_to_qmk)
+
+# Next steps
+We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out!
