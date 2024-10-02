@@ -1,12 +1,9 @@
 # Hackpad
 
-## Overview // your task!
-This is a limited-time introductory YSWS (you ship, we ship) where *you* design your own macropad, and we'll ship it to you for free! With this YSWS, *you* can get stuff like this:
+https://hackpad.hackclub.com/ <- website is live! this is probably a better place to start
 
-![Work louderxfigma](/assets/examples/worklouder.png)
-![Lelepad](/assets/examples/lelepad.png)
-
-This is something you definitely don't want to miss out, so make sure to join #hackpad in the slack!
+## Overview
+This is a limited-time introductory YSWS (you ship, we ship) where *you* design your own macropad, and we'll ship it to you for free! This is something you definitely don't want to miss out, so make sure to join #hackpad in the slack!
 
 
 <details>
