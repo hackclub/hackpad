@@ -1,13 +1,16 @@
-# NOT DONE YET, COMING SOON (ACTUALLY SOON)
+# NOT DONE YET, FINISHING WITHIN 24 HOURS
 
 # Make your own macropad!
 
-Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place!
+Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial,
+we're going to make this nifty little thing! .
 
 This process is going to be broken into 3 parts:
 1. PCB Design
 2. Case Design 
 3. Firmware
+
+If anything is unclear, 9 times out of 10 you can usually google it! If you're still stuck, feel free to ask in #hackpad on the slack!
 
 First, we're going to start with...
 
@@ -17,6 +20,28 @@ For this guide we're going to be using [KiCad](https://www.kicad.org/), which is
 To start, we're going to have to import the necessary footprints. For this guide, you only need 1 footprint!
 - [XIAO RP2040 footprint](https://github.com/Seeed-Studio/OPL_Kicad_Library) (use the SAMD21 footprint for now, it's identical in pinout)
 Once you have the footprints, you can google to figure out how to install them!
+
+### Drawing the schematic
+
+The schematic of a PCB is what defines all the different connections of your PCB, so we're going to start with that!
+
+First, open KiCad up KiCad and create a new project, then click  on the "Schematic Editor" button:
+![Screenshot of button](docs/schematicbutton.png)
+
+This should open up the schematic editor. Once you're in, press the A key on your keyboard. This should open up a menu where you can add add components. Search for the following and add them:
+- Seeed XIAO SAMD21 (this is not the rp2040; the symbol is still valid though!)
+- SW_Push (this will be our switch! copy this 3 times)
+
+After, your schematic should look something like this:
+<img src="docs/schematiclayoutnowire.png" className="max-w-96" />
+
+Next, press the W key on your keyboard. This should make a green wire start to appear. Route your PCB like so:
+<img src="/docs/routedschematic.png" className="max-w-96" />
+(to get the GND symbol, press P and search for it!)
+
+### Route the PCB
+
+### Add decoration
 
 
 ## Create your case

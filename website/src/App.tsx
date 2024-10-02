@@ -22,6 +22,9 @@ export default function App() {
             src="orpheuspadpic.png"
             className="w-full max-w-xl mx-auto"
           ></img>
+          {/* <div className="absolute right-8 top-36 sm-rotate-12">
+            <p>get your own macropad!</p>
+          </div> */}
           <div>
             {/* <h2 className="text-3xl">How does it work?</h2> */}
             <div className="flex flex-row items-center justify-center space-x-4 sm:space-x-8 sm:space-y-6 md:space-y-0 py-6 text-md sm:text-2xl font-semibold">
@@ -49,11 +52,11 @@ export default function App() {
             </div>
             <div>
               <a href="/guide" className="flex justify-center">
-                <p className="text-2xl text-center bg-red-500 text-slate-50 max-w-72 sm:max-w-xl px-3 py-2 rounded-sm font-semibold border-black border-4">
-                  Learn how to get your hackpad ➜
+                <p className="text-xl sm:text-2xl text-center bg-red-500 text-slate-50 max-w-54 sm:max-w-xl px-3 py-2 rounded-sm font-semibold border-black border-4">
+                  Learn how to make a hackpad ➜
                 </p>
               </a>
-              <p className="text-xl font-semibold pt-2">...and make sure to join us in <a href="https://hackclub.slack.com/archives/C07LESGH0B0/p1727813799029559" target="_blank" className="text-2xl underline">#hackpad</a> on <a href="https://hackclub.com/slack/" target="_blank"> Hack Club Slack</a> as well!</p>
+              <p className="text-xl font-semibold pt-2">...and join <a href="https://hackclub.slack.com/archives/C07LESGH0B0/p1727813799029559" target="_blank" className="text-2xl underline">#hackpad</a> on the <a href="https://hackclub.com/slack/" target="_blank"> Hack Club Slack</a>. Or else...</p>
             </div>
           </div>
 
