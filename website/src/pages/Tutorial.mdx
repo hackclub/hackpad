@@ -3,7 +3,7 @@
 # Make your own macropad!
 
 Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial,
-we're going to make this nifty little thing! .
+we're going to make this nifty little thing:
 
 This process is going to be broken into 3 parts:
 1. PCB Design
@@ -35,19 +35,51 @@ This should open up the schematic editor. Once you're in, press the A key on you
 After, your schematic should look something like this:
 <img src="docs/schematiclayoutnowire.png" className="max-w-96" />
 
-Next, press the W key on your keyboard. This should make a green wire start to appear. Route your PCB like so:
+Next, press the W key on your keyboard. This should make a green wire start to appear. Connect your components like so:
 <img src="/docs/routedschematic.png" className="max-w-96" />
 (to get the GND symbol, press P and search for it!)
 
-### Route the PCB
+Once all the components are connected, we can start assigning *footprints* to the symbols we have here. Footprints are what gets physically drawn on the PCB. To do this, click the "run footprint assignment tool"
+in the top right.
+<img src="docs/footprintassign.png" style={{ maxWidth: '200px' }}  />
 
-### Add decoration
+This should open up a window where you can assign different footprints to your components! Assign them based on the image below:
+<img src="docs/assignedfootprints.png" />
+
+Once you're done, you can hit apply & save schematic. We're now officially done with the schematic! Onto making the pcb itself:
+
+### Route the PCB
+Go back to KiCad project page, and hit the "PCB editor" button. Once the PCB editor is open, hit the "Update PCB from schematic" button in the top right:
+<img src="docs/updatepcb.png" />
+Ignore any errors with the XIAO footprint, it's kind of bugged atm.
+
+It should have dumped all the components on the page. Right click the XIAO, and click "flip side". This should flip the footprint to the other side.
+After that, arrange all the components like so:
+<img src="docs/pcblayout.png" style={{ maxHeight: '400px'}}/>
+
+Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a blue line. It should dim the entire screen and show you where to go. Route the PCB like so:
+<img src="docs/routedpcb.png" style={{ maxHeight: '400px'}}/>
+
+(to get the blue lines, change the layer on the right from F.cu to B.cu)
+
+Our PCB is almost done, but we need one final step; we need to actually define the size of the board! Head on over to Edge.cuts, and draw a rectangle outline our board:
+<img src="docs/edgecuts.png" style={{ maxHeight: '400px'}} />
+(PS: You can hit the 3D viewer button in the top right for a cool view of your pcb!)
+
+If everything was done correctly, you are now officially done the PCB! Onto case design:
 
 
 ## Create your case
 This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
 
 Before we start designing, it's useful to familiarize yourself with the different types of [keyboard mounts](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7).
+For this guide, we'll be using a sandwich-mount style. 
+
+To start, make a new sketch. Draw a rectangle with the same dimensions as our PCB from earlier
+
+Next, draw a larger rectangle with a 10mm margin.
+
+Next, we're going to draw the screw holes for it. 
 
 It's a long process, but the gist of it is:
 
@@ -56,7 +88,6 @@ It's a long process, but the gist of it is:
 3. Extrude a box with the sketches
 4. Cut a 3mm gap for the plate
 5. Add mounting holes
-6. Add eyecandy
 
 This graphic serves as a good reference for dimensions (stolen from [The Keyboard Atelier](https://kbatelier.org/)):
 <img src="https://media.discordapp.net/attachments/728572752440590366/999008682706747554/unknown.png?ex=66fd8656&is=66fc34d6&hm=87dab0d23e4af7195cba1c7566108a90b73f81fe12d2c8b7505aece960b80f0e&=&format=webp&quality=lossless" className="max-w-96"/>
