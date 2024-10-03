@@ -9,6 +9,11 @@ const SideBar = () => {
             </a>
           </li>
           <li>
+            <a href="/resources" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
+              Resources
+            </a>
+          </li>
+          <li>
             <a href="/parts" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
               Approved Parts
             </a>
@@ -21,11 +26,6 @@ const SideBar = () => {
           <li>
             <a href="/faq" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
               FAQ
-            </a>
-          </li>
-          <li>
-            <a href="/braindump" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Useful Knowledge
             </a>
           </li>
         </ul>

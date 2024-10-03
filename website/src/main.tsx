@@ -7,6 +7,7 @@ import Submission from "./pages/Submission.mdx";
 import ApprovedParts from "./pages/ApprovedParts.mdx";
 import Faq from "./pages/Faq.mdx";
 import Braindump from "./pages/Braindump.mdx"
+import Resources from "./pages/Resources.mdx"
 
 import DocPage from "./layouts/DocPage.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/braindump",
     element: <DocPage Content={ Braindump } />,
+  },
+  {
+    path: "/resources",
+    element: <DocPage Content={ Resources } />,
   }
 ]);
 
