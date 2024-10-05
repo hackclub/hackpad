@@ -1,7 +1,7 @@
-## Components List
+## BOM
 | Component                             | Quantity |
 |---------------------------------------|----------|
-| Cherry MX Switches (TBD in Slack DMs) | 12       |
+| Gateron Milky Yellows Cherry MX Switches | 12       |
 | Kailh Sockets                         | 12       |
 | 500ohm THT Resistor                   | 1        |
 | EC11 Rotary Encoder                   | 1        |
