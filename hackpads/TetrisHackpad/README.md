@@ -4,8 +4,9 @@ Although now I think about it... it honestly feels like a keyboard.
 Either way, this was my first time designing a PCB, overall I think it went pretty well! The case is just a few sheets of acrylic with some standoffs to sandwhich the board in between.
 
 # PCB
-Could the PCB be white? Still working on the silksreen. Sneak peak:
-![pcb.png](pcb.png)
+Could the PCB be white? Still working on the silksreen. Sneak peak:  
+<img src="https://github.com/s1072489/hackpad/blob/main/hackpads/TetrisHackpad/pcb.png?raw=true" style="width:450px">
+
 
 # Bill of materials
 | Component                                 | Quantity |
