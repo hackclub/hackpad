@@ -1,7 +1,7 @@
 # Spypad
 
 # BOM:
-- 15x Cherry MX switches
+- 15x Cherry MX switches (Cherry MX Green)
 - 3x EC11 Encoder
 - 1x PCB
 - 15x Through-hole 1N4148 Diodes
