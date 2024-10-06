@@ -12,14 +12,14 @@ Could the PCB be white? Still working on the silksreen. Sneak peak:
 | Component                                 | Quantity |
 |-------------------------------------------|----------|
 | Seeed Studio XIAO RP2040                  | 1        |
-| Gateron Milky Yellows Cherry MX Switches	 | 10       |
+| Gateron Milky Yellows Cherry MX Switches  | 10       |
 | CherryMX 1.00u Kailh Sockets              | 10       |
 | 1N4148W Diodes (D-SOD-123)                | 10       |
 | USB C Receptacle 6P (GCT_USB4135-GF-A)    | 2        |
+| M2 * 2mm Brass Standoffs                  | 8        |
 | M2 * 3mm Brass Standoffs                  | 8        |
-| M2 * long Brass Standoffs (TBD)           | 8        |
-| M2 screw smth-mm (TBD)                    | 8        |
-| M2 nut                                    | 8        |
+| M2 2mm screw                              | 8        |
+| M2 hex nut                                | 8        |
 
 <small>Note: I'm pretty sure the USB C receptables don't have to be *exactly* the same.. just the same amount of pins</small>
 
