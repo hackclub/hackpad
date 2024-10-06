@@ -8,6 +8,10 @@
 | 1N4148W (SOD123)                      | 12       |
 | Seeed Studio XIAO RP2040              | 1        |
 | WS2812B                               | 8        |
+| M2 * 2mm Brass Standoffs                  | 4        |
+| M2 * 3mm Brass Standoffs                  | 4        |
+| M2 2mm Screw                              | 4        |
+| M2 Nut                                    | 4        |
 ## PCB
 White PCB. Should look something like this:
 ![Top Layer of PCB](https://cloud-h5yixc0ea-hack-club-bot.vercel.app/2jaypad-top-render.png)
