@@ -10,6 +10,6 @@
 |         | 1        | PCB                    |
 |         | 9        | Keycaps                |
 |         | 1        | Encoder Cap            |
-|         | 4        | M3x0.5 screws
+|         | 4        | M3x12mm screws
 
 
