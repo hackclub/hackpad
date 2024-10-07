@@ -9,6 +9,7 @@
 | SW10    | 1        | EC11 Encoder           |
 |         | 1        | PCB                    |
 |         | 9        | Keycaps                |
-|         | 1        | Encoder Cap            |         | 4        | m3x0.5 screws
+|         | 1        | Encoder Cap            |
+|         | 4        | m3x0.5 screws
 
 
