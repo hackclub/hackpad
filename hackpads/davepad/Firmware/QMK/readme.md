@@ -4,7 +4,7 @@
 
 <!-- *A short description of the keyboard/project* -->
 
-* Keyboard Maintainer: [David Rahman](https://github.com/David Rahman)
+* Keyboard Maintainer: [David Rahman](https://github.com/AlphaBeta42)
 <!-- * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware* -->
 
