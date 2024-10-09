@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-## Project Name: [CyberPad]
+## Project Name: [CyborgPad]
 ## Date: [10/4/2024]
 
 | Description                      | Quantity | Notes          |
