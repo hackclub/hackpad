@@ -1,0 +1,7 @@
+#define ENCODER_A_PINS {P6, P3, P1, P4}
+#define ENCODER_B_PINS {P7, P0, P2, P5}
+#define ENCODER_RESOLUTION 4
+#define ENCODER_MAP_KEY_DELAY 10
+#define MIDI_BASIC
+#define MIDI_ADVANCED
+
