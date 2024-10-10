@@ -11,3 +11,4 @@
 - Bottom Part in acrylic
 - Middle Part in white
 - Top  in Lime
+- PCB in white if possible!
