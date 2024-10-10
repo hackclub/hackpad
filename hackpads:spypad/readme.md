@@ -10,4 +10,4 @@
 - 1x MCP23017
 - 1x SEEED Studio XIAO RP2040
 - 12x 6mm x 4mm magnets (Provided by me)
-- 4x M3 Screws 
+- 8x M3 Screws 
