@@ -18,8 +18,8 @@ Could the PCB be white? Renders coming soon!
 | USB C Receptacle 6P (GCT_USB4135-GF-A)    | 2        |
 | M2 * 2mm Brass Standoffs                  | 8        |
 | M2 * 3mm Brass Standoffs                  | 8        |
-| M2 2mm screw                              | 8        |
-| M2 hex nut                                | 8        |
+| M2 2mm Brass screw                        | 8        |
+| M2 Brass hex nut                          | 8        |
 
 <small>Note: I'm pretty sure the USB C receptables don't have to be *exactly* the same.. just the same amount of pins</small>
 
