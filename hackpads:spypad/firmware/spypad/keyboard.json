@@ -1,0 +1,34 @@
+{
+    "manufacturer": "Hack Club",
+    "keyboard_name": "spypad",
+    "maintainer": "DefinitelyInconspicous",
+    "bootloader": "rp2040",
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "layouts": {
+       "LAYOUT": {
+         "layout": [
+           { "x": 0, "y": 0 }, { "x": 1, "y": 0 }, { "x": 2, "y": 0 }, { "x": 3, "y": 0 }, { "x": 4, "y": 0 },
+           { "x": 0, "y": 1 }, { "x": 1, "y": 1 }, { "x": 2, "y": 1 }, { "x": 3, "y": 1 }, { "x": 4, "y": 1 },
+           { "x": 0, "y": 2 }, { "x": 1, "y": 2 }, { "x": 2, "y": 2 }, { "x": 3, "y": 2 }, { "x": 4, "y": 2 }
+         ]
+       }
+     },
+     "matrix_pins": {
+       "rows": ["GPA5", "GPA6", "GPA7"],
+       "cols": ["GPA0", "GPA1", "GPA2", "GPA3", "GPA4"]
+     },
+     "rotary_encoders": [
+       { "A": "D9", "B": "D10", "button": "D8" },
+       { "A": "D1", "B": "D2", "button": "D7" },
+       { "A": "D3", "B": "D6", "button": "GPB0" }
+     ],
+     "led_pins": ["D0"]
+}
