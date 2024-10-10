@@ -1,0 +1,56 @@
+core:
+  - changed-files:
+    - any-glob-to-any-file:
+      - quantum/**
+      - tmk_core/**
+      - drivers/**
+      - tests/**
+      - util/**
+      - platforms/**
+      - builddefs/*.mk
+      - Makefile
+      - '*.mk'
+dependencies:
+  - changed-files:
+    - all-globs-to-any-file:
+      - lib/**
+      - '!lib/python/**'
+keyboard:
+  - changed-files:
+    - all-globs-to-any-file:
+      - keyboards/**
+      - '!keyboards/**/keymaps/**'
+keymap:
+  - changed-files:
+    - any-glob-to-any-file:
+      - users/**
+      - layouts/**
+      - keyboards/**/keymaps/**
+via:
+  - changed-files:
+    - any-glob-to-any-file:
+      - keyboards/**/keymaps/via/*
+cli:
+  - changed-files:
+    - any-glob-to-any-file:
+      - requirements.txt
+      - lib/python/**
+python:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '**/*.py'
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - docs/**
+      - builddefs/docsgen/**
+CI:
+  - changed-files:
+    - any-glob-to-any-file:
+      - .github/**
+dd:
+  - changed-files:
+    - any-glob-to-any-file:
+      - data/constants/**
+      - data/mappings/**
+      - data/schemas/**
