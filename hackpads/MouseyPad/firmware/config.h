@@ -1,0 +1,2 @@
+#define ENCODER_A_PINS { GP1, GP6 }
+#define ENCODER_B_PINS { GP0, GP3 }
