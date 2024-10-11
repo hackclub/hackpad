@@ -1,3 +1,3 @@
 # cad files
-- cover.dxf (acrylic cover)
+- cover.svg (acrylic cover)
 - case.stl (Main case, plate and knob. Print in Lime)
