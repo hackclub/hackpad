@@ -1,0 +1,2 @@
+#define WS2812_DI_PIN GP3
+#define RGBLIGHT_LED_COUNT 2
