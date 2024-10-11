@@ -15,4 +15,4 @@
 - 1x 2-pin LED (Green)
 - 1x 2-pin LED (Blue)
 - 12x Kailh Hotswap sockets
-- 6x WS2812B/Neopixels (on Back)
+- 8x WS2812B/Neopixels (on Back)
