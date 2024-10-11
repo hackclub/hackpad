@@ -1,7 +1,7 @@
 # The SathyPad!
 ### People
 - Anand Sathy, PCB Designer
-- Ben Kim, Firware Coder
+- Ben Kim, Firmware Coder
 - Hyatt Brandenburg, Case Designer
 
 ## BOM
