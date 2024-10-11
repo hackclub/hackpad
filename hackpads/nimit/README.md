@@ -1,4 +1,4 @@
-# Orpheuspad
+# nimitpad 2024
 
 # BOM:
 - 11x Cherry MX switches
