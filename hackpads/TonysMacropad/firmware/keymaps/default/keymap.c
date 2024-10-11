@@ -22,8 +22,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 void set_led_color(uint8_t r, uint8_t g, uint8_t b) {
+    // set leds in decreasing brightness
     rgblight_setrgb_at(r, g, b, 0); 
     rgblight_setrgb_at(r / 2, g / 2, b / 2, 1); 
+    rgblight_setrgb_at(r / 3, g / 3, b / 3, 2); 
+    rgblight_setrgb_at(r / 4, g / 4, b / 4, 3); 
 }
 
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
