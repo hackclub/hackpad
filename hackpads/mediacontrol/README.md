@@ -7,7 +7,7 @@ A hackpad that allows you to control media
 2. 8 Millmax sockets
 3. 1 Seeed Studio Xiao RP2040
 4. 1 PCB
-5. 1 Skyloong Swapable Rotary Encoder Knob (Do not ship, testing usage)
+5. 1 Skyloong Swapable Rotary Encoder Knob
 6. 1 Case
 
 # Important
