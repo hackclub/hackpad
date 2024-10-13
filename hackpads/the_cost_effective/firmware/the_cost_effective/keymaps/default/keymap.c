@@ -1,0 +1,32 @@
+#include QMK_KEYBOARD_H
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  [0] = LAYOUT_ortho_5x4(  // Replace 'LAYOUT_all' with the correct macro
+      KC_ESC, KC_KB_MUTE, KC_DELETE, KC_BSPC,
+      KC_KP_PLUS, KC_KP_MINUS, KC_KP_ASTERISK, KC_KP_SLASH,
+      KC_7, KC_8, KC_9, KC_KB_MUTE,
+      KC_4, KC_5, KC_6, KC_KB_VOLUME_UP,
+      KC_1, KC_2, KC_3, KC_KB_VOLUME_DOWN
+  ),
+  [1] = LAYOUT_ortho_5x4(
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+  ),
+  [2] = LAYOUT_ortho_5x4(
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+  ),
+  [3] = LAYOUT_ortho_5x4(
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+  )
+};
