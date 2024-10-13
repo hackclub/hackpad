@@ -40,5 +40,19 @@ This YSWS is only guaranteed to run through October 21st, so make sure to get yo
 List of questions from the slack that you may want answered too:
 
 
+## PR
+
+Ready to make a PR? Great! Make sure your directory structure looks like this:
+
+├── CAD
+│   ├── case.stl
+│   └── plate.dxf
+├── firmware
+│   └── rp2040.bin
+└── PCB
+├── macropad.pro
+└── macropad.sch
+
+(The file names do not matter, just the folders)
 
 
