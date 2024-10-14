@@ -5,6 +5,11 @@
 - 1x PCB
 - 10x Through-hole 1N4148 Diodes
 - 2x WS2812B LEDs
+- 4x M3x16 screws
+- 4x M3 heatset inserts
+- 3x M2.2x12 screws
+- 3x M2.2 heatset inserts
+
 
 # Colours:
 Base Part in blue
