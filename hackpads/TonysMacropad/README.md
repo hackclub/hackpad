@@ -6,9 +6,9 @@
 - 10x Through-hole 1N4148 Diodes
 - 2x WS2812B LEDs
 - 4x M3x16 screws
-- 4x M3 heatset inserts
-- 3x M2.2x12 screws
-- 3x M2.2 heatset inserts
+- 4x M3x3 heatset inserts
+- 3x M2x5 screws
+- 3x M2x3 heatset inserts
 
 
 # Colours:
