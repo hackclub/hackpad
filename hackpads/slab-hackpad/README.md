@@ -18,6 +18,7 @@ See [headblockhead/slab](https://github.com/headblockhead/slab) for the main pro
 - 1x (M+FM pair) [Adafruit 5358 magnetic connectors](https://www.adafruit.com/product/5358)
 - 32x 0603 100nF capacitors
 - 20x Kailh CPG151101S11 hotswap sockets
+- 29x SK6812MINI-E
 
 ### Case
 - 9x M3\*5.7\*4.6 heat-set inserts
