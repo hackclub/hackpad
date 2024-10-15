@@ -66,7 +66,7 @@ bool oled_task_user(void) {
     oled_write_P(led_state.caps_lock ? PSTR("CAPS ") : PSTR("     "), false);
     oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
     oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
-    oled_write_ln("\n", false);
+    oled_write_P(PSTR("\n"), false);
 
     // Host Keyboard Layer Status
     oled_write_P(PSTR("Layer: "), false);
