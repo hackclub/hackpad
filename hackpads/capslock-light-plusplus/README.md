@@ -3,7 +3,7 @@
 - Case Bottom
 - Case Top
 - Key Plate
-- Upper Plate
+- Top Plate
 - 2x M3 Standoff
 - 5x M3 12mm Bolt
 - M3 16mm Bolt
