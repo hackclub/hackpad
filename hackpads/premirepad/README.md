@@ -11,3 +11,9 @@
 - 1x Black PLA
 
 Note: flip over Knob for easy printing :)
+
+
+# What is it?
+Like said above its a macropad with different shortcuts for premirepro that is easy to modify
+The 3 keys on the left allows you to change the 6 hotkeys with multiple profiles if you are working on different things
+The knob allows you to move your timeline and pushing allows pause and play for timeline
