@@ -50,7 +50,7 @@ const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 );
 
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {9, 2, HSV_CYAN}
+    {1, 1, HSV_CYAN}
 );
 
 const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
@@ -60,7 +60,6 @@ const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
 */
 #ifdef OLED_ENABLE
 bool oled_task_user(void) {
-
     // Acualy display capslock status, the whole point of this board
     led_t led_state = host_keyboard_led_state();
     oled_write_P(led_state.caps_lock ? PSTR("CAPS ") : PSTR("     "), false);

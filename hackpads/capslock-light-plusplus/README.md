@@ -1,23 +1,23 @@
 # BOM
 ## Case
-- Case Bottom
-- Case Top
-- Key Plate
-- Top Plate
-- 2x M3 Standoff
+- 1x Case Bottom - 3d print
+- 1x Case Top - 3d print
+- 1x Key Plate - Lasercut
+- 1x Top Plate - Lasercut
+- 2x M3 Standoff - 3d print
 - 5x M3 12mm Bolt
-- M3 16mm Bolt
+- 1x M3 16mm Bolt
 - 6x M3 Heat set inserts
 ## PCB
-- PCB - Purple w/ white silkscreen
-- XIAO RP2040
+- 1x PCB - Purple w/ white silkscreen
+- 1x XIAO RP2040
 - 9x Through-hole 1N4148 Diode
 - 8x Cherry MX Keyswitch
-- EC11 Encoder
-- .91" OLED
+- 1x EC11 Encoder
+- 1x .91" OLED
 ## Other
 - 8x DSA Keycaps
-- Dial
+- 1x Dial
 
 # Assembly Guide
 WIP, will apper when I have time, probbly before the deadline
