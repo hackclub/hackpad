@@ -4,6 +4,7 @@
 
 # BOM:
 - 9x MX Gateron Milky Yellows
+- 9x Blank DSA keycaps
 - 1x EC11 Encoder
 - 1x Seeed XIAO RP2040
 - 1x PCB
