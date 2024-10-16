@@ -44,7 +44,7 @@ const uint16_t PROGMEM encoder_map[][1][2] = {
     [1] = { ENCODER_CCW_CW(KC_AUDIO_VOL_UP, KC_AUDIO_VOL_DOWN) }
     
 };
-/*
+/* Code for non-existant RGB lighting
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {1, 1, HSV_RED}
 );
@@ -57,24 +57,50 @@ const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
     my_capslock_layer,
     my_layer1_layer
 );
+
+bool led_update_user(led_t led_state) {
+    rgblight_set_layer_state(0, led_state.caps_lock);
+    return true;
+}
 */
 #ifdef OLED_ENABLE
 bool oled_task_user(void) {
-    // Acualy display capslock status, the whole point of this board
+    // Acualy display capslock status, the whole point of this board 
+    // TODO: somehow show an actual capslock icon. Quantim panter?
+    // Crude boxes using inverted space characters
     led_t led_state = host_keyboard_led_state();
-    oled_write_P(led_state.caps_lock ? PSTR("CAPS ") : PSTR("     "), false);
-    oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
-    oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
-    oled_write_P(PSTR("\n"), false);
+    oled_set_cursor(0, 0);
+    if led_state.caps_lock {
+        oled_write_P(PSTR("   \n A \n   "), true);
+    } else {
+        oled_write_P(PSTR("   \n A \n   "), false);
+    }
+    oled_set_cursor(4, 0);
+    if led_state.num_lock {
+        oled_write_P(PSTR("   \n 1 \n   "), true);
+    } else {
+        oled_write_P(PSTR("   \n 1 \n   "), false);
+    }
+    oled_set_cursor(7, 0);
+    if led_state.scroll_lock {
+        oled_write_P(PSTR("   \n S \n   "), true);
+    } else {
+        oled_write_P(PSTR("   \n S \n   "), false);
+    }
+    oled_set_cursor(10, 0);
 
-    // Host Keyboard Layer Status
+    // Host Keyboard Layer Status. Also swap for icon?
     oled_write_P(PSTR("Layer: "), false);
+    oled_ser_cursor(11, 1);
     switch (get_highest_layer(layer_state)) {
         case _BASE:
             oled_write_P(PSTR("FN Keys"), false);
             break;
         case _UNI:
-            oled_write_P(PSTR("Unicode Characters"), false);
+            oled_write_P(PSTR("Unicode"), false);
+            // TODO make this a bit more readable, currently displays my best approximation of the unicode characters
+            oled_set_cursor(0, 1); // overwrite the lock symbols, the pad will be set to FN keys most of the time anyways
+            oled_write_P(PSTR("+- |1/4|3/4|TM\n=/=|1/2| * |Fn"), false);
             break;
         default:
             oled_write_P(PSTR("Undefined"), false);
@@ -83,9 +109,3 @@ bool oled_task_user(void) {
     return false;
 }
 #endif
-/*
-bool led_update_user(led_t led_state) {
-    rgblight_set_layer_state(0, led_state.caps_lock);
-    return true;
-}
-*/
