@@ -1,4 +1,4 @@
-# Premire Pad
+# Premiere Pad
 ## Basic macropad used for premire pro shortcuts very cool and customisable.
 - This is part of a YSWS limited time programe hosted by hackclub 
 
