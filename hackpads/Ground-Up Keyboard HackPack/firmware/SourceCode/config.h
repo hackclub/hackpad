@@ -1,0 +1,11 @@
+#define ENCODER_A_PINS { GP2 }
+#define ENCODER_B_PINS { GP1 }
+
+#define WS2812_DI_PIN GP4
+#define RGBLIGHT_LED_COUNT 1
+
+#define MATRIX_ROWS 2
+#define MATRIX_COLS 4
+
+#define MATRIX_ROW_PINS { GP28, GP29 }
+#define MATRIX_COL_PINS { GP6, GP7, GP0, GP3 }
