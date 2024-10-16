@@ -8,3 +8,4 @@
 * 1x EC11 Rotary Encoder Cap
 * 4x Keycaps
 * 1x PCB
+* 5x Through Hole 1N148 Diodes
