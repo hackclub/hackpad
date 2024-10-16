@@ -1,0 +1,135 @@
+# Make your own macropad!
+
+Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial,
+we're going to make a 3-key macropad as an example. For a full submission, you will have to edit it to be your own (add an extra key?? a knob?? new case? up to you!)
+
+This process is going to be broken into 3 parts, each with its own sub-parts:
+1. PCB Design
+    1. Drawing the schematic
+    2. Routing the PCB
+    3. Defining the edges
+2. Case Design 
+    1. Creating the bottom
+    2. Creating the plate
+    3. Adding mounting holes
+3. Firmware
+    1. code.
+
+If anything is unclear, 9 times out of 10 you can usually google it; that being said, PLEASE send what you're stuck on in #hackpad! Ping me @alexren
+
+There's also [this](/resources) giant wall of resources to reference!
+
+**I also go through all these steps in [this YouTube video](https://youtu.be/IsD3lDX75ZI), so you can follow along if you're stuck!**
+
+First, we're going to start with...
+
+## Designing your PCB
+For this guide we're going to be using [KiCad](https://www.kicad.org/), which is an open source PCB designer tool.
+
+To start, we're going to have to import the necessary footprints. For this guide, I made a special care package
+- [XIAO RP2040 footprint](https://github.com/Seeed-Studio/OPL_Kicad_Library) (use the SAMD21 footprint for now, it's identical in pinout)
+Once you have the footprints, you can google to figure out how to install them!
+
+### Drawing the schematic
+
+The schematic of a PCB is what defines all the different connections of your PCB, so we're going to start with that!
+
+First, open KiCad up KiCad and create a new project, then click  on the "Schematic Editor" button:
+![Screenshot of button](docs/schematicbutton.png)
+
+This should open up the schematic editor. Once you're in, press the A key on your keyboard. This should open up a menu where you can add add components. Search for the following and add them:
+- Seeed XIAO SAMD21 (Seeed does not have an official RP2040 footprint, so we're using the SAMD21 footprint as a placeholder instead)
+- SW_Push (this will be our switch! copy this 3 times)
+
+After, your schematic should look something like this:
+<img src="docs/schematiclayoutnowire.png" className="max-w-96 justify-center" />
+
+Next, press the W key on your keyboard. This should make a green wire start to appear. Connect your components like so:
+<img src="/docs/routedschematic.png" className="max-w-96" />
+(to get the GND symbol, press P and search for it!)
+
+Once all the components are connected, we can start assigning *footprints* to the symbols we have here. Footprints are what gets physically drawn on the PCB. To do this, click the "run footprint assignment tool"
+in the top right.
+<img src="docs/footprintassign.png" style={{ maxWidth: '200px' }}  />
+
+This should open up a window where you can assign different footprints to your components! Assign them based on the image below:
+<img src="docs/assignedfootprints.png" />
+
+Once you're done, you can hit apply & save schematic. We're now officially done with the schematic! Onto making the pcb itself:
+
+### Route the PCB
+Go back to KiCad project page, and hit the "PCB editor" button. Once the PCB editor is open, hit the "Update PCB from schematic" button in the top right:
+<img src="docs/updatepcb.png" />
+Ignore any errors with the XIAO footprint, it's kind of bugged atm.
+
+It should have dumped all the components on the page. Right click the XIAO, and click "flip side". This should flip the footprint to the other side.
+After that, arrange all the components like so:
+<img src="docs/pcblayout.png" style={{ maxHeight: '400px'}}/>
+
+Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a blue line. It should dim the entire screen and show you where to go. Route the PCB like so:
+<img src="docs/routedpcb.png" style={{ maxHeight: '400px'}}/>
+
+(to get the blue lines, change the layer on the right from F.cu to B.cu)
+
+Our PCB is almost done, but we need one final step; we need to actually define the size of the board! Head on over to Edge.cuts, and draw a rectangle outline our board:
+<img src="docs/edgecuts.png" style={{ maxHeight: '400px'}} />
+(PS: You can hit the 3D viewer button in the top right for a cool view of your pcb!)
+
+If everything was done correctly, you are now officially done the PCB! Onto case design:
+
+
+## Create your case
+This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
+
+Before we start designing, it's useful to familiarize yourself with the different types of [keyboard mounts](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7).
+For this guide, we'll be using a sandwich-mount style. 
+
+To start, make a new sketch. Draw a rectangle with the same dimensions as our PCB from earlier:
+<img src="docs/sketch1.png" className="max-w-96" />
+
+Next, draw a larger rectangle with a 10mm margin:
+<img src="docs/sketchmarg.png" className="max-w-96" />
+
+Next, we're going to draw the accomodating holes for it:
+<img src="docs/sketchhole.png" className="max-w-96" />
+
+Extrude the base of the case by 3mm:
+<img src="docs/extrudebase.png" className="max-w-96" />
+
+Extrude the sides by 10mm (it should be 13mm tall in total!):
+<img src="docs/extrudewall.png" className="max-w-96" />
+
+That's the bottom half of the plate done. Next, we're going to make the plate. Head on over to [ai03's plate generator](https://kbplate.ai03.com/)
+and paste in the following data:
+
+```
+["","",""],
+```
+
+That should generate a plate. Hit download DXF, and then import that into Fusion 360
+<img src="docs/platesketch.png" className="max-w-96" />
+
+Extrude the plate by 3mm:
+<img src="docs/extrudeplate.png" className="max-w-96" />
+
+Lastly, add a USB cutout:
+<img src="docs/usbcutout.png" className="max-w-96" />
+
+Congrats!! You are now done with your case
+
+
+## Build your firmware
+This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You can find out how to port your keyboard here: \
+[QMK Porting Guide](https://docs.qmk.fm/porting_your_keyboard_to_qmk)
+
+# Next steps
+We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out!
+
+The biggest tip I have for that is to simply look at other PCB designs and reverse engineer it from there. For example, my own macropad design is actually in the repository
+[here](https://github.com/hackclub/hackpad/tree/main/hackpads/orpheuspad)! It has:
+- 2x neopixel/ws2812b LEDs
+- 1 OLED
+- 1 rotary encoder/knob
+- 4 switches (5 if you include the rotary encoder!) - this is done in a [matrix](https://docs.qmk.fm/how_a_matrix_works), so it's a good point to check!
+
+Everything is fully open source, so you can try and reverse engineer from there. This process applies to practically everything else
