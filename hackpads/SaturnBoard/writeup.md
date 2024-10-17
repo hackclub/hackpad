@@ -1,4 +1,5 @@
 # Writeup | SaturnBoard
+Orginal repo: https://github.com/regular030/SaturnBoard
 
 ## Overview
 - This device functions as both a calculator and a macro pad.
