@@ -18,3 +18,6 @@
 - 1x PCB
 - 1x Seeed XIAO RP2040
 - 1x 3D printed case
+
+
+note: the JSON files under pcb/ are for EasyEDA, and the kicad_pcb file isn't entirely accurate to the original design. if possible, please use the EasyEDA design.
