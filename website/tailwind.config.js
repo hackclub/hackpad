@@ -10,7 +10,14 @@ export default {
     extend: {
       'backgroundColor': '#150C21',
     },
+    fontFamily: {
+      mono: ['Ubuntu Mono', 'monospace'],
+      sans: ['Poppins', 'sans-serif'],
+    }
+
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 
