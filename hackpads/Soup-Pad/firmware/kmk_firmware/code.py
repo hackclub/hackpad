@@ -1,6 +1,8 @@
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.neopixel import Neopixel
+from lib.adafruit_hid.keyboard import Keyboard
+from lib.adafruit_hid.keycode import Keycode
 import board
 import busio
 import digitalio
@@ -33,7 +35,7 @@ keyboard.diode_orientation = DiodeOrientation.COLUMNS
 
 
 keyboard.keymap = [
-    [KC.N1, KC.N2, KC.N3],  # First row
+    [KC.N1, KC.N2, KC.N3],  # First row also i will adjust them as needed later as it would e very much time consuming to adjust them now
     [KC.N4, KC.N5, KC.N6],  # Second row
     [KC.N7, KC.N8, KC.N9],  # Third row
     [KC.KP_PLUS, KC.N0, KC.KP_MINUS],  # Fourth row
