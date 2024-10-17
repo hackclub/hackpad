@@ -9,6 +9,8 @@
 - 1x Seeed XIAO RP2040
 - 1x PCB
 - 10x Through-hole 1N4148 Diodes
+- 4x M2 x 5mm Screws
+- 4x M2 x 16mm Screws
 - Black PLA
 
 Note: Flip over knob when printing
