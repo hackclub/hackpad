@@ -20,4 +20,4 @@
 - 1x 3D printed case
 
 
-note: the JSON files under pcb/ are for EasyEDA, and the kicad_pcb file isn't entirely accurate to the original design. if possible, please use the EasyEDA design.
+Note: the JSON files under pcb/ are for EasyEDA, and the kicad_pcb file isn't entirely accurate to the original design, missing 2 fonts and the silkscreen image. If possible, please use the EasyEDA design. To make it easier, I have attached the Gerber production files that are for the original design.
