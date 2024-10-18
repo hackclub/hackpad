@@ -1,4 +1,4 @@
-# anipad
+# Anipad
 
 A macropad made for Hackclub's Hackpad event. (https://hackpad.hackclub.com)
 
