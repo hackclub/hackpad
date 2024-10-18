@@ -1,6 +1,6 @@
 # Capslock Light ++
 
-![capslock_light_plusplus](imgur.com image replace me!)
+![capslock_light_plusplus](../../images/Full_CAD.png)
 
 *A short description of the keyboard/project*
 
