@@ -2,7 +2,7 @@
 By PonderSlime
 
 # BOM:
-- 15x Cherry MX switches (through hole)
+- 15x Cherry MX Black switches (through hole)
 - 15x 0805 (2012 metric) 1.5x1.40mm HandSolder Diodes (whatever one has specs closest to 1n4148 diodes)
 - 1x Alps Alpine EC11E Switch Encoder
 - 1x PCB
