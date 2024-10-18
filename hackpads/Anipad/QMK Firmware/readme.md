@@ -2,7 +2,7 @@
 
 A macropad made for Hackclub's Hackpad event. (https://hackpad.hackclub.com)
 
-* Keyboard Maintainer: [Elijah Palmer](https://github.com/invictus-anic3tus)
+* Keyboard Maintainer: [Anicetus](https://github.com/invictus-anic3tus)
 * Hardware Supported: Uses RP2040
 * Hardware Availability: Not available
 
