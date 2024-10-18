@@ -44,7 +44,7 @@ No promises that this is actually helpful, I have no expence with custom keyboar
     - Secure in place with a M3 16mm bolt through the remaining hole in the PCB
 7. Flash the firmware
     - I hope you know how to do this cause I don't :)
+    - The dial is (0,0) in the matrix
 8. Keycaps & Dial
-
 
 WIP, will apper when I have time, probbaly before the deadline
