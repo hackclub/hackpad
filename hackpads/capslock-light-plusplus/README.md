@@ -20,7 +20,7 @@
 - 1x Dial
 
 # Assembly Guide
-No promises that this is actually helpful, I have no expence with custom keyboard
+No promises that this is actually helpful, I have no experience with custom keyboard
 ![Explode](Images/Explode_View.png)
 1. Heat set the six M3 inserts into the case
 ![Heatsets](Images/Heatsets.png)
@@ -39,12 +39,12 @@ No promises that this is actually helpful, I have no expence with custom keyboar
 ![Mounting](Images/BoardToCase.png)
     - Only install the lower 12mm M3 bolt at this stage
 5. Install the top of the case
+![CaseTop](Images/CaseTop.png)
     - The top 3D printed case piece can be secured with four M3 12mm bolts from the bottom
-6. Intall the top plate
+6. Install the top plate
+![Top_Plate](Images/Top_Plate.png)
     - Secure in place with a M3 16mm bolt through the remaining hole in the PCB
 7. Flash the firmware
     - I hope you know how to do this cause I don't :)
     - The dial is (0,0) in the matrix
 8. Keycaps & Dial
-
-WIP, will apper when I have time, probbaly before the deadline
