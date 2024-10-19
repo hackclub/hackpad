@@ -2,7 +2,7 @@
 
 **By Irtaza**
 
-[Nano Deck](Nano_Deck.jpg)
+![alt text](https://github.com/Irtaza2009/hackpad/blob/main/hackpads/Nano_Deck/Nano_Deck.jpg)
 
 # BOM:
 
