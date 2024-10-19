@@ -5,7 +5,7 @@
 - 1x Case Main Body
 - 1x Case Main Body bottom (spacer)
 - 1x Case Bottom
-- 2x Rotary Encoders
+- 2x Rotary Encoders Tops
 
 ### Laser cut:
 
