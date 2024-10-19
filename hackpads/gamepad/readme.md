@@ -11,7 +11,7 @@ Basically it's going to be a macropad with some minigames on, via the OLED. (The
 
 ### Other
 - 15 Keycaps
-- 1 Acrylic Cut Case
+- 1 Laser Cut Case
 - 4 15mm M2 screws
 
 ## PCB
