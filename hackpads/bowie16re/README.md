@@ -2,6 +2,7 @@
 
 This is my macropad submission for hackclub/hackpad.
 It is a 4x4 macropad with a rotary encoder using the RP2040 microcontroller.
+(I wish to assemble it myself)
 
 # BOM:
 - 16x Cherry MX switches
