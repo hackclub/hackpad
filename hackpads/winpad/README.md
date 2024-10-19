@@ -1,7 +1,20 @@
 # winpad
 
+## About
+
 Macropad to manage Sway/I3 window arrangement
-- Includes a monitor customization mode (through DDC/CI)
+- In the default layer, keys rearrange windows, change splitting behavior, and modify arrangement style (floating, tabbed, stacked, or tiled)
+- The OLED shows the config for the current window
+- The rotary encoder controls volume
+
+Includes a **monitor customization layer** (through DDC/CI)
+- Rotary encoder controls brightness
+- Buttons change monitor input (in order to avoid dealing with slow monitor menus)
+
+### Challenges
+
+- Designing the case/figuring out plate alignment
+- Figuring out the switch/encoder layout
 
 ## BOM
 
