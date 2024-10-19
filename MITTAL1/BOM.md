@@ -8,7 +8,7 @@ the things I need:
  - 1 pcb\n
  - 1 usbA to usbC cable (pretty pls🥺)
  - cool stickers (maybe one signed by alex the goat himself?)
- - can You print the case in drake green? with lime green key caps
+ - can You print the case in dark green? with lime green key caps
  - if you can't do that can you do the case in Carmine red with black keycaps?
  - 1 encoder knob, same colour as keycaps
  - 4 of the insets you said to use on the hackpad website
