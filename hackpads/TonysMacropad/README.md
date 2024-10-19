@@ -12,6 +12,6 @@
 
 
 # Colours:
-Base Part in blue
-Plate Part in white
-Top Part in red
+- Base Part in blue
+- Plate Part in white
+- Top Part in red
