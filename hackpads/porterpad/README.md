@@ -18,6 +18,6 @@ https://cad.onshape.com/documents/61d943230a12fcbc1f772cb8/w/d8f3315bbaec89d5a2d
 * 3x EC11 Encoder Caps
 * 5x 2.9mm Screws (at least 20mm long)
 * 1x Top Chassis 3d Print (mint green preferred)
-* 1x Plate 3d Print (white)
+* 1x Plate 3d Print (transparent, but if not possible use white)
 * 1x Bottom Chassis 3d Print (black)
 * 1x USB-C to USB-2.0 Cable
