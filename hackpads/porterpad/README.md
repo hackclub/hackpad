@@ -13,7 +13,7 @@ https://cad.onshape.com/documents/61d943230a12fcbc1f772cb8/w/d8f3315bbaec89d5a2d
 * 1x Stickers
 
 ## Keyboard BOM
-* 4x Cherry MX Blue Switches
+* 4x Gateron Milky Yellows
 * 4x DSA Keycaps
 * 3x EC11 Encoder Caps
 * 5x 2.9mm Screws (at least 20mm long)
