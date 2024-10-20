@@ -1,11 +1,17 @@
 # ThinkPad
 
 A ThinkPad themed macropad.
+
 The case (and spacers) should be printed in black filiment.
+
 The PCB should be black.
+
 If possible it would be nice to get 16 black keycaps.
+
 Clear switches would be nice.
+
 I can solder and put everything together myself so assembely is not required.
+
 I did not have enough time to put together the firmware so only the screen, rgb and rotary encoder is implemented, I have not figured out the io expander yet.
 
 ## BOM:
