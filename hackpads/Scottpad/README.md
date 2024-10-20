@@ -10,4 +10,7 @@ Bill Of Materials (Per Macropad):
 - Heatset Inserts (x8)
 - EC11 Encoder (x1)
 - 128x32 0.91 OLED Display (x1)
-- Screws (TBD)
+- Screws (x8)
+
+![image](https://hackclub.slack.com/files/U0325L71XQR/F07SFFMHVM0/image.png)
+![image](https://hackclub.slack.com/files/U0325L71XQR/F07SJ0XC6J0/image.png)
