@@ -16,3 +16,5 @@ Hopefully everything turns out well! Bye!
 - 10x Through-hole 1N4148 Diodes
 - 1x SSD1306 0.91in OLED display
 - Seeed XIAO RP2040 through-hole
+- 4x M3x20 screws
+- 4x M3 threaded heatsets
