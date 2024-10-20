@@ -1,20 +1,22 @@
-# MuffinPad-9-Key
+# muffinpad
 
-![muffinpad9](https://i.imgur.com)
+![muffinpad](imgur.com image replace me!)
 
-A 9-key macropad. Case files available [here](https://github.com/TheDanishMuffin).
+*A short description of the keyboard/project*
 
-*   Keyboard Maintainer: [Dinesh Babu](https://github.com/TheDanishMuffin)
-*   Hardware Supported: PCB, OLED, Rotary Encoder, MX Switches
-*   Hardware Availability: [Seeed Studio Wiki](https://wiki.seeedstudio.com/XIAO-RP2040/)
+* Keyboard Maintainer: [Dinesh Babu](https://github.com/thedanishmuffin)
+* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
 
-    make handwired/muffinpad/muffinpad9:default
+    make muffinpad:default
 
 Flashing example for this keyboard:
 
-    make handwired/muffinpad/muffinpad9:default:flash
+    make muffinpad:default:flash
+
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 ## Bootloader
 
