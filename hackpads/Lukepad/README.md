@@ -10,6 +10,7 @@ BOM:
 - 1x MCP23017T-E/SO
 - 1x Toggle Switch 8MS9P1B05M1QES
 - 12x Cherry MX switches
+- 24x Millmax Hotswap Sockets
 - 2x EC11 Encoder
 - 1x 3 State Slide Switch SK-13D01G3
 - 1x Slide Potentiometer RS301111J00R
@@ -17,7 +18,7 @@ BOM:
 - 1x 128x64 OLED HS96L03W2C03
 - 2x RGB LED TC5050RGBF07-3CJH-AF70 (C7495074)
 
-3D Print:
+3D Print (Black Filament):
 - 1x Case
 - 1x Plate
 - 2x Rotary Encoder Knob
