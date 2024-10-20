@@ -21,3 +21,9 @@ I'm happy to solder and assemble it myself and do the mounting screws and spacer
 
 # Case
 3d printed, there's just one component, don't mind the colour but purple would be cool.
+
+# Notes
+- I want a macropad with easily selectable modes for different applications. In particular, I want to use it as a laptop numpad when I don't have a full keyboard with me.
+- It also needs enough keys to be able to move my main keyboard out of the way when using a graphics tablet and still access all the hotkeys I need in creative software.
+- The case is pretty barebones because I want to be able to see the pcb.
+- My biggest challenge was writing firmware. The QMK docs are pretty good, but don't have specific instructions for running a matrix through an IO expander. This was fun though, as I got to write a lot more code this way :).
