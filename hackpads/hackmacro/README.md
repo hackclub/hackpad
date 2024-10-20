@@ -1,5 +1,5 @@
 # hackmacro
-A 4x4 macro pad with 1 rotary encoder powered by the XIAO RP2040. Inspired by the Work Louder Creator Micro.
+A 4x4 macro pad with 1 rotary encoder powered by the XIAO RP2040 and Vial-QMK. Inspired by the Work Louder Creator Micro.
 
 I will solder this
 
