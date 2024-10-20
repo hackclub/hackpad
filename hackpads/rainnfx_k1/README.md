@@ -7,7 +7,7 @@ Overall, this was a super fun project for me. Since i've been meaning to try out
 - 6x Gateron Milky Yellow Switches
 - 1x 0.91 inch SSD1306 OLED
 - 5x M3x12mm screws
-- 5x M3 X D4.6 X L3.6
+- 5x M3 X D4.6 X L5.0
 - 2x EC11 Encoder Switches
 - 1x PCB
 - 8x Through-hole 1N4148 Diodes
