@@ -1,6 +1,6 @@
 # rainnfx_k1
 
-Overall, this was a super fun project for me. Since i've been meaning to try out PCB design for a few years now. My macropad includes 6 switches, 2 rotary encoder switches, and an 128x32 OLED! Even though my decision to use an I/O expander made the project infinitely harder, I'd do it again! 10/10 project.
+Overall, this was a super fun project for me. Since i've been meaning to try out PCB design for a few years now. My macropad includes 6 switches, 2 rotary encoder switches, and an 128x32 OLED! Even though my decision to use an I/O expander made the project infinitely harder, I'd do it again! 10/10 project. Hopefully there's no big mess-ups anywhere.
 
 # BOM:
 - 1x Seeed XIAO RP2040 through-hole
