@@ -1,6 +1,6 @@
-Scottpad V1
+# Scottpad V1
 -----
-# Scottpad V1 has an LCD, Rotary Encoder, and is a 3x3 macropad
+Scottpad V1 has an LCD, Rotary Encoder, and is a 3x3 macropad
 -----
 Bill Of Materials:
 - XIAO RP 2040 (x1)
