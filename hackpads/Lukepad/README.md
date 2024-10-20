@@ -1,5 +1,5 @@
 **Lukepad!**
-This is Lukepad, a 12 key, 2 encoder, toggle switching, 2 led, slider, oled macropad
+This is Lukepad, a 12 key, 2 encoder, toggle switching, 2 led, slider, 3 layer, oled macropad
 
 
 BOM:
