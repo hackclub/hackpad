@@ -12,16 +12,15 @@ I chose onshape instead of fusion360 because i had the most experience in it, wh
 
 I also made a [simple guide](https://docs.google.com/document/d/1JV8aVDMf2TwetxhckK0Wdf9FykIQtn7HA-_w5BLeQas) for the QMK Firmware for the people in slack
 
-## PCB BOM
+# PCB BOM
 * 1x PCB with front and back silkscreen (black would be nice)
 * 1x Seeed Xiao RP2040
 * 3x EC11 Rotary Encoders (if you have non clicky ones, i would prefer those)
 * 4x SKC6812E - SMD Neopixel LED
 * 4x RC0402FR-07220RL - 0402 SMD 220Ω Resistor
 * 4x SMF6.5CA - SOD-123 SMD Diode for Matrix
-* 1x Stickers
 
-## Keyboard BOM
+# Keyboard BOM
 * 4x Gateron Milky Yellows
 * 4x DSA Keycaps
 * 3x EC11 Encoder Caps
