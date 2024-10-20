@@ -14,3 +14,8 @@ Overall, this was a super fun project for me. Since i've been meaning to try out
 - 3x 2.7k Ohm Resistors
 - 1x PCF8574A I/O Expander
 - 12x Mill-Max 0305s
+
+# Contact
+
+- @rainnfx via Discord
+- @rainnfx via Slack
