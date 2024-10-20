@@ -6,7 +6,7 @@
 - A WS2812B under every key
 - Only 15 keys yet still technically a 4x4 layout
 - Every component is on the top layer
-- The case has no top, so you can see the beautiful PCB
+- ~The case has no top, so you can see the beautiful PCB~ Thin top, so the entire thing looks complete
 
 ## Bill of materials:
 - 15x of:
