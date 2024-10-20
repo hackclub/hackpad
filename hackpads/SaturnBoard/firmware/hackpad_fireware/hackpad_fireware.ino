@@ -2,6 +2,9 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Keypad.h>
+#include <hardware/regs/sysinfo.h>
+#include <hardware/structs/sysinfo.h>
+#include <pico/bootrom.h>
 
 // OLED display settings
 #define SCREEN_WIDTH 128
@@ -16,7 +19,7 @@ const byte COLS = 4; // four columns
 
 // Define the connections to the row and column pins
 byte rowPins[ROWS] = {7, 6, 5, 4};  // rows
-byte colPins[COLS] = {11, 10, 9, 8};  // colums 
+byte colPins[COLS] = {11, 10, 9, 8};  // columns 
 
 // Define the keys on the keypad
 char keys[ROWS][COLS] = {
@@ -62,6 +65,11 @@ void loop() {
       return;
     }
 
+    // Press '*' and '/' to enter bootloader mode
+    if (key == '*' && keypad.getKey() == '/') {
+      enterBootloader();  // Enter bootloader mode
+    }
+
     if (calculatorMode) {
       // In Calculator Mode
       handleCalculatorMode(key);
@@ -91,7 +99,7 @@ void updateDisplayMode() {
   // Clear display after 5 seconds
   display.clearDisplay();
   display.display();
-  }
+}
 
 void handleCalculatorMode(char key) {
   // In calculator mode: Launch calculator app if + and - is pressed
@@ -119,4 +127,8 @@ void handleMacroMode(char key) {
 void launchCalculator() {
   // Launch the calculator app (Windows example, replace with other OS commands if needed)
   system("calc");  // This will open the calculator on a Windows system
+}
+
+void enterBootloader() {
+  reset_usb_boot(0, 0);  // Enter bootloader mode
 }
