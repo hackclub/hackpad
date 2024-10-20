@@ -11,7 +11,8 @@ The Anipad is equipped with a 0.91" OLED screen and a rotary encoder.
 I can shamelessly say that I copied @grimsteel a lot on Slack. He was a big help to getting this thing rolling. However, most of the PCB and all of the case is my own design. On the back of the case is a Penrose Triangle, commonly known as the Impossible Triangle. I have a semi-obssession with it, and it only seemed right to include it.
 The name "Anipad" comes from my name, Anicetus, which means "Unconquerable" in Latin, a language I'm proud to say I can speak ~~decently well~~ OK I guess. Autem, sum non bonus in conspectu populi.
 <br/>***ANYWAYS***, I love coding, making, and hacking, and despite arriving with less than 10 days left in the Hackpad project, I feel I did decently well. And, of course, I needed to add its name in the front.
-[Imgur](https://imgur.com/eU0NZFf)
+<br/>
+![alt text](https://github.com/invictus-anic3tus/hackpad/blob/main/image.jpg?raw=true)
 <br/>
 <br/>
 ~ Anicetus
