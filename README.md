@@ -1,44 +1,28 @@
-# Hackpad
+# HackPad
+## My experience
+As part of **Hack Club’s HACKPAD YSWS** program, I embarked on a rewarding journey to build my own DIY macropad. This experience allowed me to explore various technical disciplines, from designing a custom **PCB in KiCAD** to **coding my very own firmware with QMK**. The most challenging aspect of the project was undoubtedly the PCB design. It required extensive research into component specifications, navigating datasheets, and ensuring that each part—switches, diodes, microcontrollers—was properly integrated into the design. The process of **placing components and routing the traces** was the most time-consuming and working through these challenges gave me a much deeper understanding of electronics design.
 
-https://hackpad.hackclub.com/ <- website is live! this is probably a better place to start
+On the other hand, the part I enjoyed the most was **working with CAD**. With my existing CAD skills, I was able to confidently create a functional layout for the macropad’s physical structure. Translating these skills into real-world applications for a product I could use was fulfilling and rewarding. Coding the firmware was surprisingly straightforward, thanks to QMK's user-friendly environment, making the software side of things much simpler than anticipated. 
+***Overall, this project was an invaluable learning experience that not only introduced me to PCB design but also allowed me to merge my existing skills with new knowledge to create something functional.***
+## Bill Of Materials
 
-## Overview
-This is a limited-time introductory YSWS (you ship, we ship) where *you* design your own macropad, and we'll ship it to you for free! This is something you definitely don't want to miss out, so make sure to join #hackpad in the slack!
+    Xiao RP2040
+    PCF8574 IO expander
+    SSD1306 0.96 OLED
+    (2) 4.7k resistor
+    (16) SK6812 LED
+    (16) 1N4148 diodes
+    (16) Cherry MX brown switches
 
+    (16) any keycaps at hq
+    (16) Mill-Max 0305s hotswap socket
+    (2) any encoder knobs at hq
+    (2) EC11 encoder
+    
+    **--> Please laser cut the plate in 3mm clear acrylic and 3D print the rest of the pieces.**
 
-### You ship:
-- A PCB Design and schematic
-- Files for a case, either in STL or DXF format.
-- Firmware for the keyboard. You are allowed to use QMK or other pre-existing firmware!
+### My Model
+![fusion](CAD/fusion.png)
 
-### We'll send you:
-- 3 PCBs! Keep one for yourself, or share some with your friends. Or you can keep them all, I won't judge.
-- a Seeed XIAO RP2040 microcontroller. They're pretty nifty microcontrollers, so you can use them for something else too
-- Switches! Choices TBD, but you'll have a great selection
-- Other components you may need, such as LEDs, diodes, knobs, OLED screens, and more!
-- Your case! You can either have it 3D printed, laser cut in acrylic, or both.
-- A grab bag of DSA keycaps, and a custom Hack Club keycap too.
-
-
-You can get the macropads soldered if you don't have a soldering iron, or we can send you the parts directly if you're up for a soldering task. The only catch is that if you want it to be soldered, you *must* use through-hole components only!
-
-### Requirements:
-- You design a macropad that integrates a [Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) as the main MCU. Nothing else allowed, sorry!
-- It has 20 or less inputs. A single input includes a rotary encoder, switch etc.
-- It is meaningfully unique to you. This could be as simple as making a custom layout and adding some decor, or as elaborate as writing an entire firmware in Rust
-- The PCB only uses 2 layers
-- The PCB does not exceed 100mm in length in any direction
-- Don't make a macropad with 40 screens. Or out of pure gold. Please!!
-
-Once that's done, you can go on and make a PR. The instructions will be in the template.
-
-
-## Anything else?
-
-This YSWS is only guaranteed to run through October 21st, so make sure to get yours submitted before then. Depending on skill level, this should take roughly 6-12 hours to finish.
-
-List of questions from the slack that you may want answered too:
-
-
-
-
+### My schematic
+![fusion](CAD/schematic.png)
