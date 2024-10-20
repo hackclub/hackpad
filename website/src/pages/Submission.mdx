@@ -1,0 +1,92 @@
+# How to submit your project
+
+Finally finished your hackpad? Nice job! Follow along and we're going to make sure you have everything necessary to *ship* your project, which includes:
+
+- Structuring your project
+- Exporting the production files
+- Publishing the design
+
+
+## Structuring your project
+To make reviewing easier, we need to make sure that the source files of our project are formatted in a way that's complete & easy to navigate.
+
+### 1) Make sure you have everything necessary:
+
+Before we organize anything, make sure 
+- A *complete* CAD model of the assembled case in .STEP or .3MF format
+    - This should include the PCB (a blank rectangle is okay!) and all parts of the case
+- Original firmware for your macropad. QMK, KMK, ZMK, etc derivatives are valid
+- A complete BOM (Bill of Materials) with all the parts you would like in a separate markdown document!
+
+Additionally, make sure you meet the following requirements:
+- Your design uses a through-hole Seeed XIAO RP2040 as the main MCU
+- Your PCB is smaller or equal to 100mmx100mm
+- Your case fits within 200x200x100mm (x / y / z)
+- You have less than 20 inputs (switches, encoders, etc)
+- Your parts have been approved by me
+- The PCB only uses 2 layers
+
+If you have all of that, it should be ready to go!
+
+### 2) Organize your folders
+The above is a LOT of files! To make reviewing as easy as possible, your submission format should have 3 folders:
+- pcb
+- firmware
+- CAD
+
+Put each part of your design in their correspoding folders.
+
+## Creating production files
+Nice job on organizing your files! Next, we need to create the manufacturing files that will actually be used to build your project.
+
+This is separate from the source files, which are usually a reference to check out & iterate on your design.
+
+### 1) Export your PCB
+Depending on your tool of choice, the exact workflow will be different. What you want to do is export your PCB as a set of files called Gerbers, which are basically instructions for the
+ manufacturer to build your PCB. it should be compressed into a .zip file.
+
+The internet will help you out on this one. The end file you get should be named gerbers.zip and contain all the production files in it.
+
+### 2) Export your Case parts
+Each individual part of the case should be exported into its respective files:
+- If the part is 3D printed, it should be exported into STL 
+- If it's going to be laser cut, it should be exported as a DXF
+
+Put it inside a folder called "case"
+
+### 3) Compile your firmware
+This step is going to depend on what you used specifically, but the resulting file should be named firmware.uf2
+
+What you want to search for is how to compile firmware for an rp2040. Good luck!
+
+### 4) Organize it all
+Now that you've made all the production files, create a new folder called production and put all the files in there.
+
+## Publishing your project
+The final step to making your PR is to actually publish your project! This involves writing a simple page for it explaining what it is.
+
+You can put absolutely *anything* on it, as it's your page. I recommend talking about:
+
+- What was your inspiration to make it?
+- Hardest challenges faced
+- Other fun facts to know
+
+Every hackpad submission's page will be published on the main hackpad website, so make sure to go submit!
+
+## Make a PR 
+First, double check your submission against the [Orpheuspad](https://github.com/hackclub/hackpad/tree/main/hackpads/orpheuspad) example to make sure you have the correct structure. Everything should match exactly, except for the filenames.
+
+If anything is unclear, make sure to ask in #hackpad!
+
+Once everything is organized, you can make a PR to the repository [here](https://github.com/hackclub/hackpad)!
+
+## After submitting
+If everything went correctly, your PR will be reviewed (and hopefully approved!) by @alexren. If it's approved, then you'll get:
+- All your electronic components
+- A set of DSA keycaps
+- 3 blank PCBs
+- Your 3D printed/laser cut case
+
+For many of you, the firmware may not work the first try. That's okay! Keep working at it until it's fixed; if you send a video in #hackpad showing it working, I'll ship you a free custom hack-club keycap and sticker!
+
+Reviewing will begin after the YSWS is over. Parts will be shipped 1-3 weeks after (depending on your parts stack).
