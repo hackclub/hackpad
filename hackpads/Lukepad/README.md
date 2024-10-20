@@ -1,6 +1,6 @@
 **Lukepad!**
 This is Lukepad, a 12 key, 2 encoder, toggle switching, 2 led, slider, 3 layer, oled macropad.
-Finalizing my design for this has been a lengthy process of iterating through designs and making adjustments (especially with the case). Overall this macropad is really gonna boost my productivity an efficiency massively. The firmware is currently in a very preliminary state and I plan to develop the rest of the functinoality soon or when I get the physical pad.
+Finalizing my design for this has been a lengthy process of iterating through designs and making adjustments (especially with the case). Overall this macropad is really gonna boost my productivity an efficiency massively. The firmware is currently in a very preliminary state and I plan to develop the rest of the functionality soon (Prepare for one of the layers to be a calculator!).
 ![image](https://github.com/user-attachments/assets/20c1f4aa-c617-4ce2-8628-8f487c31e929)
 
 BOM:
