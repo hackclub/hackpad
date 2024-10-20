@@ -9,7 +9,7 @@ BOM:
 - 3x 4.7kΩ Through-hole Resistors
 - 1x MCP23017T-E/SO
 - 1x Toggle Switch 8MS9P1B05M1QES
-- 12x Cherry MX switches
+- 12x Gateron Milky Yellow Switches
 - 24x Millmax Hotswap Sockets
 - 2x EC11 Encoder
 - 1x 3 State Slide Switch SK-13D01G3
