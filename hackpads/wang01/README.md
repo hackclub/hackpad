@@ -6,5 +6,5 @@ Hey! My name is Caleb Wang, and I present to you the Wang01: my first macropad w
 - 1x EC11 Encoder
 - 1x PCB
 - 16x MX-Style switches - Gateron Milky Yellows
-- 16x 1N4148 Diodes (through hole)
+- 17x 1N4148 Diodes (through hole)
 - 16x Blank DSA keycaps
