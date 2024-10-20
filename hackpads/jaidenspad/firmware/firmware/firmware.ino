@@ -37,9 +37,9 @@
 #define SHORTCUT_MAX_STROKES 10
 
 //The column ports for the switches/button matrix
-byte cols[] = {1,2,3,4}; //cols are the inputs to the switches
+byte cols[] = {D0,D1,D2,D3}; //cols are the inputs to the switches
 //The row ports for the switches/button matrix
-byte rows[] = {11,10,9,8}; //rows is what is returned
+byte rows[] = {D10,D9,D8,D7}; //rows is what is returned
 
 //Rotary encoders
 byte rotaries[] = {0,1,2,3,4,5};
@@ -602,4 +602,3 @@ void releaseKey(String key) {
     char L = key.charAt(0);
     Keyboard.release(L);
 }
-
