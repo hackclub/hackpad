@@ -1,5 +1,5 @@
 # The Hackmacro
-A 4x4 ortho macro pad with 1 rotary encoder powered by the Seeed Studio XIAO RP2040. Heavily inspired by the [Work Louder x Figma Creator Micro](https://worklouder.cc/figma/).
+A 4x4 ortho macro pad with 1 rotary encoder powered by the Seeed Studio XIAO RP2040 and Vial, a fork of QMK. Heavily inspired by the [Work Louder x Figma Creator Micro](https://worklouder.cc/figma/).
 
 ![](https://i.imgur.com/Z6xTcVo.png)
 
