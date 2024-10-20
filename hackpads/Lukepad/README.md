@@ -2,7 +2,7 @@
 This is Lukepad, a 12 key, 2 encoder, toggle switching, 2 led, slider, oled macropad
 
 
-BOM:
+BOM: \n
 1x PCB
 1x XIAO RP2040
 12x Through-hole 1N4148 Diodes
