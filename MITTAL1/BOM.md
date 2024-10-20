@@ -8,7 +8,7 @@ the things I need:
  - 1 pcb
  - 2 4.7k resistors 
  - 1 usbA to usbC cable (pretty pls🥺)
- - cool stickers
+ - cool stickers(im in #alex-containment-chamber)
  - can You print the case in Carmine red with black keycaps?
  - 1 encoder knob, same colour as keycaps
  - 4 of the insets you said to use on the hackpad website
