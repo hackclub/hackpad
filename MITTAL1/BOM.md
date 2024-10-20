@@ -5,7 +5,8 @@ the things I need:
  - 1 ec11 rotary encoder with switch
  - 1 xiao rp2040
  - 1 128x32 i2c oled 0.91 inch (pls dont solder this)
- - 1 pcb\n
+ - 1 pcb
+ - 2 4.7k resistors 
  - 1 usbA to usbC cable (pretty pls🥺)
  - cool stickers (maybe one signed by alex the goat himself?)
  - can You print the case in dark green? with lime green key caps
@@ -14,4 +15,5 @@ the things I need:
  - 4 of the insets you said to use on the hackpad website
  - 4 14 mm long m3 screws
  - any PCB colour
+ - all parts are through hole
 thank you.
