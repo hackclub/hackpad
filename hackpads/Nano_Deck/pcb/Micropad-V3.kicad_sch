@@ -1807,6 +1807,127 @@
 				)
 			)
 		)
+		(symbol "ScottoKeebs:Placeholder_Resistor"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resistor"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Resistor_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Placeholder_Resistor_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -2247,6 +2368,12 @@
 		(uuid "7cd70b89-4dc7-4d51-9e7d-2fb4535351fa")
 	)
 	(junction
+		(at 77.47 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812c12e0-2562-4b54-bcea-4621b563282a")
+	)
+	(junction
 		(at 24.13 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2281,6 +2408,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce04840c-a3f9-4600-87c5-49c44bbb6d97")
+	)
+	(junction
+		(at 71.12 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf335c43-2465-4122-ab1e-70d2c6d17fbf")
 	)
 	(junction
 		(at 21.59 80.01)
@@ -2686,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 20.32) (xy 77.47 59.69)
+			(xy 77.47 20.32) (xy 77.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2813,6 +2946,16 @@
 			(type default)
 		)
 		(uuid "6e162a1e-e1c0-4651-af54-9a68d69dd438")
+	)
+	(wire
+		(pts
+			(xy 77.47 45.72) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ee89d8-b392-4234-ac6f-a794d661d9d5")
 	)
 	(wire
 		(pts
@@ -3146,6 +3289,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 43.18) (xy 71.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73ae49b-3efb-4207-82aa-c0d853879650")
+	)
+	(wire
+		(pts
 			(xy 48.26 154.94) (xy 48.26 168.91)
 		)
 		(stroke
@@ -3226,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 24.13) (xy 71.12 54.61)
+			(xy 71.12 24.13) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4355,6 +4508,72 @@
 			(project "Micropad-V2"
 				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a2d0f3b-666f-4685-b2cc-41a31af6e3ab")
+		(property "Reference" "#PWR012"
+			(at 43.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d786aa9-6e37-4868-ba2f-4fef167c58b8")
+		)
+		(instances
+			(project "Micropad-V3"
+				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6602,72 +6821,6 @@
 			(project "Micropad-V2"
 				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e94c0d-0fd0-43a6-ba5a-53cccda487cb")
-		(property "Reference" "#PWR012"
-			(at 43.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 43.18 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20f8840d-4b79-4761-8359-558a7abddf10")
-		)
-		(instances
-			(project ""
-				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10444,6 +10597,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 63.5 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4122aa4-42c2-4333-9c17-909079adff1a")
+		(property "Reference" "#PWR044"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.69 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15a6fe6c-9c09-422d-8b18-f27b2c9e1dd0")
+		)
+		(instances
+			(project "Micropad-V3"
+				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 242.57 132.08 0)
 		(unit 1)
@@ -10732,6 +10952,74 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 67.31 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3c84633-8762-49c1-bce9-d06dd62193d4")
+		(property "Reference" "R2"
+			(at 67.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 67.31 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e1cc239-b730-4d70-b8ca-b436b9478592")
+		)
+		(pin "2"
+			(uuid "c1387546-63ce-4bdf-a7a1-01ebe84c69cd")
+		)
+		(instances
+			(project "Micropad-V3"
+				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 118.11 168.91 0)
 		(unit 1)
@@ -10959,6 +11247,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 85.09 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf3f75c-97d6-441c-9eb0-b1e926e6d68c")
+		(property "Reference" "#PWR043"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 88.9 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff4ed7f-d349-4c70-9017-42c3b2cdf001")
+		)
+		(instances
+			(project "Micropad-V3"
+				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 147.32 0)
 		(unit 1)
@@ -11107,6 +11462,74 @@
 			(project "Micropad-V2"
 				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 81.28 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd818dc6-4da0-4155-a1a9-eda0186e779b")
+		(property "Reference" "R1"
+			(at 81.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 81.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 81.28 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0fc7d57-99fd-4a0e-8990-68fbcdcb7bf7")
+		)
+		(pin "2"
+			(uuid "32ed1b0e-e191-4831-af40-8902d467231a")
+		)
+		(instances
+			(project ""
+				(path "/b69c7110-3cc5-4183-a35b-8d3fce8bde8b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
