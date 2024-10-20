@@ -1,10 +1,6 @@
 # Guerriacanpad
 
-This is the example macropad for hackpad! Use me as a reference for directory structure.
-
-If you're ready to make a submission, please check the guidelines at hackpad.hackclub.com/submitting
-
-A short explanation would also be great to include
+No need to solder, i can solder it myself !
 
 
 # BOM:
@@ -20,3 +16,6 @@ A short explanation would also be great to include
 - 1x 74AHC1G125 Level Shifter (SOT25/SOT353 package)
 - 4x M2 heatsets
 - 4x M2 10mm screws
+
+- 1x Black PLA top enclosure
+- 1x 3mm Acrylic bottom enclosure
