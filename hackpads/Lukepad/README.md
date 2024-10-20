@@ -10,7 +10,8 @@ BOM:
 - 3x 4.7kΩ Through-hole Resistors (C119339)
 - 1x MCP23017T-E/SO (C629440)
 - 1x Toggle Switch 8MS9P1B05M1QES (C496219)
-- 12x Gateron Milky Yellow Switches 
+- 12x Gateron Milky Yellow Switches
+- 12x Keycaps
 - 24x Millmax Hotswap Sockets 
 - 2x EC11 Encoder (C143789)
 - 1x 3 State Slide Switch SK-13D01G3 (C2939334)
