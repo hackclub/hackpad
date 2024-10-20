@@ -12,5 +12,5 @@ Bill Of Materials (Per Macropad):
 - 128x32 0.91 OLED Display (x1)
 - Screws (x8)
 
-![image](/images/image(1).png)
-![image](/images/image.png)
+![image](hackpads/Scottpad/images/image.png)
+![image](hackpads/Scottpad/images/image(1).png)
