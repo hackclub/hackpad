@@ -12,7 +12,7 @@ I can shamelessly say that I copied @grimsteel a lot on Slack. He was a big help
 The name "Anipad" comes from my name, Anicetus, which means "Unconquerable" in Latin, a language I'm proud to say I can speak ~~decently well~~ OK I guess. Autem, sum non bonus in conspectu populi.
 <br/>***ANYWAYS***, I love coding, making, and hacking, and despite arriving with less than 10 days left in the Hackpad project, I feel I did decently well. And, of course, I needed to add its name in the front.
 <br/>
-![alt text](https://github.com/invictus-anic3tus/hackpad/blob/main/image.png?raw=true)
+![alt text](https://github.com/invictus-anic3tus/hackpad/blob/main/hackpads/Anipad/image.png?raw=true)
 <br/>
 <br/>
 ~ Anicetus
