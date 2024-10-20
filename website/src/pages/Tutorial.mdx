@@ -1,7 +1,7 @@
 # Make your own macropad!
 
 Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial,
-we're going to make a 3-key macropad!
+we're going to make a 3-key macropad as an example. For a full submission, you will have to edit it to be your own (add an extra key?? a knob?? new case? up to you!)
 
 This process is going to be broken into 3 parts, each with its own sub-parts:
 1. PCB Design
@@ -15,16 +15,18 @@ This process is going to be broken into 3 parts, each with its own sub-parts:
 3. Firmware
     1. code.
 
-If anything is unclear, 9 times out of 10 you can usually google it! 
+If anything is unclear, 9 times out of 10 you can usually google it; that being said, PLEASE send what you're stuck on in #hackpad! Ping me @alexren
 
 There's also [this](/resources) giant wall of resources to reference!
+
+**I also go through all these steps in [this YouTube video](https://youtu.be/IsD3lDX75ZI), so you can follow along if you're stuck!**
 
 First, we're going to start with...
 
 ## Designing your PCB
 For this guide we're going to be using [KiCad](https://www.kicad.org/), which is an open source PCB designer tool.
 
-To start, we're going to have to import the necessary footprints. For this guide, you only need 1 footprint!
+To start, we're going to have to import the necessary footprints. For this guide, I made a special care package
 - [XIAO RP2040 footprint](https://github.com/Seeed-Studio/OPL_Kicad_Library) (use the SAMD21 footprint for now, it's identical in pinout)
 Once you have the footprints, you can google to figure out how to install them!
 
@@ -40,7 +42,7 @@ This should open up the schematic editor. Once you're in, press the A key on you
 - SW_Push (this will be our switch! copy this 3 times)
 
 After, your schematic should look something like this:
-<img src="docs/schematiclayoutnowire.png" className="max-w-96" />
+<img src="docs/schematiclayoutnowire.png" className="max-w-96 justify-center" />
 
 Next, press the W key on your keyboard. This should make a green wire start to appear. Connect your components like so:
 <img src="/docs/routedschematic.png" className="max-w-96" />
@@ -113,7 +115,7 @@ Extrude the plate by 3mm:
 Lastly, add a USB cutout:
 <img src="docs/usbcutout.png" className="max-w-96" />
 
-Congrats!! You are now done your case
+Congrats!! You are now done with your case
 
 
 ## Build your firmware
@@ -127,7 +129,7 @@ The biggest tip I have for that is to simply look at other PCB designs and rever
 [here](https://github.com/hackclub/hackpad/tree/main/hackpads/orpheuspad)! It has:
 - 2x neopixel/ws2812b LEDs
 - 1 OLED
-- 1 rotary encoder
-- 4 switches
+- 1 rotary encoder/knob
+- 4 switches (5 if you include the rotary encoder!) - this is done in a [matrix](https://docs.qmk.fm/how_a_matrix_works), so it's a good point to check!
 
 Everything is fully open source, so you can try and reverse engineer from there. This process applies to practically everything else
