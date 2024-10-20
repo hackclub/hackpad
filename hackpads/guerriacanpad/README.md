@@ -4,6 +4,7 @@ No need to solder, i can solder it myself !
 
 
 # BOM:
+- 1x Seeed XIAO RP2040
 - 12x Cherry MX Brown RGB
 - 2x EC11 Encoder
 - 1x PCB
