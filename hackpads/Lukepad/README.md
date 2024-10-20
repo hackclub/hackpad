@@ -22,7 +22,7 @@ BOM:
 - 1x Case
 - 1x Plate
 - 2x Rotary Encoder Knob
-- 1x ToggleSwitch Cap
+- 1x Toggle Switch Cap
 - 1x Slider Attachment
 - 1x LED Divider
 
