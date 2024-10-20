@@ -22,7 +22,7 @@ On the other hand, the part I enjoyed the most was **working with CAD**. With my
     **--> Please laser cut the plate in 3mm clear acrylic and 3D print the rest of the pieces.**
 
 ### My Model
-![fusion](CAD/fusion.png)
+![fusion](cad/fusion.png)
 
 ### My schematic
-![fusion](CAD/schematic.png)
+![fusion](cad/schematic.png)
