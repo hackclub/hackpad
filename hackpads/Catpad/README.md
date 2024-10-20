@@ -3,20 +3,23 @@
 
 ## Overview of macropads
 - can use as small keyboard if you connect all 3
-- can use for macros like copy, paste etc
+- can use for macros like copy, paste etc.
 
 ## PCB
 - wires up in column and row config, with diodes in Column to row config
+- backlit using some small LEDs
+- Hotswap compatible
+- If the PCB can be White or Black that would be cool (or any fun color that's not green or blue <3)
 - I will solder all the surface mount components :)
 
 ## CAD
 - case has 10/11 parts
-- the standoffs will be 3d printed
+- the standoffs will be 3d printed, can print myself
 - all DXF files can be made out of acrylic
 
 ## Firmware
-- uses I2C to output to displays
-- uses kmk to make the keyboard board
+- uses I2C to output to displays - currently just text, but have a way to do images but its only coded in my head atm
+- uses kmk to make the keyboard board     
 
 ## BOM
 - per board:
