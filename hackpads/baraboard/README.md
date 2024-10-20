@@ -5,6 +5,7 @@
 
 - [ ] 1x PCB
 - [ ] 12x Cherry MX switches
+- [ ] 1x MX Stabilizer 2u
 - [ ] 1x EC11 Encoder
 - [ ] 12x WS2812B LEDs
 
