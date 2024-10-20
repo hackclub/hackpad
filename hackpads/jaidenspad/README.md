@@ -19,6 +19,7 @@ A video of the assembly is located in the CAD folder, entitled, "assembly_video_
 - 3x EC11 Encoders
 - 1x PCF8574A
 - 2x SSD1306 0.91 inch OLED 4 pin (128x32) boards (hopefully with a place to solder a jumper to change the i2c address on the back)
+- 2x Header female 4x1 pitch 2.54mm
 
 Additionally,
 
