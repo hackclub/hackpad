@@ -10,6 +10,7 @@ Bill Of Materials (Per Macropad):
 - Mill Max inserts (x9)
 - Heatset Inserts (x8)
 - EC11 Encoder (x1)
+- Through-hole 1N4148 Diodes (x9)
 - [128x32 0.91 OLED Display](https://www.lcsc.com/product-detail/OLED-Display_HS-HS91L02W2C01_C5248081.html) (x1)
 - Screws (x8)
 
