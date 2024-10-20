@@ -29,3 +29,7 @@ BOM:
 Acrylic:
 - 2x LED Cutout
 
+Parts:
+- 4x M3 Screws
+- 4x M3 Heatsets (4.7 Outer diameter, 3 mm thick)
+- 4x 3mm ID, 2mm thick o-rings
