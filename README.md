@@ -6,6 +6,8 @@ The hardest part of this was probably the schematic + PCB stuff with the really 
 
 Hopefully everything turns out well! Bye!
 
+Also wanted to give a huge shoutout to @Anicetus[https://github.com/invictus-anic3tus] for helping with almost all aspects of this project. I would have never finished my macropad by the deadline if weren't for him, considering I started on the 17th with absolutely 0 knowledge in PCBs, schematics, CAD, or firmware. 
+
 
 # BOM:
 - Print Request: It would be amazing if you could print the **entire case black**. Thanks!
