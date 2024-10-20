@@ -7,6 +7,7 @@ I created this macropad because I really liked the design of the [Printed Pad](h
 Bill Of Materials (Per Macropad):
 - XIAO RP 2040 (x1)
 - Gateron Milky Yellow Switches (x9)
+- mill max inserts (x9)
 - Heatset Inserts (x8)
 - EC11 Encoder (x1)
 - 128x32 0.91 OLED Display (x1)
