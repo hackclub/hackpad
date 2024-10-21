@@ -10,4 +10,6 @@ I'll prb make more boards in the future if I find more uses I need or just for f
 - 1x PCB
 - 9x Through-hole 1N4148 Diodes
 - 9x blank DSA keycaps
+- 30x mill max305s
+- case is all black
 - 1x Solid Machined Metal Knob - 1" Diameter(https://www.adafruit.com/product/2056)
