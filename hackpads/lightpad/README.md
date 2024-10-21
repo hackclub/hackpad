@@ -24,3 +24,8 @@ Please leave rotary encoders, keyswitches, and the OLED display unsoldered, as I
 - 3x EC11 Rotary Encoder (With Switch)
 - 4x Heatset Inserts (M2xD4.0xL4.0), mounted in bottom case
 - 4x M2 screws
+
+
+![image](https://github.com/user-attachments/assets/965d2bb6-6c83-4d3c-b4d6-a86ae7c5cdc4)
+![image](https://github.com/user-attachments/assets/46baf860-0ce0-4bbb-b514-fc6029504718)
+
