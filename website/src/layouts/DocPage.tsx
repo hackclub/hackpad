@@ -39,7 +39,7 @@ const DocPage = ({ Content }: { Content: any }) => {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-8 prose-ul:list-disc prose-sm prose-headings:my-2 prose-headings:font-semibold font-sans max-w-4xl mx-auto sm:ml-48">
+        <main className="flex-1 p-8 prose-ul:list-disc prose-ol:list-decimal prose-sm prose-headings:my-2 prose-headings:font-semibold font-sans max-w-4xl mx-auto sm:ml-48">
           <Content />
         </main>
       </div>
