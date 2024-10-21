@@ -8,7 +8,7 @@ I'll prb make more boards in the future if I find more uses I need or just for f
 # BOM:
 - 9x Cherry MX switches 
 - 1x EC11 Encoder
-- 1x PCB
+- 1x PCB(black or white would be great)
 - 1x Seeed XIAO RP2040
 - 9x Through Hole 11N4148 Diodes
 - 9x blank DSA keycaps(pray for hackclub keycaps)
