@@ -1,25 +1,28 @@
 # Capslock Light ++
 Writeup avalable [here](Writeup.md)
 # BOM
-## Case
-- 1x [Case Bottom](production/case/Case_Bottom.step) - 3D print Azure Blue
-- 1x [Case Top](production/case/Case_Top.step) - 3D print Azure Blue
-- 2x [M3 Standoff](production/case/M3_standoff.step) - 3D print Azure Blue
-- 1x [Keyplate](production/case/Keyplate.dxf) - Lasercut 3mm clear
-- 1x [Top Plate](production/case/Top_Plate.dxf) - Lasercut 3mm clear
-- 5x M3 12mm Bolt
-- 1x M3 16mm Bolt
-- 6x M3 Heat set inserts
-## PCB
-- 1x [PCB](production/Gerbers.zip) - Purple w/ white silkscreen
-- 1x XIAO RP2040
-- 9x Through-hole 1N4148 Diode
-- 8x Cherry MX Keyswitch
-- 1x EC11 Encoder
-- 1x .91" 128x32 OLED
-## Other
-- 8x DSA Keycaps
-- 1x Dial
+
+| Part                                            | Quantity |                      Notes |
+|:----------------------------------------------- |:--------:| --------------------------:|
+| **Case**                                        |          |                            |
+| [Case Bottom](production/case/Case_Bottom.step) |    1     |      3D Print - Azure Blue |
+| [Case Top](production/case/Case_Top.step)       |    1     |      3D print - Azure Blue |
+| [M3 Standoff](production/case/M3_standoff.step) |    2     |      3D print - Azure Blue |
+| [Keyplate](production/case/Keyplate.dxf)        |    1     |       Lasercut - 3mm Clear |
+| [Top Plate](production/case/Top_Plate.dxf)      |    1     |       Lasercut - 3mm Clear |
+| M3 12mm Bolt                                    |    5     |                            |
+| M3 16mm Bolt                                    |    1     |                            |
+| M3 Heat set inserts                             |    6     |                            |
+| **PCB**                                         |          |                            |
+| [PCB](production/Gerbers.zip)                   |    1     | Purple w/ white silkscreen |
+| XIAO RP2040                                     |    1     |                            |
+| 1N4148 Diode                                    |    9     |               Through-hole |
+| Cherry MX Keyswitch                             |    8     |                            |
+| EC11 Encoder                                    |    1     |               Through-hole |
+| .91" 128x32 OLED                                |    1     |                            |
+| **Other**                                       |          |                            |
+| DSA Keycaps                                     |    8     |                            |
+| Dial                                            |    1     |                            |
 
 # Assembly Guide
 No promises that this is actually helpful, I have no experience with custom keyboard
