@@ -2,7 +2,7 @@
 - 9x Gateron G Pro Blue MX-Style switches (https://www.keychron.com/products/gateron-switch-set?variant=31923910705241)
 - 9x Through-hole 1N4148 Diodes
 - 2x 4.7kΩ through-hole resistors
-- 1x PCB
+- 1x PCB in blue
 - 1x 3d printed case parts in blue
 - 2x 8mm M3 screws
 - 2x Heated Inserts
