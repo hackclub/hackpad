@@ -1,5 +1,7 @@
 # luteron6pad
+- This is my first time making anything like this, so if there are any errors, please let me know on the slack @Caleb.
 - I would love if I could have a black pcb, (not the usual green)
+
 
 # BOM:
 - 5x Cherry MX switches
