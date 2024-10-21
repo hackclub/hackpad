@@ -2,16 +2,16 @@
 Writeup avalable [here](Writeup.md)
 # BOM
 ## Case
-- 1x [Case Bottom](production/case/Case_Bottom.step) - 3D print Gray
-- 1x [Case Top](production/case/Case_Top.step) - 3D print Gray
-- 2x [M3 Standoff](production/case/M3_standoff.step) - 3D print Gray
+- 1x [Case Bottom](production/case/Case_Bottom.step) - 3D print Azure Blue
+- 1x [Case Top](production/case/Case_Top.step) - 3D print Azure Blue
+- 2x [M3 Standoff](production/case/M3_standoff.step) - 3D print Azure Blue
 - 1x [Keyplate](production/case/Keyplate.dxf) - Lasercut 3mm clear
 - 1x [Top Plate](production/case/Top_Plate.dxf) - Lasercut 3mm clear
 - 5x M3 12mm Bolt
 - 1x M3 16mm Bolt
 - 6x M3 Heat set inserts
 ## PCB
-- 1x PCB - Purple w/ white silkscreen
+- 1x [PCB](production/Gerbers.zip) - Purple w/ white silkscreen
 - 1x XIAO RP2040
 - 9x Through-hole 1N4148 Diode
 - 8x Cherry MX Keyswitch
