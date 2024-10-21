@@ -11,4 +11,13 @@
 - 1x M3x12 SHCS
 - 4x M3x16 SHCS
 - 5x M3 threaded inserts
-- 1x Laser cut acrylic plate (transparent or translucent), file is in the cad folder
+- 1x Laser cut acrylic plate
+
+# Aesthetics:
+Ideally:
+- `Top plate` would be a light blue (Prusament: Azure Blue)
+- `Midlayer` would be a light blue (Prusament: Azure Blue)
+- `Base plate` would be a dark blue (Prusament: Pearl/Navy Blue)
+- `Volume Knob` would be a dark blue (Prusament: Pearl/Navy Blue)
+- `Keycap plate` would be transparent or translucent
+- `M3 screws` would be hex head screws
