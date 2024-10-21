@@ -8,8 +8,12 @@ I'll prb make more boards in the future if I find more uses I need or just for f
 - 9x Cherry MX switches
 - 1x EC11 Encoder
 - 1x PCB
+- 1x Seeed XIAO RP2040
+- 9x Through Hole 11N4148 Diodes
 - 9x Through-hole 1N4148 Diodes
 - 9x blank DSA keycaps
-- 30x mill max305s
-- case is all black
+- 30x mill max 305s
+- 1x top case black
+- 1x bottom case black
+- 1x plate laser cut
 - 1x Solid Machined Metal Knob - 1" Diameter(https://www.adafruit.com/product/2056)
