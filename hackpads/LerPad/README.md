@@ -20,6 +20,8 @@ The hardest challenge was designing the case, and you can probably tell due to i
 
 I can solder it myself if you want! :D
 
+I would prefer a black PCB if possible!
+
 I would like the case to be 3D printed as a dark gray or black color please! If possible, it would be great if the Outline and Case could be black, while the Plate and OLED_Plate could be gray, but I don't mind! :D
 
 
