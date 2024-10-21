@@ -17,3 +17,5 @@
 - 1x PCB
 - 1x Seeed XIAO RP2040
 - 1x 3D printed case
+
+Note: I have screws already, and the case is designed around the specific screws I own
