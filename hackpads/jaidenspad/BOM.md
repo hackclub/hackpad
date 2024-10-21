@@ -11,5 +11,5 @@
 
 Additionally,
 
-- 1x M3 Screw
+- 1x M3 Screw (preferably a 15mm long screw)
 - White filament (if possible!) for the case pieces.
