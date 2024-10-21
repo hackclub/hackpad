@@ -1,5 +1,8 @@
 # Hackpad 3x3
 custom macropad 3x3 with a rotary encoder
+it was really fun going through the entire process of designing the pcb to the case and to the firmware!!!
+the hardest challenge for me was lowkey getting started because I've been so busy with schools and other extracurriculars that I could not start/bring myself to start because im tired all the time 💀
+I'll prb make more boards in the future if I find more uses I need or just for fun! I'm excited to see my board!!!
 
 # BOM:
 - 9x Cherry MX switches
