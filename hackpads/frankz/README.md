@@ -1,5 +1,5 @@
 # frankz
-Hello, this is my first macropad where I created the pcb, case, and firmware! I would like to thank [Hack Club](https://github.com/hackclub) for their support through their "You Ship, We Ship" program - [Hack Pad](https://github.com/hackclub/hackpad/tree/main).
+Hello, this is my first macropad where I created the pcb, case, and firmware! I was informed about this YSWS from the hackclub started at my high school. I have learned actually so much, like wow, while making this and have had a lot of fun outside of the struggles with KiCad lol. Thank You [Hack Club](https://github.com/hackclub) for your support through the "You Ship, We Ship" program - [Hack Pad](https://github.com/hackclub/hackpad/tree/main).
 
 ![Alt text](CAD/Case.PNG)
 
