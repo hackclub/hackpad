@@ -1,4 +1,7 @@
 # Minipad
+My first time experimenting with PCB, keyboards, firmware and everything that comes along with it.
+To keep things simple, I created a simple 4 switch grid (with one rotary encoder) direct wired to the microcontroller.
+
 # BOM
 - 3x Cherry MX switches
 - 1x EC11 Encoder
