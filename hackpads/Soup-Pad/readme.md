@@ -23,10 +23,11 @@ This project involves the assembly of various electronic components, which I wil
 ### Assembly Notes:
 - The **VL53L0X** sensor may require hand-soldering if the footprint doesn’t match the PCB.
 - **Case Parts**: You can view the case parts in this video: [Video](https://hackclub.slack.com/archives/C07LESGH0B0/p1729449140994489).
-###JLCPCB SETTINGS
--   **also during ordering the pcb from jlc could this thing be changed **
+  
+### JLCPCB SETTINGS:
+-   **During Ordering From JLCPCB PLEASE CHANGE THIS SETTINGS**
 ![image](https://github.com/user-attachments/assets/bd357490-1e22-440b-8f26-6254e3f2ad40)
-to this settings
+**`to this settings`**
 
 ### Design Choices:
 - **Case bottom**: Black
