@@ -9,8 +9,11 @@ This project involves the assembly of various electronic components, which I wil
 ### Bill of Materials (BOM)
 - **12 Cherry MX keys**
 - **12 See-through keycaps**: [Link](https://www.aliexpress.com/i/3256804427042740.html?gatewayAdapt=4itemAdapt)
+- **12X M3 screw**
 - **PCB**
 - **2 EC11 rotary encoders**
+- **2X 4.7k 0805 Resistor**
+- **5X 10k 0805 Resistor**
 - **2 EC11 rotary encoder knobs**
 - **XIAO RP2040 THT MCU**
 - **MCP23008 SOIC version**: [Link](https://www.aliexpress.com/item/3256804752148548.html?spm=a2g0o.productlist.main.1.450f2844JgxaOb&algo_pvid=10c94e56-8197-47a1-b66e-e127be5758df&algo_exp_id=10c94e56-8197-47a1-b66e-e127be5758df-0&pdp_npi=4%40dis%21INR%21207.28%21207.28%21%21%2117.00%2117.00%21%402102f0cc17294482719413806ee603%2112000031085286964%21sea%21US%213949123155%21ABX&curPageLogUid=JGVs8K6dlY7J&utparam-url=scene%3Asearch%7Cquery_from%3A)
@@ -30,9 +33,9 @@ This project involves the assembly of various electronic components, which I wil
 **`to this settings`**
 
 ### Design Choices:
-- **Case bottom**: Black
+- **Case_bot.stl,case_top**: Black color
 - **PCB**: Black
-- **Other components**: Decisions pending for `case_top`, `oled_mount`, and the color for the project name.
+- **name.stl,oled_mount.stl** Red color
 
 ---
 
