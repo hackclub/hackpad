@@ -6,3 +6,4 @@ custom macropad 3x3 with a rotary encoder
 - 1x EC11 Encoder
 - 1x PCB
 - 9x Through-hole 1N4148 Diodes
+- 1x Solid Machined Metal Knob - 1" Diameter(https://www.adafruit.com/product/2056)
