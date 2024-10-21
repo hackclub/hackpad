@@ -7,7 +7,7 @@
 - 1x XIAO RP2040
 - 20x WS2812B LEDs
 - 2 M3x20 Threaded Inserts
-- 2 M3x10 Spacers-
+- 2 M3x10 Spacers
 
 ## TODO for Revision 2:
 
