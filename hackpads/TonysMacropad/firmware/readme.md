@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Tony Cheng](https://github.com/Tony Cheng)
+* Keyboard Maintainer: [gamekiller2048](https://github.com/gamekiller2048)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
