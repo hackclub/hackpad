@@ -35,6 +35,7 @@ No promises that this is actually helpful, I have no experience with custom keyb
     - 1 Diode, The EC11 encoder, XAIO, & OLED atach to the top of the board
         - The OLED should be placed flush against the black spacer on its pins (0.1" or 2.54mm off the surface of the board)
         - Trim the pins of the OLED to below 5mm off the surface of the board (as close to flush with the OLED as possable is ideal)
+        - The XAIO needs to be flush against the board to fit under the top plate
 3. Install the keyswitches
 ![Keys](Images/Keyswiches.png)
     - Place the swiches in the larger acrylic plate
