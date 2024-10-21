@@ -10,7 +10,6 @@ I would like to solder it myself!
 
 I've looked at the apollo keyboard, one that I have which is eva themed, and wanted to create a replica of it. I love everything EVA related and this project was so fun to do, it just took 12 years to finish the case LOL.
 
-<br/>
 # BOM:
 - 1x Seeed XIAO RP2040
 - 12x Cherry MX Blue switches
