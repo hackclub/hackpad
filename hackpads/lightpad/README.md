@@ -12,7 +12,8 @@ Featuring 16 (on device) bindable buttons, 3 rotary encoders, as well as an OLED
 
 ## Assembly Notes
 Please leave rotary encoders, keyswitches, and the OLED display unsoldered, as I will need to solder the neopixels first.
-
+### Materials
+The plate is made out of 3mm clear acrylic, and top and bottom cases 3d printed, ideally black.
 # BOM
 - 1x Seeed Studio Xiao RP2040
 - 1x 0.91" OLED Display
