@@ -17,7 +17,7 @@ On the other hand, the part I enjoyed the most was **working with CAD**. With my
     (16) any keycaps at hq
     (16) Mill-Max 0305s hotswap socket
     (2) any encoder knobs at hq
-    (2) EC11 encoder
+    (2) EC11 encoder with click function
     
     **--> Please laser cut the plate in 3mm clear acrylic and 3D print the rest of the pieces.**
 
