@@ -3,11 +3,11 @@
 # BOM:
 - 8x Cherry MX switches
 - 1x EC11 Encoder
-- 1x 3D printed knob (in cad)
-- 1x PCB (in blue)
+- 1x 3D printed knob
+- 1x PCB (blue)
 - 9x Through-hole 1N4148 Diodes
 - 1x 0.96 inch OLED (SSD1306)
-- 4x female header pins
+- 4x female header pins (Possibly optional depending on tolerances)
 - 1x M3x12 SHCS
 - 4x M3x16 SHCS
 - 5x M3 threaded inserts
@@ -22,3 +22,4 @@ Ideally:
 - `Keycap plate` would be frosted (if not transparent)
 - `M3 screws` would be hex head screws
 - `OLED screen` would have a white screen, and if not then blue
+- `PCB` would be blue
