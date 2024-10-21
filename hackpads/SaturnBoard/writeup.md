@@ -26,3 +26,4 @@ Orginal repo: https://github.com/regular030/SaturnBoard
   - Open YT
   - Copy
   - Paste as plain text (idk how I could do this)
+- .uf2 file is in hackpads/SaturnBoard/firmware/hackpad_fireware/build/rp2040.rp2040.seeed_xiao_rp2040/hackpad_fireware.ino.uf2
