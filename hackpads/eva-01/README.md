@@ -24,7 +24,7 @@ I've looked at the apollo keyboard, one that I have which is eva themed, and wan
 - 12x Kailh Hotswap sockets
 - 1x EC11 Rotary encoders 
 
-<br/>
+
 ## Colors
 
 May I please get the case in white?
