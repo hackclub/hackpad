@@ -6,4 +6,7 @@ This is my [hackpad](hackpad.hackclub.com), which is also half of a 38 key split
 - 19x Choc v1 switches
 - 1x PCB
 - 19x Through-hole 1N4148 Diodes
-- 1x Seeed XIAO 
+- 1x Seeed XIAO
+- 3x M3 heatset inserts
+- 3x M3 screw
+- 38x MillMax Sockets
