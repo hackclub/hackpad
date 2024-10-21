@@ -10,6 +10,9 @@ Featuring 16 (on device) bindable buttons, 3 rotary encoders, as well as an OLED
 - Ultra High Definition OLED Display (128 x 32)
 - (Soon to be) onboard menus and led controls
 
+## Assembly Notes
+Please leave rotary encoders, keyswitches, and the OLED display unsoldered, as I will need to solder the neopixels first.
+
 # BOM
 - 1x Seeed Studio Xiao RP2040
 - 1x 0.91" OLED Display
@@ -19,3 +22,5 @@ Featuring 16 (on device) bindable buttons, 3 rotary encoders, as well as an OLED
 - 16x Cherry MX Switch (Gateron Milky Yellows)
 - 19x 1N4148 Diode (through hole)
 - 3x EC11 Rotary Encoder (With Switch)
+- 4x Heatset Inserts (M2xD4.0xL4.0), mounted in bottom case
+- 4x M2 screws
