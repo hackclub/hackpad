@@ -1,27 +1,44 @@
-# HackPad
+# Hackpad
 
-![image](renderSideView.png)
-A 3 knob, 6 switch macropad with a 128x32 OLED.
-All powered by a Seeed XIAO RP2040 along with a PCF8574A. 
+https://hackpad.hackclub.com/ <- website is live! this is probably a better place to start
 
-## Why
-The three knobs make this great for content creation. You can adjust the volume / scrub through your timeline in Davinci Resolve or use each knob for each dimension in Blender. You can make it into whatever you want (as long as you only want 6 buttons, 3 knobs, and 1 small screen)
+## Overview
+This is a limited-time introductory YSWS (you ship, we ship) where *you* design your own macropad, and we'll ship it to you for free! This is something you definitely don't want to miss out, so make sure to join #hackpad in the slack!
 
-## BOM:
-- 3x Cherry MX Switches
-- 3x EC11 Encoder WITH button
-- 1x 0.91in 128x32px OLED (SSD1306)
-- 1x PCF8574A
-- 1x PCB
-- 4x M3x20mm screws
-- 1x Bottom case (3D Printed)
-- 1x Top plate (3D Printed)
-- 1x Switch plate (Laser-cut acrylic)
-- 1x Through-hole 10k resistor
-- 1x Seeed XIAO RP2040
 
-## What was the hardest challenge?
-I think the hardest challenge was the firmware for me. Although this was my first time designing a PCB, it felt fairly easy and I was able to breeze through it. I'm not new to Blender, so the case was also fairly simple. And even though I'm decent at programming, especially in Python, the firmware took a while. This was because I couldn't easily get QMK to work with my hardware. Then, with very little time left, I had to make something quickly in Circuitpython, which was new to me.
+### You ship:
+- A PCB Design and schematic
+- Files for a case, either in STL or DXF format.
+- Firmware for the keyboard. You are allowed to use QMK or other pre-existing firmware!
 
-## Other fun facts to know
-I was actually making a YouTube short for every day I was working on this project. You can go ahead and check it out [here!](https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=MliIfDuidp5TVAae) I also had my own [GitHub repository](https://github.com/3XAY/3XAY_HackPad) where I was uploading the project files / images daily, so you can go through the version history and see every single change!
+### We'll send you:
+- 3 PCBs! Keep one for yourself, or share some with your friends. Or you can keep them all, I won't judge.
+- a Seeed XIAO RP2040 microcontroller. They're pretty nifty microcontrollers, so you can use them for something else too
+- Switches! Choices TBD, but you'll have a great selection
+- Other components you may need, such as LEDs, diodes, knobs, OLED screens, and more!
+- Your case! You can either have it 3D printed, laser cut in acrylic, or both.
+- A grab bag of DSA keycaps, and a custom Hack Club keycap too.
+
+
+You can get the macropads soldered if you don't have a soldering iron, or we can send you the parts directly if you're up for a soldering task. The only catch is that if you want it to be soldered, you *must* use through-hole components only!
+
+### Requirements:
+- You design a macropad that integrates a [Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/) as the main MCU. Nothing else allowed, sorry!
+- It has 20 or less inputs. A single input includes a rotary encoder, switch etc.
+- It is meaningfully unique to you. This could be as simple as making a custom layout and adding some decor, or as elaborate as writing an entire firmware in Rust
+- The PCB only uses 2 layers
+- The PCB does not exceed 100mm in length in any direction
+- Don't make a macropad with 40 screens. Or out of pure gold. Please!!
+
+Once that's done, you can go on and make a PR. The instructions will be in the template.
+
+
+## Anything else?
+
+This YSWS is only guaranteed to run through October 21st, so make sure to get yours submitted before then. Depending on skill level, this should take roughly 6-12 hours to finish.
+
+List of questions from the slack that you may want answered too:
+
+
+
+
