@@ -18,3 +18,8 @@ The bottom row does Undo, Copy, Paste and puts a semicolon (The first 3 sadly wo
 - 1x SDD1306 OLED Panel 128x32
 - 4x Case screws (2.9mm diameter)
 - 9x THT 1N4148 Diodes
+
+## Images
+
+![image](https://github.com/user-attachments/assets/16322d18-e1c6-4ceb-ba08-0f87aaad9376)
+![image](https://github.com/user-attachments/assets/2765d71a-0864-4ce7-8911-ebbb807c1ed9)
