@@ -2,6 +2,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
+#include "oled_driver.h"
+#include "wpm.h"
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
@@ -24,3 +27,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_MPRV, KC_MNXT
     )
 };
+
+
+bool oled_task_user(void) {
+    
+    char wpm_str[16];
+    snprintf(wpm_str, sizeof(wpm_str), "WPM: %03d", get_current_wpm());
+
+    
+    oled_clear();
+
+
+    oled_write_ln(wpm_str, false);
+
+    return false;
+}
