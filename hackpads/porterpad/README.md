@@ -24,7 +24,7 @@ I also made a [simple guide](https://docs.google.com/document/d/1JV8aVDMf2Twetxh
 * 4x Gateron Milky Yellows
 * 4x DSA Keycaps
 * 3x EC11 Encoder Caps
-* 5x 2.9mm Screws (at least 20mm long)
+* 5x 2.9mm Screws (10mm)
 * 1x Top Chassis 3d Print (mint green preferred)
 * 1x Plate 3d Print (transparent, but if not possible use white)
 * 1x Bottom Chassis 3d Print (black)
