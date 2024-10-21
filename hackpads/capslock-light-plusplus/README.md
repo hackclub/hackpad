@@ -1,10 +1,10 @@
 # BOM
 ## Case
-- 1x Case Bottom - 3d print
-- 1x Case Top - 3d print
-- 2x M3 Standoff - 3d print
-- 1x Keyplate - Lasercut 3mm clear
-- 1x Top Plate - Lasercut 3mm clear
+- 1x [Case Bottom](production/case/Case_Bottom.step) - 3D print Gray
+- 1x [Case Top](production/case/Case_Top.step) - 3D print Gray
+- 2x [M3 Standoff](production/case/M3_standoff.step) - 3D print Gray
+- 1x [Keyplate](production/case/Keyplate.dxf) - Lasercut 3mm clear
+- 1x [Top Plate](production/case/Top_Plate.dxf) - Lasercut 3mm clear
 - 5x M3 12mm Bolt
 - 1x M3 16mm Bolt
 - 6x M3 Heat set inserts
