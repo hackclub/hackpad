@@ -12,3 +12,4 @@
 - 1x M3x12 SHCS
 - 4x M3x16 SHCS
 - 5x M3 threaded inserts
+- 1x Laser cut acrylic plate (transparent or translucent), file is in the cad folder
