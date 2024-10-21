@@ -54,11 +54,27 @@ def read_kb ():
         kbclk.value = True
         kbclk.value = False
         keys [i + 3] = kb0.value
+        if kb1.value:
+            raise ValueError ("Key matrix error") # TODO: Error handling
         kbclk.value = True
         kbclk.value = False
         keys [i + 4] = kb0.value
+        if kb1.value:
+            raise ValueError ("Key matrix error")
         kbclk.value = True
         kbclk.value = False
     return keys, enc
 
+def owsi ():
+    """
+    This is a simple subset of the OWSI protocol which just passes data continuously between two devices.
+    It is ultimately used to control up to 16 smart home devices with a focus on switches and dimmers.
+    """
+    pass
 
+def main ()
+    while True:
+        keys, enc = read_kb ()
+        serial.write (keys)
+        serial.write (enc)
+        serial.write (owsi ())
