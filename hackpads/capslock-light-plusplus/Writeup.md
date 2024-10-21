@@ -3,7 +3,7 @@ My keyboard doesn't have an LED for capslock, this is a completely overkill solu
 
 I have designed a pad featuring 8 keys, a rotary encoder & an OLED.
 
-![Cad Render](Cad render here when I have time to make)
+![Cad Render](Images/Full_CAD.png)
 
 ![Real Image](Photo of the thing once I get it)
 
