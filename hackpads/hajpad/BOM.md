@@ -3,6 +3,7 @@
  - 17x THT Diodes
  - 17x SK6812 Reverse Mount [Neopixels](https://thepihut.com/products/neopixel-reverse-mount-rgb-leds-10-pack-of-sk6812-e?srsltid=AfmBOopZ_llV3DdSMAtzD6SdZINnwZiAEp_iOgxELLkNnVOYrMn9zwOO)
  - 17x Gateron Milky Yellow Switches
+ - 34x Mill-Max 0305 Hotswap Sockets
  - 17x Keycaps
 - 1x Custom Hack Club Keycap (As promised [here](https://www.youtube.com/watch?v=PBGjZdLGUp4&t=32m22s))
  - 1x SSD1306 0.91" 128x32 OLED display
