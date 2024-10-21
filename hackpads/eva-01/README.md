@@ -12,7 +12,7 @@ I've looked at the apollo keyboard, one that I have which is eva themed, and wan
 
 # BOM:
 - 1x Seeed XIAO RP2040
-- 12x Cherry MX Blue switches
+- 12x Cherry MX Silent Red switches
 - 3x PCB
 - 1x SSD1306 128x32 3V
 - 2x 4.7k resistor
