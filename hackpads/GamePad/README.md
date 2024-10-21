@@ -19,5 +19,5 @@ Ideally:
 - `Midlayer` would be a light blue (Prusament: Azure Blue)
 - `Base plate` would be a dark blue (Prusament: Pearl/Navy Blue)
 - `Volume Knob` would be a dark blue (Prusament: Pearl/Navy Blue)
-- `Keycap plate` would be transparent or translucent
+- `Keycap plate` would be frosted (if not transparent)
 - `M3 screws` would be hex head screws
