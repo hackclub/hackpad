@@ -1,4 +1,10 @@
 # Trainpad
+This is my first attempt at a macropad, I decided to approach it from a train theme for something fun. It comes with a case that resembles a train, 10 keys and 1 encoder.
+![Image of Trainpad](pad.png)
+Figuring out firmware and PCB design took my a while, as particularly with the PCB, it was my first foray into its design.
+
+Thanks for Hack Club for running.
+
 
 # BOM:
 - 10x Cherry MX switches
