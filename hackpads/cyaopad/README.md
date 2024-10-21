@@ -13,6 +13,9 @@ Designed using:
 - OpenSCAD then FreeCAD (Fusion 360 doesn't work on my mac lol) Got like 400 constraints in my freecad project
 - Python firmware
 
+## Notes
+Making the pad was fun ^.^ but I was just too paranoid that something would go wrong and made 15+ revisions lol. Ended up learning how to use OpenSCAD and FreeCAD.
+
 ## BOM
 - 1 SEEEDUINO XIAO RP2040
 - 16x [Kailh Choc V2 switches](https://www.kailh.net/products/kailh-choc-v2-low-profile-switch-set)
@@ -33,7 +36,8 @@ Interactive bom at `PCB/production/ibom.html`
 .
 ├── CAD                                         # 3D Files
 │   ├── case.FCStd                              # Case FreeCAD design file
-│   └── case.stl                                # Case stl output (Acrylic top if < 1.5mm thickness please)
+│   └── case
+│       └── case.stl                            # The stl for the case
 ├── PCB
 │   ├── macropad.step                           # 3D Model of the board
 │   ├── production                              # The output directory for production (Just send this folder to JLCPCB)
