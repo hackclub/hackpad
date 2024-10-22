@@ -24,5 +24,9 @@ For the Suface Mount components such as the diodes, please send a few extras jus
 - 10x SK6812MINI
 - 10x Blank DSA keycaps
 - 10x Kailh Hotswap Sockets MX style
-- 10x Any linear MX Switch
+- 10x Any linear MX Switch That is not the Gateron Milky Yellows (I have already tried them)
 - 12x Diode_SOD-123
+
+![image](https://github.com/user-attachments/assets/6698651f-6a81-454a-a430-ea3508bb2a21)
+![image](https://github.com/user-attachments/assets/89d22314-14b3-41d4-a5b4-1f4b0c84d9ba)
+
