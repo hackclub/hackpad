@@ -12,3 +12,4 @@ This is a macropad that contains 2 OLEDs as well as 18 keys and 2 encoders. It w
 - 2x SSD1306 OLED Display
 - 3x 10K Resistors
 - 1x XIAO RP2040
+- 4x 16mm M3 screws
