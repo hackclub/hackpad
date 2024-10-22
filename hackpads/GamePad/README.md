@@ -12,7 +12,7 @@
 - 4x M3x16 SHCS
 - 5x M3 threaded inserts
 - 1x Laser cut acrylic plate
-- 8x WS2812Bs (I do not know how to solder these yet, but am planning to learn and build a v2 hackpad)
+- 8x WS2812Bs (Read Notes)
 
 # Aesthetics:
 Ideally:
@@ -24,3 +24,6 @@ Ideally:
 - `M3 screws` would be hex head screws
 - `OLED screen` would have a white screen, and if not then blue
 - `PCB` would be blue
+
+# Notes:
+- For the WS2812Bs, I do not know how to solder these yet - but I am planning to learn and then build a v2 hackpad. However as I don't know how to currently and the other components are THT, Having this hackpad soldered would be ideal :)
