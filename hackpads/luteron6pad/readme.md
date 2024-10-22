@@ -12,4 +12,4 @@
 - 1x 0.96" OLED Display
 - 2x 4.7k resistors (SMD)
 - 1x RP2040
-- 4x M2x18mm screws and bolts (will that work for my case?) The case is 16mm thick.
+- 4x M2.5x18mm screws and bolts (will that work for my case?) The case is 16mm thick.
