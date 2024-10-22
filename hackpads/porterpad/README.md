@@ -13,7 +13,7 @@ I chose onshape instead of fusion360 because i had the most experience in it, wh
 I also made a [simple guide](https://docs.google.com/document/d/1JV8aVDMf2TwetxhckK0Wdf9FykIQtn7HA-_w5BLeQas) for the QMK Firmware for the people in slack
 
 # PCB BOM
-* 1x PCB with front and back silkscreen (black would be nice)
+* 1x PCB with front and back silkscreen (white would be nice)
 * 1x Seeed Xiao RP2040
 * 3x EC11 Rotary Encoders (if you have non clicky ones, i would prefer those)
 * 4x SKC6812E - SMD Neopixel LED
