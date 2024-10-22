@@ -12,4 +12,4 @@
 
 
 ## Additional Notes
-- [pcb in white if possible and case in black please]
+- pcb in white if possible and case in black please
