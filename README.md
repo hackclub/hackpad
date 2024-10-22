@@ -11,57 +11,30 @@ Please use a **black** solder mask and **white** silkscreen!
 
 **Components:**
 
-Component
-
-Quantity
-
-Seeed XIAO RP2040
-
-1
-
-1N4148 Diodes
-
-16
-
-Gateron Milky Yellow Pro Switches
-
-12
-
-EC11 Rotary Encoders
-
-4
-
-EC11 Rotary Encoder Cap
-
-4
-
-0.96” OLED Screen
-
-1
-
-Blank Keycaps
-
-9
-
-Hackpad Keycap ;)
-
-3
-
-SK6812-E LEDs
-
-8
-
-Mill-Max 0305s
-
-24
-
-4.7K Ohm Resistor
-
-2
-
-Texas Instruments PCF8574A I/O Expander
-
-1
+*   1x Seeed XIAO RP2040
+    
+*   16x 1N4148 Diodes
+    
+*   12x Gateron Milky Yellow Pro Switches
+    
+*   4x EC11 Rotary Encoders
+    
+*   4x EC11 Rotary Encoder Cap
+    
+*   1x 0.96” OLED Screen
+    
+*   9x Blank Keycaps
+    
+*   3x Hackpad Keycap ;)
+    
+*   8x SK6812-E LEDs
+    
+*   24x Mill-Max 0305s
+    
+*   2x 4.7K Ohm Resistor
+    
+*   1x Texas Instruments PCF8574A I/O Expander
+    
 
 ### Case:
 
