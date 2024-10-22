@@ -20,3 +20,5 @@
 - `acrylic` - 3mm acrylic sheet
 - `top` and `bottom` - 3D printed, any colour
 - 4x M3 screws & nuts, at least 50mm long (case should be easily disassembled)
+
+## *Firmware is written in CircuitPython.*

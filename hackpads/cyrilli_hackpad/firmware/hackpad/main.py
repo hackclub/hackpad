@@ -1,7 +1,8 @@
-import analogio, board, digitalio, usb_cdc
+import analogio, board, digitalio, json, time, usb_cdc
 from array import array
 
 # I/O initialization
+global owsi_in, kbclk, kb0, kb1, gp2, gp1, gp0, owsi_pd, owsi_wpu, owsi_spu
 owsi_in = analogio.AnalogIn (board.A0)
 kbclk = digitalio.DigitalInOut (board.D1)
 kbclk.switch_to_output ()
@@ -16,11 +17,11 @@ gp1.switch_to_output ()
 gp0 = digitalio.DigitalInOut (board.D6)
 gp0.switch_to_output ()
 owsi_pd = digitalio.DigitalInOut (board.D7)
-owsi_pd.switch_to_output ()
+owsi_pd.switch_to_output (True)
 owsi_wpu = digitalio.DigitalInOut (board.D8)
-owsi_wpu.switch_to_output ()
+owsi_wpu.switch_to_output (True)
 owsi_spu = digitalio.DigitalInOut (board.D9)
-owsi_spu.switch_to_output ()
+owsi_spu.switch_to_output (True)
 
 serial = usb_cdc.data
 
@@ -37,6 +38,7 @@ enc_ttable = array ("b", (
 ))
 
 def read_kb ():
+    nonlocal enc_a, enc_b, enc_ttable
     keys = array ("b", (0, ) * 11)
     enc = array ("b")
     for i in (0, 5):
@@ -47,6 +49,7 @@ def read_kb ():
         keys [i + 1] = kb0.value
         enc_b1 = kb1.value
         enc.append (enc_ttable [enc_a << 3 | enc_b << 2 | enc_a1 << 1 | enc_b1])
+        enc_a, enc_b = enc_a1, enc_b1
         kbclk.value = True
         kbclk.value = False
         keys [i + 2] = kb0.value
@@ -65,16 +68,55 @@ def read_kb ():
         kbclk.value = False
     return keys, enc
 
-def owsi ():
+def owsi (tx, delay = 0.0001, thresh = 15000) # 100 us between bits, ~1.5V logic leve, can be adjusted
     """
     This is a simple subset of the OWSI protocol which just passes data continuously between two devices.
     It is ultimately used to control up to 16 smart home devices with a focus on switches and dimmers.
     """
-    pass
+
+    # TODO: Schmitt trigger
+
+    # Configured as receive-first for this example
+    rx = array ("b")
+    while owsi_in.value > thresh:
+        pass # Wait for low signal
+    for i in range (8):
+        owsi_spu.value, owsi_wpu.value, owsi_pd.value = False, False, False # Pull up
+        sleep (delay)
+        owsi_spu.value = True # Weak pull up
+        sleep (delay)
+        rx.append (owsi_in.value > thresh)
+        owsi_wpu.value, owsi_pd.value = True, True # Pull down
+        sleep (delay)
+    
+    owsi_spu.value, owsi_wpu.value, owsi_pd.value = False, False, False # Pull up
+    sleep (delay)
+    owsi_spu.value = True # Weak pull up
+    sleep (delay)
+    while owsi_in.value > thresh:
+        pass # Wait for low signal
+    owsi_wpu.value, owsi_pd.value = True, False # Floating
+
+    # Transmit
+    for i in tx:
+        while owsi_in.value < thresh:
+            pass
+        owsi_pd.value = i # Set data
+        while owsi_in.value > thresh:
+            pass
+    while owsi_in.value < thresh:
+        pass
+
+    return rx
 
 def main ()
+    ack = ["-"] * 5
+    while ack != ["H", "k", "P", "d", "\n"]:
+        ack.append (serial.read ().decode ("utf-8"))
+        ack.pop (0)
+        time.sleep (0.01)
+    serial.write (b"HackPad\n")
     while True:
         keys, enc = read_kb ()
-        serial.write (keys)
-        serial.write (enc)
-        serial.write (owsi ())
+        rx = owsi ((1, ) * 8) # TODO: Full protocol
+        serial.write (json.dumps ({"keys": tuple (keys), "enc": tuple (enc), "rx": tuple (rx)}).encode ("utf-8"))
