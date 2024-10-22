@@ -1,4 +1,7 @@
 # FusionPad: Intended use for Fusion360
+- 4 buttons for align, joint, combine, and sketch tools
+- 2 rotary for rotate and zoom
+
 # BOM 
 
 - Gateron Milky Yellows x4
