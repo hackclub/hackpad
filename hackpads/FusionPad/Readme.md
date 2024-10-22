@@ -6,3 +6,5 @@
 - EC11 Rotary encoders x2
 - M3 Brass heatsets x5 
 - M3 Screws x5
+
++ 1x SEEEDUINO XIAO RP2040 
