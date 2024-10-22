@@ -8,7 +8,9 @@ Its Gasket-mounted, hotswap, and has RGB!
 
 I am using two encoders. Depending on whether I get a D-shape or O-shape encoder, I have provided both models in the CAD folder. These models can be found at [Printables](https://www.printables.com/model/347536-encoder-knob/files), the 30mm version.
 
-The step files are also provided, if they are better for printing.
+The step files are also provided, if they are better for printing. If possible I would like the pcb to be white (silkscreen/graphics to be black), and the case components to be printed in white.
+
+For the Suface Mount components such as the diodes, please send a few extras just incase.
 
 # BOM:
 
