@@ -1,0 +1,9 @@
+#define ENCODER_A_PINS { col0 }
+#define ENCODER_B_PINS { col3 }
+
+#define WS2812_DI_PIN GP3
+#define RGBLIGHT_LED_COUNT 2
+
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN SDA_MUX
+#define I2C1_SCL_PIN SCK_MUX
