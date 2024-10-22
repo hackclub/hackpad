@@ -9,3 +9,5 @@
 8x Through-hole 1N4148 Diodes
 
 
+
+I'd prefer for both pieces to be white
