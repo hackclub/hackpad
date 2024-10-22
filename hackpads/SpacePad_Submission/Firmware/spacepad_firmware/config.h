@@ -25,8 +25,3 @@
 
 // USB polling rate (default is 1ms)
 #define USB_POLLING_INTERVAL_MS 1
-
-// Define other features as needed
-
-
-#include "quantum.h"  // Or QMK_KEYBOARD_H if needed
