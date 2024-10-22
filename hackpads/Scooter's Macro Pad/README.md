@@ -20,3 +20,5 @@ This macro board took waaay to long to make (like more than a week just for the 
 - x1 Single Bus Buffer (LCSC) C163712
 - x10 1uf Capacitor (LCSC) C380293
 - x15 10K Chip Resistor (LCSC) C5126200
+- x4 M2 Screws
+- Magnets (I own them so no need to buy ;))
