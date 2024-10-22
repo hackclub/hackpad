@@ -1,5 +1,5 @@
 # luteron6pad
-- This is my first time making anything like this, so if there are any errors, please let me know on the slack @Caleb.
+- This is my first time making anything like this, so if there are any errors, please let me know on the slack @Caleb. Or comment on my PR.
 - I would love if I could have a black pcb, (not the usual green)
 - Would it be possible to print the bottom of the case in black and laser cut the top in acrylic?
 
