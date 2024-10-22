@@ -1,6 +1,0 @@
-- Seeed XIAO RP2040
-- 9 Kailh Hotswappable Sockets
-- 9 DSA Keycaps
-- 9 SK6812 LEDs
-- EC11 Rotary encoder with Push Button
-- 1N4148 Diodes
