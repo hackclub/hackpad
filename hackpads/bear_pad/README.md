@@ -1,8 +1,11 @@
 # Bear's Hack Pad
 
-I was unable to get the firmware to compile but everything else was very fun to learn. I used Shapr3d instead of fusion 360 because that was easier to use. I have a lot of experience with blender so going to fusion 360 was infuriating because I kept trying to use it like blender, but shapr3d worked a lot more similarly to blender. I have been wanting to get into pcb design and learning Kicad for this project was fun and suprisingly the easiest part of the whole project.
+I wanted to create my macropad to help me with video editing and CAD. I enjoyed learning how to design PCBs however the QMK was a little bit difficult to get figured out, I finally got a version to compile once I fixed the key matrix but all it does is bind the keys to hotkeys, once I get my macropad I plan to experiment with the QMK further and implement different layers of macros as well as display which layer it is currently on on the display.
 
-#BOM:
+![render](./CAD/render.png)
+(case designed with shapr3d and rendered in blender)
+
+# BOM (in seperate file aswell):
 
 - 11 cherry mx switches
 - 1x EC11 Encoder
