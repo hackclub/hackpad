@@ -1,4 +1,4 @@
-# FusionPade: Intended use for Fusion360
+# FusionPad: Intended use for Fusion360
 # BOM 
 
 - Gateron Milky Yellows x4
