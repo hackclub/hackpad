@@ -127,7 +127,8 @@ def main ()
     serial.write (b"HackPad\n")
     while True:
         keys, enc = read_kb ()
-        rx = owsi ((1, ) * 8) # TODO: Full protocol
+        # rx = owsi ((1, ) * 8) # TODO: Full protocol
+        rx = (1, ) * 8 # Please do not test OWSI without another device connected
         serial.write (json.dumps ({"keys": tuple (keys), "enc": tuple (enc), "rx": tuple (rx)}).encode ("utf-8"))
 
 main ()
