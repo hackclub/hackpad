@@ -74,6 +74,15 @@ def owsi (tx, delay = 0.0001, thresh = 15000) # 100 us between bits, ~1.5V logic
     It is ultimately used to control up to 16 smart home devices with a focus on switches and dimmers.
     """
 
+    def spu ():
+        owsi_spu.value, owsi_wpu.value, owsi_pd.value = False, False, False
+    def wpu ():
+        owsi_spu.value, owsi_wpu.value, owsi_pd.value = True, False, False
+    def pd ():
+        owsi_spu.value, owsi_wpu.value, owsi_pd.value = True, True, True
+    def floating ():
+        owsi_spu.value, owsi_wpu.value, owsi_pd.value = True, True, False
+
     # TODO: Schmitt trigger
 
     # Configured as receive-first for this example
@@ -81,21 +90,21 @@ def owsi (tx, delay = 0.0001, thresh = 15000) # 100 us between bits, ~1.5V logic
     while owsi_in.value > thresh:
         pass # Wait for low signal
     for i in range (8):
-        owsi_spu.value, owsi_wpu.value, owsi_pd.value = False, False, False # Pull up
+        spu ()
         sleep (delay)
-        owsi_spu.value = True # Weak pull up
+        wpu ()
         sleep (delay)
         rx.append (owsi_in.value > thresh)
-        owsi_wpu.value, owsi_pd.value = True, True # Pull down
+        pd ()
         sleep (delay)
     
-    owsi_spu.value, owsi_wpu.value, owsi_pd.value = False, False, False # Pull up
+    spu ()
     sleep (delay)
-    owsi_spu.value = True # Weak pull up
+    wpu ()
     sleep (delay)
     while owsi_in.value > thresh:
         pass # Wait for low signal
-    owsi_wpu.value, owsi_pd.value = True, False # Floating
+    floating ()
 
     # Transmit
     for i in tx:
