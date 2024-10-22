@@ -1,8 +1,9 @@
 # Porterpad 🎹
-![image](https://github.com/user-attachments/assets/505b73cc-8365-4657-b879-b2d331d8b3dd)
+![{37B623EF-546C-4EC2-A377-DDC8D0F68D47}](https://github.com/user-attachments/assets/af89acdd-7f61-490d-8046-f76d2c965eeb)
+Porterpad uses 3 encoders and 4 keys to allow control in many things. It also has neopixel leds that shine underneath the key plate and illuminate neat rgb lights. 
 
 ## What was your inspiration to make it?
-I wanted a separate keyboard for macros and maybe even midi control for DAWs. I also wanted to give out some to my friends.
+I wanted a separate keyboard for macros and maybe even midi control for DAWs. I also wanted to give it out to some of my friends.
 
 ## Hardest challenges faced
 The QMK Firmware was definitely the hardest to make. It took some time but I did it instead of circuitpython because i wanted something industry standard.
@@ -12,7 +13,12 @@ I chose onshape instead of fusion360 because i had the most experience in it, wh
 
 I also made a [simple guide](https://docs.google.com/document/d/1JV8aVDMf2TwetxhckK0Wdf9FykIQtn7HA-_w5BLeQas) for the QMK Firmware for the people in slack
 
-# PCB BOM
+Porter is also a reference to a music artist lol
+
+# BOM
+Below is a BOM for only one Porterpad. It uses smd components which i choose to solder everything
+
+## PCB BOM
 * 1x PCB with front and back silkscreen (white would be nice)
 * 1x Seeed Xiao RP2040
 * 3x EC11 Rotary Encoders (if you have non clicky ones, i would prefer those)
@@ -20,7 +26,7 @@ I also made a [simple guide](https://docs.google.com/document/d/1JV8aVDMf2Twetxh
 * 4x RC0402FR-07220RL - 0402 SMD 220Ω Resistor
 * 4x SMF6.5CA - SOD-123 SMD Diode for Matrix
 
-# Keyboard BOM
+## Keyboard BOM
 * 4x Gateron Milky Yellows
 * 4x DSA Keycaps
 * 3x EC11 Encoder Caps
