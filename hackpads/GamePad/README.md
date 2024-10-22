@@ -1,7 +1,7 @@
 # GamePad
 
 # BOM:
-- 8x Cherry MX switches
+- 8x Gateron Milky Yellows Cherry MX Switches
 - 1x EC11 Encoder
 - 1x 3D printed knob
 - 1x PCB (blue)
