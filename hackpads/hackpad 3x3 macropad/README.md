@@ -13,8 +13,9 @@ I'll prb make more boards in the future if I find more uses I need or just for f
 - 9x Through Hole 11N4148 Diodes
 - 9x blank DSA keycaps(pray for hackclub keycaps)
 - 30x mill max 305s
-- 4x M2.5 heatset
-- 4x M2.5 screws
+- 4x M3 heatset
+- 2x M3 socket head cap screws 18mm length
+- 2x M3 socket head cap screws 30mm length
 - 1x top case black
 - 1x bottom case black
 - 1x plate acrylic laser cut
