@@ -8,7 +8,7 @@ This macro board took waaay to long to make (like more than a week just for the 
 # BOM For Each PCB (So Times this all 3 for the 3 boards):
 - x12 Cherry MX switches
 - x1 Seeed XIAO RP2040
-- x1 Bourns PEC11R 12mm Incremental Encoder
+- x1 Bourns PEC11R 12mm Incremental Encoder (LCSC) C143790
 - x1 PCB
 - x4 WS2812B LEDs
 - x4 5 Spring-Loaded Magnetic Pogo Pin Connector
