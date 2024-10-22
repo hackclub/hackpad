@@ -26,4 +26,4 @@ Ideally:
 - `PCB` would be blue
 
 # Notes:
-- For the WS2812Bs, I do not know how to solder these yet - but I am planning to learn and then build a v2 hackpad. However as I don't know how to currently and the other components are THT, Having this hackpad soldered would be ideal :)
+- For the WS2812Bs, I do not know how to solder these yet - but I am planning to learn and then build a v2 hackpad. However as I don't know how to currently, and the other components are THT, Having this hackpad soldered with the LEDs seperate would be ideal :)
