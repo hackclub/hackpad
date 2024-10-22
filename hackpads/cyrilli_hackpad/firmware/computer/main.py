@@ -32,18 +32,22 @@ while True:
     # TODO: debouncing
     for j, (k, k1) in enumerate (zip (keys, keys1)):
         if k < k1: # Keydown
-            subprocess.run (["wtype", "-P", keymap [j]])
+            _ = subprocess.run (["wtype", "-P", keymap [j]])
+            _.check_returncode ()
         elif k > k1: # Keyup
-            subprocess.run (["wtype", "-p", keymap [j]])
+            _ = subprocess.run (["wtype", "-p", keymap [j]])
+            _.check_returncode ()
     keys = keys1
     
     # TODO: sensitivity
     enc = sum (enc)
     for i in range (abs (enc)):
         if enc < 0:
-            subprocess.run (["wtype", "-k", "XF86AudioLowerVolume"])
+            _ = subprocess.run (["wtype", "-k", "XF86AudioLowerVolume"])
+            _.check_returncode ()
         else:
-            subprocess.run (["wtype", "-k", "XF86AudioRaiseVolume"])
+            _ = subprocess.run (["wtype", "-k", "XF86AudioRaiseVolume"])
+            _.check_returncode ()
     
     # Do something with rx
     print (rx)
