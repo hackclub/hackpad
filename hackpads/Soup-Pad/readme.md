@@ -40,5 +40,6 @@ This project involves the assembly of various electronic components, which I wil
 ---
 
 This project is made with love by **Souptik Samanta**.
+- **to download all files go to this [repo](https://github.com/souptik-samanta/soup-pad)**
 
 ---
