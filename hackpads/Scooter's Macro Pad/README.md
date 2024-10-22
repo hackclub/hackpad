@@ -1,9 +1,9 @@
 # Scooter's Macro Pad
 
-This is my macro pad. It has a OLED screen with 12 switches, a rotary encoder, and 4 LED's for that cool bottom glow effect plus a cool feature that I though of. This is expansion board pogo pins. These pins will allow
+This is my macro pad that I will most likely use to semi-automate my workflow and maybe some hotkeys for tasks. It has a OLED screen with 12 switches, a rotary encoder, and 4 LED's for that cool bottom glow effect plus a cool feature that I though of. This is expansion board pogo pins. These pins will allow
 me to in the future, make an expansion board and all I need to do is connect the pogo pins from that board to the ones on the main board, write firmware for it, and TADA!
 
-This macro board took waaay to long to make (like more than a week just for the PCB and half the case), but it was definitly fun, a huge learning experiance, and totally worth my time!
+This macro board took waaay to long to make (like more than a week just for the PCB and half the case), and will definitely take me even longer to hand solder the componengs onto the 3 boards, but it was definitly fun to make, a huge learning experiance, and totally worth my time!
 
 # BOM For Each PCB (So Times this all 3 for the 3 boards):
 - x12 Cherry MX switches
@@ -23,3 +23,6 @@ This macro board took waaay to long to make (like more than a week just for the 
 - x4 M2 Screws
 - x1 Fuse (LCSC) C315894
 - Magnets (I own them so no need to buy ;))
+
+# BOM For The Case
+If all the parts can be 3D printed in Black PLA that would be awesome! If not, any solid color will work.
