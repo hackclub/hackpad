@@ -1,18 +1,68 @@
-# The SathyPad!
-### People
-- Anand Sathy, PCB Designer
-- Ben Kim, Firmware Coder
-- Hyatt Brandenburg, Case Designer
+SathyPad: Bill of Materials
+===========================
 
-## BOM
-- 4x EC11 Rotary encoders
-- 12x Kailh Choc V2 Switches
-- 12x 1N4148 Diodes (through hole)
-- 12x 0.91" OLED Display
-- 1x 0.96" OLED Display
-- 1x Port Expander
-- 1x 2-pin LED (Orange)
-- 1x 2-pin LED (Green)
-- 1x 2-pin LED (Blue)
-- 12x Kailh Hotswap sockets
-- 8x WS2812B/Neopixels (on Back)
+### By Anand Sathy (@a3acx)
+
+This MacoPad has helped me learn PCB design and I will be using it for literally everything!
+
+### PCB:
+
+Please use a **black** solder mask and **white** silkscreen!
+
+**Components:**
+
+Component
+
+Quantity
+
+Seeed XIAO RP2040
+
+1
+
+1N4148 Diodes
+
+16
+
+Gateron Milky Yellow Pro Switches
+
+12
+
+EC11 Rotary Encoders
+
+4
+
+EC11 Rotary Encoder Cap
+
+4
+
+0.96” OLED Screen
+
+1
+
+Blank Keycaps
+
+9
+
+Hackpad Keycap ;)
+
+3
+
+SK6812-E LEDs
+
+8
+
+Mill-Max 0305s
+
+24
+
+4.7K Ohm Resistor
+
+2
+
+Texas Instruments PCF8574A I/O Expander
+
+1
+
+### Case:
+
+Please make all parts of the case in **black** filament. Thanks!
