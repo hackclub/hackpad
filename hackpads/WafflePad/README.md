@@ -1,7 +1,7 @@
 # My custom HackPad!!!
 My custom HackPad to act as my Up Down Left and Right keys for when i'm using my 60% keyboard
-![Front View of the HackPad](https://github.com/LiveWaffle/WafflePad/blob/main/Ortho.png)
-![Back View of the HackPad](https://github.com/LiveWaffle/WafflePad/blob/main/OrthoBack.png)
+![Front View of the HackPad](https://github.com/LiveWaffle/hackpad/blob/main/hackpads/WafflePad/Ortho.png)
+![Back View of the HackPad](https://github.com/LiveWaffle/hackpad/blob/main/hackpads/WafflePad/OrthoBack.png)
 
 
 | Bill Of Materials  | Quanity |
