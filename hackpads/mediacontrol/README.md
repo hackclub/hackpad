@@ -9,7 +9,7 @@ A hackpad that allows you to control media
 4. 1 PCB
 5. 1 Skyloong Swapable Rotary Encoder Knob
 6. 1 Case
-7. 4 suitable sized bolts and heat inserts
+7. 4 16mm high bolts and heat inserts
 
 # Important
 1. Swapabble encoder slot is also compatible with normal keyswitch (3 normal / 1 swapable slot)
