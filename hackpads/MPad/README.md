@@ -4,4 +4,4 @@ A simple macropad. It uses matrix wiring for switches, and a rotary encoder. I u
 
 I want the case to be 3d printed in all white if possible. Also, if possible, make the pcb black in color.
 
-The BOM is added in another markdown file.
+The BOM is [here](pcb/BOM.md)
