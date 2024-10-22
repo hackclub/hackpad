@@ -12,13 +12,14 @@ This macro board took waaay to long to make (like more than a week just for the 
 - x1 PCB
 - x4 WS2812B LEDs
 - x4 5 Spring-Loaded Magnetic Pogo Pin Connector
-- x1 4 Pogo Pin for OLED Screen
+- x1 4 Pogo Pin for OLED Screen (LCSC) C5116483
 - x1 SSD1306 I2C 128x32 OLED Screen
 - x3 MOSFET (LCSC) C332103
 - x4 10K Resistor (LCSC) C784821
-- x1 I2C bus buffer (LCSC) C880333
+- x1 I2C bus buffer (LCSC) C507236
 - x1 Single Bus Buffer (LCSC) C163712
 - x10 1uf Capacitor (LCSC) C380293
 - x15 10K Chip Resistor (LCSC) C5126200
 - x4 M2 Screws
+- x1 Fuse (LCSC) C315894
 - Magnets (I own them so no need to buy ;))
