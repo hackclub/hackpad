@@ -12,6 +12,7 @@
 - 4x M3x16 SHCS
 - 5x M3 threaded inserts
 - 1x Laser cut acrylic plate
+- 8x WS2812Bs (I do not know how to solder these yet, but am planning to learn and build a v2 hackpad)
 
 # Aesthetics:
 Ideally:
