@@ -1,0 +1,1 @@
+LTO_ENABLED = yes
