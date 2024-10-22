@@ -1,5 +1,7 @@
 This is my Numpad/Macropad project for Hackpad. This was made so that I can have a number pad since I upgraded my keyboard to a smaller one and I am missing the full numpad size. It features a rotary encoder, 15 switches, and status LEDs.
 
+Fabrication files are in PCB Fab and 3D models. The assembly stl and step should not be printed. PCB fabrication was made using JLC plugin in KiCad
+
 # BOM:
 
 | Item | Amount |
