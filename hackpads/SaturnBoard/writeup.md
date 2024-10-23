@@ -13,9 +13,10 @@
   - Horizontal diodes: Blue wire
 
 ## CAD
-- For 3D printing, use **hackpadCase_WithoutPCB.step**
-- To visualize the assembled unit, use **hackpadCase_WithPCB.step**
-- Corner holes have a diameter of **2.9mm**
+- For 3D printing, print out **SaturnBoard_BotCase.stl** and **SaturnBoard_TopCase.stl**
+- To visualize the assembled unit, use **SaturnBoard_WholeCaseWithPCB.stl**
+- Corner holes have a diameter of **2.9mm** with a length of **16 mm**
+- I would love the case to be in light blue, or blue
 
 ## Firmware
 - More macros coming soon
