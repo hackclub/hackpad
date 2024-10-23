@@ -1,6 +1,6 @@
 # FudgePad
 A Complete Screwless Design HackPad that is also easy to service.
-By FudgeCocoa
+By FudgeDev1
 
 # BOM
 - 12x Hotswap Kalih Sockets 
