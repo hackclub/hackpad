@@ -8,3 +8,4 @@ BOM:
 - 3x Black PCB
 - 1x Red bottom case
 - 1x clear top plate
+- 5x Red DSA keycaps
