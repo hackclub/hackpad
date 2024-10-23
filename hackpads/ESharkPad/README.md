@@ -1,4 +1,7 @@
 # EsharkPad
+Inspiration: This is simply a generic keypad that I plan to have different keymaps for based on the program (blender, excalidraw, etc)
+
+Hardest challenge: The pcb, since I have never done anything like it before
 
 # BOM
 - 9x Kalih Hotswap Switches
@@ -13,5 +16,3 @@
 
 3d printed parts colour: Black
 
-Inspiration: This is simply a generic keypad that I plan to have different keymaps for based on the program (blender, excalidraw, etc)
-Hardest challenge: The pcb, since I have never done anything like it before
