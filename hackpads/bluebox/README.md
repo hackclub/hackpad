@@ -7,7 +7,7 @@
 - 2x 8mm M3 screws
 - 2x Heated Inserts
 - 1x Seeed XIAO RP2040 through-hole
-- 9x DSA white keycaps
+- 9x DSA black keycaps
 - 1x 0.96 inch i2c oled
 
 # PAGE:
