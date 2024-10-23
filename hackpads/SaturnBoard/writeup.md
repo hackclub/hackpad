@@ -1,11 +1,10 @@
 # Writeup | SaturnBoard
-Orginal repo: https://github.com/regular030/SaturnBoard
-
 ## Overview
 - This device functions as both a calculator and a macro pad.
 - Key gestures include:
   - 7 + 8 + 9: Switches between calculator and macro modes.
   - + and - in calculator mode: Opens the Windows calculator.
+  - * and / makes the RP2040 a file solution in order to upload code
 
 ## PCB
 - All footprints and libraries are sourced from Joe Scotto.
