@@ -24,6 +24,7 @@ per board:
 8x SK6812-E LEDs 
 1x Case 
 4x m2 screw 5mm
+(headers are not included because I do not need headers)
 
 Total:
 21x Gateron Jupiter Browns
