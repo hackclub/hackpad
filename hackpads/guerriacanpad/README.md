@@ -2,7 +2,6 @@
 
 No need to solder, i can solder it myself !
 
-
 # BOM:
 Electronic parts :
 - 12x Cherry MX Brown RGB
@@ -15,8 +14,9 @@ Electronic parts :
 - 12x SK6812-E reverse mount SMD LEDs
 
 - 1x SSD1306 0.91 White OLED
-- 1x MCP23008 I/O expander (20-pin SSOP package)
-- 1x 74AHC1G125 Level Shifter (SOT25/SOT353 package)
+
+- 1x PCF8574ADWR I/O expander
+- 1x 74AHC1G125SE Level Shifter
 
 - 4x M2 heatsets
 - 4x M2 16mm screws
