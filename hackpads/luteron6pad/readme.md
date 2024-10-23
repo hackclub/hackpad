@@ -5,7 +5,7 @@
 
 # BOM:
 - 5x Cherry MX switches
-- 5x Keycaps
+- 5x Black keycaps
 - 1x EC11 Encoder (with push button, please)
 - 1x Rotary Encoder Knob
 - 1x PCB
