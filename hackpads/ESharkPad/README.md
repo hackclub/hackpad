@@ -7,6 +7,7 @@ Hardest challenge: The pcb, since I have never done anything like it before
 - 9x Kalih Hotswap Switches
 - 9x Hotswap Kalih Sockets 
 - 9x Key Caps
+- 9x 1N4148 Through-hole diodes
 - 1x 128x32 SSD1306 Display 0.91"
 - 1x clear acrylic top cover
 - Black PLA case
