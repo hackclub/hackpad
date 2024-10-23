@@ -3,30 +3,36 @@
 
 #include QMK_KEYBOARD_H
 
+enum layers  {
+    _BASE = 0,
+    _ARROWS,
+    _MEDIA
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /** 
     *  -----------
     * |
 *  -----------                          
     */
-    [_BASE] = LAYOUT_ortho_4x4(
-        KC_P7,   KC_P8,   KC_P4,   KC_P5,   
+    [_BASE] = LAYOUT_ortho_4x4(                
+        KC_P7,   KC_P8,   KC_P4,   KC_P5   
     ),
 
     [_ARROWS] = LAYOUT_ortho_4x4(
-        KC_LEFT,  KC_UP, KC_DOWN, KC_RIGHT,
+        KC_LEFT,  KC_UP, KC_DOWN, KC_RIGHT
     ),
 
     [_MEDIA] = LAYOUT_ortho_4x4(
-        KC_VOLU,  KC_VOLD, KC_MPLY, KC_MSTP,
+        KC_VOLU,  KC_VOLD, KC_MPLY, KC_MSTP
     )
 };
 
 // Joystick input setup
-joystick_config_t joystick_axis[JOYSTICK_AXIS_COUNT] = {
-    JOYSTICK_AXIS_IN(A11, 127, 0, -127),
-    JOYSTICK_AXIS_IN(B9 , 127, 0, -127),
-}
+joystick_config_t joystick_axes[JOYSTICK_AXIS_COUNT] = {
+    JOYSTICK_AXIS_IN(GP1, 127, 0, -127),
+    JOYSTICK_AXIS_IN(GP29 , 127, 0, -127),
+};  
 
 // OLED Driver
 #ifdef OLED_ENABLE
