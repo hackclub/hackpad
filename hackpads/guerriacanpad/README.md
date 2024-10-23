@@ -1,6 +1,7 @@
 # Guerriacanpad
 
-No need to solder, i can solder it myself !
+[<img src="3d_view.png" alt="3d_view" height="500"/>](3d_view.png)
+[<img src="pcb.png" alt="pcb" height="500"/>](pcb.png)
 
 # BOM:
 Electronic parts :
