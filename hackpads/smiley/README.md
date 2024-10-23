@@ -3,6 +3,7 @@ I am Loshua1, the creator of Smiley, a pad made for shortcuts. I originally want
 
 # BOM:
 (I would like the case to be 3d printed in black and I would like red keycaps)
+
 Here is the Bill Of Materials:
 
 - 1x PCB
