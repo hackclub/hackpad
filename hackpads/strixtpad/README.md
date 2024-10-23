@@ -4,7 +4,8 @@ I was origrinally going with an 11 key design that also had a knob and an LCD sc
 
 ![image](https://github.com/user-attachments/assets/6b97f859-1c61-41c7-b0df-bf4033fa0465)
 
-PARTS USED:
-- SEEED Xiao 2040
+BOM:
+- 1 SEEED Xiao 2040
 - 12 mx switches
-- 12 Diode-35 tht
+- 12 THT 1N4148 DIODE
+- 12 Keycaps
