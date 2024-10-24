@@ -7,7 +7,7 @@ Bill of Materials
 * 6x DSA keycaps 
 * 1x EC11 rotary encoder 
 
-My macropad will be used as a keyboard controller for simple control gamnes and arcade games. The hardest
+My macropad will be used as a keyboard controller for simple control games and arcade games. The hardest
 part of this project was the CAD since it required a lot of steps. This project taught me a lot of different
 things and it will definetly be helpful for future projects.
 
