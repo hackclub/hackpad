@@ -10,5 +10,5 @@
 * Rotary encoder= volume
   Switch 1 = Skip
   Swith 2 = previous
-  Switch 3 = pause
-  Switch 4 = resume
+  Switch 3 = pause/resume
+  Switch 4 = mute/unmute button for discord mic
