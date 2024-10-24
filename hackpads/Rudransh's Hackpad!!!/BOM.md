@@ -1,6 +1,6 @@
 # BOM : 
 
-1) 15 MX cherry red switches
+1) 15 MX style switches
 2) 1 xiao rp2040
 3) 15 1N4148 Diodes (through hole) 
 4) case - should be white in color  
