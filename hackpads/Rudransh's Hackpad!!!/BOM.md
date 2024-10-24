@@ -6,5 +6,5 @@
 4) case - should be white in color  
 5)  pcb 
 6) 15 keycaps ( Red color ) 
-8) Need 8 M3 screwholes
-9) 8x m3 screws
+7) Need 8 M3 screwholes
+8) 8x m3 screws
