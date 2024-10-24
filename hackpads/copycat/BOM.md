@@ -12,5 +12,4 @@
 
 
 ## Additional Notes
-- If possible, please print the case in black and the pcb purple, tysmm
-- idk if i did everything right pls check
+- If possible, please print the case in black, the pcb purple, and white keycaps, tysmm
