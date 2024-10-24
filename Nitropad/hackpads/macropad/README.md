@@ -11,7 +11,7 @@ My hackpad will be used as a keyboard controller for games with simple controls.
 project was the CAD since it required a lot of steps to design it. However I also gained a variety of 
 different skills which will definetely be helpful for future projects.
 
-switches - wasd, shift, space
+switches - WASD, shift, space.
 rotary encoder - volume
 
 
