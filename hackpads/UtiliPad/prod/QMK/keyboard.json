@@ -1,0 +1,46 @@
+{
+    "manufacturer": "MNT",
+    "keyboard_name": "UtiliPad",
+    "maintainer": "MNT",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "lto": "true",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "oled": true
+    },
+    "matrix_pins": {
+        "cols": ["GP10", "GP11", "GP12"],
+        "rows": ["GP6", "GP7"]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP0", "pin_b": "GP1"}
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x4843"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},  // SW1
+                {"matrix": [0, 1], "x": 1, "y": 0},  // SW2
+                {"matrix": [0, 2], "x": 2, "y": 0},  // SW3
+                {"matrix": [1, 0], "x": 0, "y": 1},  // SW4
+                {"matrix": [1, 1], "x": 1, "y": 1},  // SW5 (Rotary Encoder Switch)
+                {"matrix": [1, 2], "x": 2, "y": 1}   // SW6
+            ]
+        }
+    }
+}
