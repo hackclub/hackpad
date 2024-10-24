@@ -8,6 +8,9 @@ Bill of Materials
 * 1x SSD1306 128x64 0.96in 4-pin OLED 
 * 1x EC11 rotary encoder
 
+ base red, midPlate is black, topPlate is red
+
+
 W key
 A Key
 S Key
