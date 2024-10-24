@@ -1,0 +1,4 @@
+#define ENCODER_A_PINS { GP9 }
+#define ENCODER_B_PINS { GP8 }
+#define ENCODER_RESOLUTION 20
+#define ENCODER_DEFAULT_POS 0x3
