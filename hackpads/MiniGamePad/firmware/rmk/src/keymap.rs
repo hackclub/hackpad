@@ -1,11 +1,11 @@
 use rmk::action::KeyAction;
 use rmk::{k, layer, mo};
-pub(crate) const COL: usize = 3;
-pub(crate) const ROW: usize = 3;
-pub(crate) const NUM_LAYER: usize = 2;
+pub(crate) const COLUMNS: usize = 3;
+pub(crate) const ROWS: usize = 3;
+pub(crate) const LAYERS: usize = 2;
 
 #[rustfmt::skip]
-pub const fn get_default_keymap() -> [[[KeyAction; COL]; ROW]; NUM_LAYER] {
+pub const fn get_default_keymap() -> [[[KeyAction; COLUMNS]; ROWS]; LAYERS] {
     [
         layer!([
             [k!(Left), k!(Down), k!(Right)],

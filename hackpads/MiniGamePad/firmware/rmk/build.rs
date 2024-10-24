@@ -56,7 +56,6 @@ fn main() {
     println!("cargo:rustc-link-arg=-Tdefmt.x");
 }
 
-
 fn generate_vial_config() {
     // Generated vial config file
     let out_file = Path::new(&env::var_os("OUT_DIR").unwrap()).join("config_generated.rs");

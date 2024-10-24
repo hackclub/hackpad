@@ -1,4 +1,4 @@
-# GamePad
+# MinigamePad
 
 # BOM:
 - 8x Gateron Milky Yellows Cherry MX Switches
@@ -22,7 +22,7 @@ Ideally:
 - `Volume Knob` would be a dark blue (Prusament: Pearl/Navy Blue)
 - `Keycap plate` would be frosted (if not transparent)
 - `M3 screws` would be hex head screws
-- `OLED screen` would have a white screen, and if not then blue
+- `OLED screen` would have a white screen
 - `PCB` would be blue
 
 # Notes:
