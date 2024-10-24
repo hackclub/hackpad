@@ -8,6 +8,10 @@ Bill of Materials
 * 1x SSD1306 128x64 0.96in 4-pin OLED 
 * 1x EC11 rotary encoder 
 
+#Note
+This has been a side project I've been doing in school and it was really interesting and made me learn a lot about CAD designing 
+and also how to structure the pcb, it looks pretty simple since I am a beginner, apologies. 
+
 This hackpad will include the following keys: 
 
 CtrlV
