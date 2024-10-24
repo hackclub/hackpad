@@ -12,5 +12,4 @@
 
 
 ## Additional Notes
-- If possible, please print the case in black and the pcb white
-- tysmm
+- If possible, please print the case in black and the pcb purple, tysmm
