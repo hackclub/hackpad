@@ -1,15 +1,3 @@
-// #![no_std]
-// #![no_main]
-
-
-// mod vial;
-
-// use rmk::macros::rmk_keyboard;
-// use vial::{VIAL_KEYBOARD_DEF, VIAL_KEYBOARD_ID};
-
-// #[rmk_keyboard]
-// mod keyboard {}
-
 #![no_main]
 #![no_std]
 
@@ -25,10 +13,11 @@ use embassy_executor::Spawner;
 use embassy_rp::{
     bind_interrupts,
     flash::{Async, Flash},
-    gpio::{AnyPin, Input, Output},
-    peripherals::USB,
+    gpio::{AnyPin, Input, Output, Pull},
+    peripherals::{FLASH, USB},
     usb::{Driver, InterruptHandler},
 };
+use keymap::{COLUMNS, LAYERS, ROWS};
 // use embassy_rp::flash::Blocking;
 use panic_probe as _;
 use rmk::{
