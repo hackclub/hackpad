@@ -33,8 +33,8 @@ The Hexapad uses the following parts:
 - **3x** [5mm THT NeoPixels](https://www.adafruit.com/product/1938)
 - **1x** 0.91in OLED SSD1306 display
 - **1x** EC11 rotary encoder
-- **1x** 3D printed Hexapad case
-- **1x** 3D printed Hexapad plate
+- **1x** 3D printed Hexapad case (preferably orange)
+- **1x** 3D printed Hexapad plate (preferably orange)
 - **4x** M4x0.7mm screws (25mm length)
 - **4x** M4x0.7mm nuts (2mm to 6mm height, 6mm-7mm width)
 - **16x** Cherry MX compatible keycaps
