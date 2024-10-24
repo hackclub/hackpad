@@ -13,6 +13,6 @@ My custom HackPad to act as my Up Down Left and Right keys for when i'm using my
 | Bourns-PEC11R-4220F-S0024-0-0-0  | 1 |
 | M2.5 X 13mm Long, Phillips Pan Head, Stainless Steel Machine Screw | 4 |
 |M2.0 Hex Nuts| 4 |
-|PCB (Purple)| 1 |
-| Top (Acrylic) if possible | Frosted |
-| Bottom (3d Print) | Black |
+
+
+
