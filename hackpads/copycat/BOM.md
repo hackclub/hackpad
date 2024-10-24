@@ -13,3 +13,4 @@
 
 ## Additional Notes
 - If possible, please print the case in black and the pcb purple, tysmm
+- idk if i did everything right pls check
