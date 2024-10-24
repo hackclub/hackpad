@@ -1,0 +1,37 @@
+import busio
+import board
+from kmk.kmk_keyboard import KMKKeyboard
+from kmk.keys import KC
+from kmk.scanners import DiodeOrientation
+from kmk.extensions.media_keys import MediaKeys
+from kmk.modules.encoder import EncoderHandler
+from kmk.extensions.display import Display, TextEntry
+from kmk.extensions.display.ssd1306 import SSD1306
+keyboard = KMKKeyboard()
+
+keyA = board.GP2
+
+keyB = board.GP1
+
+keyC = board.GP0
+
+
+
+
+# display  
+i2c = busio.I2C(board.GP_SCL, board.GP_SDA)
+# Matrix settings: define rows, columns, and diode orientation
+
+driver = SSD1306(i2c=i2c, device_address=0x3C)
+display = Display(
+    display=driver,
+    width=128,
+    height=64,
+    brightness=1,
+    entries=[
+        TextEntry(text="Kyze", x=0, y=0, y_anchor='K'),
+        TextEntry(text="*## Hello ##", x=15, y=15, y_anchor='r'),
+    ]
+)
+if _name_ == '_main_':
+    keyboard.go()
