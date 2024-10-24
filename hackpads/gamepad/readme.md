@@ -1,23 +1,12 @@
-# The Gamepad
-###### @Barxilly (Slack)
-Basically it's going to be a macropad with some minigames on, via the OLED. (The games won't be done until I get the hardware because debugging, but I'll probably post the final product on Slack)
+# Presentation of the GamePad
 
-## BOM
-### PCB
-- 1 Xiao RP2040
-- 15 MX Switches
-- 15 1N4148 Diodes
-- 1 SSD1306 OLED Display
+![3D render of the GamePad](render.png?raw=true "The GamePad, 3D render")
 
-### Other
-- 15 Keycaps
-- 1 Laser Cut Case
-- 4 15mm M2 screws
+I wanted to make this macropad because I have a small desk, with a pretty large 100% keyboard, so making this Hackpad will allow me to play games or use softwares with a much smaller minimalist keyboard in order to have more room to move the mouse, and to be able to access almost every important keys without having to move my hand too much. It was also a good opportunity to learn PCB desing and 3D modeling, which I had a lot of fun with.
 
-## PCB
-### ![PCB](https://github.com/barxilly/hackpad/blob/main/hackpads/gamepad/imagesforreadme/pcb.png?raw=true)
-My first PCB, so be nice lol. I've basically done everything here solely for aestethics, I'm sure there's smarter ways to go about it...
+# BOM | GamePad
 
-## Case
-### ![Case](https://github.com/barxilly/hackpad/blob/main/hackpads/gamepad/imagesforreadme/case.png?raw=true)
-Also my first 3D model :p  It's okay for a start, might make a few more cases for it in the future for fun. Yes I discovered the tool that rounds the edges and I **had** to use it. 
+- 20x 1N4148 Diodes
+- 20x MX Switches (Gateron Milky Yellows)
+- 20x keycaps (if possible, 9 red + 11 white)
+- 1x Seeed XIAO RP2040 MCU
