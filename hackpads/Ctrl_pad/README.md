@@ -1,5 +1,4 @@
 ![Ctrl_pad_img](https://github.com/user-attachments/assets/836ae5a9-e44c-481e-95a0-891602f4a99e)
-
 # Ctrl_pad
 A 3x3 macropad with an encoder and OLED display. Powered by [QMK](https://github.com/qmk/qmk_firmware).
 
@@ -30,9 +29,7 @@ PCB in black, case is all white, plate in transparent acrylic
 
 # Ctrl_pad
 A macropad with 5 keys, an encoder and an 0.96" OLED display. It runs on QMK, hopes and dreams.
-
 ![Ctrl_pad_img](https://github.com/user-attachments/assets/ea17dad7-33b1-479b-87f6-5eb0091830cb)
-
 It looks (approximately) like this. 
 
 ### Inspirations
