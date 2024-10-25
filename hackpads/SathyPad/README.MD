@@ -8,6 +8,7 @@ This MacoPad has helped me learn PCB design and I will be using it for literally
 ### PCB:
 
 Please use a **black** solder mask and **white** silkscreen!
+I can solder myself and save Alex the work!
 
 **Components:**
 
