@@ -9,9 +9,13 @@ being done super late with the likelihood that it won't be accepted at all in th
 
 # Bill of Materials
 
+I'd prefer if the case was printed in black filament if available, with the plate using acrylic (also if available).
+
 | Qty | Name                                        |
 | --- | ------------------------------------------- |
 | 10  | 1N4148 diodes                               |
-| 1   | EC11 rotary encoder **+ knob**              |
 | 9   | Cherry MX switches (Gateron Milky Yellows?) |
+| 1   | 128x32 I2C OLED screen                      |
+| 1   | EC11 rotary encoder **+ knob**              |
 | 1   | PCB (any color, preferably white)           |
+| 1   | Seeed Studio XIAO RP2040                    |
