@@ -5,6 +5,7 @@ Bill of Materials:
 - 10 Diodes
 - 2 4.7K thru-hole resistors
 - 1x Rotary Encoder
+- 1x Rotary Encoder Cap
 - 1x 0.91 OLED Display
 - 4 heatset inserts
 - 2 M3 16mm screws
