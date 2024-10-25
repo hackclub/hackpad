@@ -1,0 +1,35 @@
+[package]
+name = "gamepad-lib"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+
+embedded-hal.workspace = true
+embedded-hal-async.workspace = true
+
+embassy-sync.workspace = true
+embassy-time.workspace = true
+embassy-futures.workspace = true
+
+static_cell.workspace = true
+cfg-if.workspace = true
+
+defmt.workspace = true
+
+bon.workspace = true
+
+# rotary-encoder-hal.workspace = true
+
+[features]
+
+esp32c3 = [
+#   "esp-wifi/esp32c3",
+#   "esp-hal/esp32c3",
+#   "esp-println/esp32c3",
+#   "esp-hal-embassy/esp32c3",
+#   "esp-backtrace/esp32c3",
+#   "common/esp32c3",
+]
