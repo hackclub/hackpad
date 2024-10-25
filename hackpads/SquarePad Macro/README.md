@@ -17,3 +17,5 @@ The aim of this macropad is to have it on the side for quick binds. I hope I can
 Huge thanks to the other people in the repository. I probably would've not figured out how to do it without references and/or help from Slack.
 Also kudos to Hack Club for this crazy opportunity. :D
 ### Kudos to ScottoKeebs(https://github.com/joe-scotto/scottokeebs) for the library that saved my project
+
+# proud cat and dog parent :3
