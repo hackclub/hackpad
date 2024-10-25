@@ -7,6 +7,7 @@ This is my first time working on any hardware-ish stuff. This took me way longer
 - 16x Gateron Milky Yellow Switches (or any other switch)
 - 16x Through-hole 1N4148 Diodes
 - 16x Slow Fading RGB LEDs (234-RGB-Slow at https://www.aliexpress.com/item/1005005310058942.html) (3.0-3.4V, 20mA)
+- 16x 15 Ohm Resistors (for the LEDs)
 - 1x Bottom of the Case 3D Printed in Yellow Filament (if available or just the closest available color)
 - 1x Top of the Case 3D Printed in Yellow Filament (if available or just the closest available color)
 - 4x 3D Printed Screws in Black Filament (if available or just the closest available color)
