@@ -1,0 +1,6 @@
+#define WS2812_DI_PIN GP3
+#define RGBLIGHT_LED_COUNT 4
+
+#define ENCODER_A_PINS { GP6 }
+#define ENCODER_B_PINS { GP7 }
+#define ENCODER_RESOLUTION 4
