@@ -1,4 +1,4 @@
-# Hackpad
+w# Hackpad
 
 https://hackpad.hackclub.com/ <- website is live! This is probably a better place to start
 
