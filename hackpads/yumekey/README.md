@@ -9,7 +9,7 @@ being done super late with the likelihood that it won't be accepted at all in th
 
 # Bill of Materials
 
-I'd prefer if the case was printed in black filament if available, with the plate using acrylic (also if available).
+I'd prefer if the case was printed in black filament if available.
 
 | Qty | Name                                        |
 | --- | ------------------------------------------- |
