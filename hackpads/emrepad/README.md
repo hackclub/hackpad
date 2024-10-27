@@ -10,6 +10,7 @@
 16x Gateron Milky Yellows
 1x EC11 Rotary encoders
 16x Blank DSA keycaps
+4x M2 screws
 
 ## Case
 - 1x Outside Case
