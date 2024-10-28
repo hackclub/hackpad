@@ -1,4 +1,4 @@
-# My pad - Nathan Tsai
+# My pad
 It took me longer than it should to create this
 
 # BOM
