@@ -5,13 +5,14 @@
 
 # BOM:
 Electronic parts :
-- 12x Cherry MX Brown RGB
-- 2x EC11 Encoder
-
+- 12x Cherry MX Brown RGB Switches
 - 12x MX Style Kailh Hotswap sockets
+- 2x EC11 Encoders
 
+- 2x 0603 4k7 SMD Resistors
 - 1x 0603 10k SMD Resistor
 - 14x 0603 SMD Diodes
+- 18x 0603 100nF SMD Capacitors
 
 - 4x WS2812B SMD LEDs
 - 12x SK6812-E reverse mount SMD LEDs
