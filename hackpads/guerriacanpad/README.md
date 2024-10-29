@@ -8,6 +8,8 @@ Electronic parts :
 - 12x Cherry MX Brown RGB
 - 2x EC11 Encoder
 
+- 12x MX Style Kailh Hotswap sockets
+
 - 1x 0603 10k SMD Resistor
 - 14x 0603 SMD Diodes
 
