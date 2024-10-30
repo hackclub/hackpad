@@ -1,0 +1,3 @@
+#define ENCODER_A_PINS { GP26, GP3 }
+
+#define ENCODER_RESOLUTION 4
