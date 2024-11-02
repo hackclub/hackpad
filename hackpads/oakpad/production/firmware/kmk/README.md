@@ -1,1 +1,0 @@
-`kmk/` subfolder from `https://github.com/KMKfw/kmk_firmware` goes here

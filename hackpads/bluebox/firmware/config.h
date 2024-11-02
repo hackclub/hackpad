@@ -1,1 +1,0 @@
-#define OLED_DISPLAY_128x64

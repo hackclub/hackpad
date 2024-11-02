@@ -1,3 +1,0 @@
-VIA_ENABLE = yes
-VIAL_ENABLE = yes
-WS2812_DRIVER = vendor

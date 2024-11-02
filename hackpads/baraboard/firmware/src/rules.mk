@@ -1,5 +1,0 @@
-RGB_MATRIX_DRIVER = ws2812
-
-# Encoder settings
-ENCODER_ENABLE = yes
-ENCODER_MAP_ENABLE = yes
