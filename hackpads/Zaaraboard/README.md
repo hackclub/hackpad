@@ -3,8 +3,10 @@ My Minecraft Keyboard
 Also do my keycaps need some space to move or is it good
 
 # BOM:
-- 16x Cherry MX switches
-- 1x EC11 Encoder
-- 1x PCB
-- 16x Through-hole 1N4148 Diodes
-- 1x seeed XIAO RP2040 Microcontroller
+  - 6x MX Cherry Switches
+  - 1x Seeed XIAO RP2040
+  - 1x PCB
+  - MX Cherry Keycaps (preferable white or black)
+  - 3D Printed Case; Bottom Middle Top plate
+
+This is a resubmision
