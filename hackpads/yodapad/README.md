@@ -9,3 +9,4 @@ This Yoda pad is designed to compile all the keyboard shortcuts that I usually u
 - 9x 1N4148 Diodes
 - 1x PCB
 - 1x Case
+*I will be soldering everything myself!
