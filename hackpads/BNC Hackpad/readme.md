@@ -1,7 +1,5 @@
 # macropad
 
-![macropad](imgur.com image replace me!)
-
 *This is my first hackpad that I have ever created!*
 
 * Keyboard Maintainer: [Evan Cooper](https://github.com/BuildNCode1)
