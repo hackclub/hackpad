@@ -1,6 +1,6 @@
 # Hackpad
 
-https://hackpad.hackclub.com/ <- website is live! this is probably a better place to start
+https://hackpad.hackclub.com/ <- website is live! This is probably a better place to start
 
 ## Overview
 This is a limited-time introductory YSWS (you ship, we ship) where *you* design your own macropad, and we'll ship it to you for free! This is something you definitely don't want to miss out, so make sure to join #hackpad in the slack!
@@ -17,7 +17,7 @@ This is a limited-time introductory YSWS (you ship, we ship) where *you* design 
 - Switches! Choices TBD, but you'll have a great selection
 - Other components you may need, such as LEDs, diodes, knobs, OLED screens, and more!
 - Your case! You can either have it 3D printed, laser cut in acrylic, or both.
-- A grab bag of DSA keycaps, and a custom Hack Club keycap too
+- A grab bag of DSA keycaps, and a custom Hack Club keycap too.
 
 
 You can get the macropads soldered if you don't have a soldering iron, or we can send you the parts directly if you're up for a soldering task. The only catch is that if you want it to be soldered, you *must* use through-hole components only!

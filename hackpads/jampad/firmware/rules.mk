@@ -1,0 +1,8 @@
+OLED_ENABLE = yes
+OLED_DRIVER = ssd1306
+OLED_TRANSPORT = i2c
+
+ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
+# required for rp2040
+LTO_ENABLE = yes
