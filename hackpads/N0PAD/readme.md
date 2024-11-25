@@ -5,8 +5,8 @@
 - 1x Seeed XIAO RP2040 (obviously)
 - 14x Cherry MX switches
 - 3x PCB
-- 14x Diodes
+- 15x Diodes
 - 14x Keycaps
 - 1x 3D Printed case
-- 4x Screws for said case
+- 4x Screws
 - 1x EC11 rotary encoder
