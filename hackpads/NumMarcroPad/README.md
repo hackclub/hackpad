@@ -12,8 +12,6 @@ Fabrication files are in PCB Fab and 3D models. The assembly stl and step should
 | WS2812b LED | 10 |
 | Keycaps | 15 |
 | Knob | 1 |
-| Clear Acrylic (for bottom and middle plates) | 2 |
-| Frosted Acrylic (for top plate) | 1 |
+| Acrylic (for top and bottom plates) | 2 |
 | Black PLA for Middle 3DP | 1 |
-| White PLA for Top 3DP | 1 |
 | PCB | 1 |
