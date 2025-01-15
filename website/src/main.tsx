@@ -8,12 +8,16 @@ import ApprovedParts from "./pages/ApprovedParts.mdx";
 import Faq from "./pages/Faq.mdx";
 import Braindump from "./pages/Braindump.mdx"
 import Resources from "./pages/Resources.mdx"
-import OrpheusPad from "./pages/OrpheusPad.mdx"
 import ResearchNote from "./pages/ResearchNote.mdx"
+import GetKeycap from "./pages/GetKeycap.mdx"
 
 import DocPage from "./layouts/DocPage.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+
+
+// IMPORT YOUR PROJECTS HERE
+import OrpheusPad from "./pages/submissions/OrpheusPad.mdx"
 
 const router = createBrowserRouter([
   {
@@ -51,7 +55,13 @@ const router = createBrowserRouter([
     element: <DocPage Content={ ResearchNote } />,
   },
   {
-    path: "/projects/demopage",
+    path: "/get-keycaps",
+    element: <DocPage Content={ GetKeycap } />,
+  },
+
+  // Submitting? Great! Do something like this:
+  {
+    path: "/projects/orpheuspad",
     element: <DocPage Content={ OrpheusPad } />
   }
 ]);
