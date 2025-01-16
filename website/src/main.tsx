@@ -18,6 +18,7 @@ import "./index.css";
 
 // IMPORT YOUR PROJECTS HERE
 import OrpheusPad from "./pages/submissions/OrpheusPad.mdx"
+import NumMacroPad from "./pages/submissions/NumMacroPad.mdx"
 
 const router = createBrowserRouter([
   {
