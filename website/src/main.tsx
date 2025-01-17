@@ -17,8 +17,10 @@ import "./index.css";
 
 
 // IMPORT YOUR PROJECTS HERE
-import OrpheusPad from "./pages/submissions/OrpheusPad.mdx"
+
+import OrpheusPad from "./pages/submissions/OrpheusPad/OrpheusPad.mdx"
 import NumMacroPad from "./pages/submissions/NumMacroPad.mdx"
+import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
 
 const router = createBrowserRouter([
   {
@@ -56,7 +58,7 @@ const router = createBrowserRouter([
     element: <DocPage Content={ ResearchNote } />,
   },
   {
-    path: "/get-keycaps",
+    path: "/get-keycap",
     element: <DocPage Content={ GetKeycap } />,
   },
 
@@ -64,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/projects/orpheuspad",
     element: <DocPage Content={ OrpheusPad } />
+  },
+  {
+    path: "/projects/cyaopad",
+    element: <DocPage Content={ CyaoPad } />
   }
 ]);
 
