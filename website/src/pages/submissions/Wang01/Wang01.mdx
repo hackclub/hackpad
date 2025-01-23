@@ -1,0 +1,52 @@
+import schemantic from './wang01_sch.png';
+import pcb from './wang01_pcb.png';
+import cad from './wang01_cad.png';
+
+
+# Wang01
+
+The Wang01 is a 16 key macropad with rotary encoder.
+
+## Overview:
+- PLA plastic 3D printed case
+- EC11 Rotary encoder
+- 4 keys
+
+## CAD Model
+The macropad fits together using 4 M3 bolts and heatset inserts.
+It was made using OnShape!
+
+<img src={cad} alt="picture of case" width="500"/>
+
+## PCB:
+Here is the PCB. It was made with love using KiCad! A silkscreen was made using Figma.
+
+<img src={schemantic} alt="picture of schemantic" width="500"/>
+
+<img src={pcb} alt="picture of pcb" width="500"/>
+
+## Firmware:
+The firmware was entirely built using [QMK](https://qmk.fm/).
+
+- the rotary encoder allows user to scroll down a page
+- the 16 keys are a numpad with a decimal key, four functions keys, and an enter key
+- nothing happens when you press the rotary encoder yet
+
+## BOM:
+Everything you need!
+
+- 16x Gateron Milky Yellow Switches
+- 16x DSA Keycaps
+- 4x M3x16mm SHCS bolts
+- 16x 1N4148 DO-35 Diodes
+- 1x EC11 Rotary encoder
+- 1x Xiao RP2040
+- 1x 3D printed case
+- 1x PCB
+
+## Fun facts
+
+- the firmware worked as expected the first time (yesssss)
+- the hole for the USB-C cable was lined up (yesssss)
+- the case was slightly too short and the lid is not flush (noooooo)
+- the holes for the heatsets were too small (nooooo)
