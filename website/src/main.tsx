@@ -18,6 +18,8 @@ import "./index.css";
 
 // IMPORT YOUR PROJECTS HERE
 import OrpheusPad from "./pages/submissions/Orpheuspad/OrpheusPad.mdx"
+import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
+import Wang01 from "./pages/submissions/Wang01/Wang01.mdx"
 
 const router = createBrowserRouter([
   {
@@ -63,6 +65,14 @@ const router = createBrowserRouter([
   {
     path: "/projects/orpheuspad",
     element: <DocPage Content={ OrpheusPad } />
+  },
+  {
+    path: "/projects/cyaopad",
+    element: <DocPage Content={ CyaoPad } />
+  },
+  {
+    path: "/projects/wang01",
+    element: <DocPage Content={ Wang01 } />
   }
 ]);
 

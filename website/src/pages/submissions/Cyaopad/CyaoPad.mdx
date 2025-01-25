@@ -1,0 +1,56 @@
+import schematicImage from './schematic.png';
+import pcbImage from './pcb.png';
+import cadImage from './cad.png';
+
+# Cyaopad
+
+Cyaopad is a 16 key macropad with an OLED Display. It also has 4 WS2812B Leds, and uses KMK firmware
+
+It am using it to test my EE knowledge
+
+## Features:
+- 128x32 OLED Display
+- 4 WS2812B RGB LEDs. 
+- 16 keys controlling the mouse
+- choc keys
+
+## CAD Model:
+Everything fits together using 4 M3 Bolts
+
+It has 2 separate printed pieces. The base where the PCB sits, and the top cover.
+
+<img src={cadImage} alt="Schematic" width="500"/>
+
+Made in Fusion360. Nifty
+
+
+## PCB
+Here's my PCB! It was made in KiCad. The silkscreen was imported from a google image.
+
+PCB
+<img src={pcbImage} alt="Schematic" width="300"/>
+<img src={schematicImage} alt="Schematic" width="300"/>
+
+I used MX_V2 for the keyswitch footprints. I think in retrospect, I should've added a ground plane
+
+## Firmware Overview
+This hackpad uses kmk firmware for everything. 
+
+I might add more in the future! That's it for now
+
+## BOM:
+Here should be everything you need to make this hackpad
+
+- 1 SEEEDUINO XIAO RP2040
+- 16x [Kailh Choc V2 switches](https://www.kailh.net/products/kailh-choc-v2-low-profile-switch-set)
+- 16x 1N4148 diodes
+- 1x SSD1306 128x64O LED (5V VCC, 3.3V logic, I2C)
+- 4x [SK6812-MINI-E LED](https://www.adafruit.com/product/4960)
+- 2x 4.7k resistor
+- 4x 0.1 uF capacitor (code 104, not obligatory but best have)
+- 1x 1 uF capacitor (105 not obligatory)
+- 4x same screws as orpheuspad and corresponding nuts
+- 1kg of 99.99% gold please UwU
+
+## Extra stuff
+Wrote dis with my pad UwU
