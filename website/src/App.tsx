@@ -125,7 +125,7 @@ export default function App() {
               <div>
                 <ul className="list-disc max-w-96 space-y-2 pb-2">
                   <li>
-                    The overall design uses 20 or less inputs/switches. This
+                    The overall design uses 16 or less inputs/switches. This
                     includes rotary encoders!
                   </li>
 
