@@ -17,6 +17,9 @@ export default function App() {
             <div className="bg-green-400 inline-block py-2 px-4 mb-8 rounded-sm">
               <h1 className="text-5xl sm:text-6xl font-bold">HACKPAD</h1>
             </div>
+            <div className="border-4 border-dashed border-black bg-green-200 px-2 rounded-sm absolute -rotate-12 text-4xl ml-56 mt-16">
+              v2!
+            </div>              
           </div>
           <img
             src="orpheuspadpic.png"
