@@ -14,9 +14,12 @@ export default function App() {
       <div className="flex justify-center text-center">
         <div className="mt-16 text-slate-950 mx-8 md:max-w-6xl font-mono">
           <div className="flex justify-center items-center align-middle">
-            <div className="bg-green-400 inline-block py-2 px-4 mb-8 rounded-sm">
+            <div className="bg-green-400 border-dashed inline-block py-2 px-4 mb-8 rounded-sm">
               <h1 className="text-5xl sm:text-6xl font-bold">HACKPAD</h1>
             </div>
+            <div className="border-4 border-dashed border-black bg-green-200 px-2 rounded-sm absolute -rotate-12 text-4xl ml-56 mt-16">
+              v2!
+            </div>              
           </div>
           <img
             src="orpheuspadpic.png"
