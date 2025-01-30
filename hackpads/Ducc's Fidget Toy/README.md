@@ -22,7 +22,7 @@ BOM:
 - 4x M3 Heatset
 
 Others:
-- QMK Firmware
+- KMK Firmware
 - Top Case.stl 
 - Bottom Case.stl
 
