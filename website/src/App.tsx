@@ -70,7 +70,7 @@ export default function App() {
               learn how to make your own macropad, and then we ship{" "}
               <b className="font-bold">your</b> design to you! Join{" "}
               <a>#hackpad</a> in the slack to stay up to date and see what other
-              people are working on! Ends February 16st.
+              people are working on! Ends February 16th.
             </p>
             <br></br>
             <p>
