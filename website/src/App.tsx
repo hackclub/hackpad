@@ -70,7 +70,7 @@ export default function App() {
               learn how to make your own macropad, and then we ship{" "}
               <b className="font-bold">your</b> design to you! Join{" "}
               <a>#hackpad</a> in the slack to stay up to date and see what other
-              people are working on! Ends October 21st.
+              people are working on! Ends February 16st.
             </p>
             <br></br>
             <p>
@@ -148,6 +148,12 @@ export default function App() {
                 </ul>
               </div>
             </div>
+          </div>
+          <div>
+            <h2 className="text-xl py-3">What's new in V2?</h2>
+            <p>
+              After making a macropad and verifying it works, you'll get to make an entire  {" "} <b>keyboard</b> after. Check the <a href="/faq">docs</a> to find out more!
+            </p>
           </div>
         </div>
       </div>

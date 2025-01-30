@@ -14,7 +14,7 @@ const SideBarKeyboard = () => {
             </a>
           </li>
           <li>
-            <a href="/guide" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-800 hover:text-red-700">
+            <a href="/guide" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-400 hover:text-red-500">
               Back to macropads
             </a>
           </li>

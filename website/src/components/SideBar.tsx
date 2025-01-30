@@ -34,7 +34,7 @@ const SideBar = () => {
             </a>
           </li>
           <li>
-            <a href="/keyboard" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-800 hover:text-red-700">
+            <a href="/keyboard" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-400 hover:text-red-500">
               Make a keyboard
             </a>
           </li>
