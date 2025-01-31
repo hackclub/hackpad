@@ -1,0 +1,13 @@
+# Hyprpad
+
+### Why did I make it?
+As a hyprland user, I really needed a quick way to switch between windows without having to press those stupid shortcuts! So, I designed HyprPad.
+
+### What was the hardest part about this ?
+I had tons of issues with Ki-cad libraries and my files. I accidently lost all of my PCB files for KiCAD and that is why this project directory has the weird filenames.
+
+ ## Bill of Materials
+ - 4x M3 16mm screws 
+ - 1x Seeed XIAO RP2040
+ - 5x MX-Style switches
+ - 5x Blank DSA keycaps (Either Blue or Red)
