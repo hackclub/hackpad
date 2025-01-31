@@ -16,3 +16,9 @@ I added some solder points to the PCB that would allow me to connect WS2812b tap
 2. MAGNETS!!! \
 The case has points to glue 6x2mm magnets in for snap on customization.
 These will include bezels that also show what the encoder dose, and stands that can interlock with the diamond pattern on the bottom for more rigidity than magnets alone could offer.
+
+## Other Things I Did For Hackpad
+Merge DXFs for laser cutting \
+At the cost of AutoCAD borking my laptop no less than 6 times all the valid DXFs for the lasercut acrlyic plates we placed in one file. \
+![All The Plates](Add screenshoot from AutoCAD) \
+Just claiming a little bit of credit :)
