@@ -9,6 +9,6 @@ I had tons of issues with Ki-cad libraries and my files. I accidently lost all o
  ## Bill of Materials
  - 4x M3 16mm screws 
  - 1x Seeed XIAO RP2040
- - 5x MX-Style switches
+ - 5x MX-Style switches (Blue)
  - 5x Blank DSA keycaps (Either Blue or Red)
  - Case (all black or a mix of Black and White)
