@@ -1,6 +1,6 @@
 {
     "manufacturer": "Josh",
-    "keyboard_name": "grasspad",
+    "keyboard_name": "grasspads",
     "maintainer": "IM-THE-GRASS",
     "bootloader": "rp2040",
     "diode_direction": "ROW2COL",
@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP11", "GP3", "GP4", "GP7"],
-        "rows": ["GP8", "GP9", "GP10"]
+        "cols": ["GP3", "GP29", "GP0", "GP28"],
+        "rows": ["GP1", "GP2", "GP4"]
     },
     "processor": "RP2040",
     "url": "",
@@ -24,20 +24,20 @@
         "vid": "0xFEED"
     },
     "layouts": {
-        "LAYOUT": {
+        "LAYOUT_ortho_4x4": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
                 {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
                 {"matrix": [1, 0], "x": 0, "y": 1},
                 {"matrix": [1, 1], "x": 1, "y": 1},
                 {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [1, 3], "x": 3, "y": 1},
                 {"matrix": [2, 0], "x": 0, "y": 2},
                 {"matrix": [2, 1], "x": 1, "y": 2},
                 {"matrix": [2, 2], "x": 2, "y": 2},
-                {"matrix": [3, 0], "x": 0, "y": 3},
-                {"matrix": [3, 1], "x": 1, "y": 3},
-                {"matrix": [3, 2], "x": 2, "y": 3}
+                {"matrix": [2, 3], "x": 3, "y": 2}
             ]
         }
     }
