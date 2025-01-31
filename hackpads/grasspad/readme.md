@@ -8,9 +8,11 @@ I didn't have enough time to make the firmware because i had to study for a math
 The case is also quite crude with the fitting of the usbc and how it works but I will fix it in later revisions since I have my own 3D printer
 
 
-# Bill of materials
-1x SSD1306 OLED display
-1x Seeed Studio XIAO RP2040
-12x Cherry MX Switches
-12x 1N4148W diodes
-1x EC11 Encoder
+# BOM:
+- 1x SSD1306 OLED display
+- 1x Seeed Studio XIAO RP2040
+- 12x Cherry MX Switches
+- 12x 1N4148W diodes
+- 1x EC11 Encoder
+
+![imagge of the PAD](image.png)
