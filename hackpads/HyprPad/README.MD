@@ -1,5 +1,5 @@
 # Hyprpad
-
+![image](https://cloud-9f5crfwfl-hack-club-bot.vercel.app/0image.png)
 ### Why did I make it?
 As a hyprland user, I really needed a quick way to switch between windows without having to press those stupid shortcuts! So, I designed HyprPad.
 
