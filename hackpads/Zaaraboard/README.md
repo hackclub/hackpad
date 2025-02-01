@@ -2,6 +2,10 @@
 My Minecraft Keyboard
 Also do my keycaps need some space to move or is it good
 
+
+THE CAD NAMED "MINEPAD SHOULD BE PRINTED NOT THE OTHER" 
+(other one was just to test the fitting of pieces)
+
 # BOM:
   - 6x MX Cherry Switches
   - 1x Seeed XIAO RP2040
