@@ -8,5 +8,7 @@ Also do my keycaps need some space to move or is it good
   - 1x PCB
   - MX Cherry Keycaps (preferable white or black)
   - 3D Printed Case; Bottom Middle Top plate
+  - Top plate printed in green
+  - Bottom case 
 
 This is a resubmision
