@@ -9,6 +9,6 @@ Also do my keycaps need some space to move or is it good
   - MX Cherry Keycaps (preferable white or black)
   - 3D Printed Case; Bottom Middle Top plate
   - Top plate printed in green
-  - Bottom case 
+  - Bottom case in brown
 
 This is a resubmision
