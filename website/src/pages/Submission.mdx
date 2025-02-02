@@ -77,19 +77,25 @@ You can put absolutely *anything* on it, as it's your page, but there are a few 
 Every hackpad submission's page will be published on the main hackpad website, so make sure to go submit!
 
 ## Make a PR 
-First, double check your submission against the [Orpheuspad](https://github.com/hackclub/hackpad/tree/main/hackpads/orpheuspad) example to make sure you have the correct structure. Everything should match exactly, except for the filenames.
+First, double check your submission against the [Duccs Fidget Toy](https://github.com/hackclub/hackpad/tree/main/hackpads/Duccs%20Fidget%20Toy) example to make sure you have the correct structure. Everything should match exactly, except for the filenames.
 
 An example folder system will look as such: 
 ```
-OrpheusPad
+Duccs Fidget Toy
 |-> README.md
 |-> PCB
-|      -> gerbers.zip
+|      -> kicad.sch
+|      -> kicad.pcb
 |-> Case
-|      -> case top.stl
-|      -> case bottom.stl
+|      -> Duccpad.step
 |-> Firmware
-|      -> firmware.uf2
+|      -> firmware.py
+|-> Production
+|      -> gerbers.zip
+|      -> bottomcase.stl
+|      -> topcase.stl
+|      -> Firmware
+|            -> kmk.py
 ```
 If anything is unclear, make sure to ask in #hackpad!
 
