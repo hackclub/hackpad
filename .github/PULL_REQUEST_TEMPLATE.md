@@ -3,7 +3,6 @@ Ready to submit your project? Nice job! Hopefully you've read the [submission gu
 Check off the following to let the reviewers know you've done everything:
 [] I HAVE RAN DRC ON MY DESIGN WITH ZERO ERRORS (Silkscreen errors are okay)
 [] I HAVE GENERATED DRILL FILES IN MY GERBER.ZIP FILE
-[] I ADDED TOLERANCES (0.25mm on each side)
 [] I HAVE BRANDED ALL MY PARTS (PCB, CASE) WITH MY HACKPAD'S NAME
 [] I HAVE MADE SURE MY 3D PRINTED PARTS DO NOT REQUIRE SUPPORTS (Text branding overhang is okay)
 [] I HAVE INCLUDED A SCREENSHOT OF ALL THE PARTS (PCB, CASE) FIT TOGETHER (in the readme.md)
