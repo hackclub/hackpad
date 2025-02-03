@@ -28,6 +28,8 @@ BOM:
 3x PCB (Black & Gold)
 4x Through-hole 1N4148 Diodes
 6x WS2812B LEDs
+1x 0.96 OLED
+3x Resistors 10k Ohm
 6x Blank DSA Keycaps BLACK (2 as Backups)
 4x M3x16 Bolt
 4x M3 Heatset
