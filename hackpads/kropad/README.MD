@@ -11,6 +11,12 @@ It was quite the challenge to design but I feel like I've learned alot from the 
  - 4x M3x16mm screws
  - 4x M3 hex nuts
  - 1x Seeed Studio XIAO RP2040
+
+# Colors
+Just in case you need it: <br>
+Base - Black<br>
+Plate - Red<br>
+Keycaps - Black<br>
 <br>
 <br>
 Here's a screenshot showing that the pcb does fit inside the case:<br>
