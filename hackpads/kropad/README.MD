@@ -14,4 +14,4 @@ It was quite the challenge to design but I feel like I've learned alot from the 
 <br>
 <br>
 Here's a screenshot showing that the pcb does fit inside the case:<br>
-![fits](fits.png)
+![fits](https://raw.githubusercontent.com/m5kro/hackpad/refs/heads/main/hackpads/kropad/fits.png)
