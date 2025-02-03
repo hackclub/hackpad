@@ -11,6 +11,7 @@ It was quite the challenge to design but I feel like I've learned alot from the 
  - 4x M3x16mm screws
  - 4x M3 hex nuts
  - 1x Seeed Studio XIAO RP2040
+ - 1x kropad PCB
 
 # Colors
 Just in case you need it: <br>
