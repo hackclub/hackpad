@@ -1,0 +1,168 @@
+# Make your own Hackpad! 
+
+Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial, we're going to make a 4-key macropad as an example. For a full submission, you will have to edit it to be your own (add an extra key?? a knob?? new case? up to you!)
+
+**Read over the [FAQ](/faq) first so that you have an idea of what you're working with!**
+
+This process is going to be broken into 3 parts, each with its own sub-parts:
+- PCB Design
+  - Drawing the schematic
+  - Routing the PCB
+  - Defining the edges
+- Case Design
+  - Creating the bottom
+  - Creating the top
+  - Finishing touches
+- Firmware
+  - Code!
+
+
+If you're unsure about anything, send a message in #hackpad! We have so many eager people to help. 
+
+There's also [this](/resources) giant wall of resources to reference!
+
+Lets start with:
+
+## Designing your PCB
+
+For this guide we're going to be using [KiCad](https://www.kicad.org/), which is an open source PCB designer tool.   
+To start, we're going to have to import the necessary footprints. For this guide, download this footprint:
+- [XIAO RP2040 footprint](https://wiki.seeedstudio.com/XIAO-RP2040/) 
+
+There are many tutorials on how to install footprints! Google is your best friend here :)
+
+
+### Drawing the Schematic
+
+Start by opening up KiCad, a window will pop up, create a new project then click on the "Schematic Editor" button:
+
+<img src="/docs/v2/schematicbutton.png" className="max-w-96" />
+
+This should open up a new window with your schematic editor! Once you're in, press the A key on your keyboard. This should open up a menu where you can add components. Search for the following to add them:
+- Seeed XIAO RP2040
+- SW_Push (This will be our keyboard switch! Copy and paste this 4 times)
+- SK6812 MINI LED (I will be using 2 of these!)
+
+Start by placing these components down, they don't have to be in any order, but placing them close to eachother allows for more tidyness. 
+
+<img src="/docs/v2/placedcomponents.png" className="max-w-96" />
+
+Now, press the W key to start wiring! Again, this is just a guide and you should do this to add your own pizzazz in it! After wiring, I'm left with something like this: 
+
+<img src="/docs/v2/wiredcomponents.png" className="max-w-96" />
+
+Next, lets assign footprints. Press this button in the top naviagation bar to assign footprints to your components.
+
+<img src="/docs/v2/assignfootprints.png" className="max-w-96" />
+
+Assign them based on the image below: 
+
+<img src="/docs/v2/assignedfootprints.png" className="max-w-200" />
+
+Thats all for the schematic! Once you're done, hit save. 
+
+### Routing the PCB
+
+Great job on finishing the schematic! Hit this button to open the PCB editor: 
+
+<img src="/docs/v2/switchtopcb.png" className="max-w-96" />
+
+This will open a new window, once here, press this button to bring over your schematic:
+
+<img src="/docs/v2/updatefromschematic.png" className="max-w-96" />
+
+Click anywhere on your screen to place your components down, it should look something like this:
+
+<img src="/docs/v2/pcbstart.png" className="max-w-96" />
+
+Lay out the components as you wish, and go over the the edge.cuts layer and create a rectangle. This will be your board size! 
+
+<img src="/docs/v2/edgecuts.png" className="max-w-96" />
+
+Also, it is **VERY IMPORTANT** that you brand your hackpad! Put the name of your hackpad on any silkscreen of your PCB. Do this by using the text tool. Also, write "XIAO HERE" on the side you would like your XIAO to be placed on. 
+
+Good stuff! You're almost done the PCB. Let's run the DRC to make sure the PCB works. The silkscreen warnings you see are okay, make sure there are no more errors!
+
+<img src="/docs/v2/drcbutton.png" className="max-w-96" />
+
+Thats all for your PCB! Great job.
+
+## Creating your case
+
+This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
+
+### Creating the bottom
+Start by creating a new project, and a new component, this is better for organization. 
+
+<img src="/docs/v2/newcomponent.png" className="max-w-96" />
+
+Next, create a sketch by by pressing the green + button. Create a rectangle that is 0.5mm bigger than your hackpad's PCB. For example, my PCB is 42mm x 61.5mm, I added 0.5mm to each on the sketch.
+
+<img src="/docs/v2/1sketch1.png" className="max-w-96" />
+<img src="/docs/v2/1sketch2.png" className="max-w-96" />
+
+Create another rectangle with 10mm extra on each dimension! (5mm bigger on each side) Center this rectangle by pressing the dimension button and setting the values to 5mm.
+
+<img src="/docs/v2/sketchdimension.png" className="max-w-96" />
+<img src="/docs/v2/properdimension.png" className="max-w-96" />
+
+It should look something like this when you're completed! 
+
+<img src="/docs/v2/finishsketch.png" className="max-w-96" />
+
+Select the outer rectangle and press extrude, extrude the outer by 13mm, and then do the same with the inner rectangle by 3mm.
+
+<img src="/docs/v2/halfextrude.png" className="max-w-96" />
+
+Thats the base of your case done! Next, lets create another sketch, this time creating circles with a diameter of 3.2mm, and 2.75mm from each edge. Extrude it to make it a hole! 
+
+<img src="/docs/v2/holesforcase.png" className="max-w-96" />
+
+### Creating the top
+
+Next, we will make the other half to our case. Start by creating yet another sketch, making it the same size as the bottom half of the case. Create the holes like before, and then create 4 14mm x 14mm squares. Follow these dimensions: 
+
+<img src="/docs/v2/topsketch.png" className="max-w-96" />
+
+Almost done, create another rectangle 18mm x 21mm, 17mm away from both edges and 5mm from the top, and extrude that plate by 3mm.
+
+<img src="/docs/v2/topextrude.png" className="max-w-96" />
+
+Right now our case looks a little ugly, its so blocky! Lets round the corners, press the Fillet button found in the top, and click on each edge and make it 2mm. Select the top edge of the case and make that 1mm. Should look as such:
+
+<img src="/docs/v2/fillet.png" className="max-w-96" />
+<img src="/docs/v2/edgeround.png" className="max-w-96" />
+
+Make sure to cut out a port hole for your xiao, the best method is to look for a 3d model online, and test fit everything. You can export your PCB as a .STEP file, and test fit everything. After I test fitted everything, I made a few modifications.
+
+<img src="/docs/v2/casebottom.png" className="max-w-96" />
+
+### Finishing Touches
+
+Next, we will brand our case! This part will not be seen and is for us to be able to keep track of who's submission is whos. Go to the bottom of the case, or somewhere that won't be seen, and create a new sketch. Make a text box, and enter the name of your hackpad on it. 
+
+<img src="/docs/v2/createtext.png" className="max-w-96" />
+
+Extrude this sketch 0.2mm INTO the case, don't worry about the overhang! If you are getting an error when extruding, keep the font as Arial.
+
+<img src="/docs/v2/extrudedtext.png" className="max-w-96" />
+
+Thats it! Your case is now done.
+
+<img src="/docs/v2/finalcase.png" className="max-w-96" />
+
+I would also recommend importing 3d models of all your components to test fit everything: 
+
+<img src="/docs/v2/testedcase.png" className="max-w-96" />
+
+
+## Firmware
+
+This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You can find out how to port your keyboard here: \
+[QMK Porting Guide](https://docs.qmk.fm/porting_your_keyboard_to_qmk)
+
+# Next steps
+We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out! Again, don't copy this guide 1:1, add your own design into it.
+
+
+

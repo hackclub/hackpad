@@ -1,7 +1,6 @@
-import SideBar from "../components/SideBar.tsx";
 import OrpheusFlag from "/OrpheusFlag.svg";
 
-const DocPage = ({ Content }: { Content: any }) => {
+const DocPage = ({ Content, SideBar }: { Content: any; SideBar: any }) => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
@@ -33,7 +32,6 @@ const DocPage = ({ Content }: { Content: any }) => {
       </header>
 
       <div className="flex flex-1 pt-16">
-        {/* Sidebar */}
         <aside className="hidden sm:block w-48 fixed top-16 h-full">
           <SideBar />
         </aside>
