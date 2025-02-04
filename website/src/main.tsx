@@ -23,7 +23,7 @@ import "./index.css";
 // IMPORT YOUR PROJECTS HERE
 
 import OrpheusPad from "./pages/submissions/OrpheusPad/OrpheusPad.mdx"
-import NumMacroPad from "./pages/submissions/NumMacroPad.mdx"
+import NumMacroPad from "./pages/submissions/NumMacroPad/NumMacroPad.mdx"
 import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
 import Wang01 from "./pages/submissions/Wang01/Wang01.mdx"
 
