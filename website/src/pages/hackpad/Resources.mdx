@@ -1,11 +1,17 @@
-# Resources
+# Resources & Tips
 Here lies a collection of resources & tips I've amassed over the years; use them well.
 
 With that in mind, there are *thousands* of other resources on the internet that I can't cover here. Use youtube, reddit, discord, whatever works for you!
 
 If a guide doesn't seem to work, try it again. If it *really* doesn't work, try another guide! The magic of it is to keep at it, because if so many other teens can do it, you absolutely can too.
 
-
+## KiCad Libraries
+- [Keyswitch footprints](https://github.com/ai03-2725/MX_V2)
+- [XIAO Footprints](https://github.com/Seeed-Studio/OPL_Kicad_Library)
+- [Rotary Encoder footprint](https://kicad.github.io/footprints/Rotary_Encoder)
+- [0.91" OLED Display](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty/blob/master/SSD1306-0.91-OLED-4pin-128x32.kicad_mod)
+- You can almost always find the footprint/symbol you're looking for if you use [SnapEDA](https://www.snapeda.com/) or similar sites. Google is your best friend.
+ 
 ## Top Tier
 - [The Keyboard Atelier Discord](https://kbatelier.org/) \<- THE community for keyboard design! PLEASE do not spam the discord though, your best shot is to lurk.
 - [The Keyboard Designer Wiki](https://wiki.ai03.com/books) \<- this is insanely useful
@@ -24,14 +30,13 @@ It has an OLED, a rotary encoder, 4 switches in a matrix, 2 addressable LEDs, an
 - [Anatomy of a keyboard](https://matt3o.com/anatomy-of-a-keyboard/)
 - [Keyboard Mounting Styles](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7)
 
-## KiCad Libraries
-- [Keyswitch footprints](https://github.com/ai03-2725/MX_V2)
-- [XIAO Footprints](https://github.com/Seeed-Studio/OPL_Kicad_Library)
-- [Rotary Encoder footprint](https://kicad.github.io/footprints/Rotary_Encoder)
-- [0.91" OLED Display](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty/blob/master/SSD1306-0.91-OLED-4pin-128x32.kicad_mod)
-- You can almost always find the footprint/symbol you're looking for if you use [SnapEDA](https://www.snapeda.com/) or similar sites. Google is your best friend.
-
 ## Useful measurements
+- Making holes for your PCB:
+    - KiCAD has specific footprints for mounting holes, don't use Edge.Cuts - use the M3 mounting holes
+- Making holes for your case:
+    - if you're using [heatset inserts](https://www.aliexpress.us/item/2255800046543591.html), make a 4.7mm diameter hole, 4mm deep
+    - if you're screwing directly into the plastic, use a 2.9mm diameter hole
+    - if you just want the screw to pass through without threading, use a 3.4mm diameter hole.
 - Use a 0.2mm gap between 3D printed parts
 - There's 19.05mm gap between the center of each switch
 - This image shows general height measurements
