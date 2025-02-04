@@ -77,6 +77,10 @@ const router = createBrowserRouter([
     element: <DocPage Content={ OrpheusPad } SideBar={ SideBar } />
   },
   {
+    path: "/projects/nummacropad",
+    element: <DocPage Content={ NumMacroPad } SideBar={ SideBar } />
+  },
+  {
     path: "/projects/cyaopad",
     element: <DocPage Content={ CyaoPad } SideBar={ SideBar } />
   },
