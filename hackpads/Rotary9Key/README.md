@@ -1,4 +1,4 @@
-This is a 9 key macropad with a rotary encoder and a custom two-piece case. It uses plateless mount mounting style for simplicity and cost savings.
+This is a 9 key macropad with a rotary encoder and a custom two-piece case. It uses plateless mount mounting style for simplicity and cost savings. The most difficult parts of this project was making the firmware.
 
 ## Bill of Materials
 - 1x XIAO-RP2040-SMD
