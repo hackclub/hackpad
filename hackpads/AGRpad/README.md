@@ -1,3 +1,8 @@
+# Screenshot
+<p align="center">
+  <img width="538" alt="image" src="https://github.com/user-attachments/assets/bb97855a-88b6-46b9-bb43-a3d6b3e2443e" />
+</p>
+
 # BOM:
 - Seeed XIAO RP2040 x1<br>
 - Through-hole 1N4148 Diodes x9<br>
