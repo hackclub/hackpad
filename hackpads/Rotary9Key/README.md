@@ -5,3 +5,5 @@ This is a 9 key macropad with a rotary encoder and a custom two-piece case. It u
 - 1x RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 - 9x SW_Cherry_MX_1.00u_PCB
 - 1x PCB
+
+![Complete screenshot](hackpads/Rotary9Key/Screenshot 2025-02-05 151139.png)
