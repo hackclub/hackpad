@@ -14,6 +14,7 @@ My biggest challenge was making the traces on the PCB; I always ended up with no
 - 6x M3x16 Bolt
 - 6x M3 Heatset
 - 1x Oled Display ssd1306 0.91"
+- 12x Diodes 1N4148
 
 **Others:**
 
