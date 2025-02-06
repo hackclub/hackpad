@@ -10,3 +10,5 @@
  - [M2 Ultra Thin Flat Wafer Screw 1mm Head 3mm](https://www.ebay.com.au/itm/404797338616) x4
  - 3D Printed Parts
  - PCB
+
+0.25 Tolerance
