@@ -1,4 +1,5 @@
 # musicnpad
+<img width="870" alt="image" src="https://github.com/user-attachments/assets/55dc4e86-0c62-4b0c-86dd-662498f20447" />
 
 A 16 key modified numpad with a 32x128 OLED.
 
