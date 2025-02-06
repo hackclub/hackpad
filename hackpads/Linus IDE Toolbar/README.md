@@ -1,6 +1,6 @@
 # Linus IDE Toolbar
 
-![linus_ide_toolbar](https://imgur.com/6LudzTh)
+![linus_ide_toolbar](https://github.com/Schlafhase/hackpad/blob/ada5991ba1e3dd5696a1000e01b6afa46d67bea9/hackpads/Linus%20IDE%20Toolbar/linus_ide_toolbar_with_components.png)
 
 A little macro pad with five buttons, an OLED screen and two RGB LEDs. The buttons are keybinds for "Debug", "Stop", "Resume", "Step Over", and "Step Into" in my IDE. The OLED screen can display useful information such as the current line.
 
