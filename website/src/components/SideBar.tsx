@@ -15,7 +15,7 @@ const SideBar = () => {
           </li>
           <li>
             <a href="/resources" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Resources
+              Resources & Tips
             </a>
           </li>
           <li>
