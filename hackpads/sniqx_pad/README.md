@@ -4,6 +4,8 @@
 
 A Versatile Macro Pad with a rotary encoder and OLED display.
 
+![Components](images/components.png)
+
 ## Inspiration
 Wanted to make a macropad which looks simple yet elegant and a bit of unsymmetry with that single key on top.
 
