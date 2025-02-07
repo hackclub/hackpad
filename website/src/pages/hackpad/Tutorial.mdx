@@ -1,6 +1,6 @@
 # Make your own Hackpad! 
 
-Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial, we're going to make a 4-key macropad as an example. For a full submission, you will have to edit it to be your own (add an extra key?? a knob?? new case? up to you!)
+Hey! Want to make your own macropad but have absolutely no clue where to start? You found the right place! In this tutorial, we're going to make a 4-key macropad as an example. **For a full submission, you will have to edit it to be your own** (add an extra key?? a knob?? new case? up to you!)
 
 **Read over the [FAQ](/faq) first so that you have an idea of what you're working with!**
 
@@ -45,28 +45,32 @@ Start by opening up KiCad, a window will pop up, create a new project then click
 
 <img src="/docs/v2/schematicbutton.png" className="max-w-96" />
 
-This should open up a new window with your schematic editor! Once you're in, press the A key on your keyboard. This should open up a menu where you can add components. Search for the following to add them:
-- XIAO-RP2040-DIP
+This should open up a new window with your schematic editor! Once you're in, press the A key on your keyboard. This should open up a menu where you can add **symbols** for your different components! Search for the following to add them:
+- XIAO-RP2040-DIP (your microcontroller)
 - SW_Push (This will be our keyboard switch! Copy and paste this 4 times)
-- SK6812 MINI LED (I will be using 2 of these!)
+- SK6812 MINI LED (its an RGB LED - I will be using 2 of these!)
 
-Start by placing these components down, they don't have to be in any order, but placing them close to eachother allows for more tidyness. 
+Start by placing these symbols down. They don't have to be in any particular order, but place them somewhat close together
 
 <img src="/docs/v2/placedcomponents.png" className="max-w-96" />
 
-Now, press the W key to start wiring! Again, this is just a guide and you should do this to add your own pizzazz in it! After wiring, I'm left with something like this: 
+Afterwards, it should look something like this ^^
+
+Now it's time to start wiring. Hit the W key on your keyboard to start wiring! This should make a green wire start to appear. Connect your components like so:
 
 <img src="/docs/v2/wiredcomponents.png" className="max-w-96" />
 
-Next, lets assign footprints. Press this button in the top naviagation bar to assign footprints to your components.
+(to get the GND symbol, press P and search for it!)
+
+Once all the components are connected, we can start assigning **footprints** to the symbols we have here. Footprints are what gets physically drawn on the PCB. To do this, click the "run footprint assignment tool" in the top right.
 
 <img src="/docs/v2/assignfootprints.png" className="max-w-96" />
 
-Assign them based on the image below: 
+This should open up a window where you can assign different footprints to your components! Assign them based on the image below:
 
 <img src="/docs/v2/assignedfootprints.png" className="max-w-200" />
 
-Thats all for the schematic! Once you're done, hit save. 
+Once you're done, you can hit apply & save schematic. We're now officially done with the schematic! Onto making the pcb itself:
 
 ### Routing the PCB
 
@@ -74,7 +78,7 @@ Great job on finishing the schematic! Hit this button to open the PCB editor:
 
 <img src="/docs/v2/switchtopcb.png" className="max-w-96" />
 
-This will open a new window, once here, press this button to bring over your schematic:
+Hit the "Update PCB from schematic" button in the top right. This will bring in all your parts!
 
 <img src="/docs/v2/updatefromschematic.png" className="max-w-96" />
 
@@ -84,7 +88,8 @@ Click anywhere on your screen to place your components down, it should look some
 
 Lay out the components as you wish, and go over the the edge.cuts layer and create a rectangle. This will be your board size! 
 
-Don't forget to route the PCB! Connect the footprints using copper traces. You should have something like this:
+
+Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a blue line. It should dim the entire screen and show you where to go. Route the PCB like so:
 
 <img src="/docs/v2/edgecuts.png" className="max-w-96" />
 
