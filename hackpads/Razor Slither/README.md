@@ -16,6 +16,7 @@ BOM:
  - 4x Blank White DSA Keycaps
  - 3x Blank Red DSA Keycaps
  - 2x Blank Black DSA Keycaps
+ - 1x Rotary Encoder
  - 4x M3x16 Bolt
  - 4x M3 Heatset
 
