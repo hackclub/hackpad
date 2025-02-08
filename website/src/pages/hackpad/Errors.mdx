@@ -1,0 +1,35 @@
+# DRC error code compliation
+
+Oh no! You have DRC errors? Don't worry, we got you covered. Here is a compliation of most error codes
+
+- Warning: Silkscreen clipped by solder mask:
+
+Ignore, this has no importance
+
+- Warning: Silkscreen clipped by board edge:
+
+Ignore, this has no importance
+
+- Warning: Text height out of range
+
+Ignore, this has no importance (Your text might not get printed properly tho)
+
+- Error: Board has malformed outline
+
+Important! You forgot to add Edge.Cuts outline/ The Edge.Cuts outline isn't closed properly
+
+- Error: Track has unconnected end
+
+Important! You forgot to join two components! Check if there are thin blue lines present.
+
+- Error: Courtyards overlap
+
+Important! Some of the components are overlapping (physically), click on the text to check which one.
+
+- Error: Hole clearance violation
+
+Important! Something is too close to the holes, it will get drilled out
+
+- Error: Items shorting two nets
+
+Important! You got two wires connected that shouldn't be connected! Click on the text to check out which ones.

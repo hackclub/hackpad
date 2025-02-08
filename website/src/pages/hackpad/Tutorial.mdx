@@ -5,16 +5,15 @@ Hey! Want to make your own macropad but have absolutely no clue where to start? 
 **Read over the [FAQ](/faq) first so that you have an idea of what you're working with!**
 
 This process is going to be broken into 3 parts, each with its own sub-parts:
-- PCB Design
-  - Drawing the schematic
-  - Routing the PCB
-  - Defining the edges
-- Case Design
-  - Creating the bottom
-  - Creating the top
-  - Finishing touches
-- Firmware
-  - Code!
+- [PCB Design](#pcb_design)
+  - [Drawing the schematic](#schematic)
+  - [Routing the PCB](#routing)
+- [Case Design](#case_design)
+  - [Creating the bottom](#bottom)
+  - [Creating the top](#top)
+  - [Finishing touches](#finishing)
+- [Firmware](#firmware)
+  - [Code!](#code)
 
 
 If you're unsure about anything, send a message in #hackpad! We have so many eager people to help. 
@@ -23,13 +22,15 @@ There's also [this](/resources) giant wall of resources to reference!
 
 Lets start with:
 
+<a name="pcb_design"/>
 ## Designing your PCB
 
 For this guide we're going to be using [KiCad](https://www.kicad.org/), which is an open source PCB designer tool.   
-To start, we're going to have to import the necessary footprints. For this guide, download this footprint:
-- [XIAO RP2040 footprint](https://wiki.seeedstudio.com/XIAO-RP2040/) 
 
-There are many tutorials on how to install footprints! Google is your best friend here :)
+To start, we're going to have to install the kicad library! We are going to use the following respository
+- [OPL Kicad Library](https://github.com/Seeed-Studio/OPL_Kicad_Library/) 
+
+There are many tutorials on how to install libraries! Google is your best friend here :)
 
 @Cyao in the slack did make an awesome tutorial though! Here it is:
 <video width="100%" controls>
@@ -37,8 +38,7 @@ There are many tutorials on how to install footprints! Google is your best frien
   Your browser does not support the video tag.
 </video>
 
-
-
+<a name="schematic"/>
 ### Drawing the Schematic
 
 Start by opening up KiCad, a window will pop up, create a new project then click on the "Schematic Editor" button:
@@ -52,6 +52,8 @@ This should open up a new window with your schematic editor! Once you're in, pre
 
 Start by placing these symbols down. They don't have to be in any particular order, but place them somewhat close together
 
+To rotate the symbols, click R. And to mirror them, click X.
+
 <img src="/docs/v2/placedcomponents.png" className="max-w-96" />
 
 Afterwards, it should look something like this ^^
@@ -60,7 +62,7 @@ Now it's time to start wiring. Hit the W key on your keyboard to start wiring! T
 
 <img src="/docs/v2/wiredcomponents.png" className="max-w-96" />
 
-(to get the GND symbol, press P and search for it!)
+Don't forget to add the GND and +5V symbols! Press P and search for it.
 
 Once all the components are connected, we can start assigning **footprints** to the symbols we have here. Footprints are what gets physically drawn on the PCB. To do this, click the "run footprint assignment tool" in the top right.
 
@@ -72,6 +74,7 @@ This should open up a window where you can assign different footprints to your c
 
 Once you're done, you can hit apply & save schematic. We're now officially done with the schematic! Onto making the pcb itself:
 
+<a name="routing"/>
 ### Routing the PCB
 
 Great job on finishing the schematic! Hit this button to open the PCB editor: 
@@ -86,25 +89,95 @@ Click anywhere on your screen to place your components down, it should look some
 
 <img src="/docs/v2/pcbstart.png" className="max-w-96" />
 
-Lay out the components as you wish, and go over the the edge.cuts layer and create a rectangle. This will be your board size! 
+First, to be able to better place the components, we would need to change the grid. 
 
+Grids are used to allow efficient placement, movement and connection between symbols and wires. It defines what is the spacing of the grid, which components will snap to.
 
-Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a blue line. It should dim the entire screen and show you where to go. Route the PCB like so:
+Select the button at the top that says "1.2700 mm (50 mils)" (Replace xx by a arbitrary number). You can use this menu to change what grid you are on. hen click on Edit Grids...
 
-<img src="/docs/v2/edgecuts.png" className="max-w-96" />
+<img src="/docs/v2/grid.png" className="max-w-96" />
+
+You should have the following menu open:
+
+<img src="/docs/v2/editgrid.png" className="max-w-96" />
+
+Now click on the + button at the bottom left, and enter "2.38125" in the field named "X". Press Ok then Ok again. Now you have defined a cutom grid!
+
+We now need to place the components!
+
+Select a footprint, drag it around to move it (Or if you prefer, click a component to select it, press M to move it and click again to put it down). To rotate the footprint, press R when selecting it.
+
+When placing the switches, I recommend you to use the newly defined grid of 2.38125 mm (Select it in the menu). **Important**: While moving the switches, select the blue circle at the center. This will make sure all the switches are alighed properly. You should align the outer while lines of the switches as so:
+
+<img src="/docs/v2/align.png" className="max-w-96" />
+
+There is a front side and back side of the board. You can tell them apart by color
+
+<img src="/docs/v2/frontback.png" className="max-w-96" />
+
+If you want to put the footprint on the back side, press F. Here is what the footprints look like on different sides:
+
+<img src="/docs/v2/compfrontback.png" className="max-w-96" />
+
+Move, rotate and flip your footprints into a design that you like! It should looks like this:
+
+<img src="/docs/v2/placedfootprints.png" className="max-w-96" />
+
+You need to define the outline of the board. Select the Edge.Cuts layer on the right toolbar.
+
+<img src="/docs/v2/righttoolbar.png" className="max-w-96" />
+
+Now, you can use the "Draw Rectangle" button to draw the boarders of the board:
+
+<img src="/docs/v2/edgecutsselect.png" className="max-w-96" />
+
+This shall be the size of your physical board.
+
+**IMPORTANT**! Remember to have the head of the XIAO poking out of the Edge.Cuts rectangle. This is mandatory to be able to plug your USB cable in.
+
+<img src="/docs/v2/xiaohead.png" className="max-w-96" />
+
+Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a thin blue line poking out. It should dim the entire screen and show you where to go:
+
+<img src="/docs/v2/routing.png" className="max-w-96" />
+
+Join the highlighted pads together. If there isn't enough space on the front side, or there is a trace already present that is blocking you, you can route on the back side by clicking B.Cu on the right toolbar. At the same time, if you want to change sides during routing, you can press V, and a via shall be added, and you will be on the other side of the board:
+
+<img src="/docs/v2/via.png" className="max-w-96" />
+
+**Attention**! Wires and pads of different colors (except golden) can't be connected together directly! You must via to the other side.
+
+Continue until there are no thin blue lines on the screen! Your final product should look something like this:
+
+<img src="/docs/v2/finalpcb.png" className="max-w-96" />
 
 Also, it is **VERY IMPORTANT** that you brand your hackpad! Put the name of your hackpad on any silkscreen of your PCB. Do this by using the text tool. Also, write "XIAO HERE" on the side you would like your XIAO to be placed on. 
+
+To do this select F.Silkscreen (If your xiao is on the back side, use B.Silkscreen when placing the "XIAO HERE" text), and click on the add text button:
+
+<img src="/docs/v2/addtext.png" className="max-w-96" />
+
+Enter your text and place it down! 
+
+<img src="/docs/v2/realfinalpcb.png" className="max-w-96" />
 
 Good stuff! You're almost done the PCB. Let's run the DRC to make sure the PCB works. The silkscreen warnings you see are okay, make sure there are no more errors!
 
 <img src="/docs/v2/drcbutton.png" className="max-w-96" />
 
+PS. You might need to cheange tabs to see all errors. (Click on "Unconnected Items")
+
 Thats all for your PCB! Great job.
 
+PSS. Here is a [list of all DRC errors you might encounter](/errors)
+
+**REWORK**
+<a name="case_design"/>
 ## Creating your case
 
 This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
 
+<a name="bottom"/>
 ### Creating the bottom
 Start by creating a new project, and a new component, this is better for organization. 
 
@@ -132,6 +205,7 @@ Thats the base of your case done! Next, lets create another sketch, this time cr
 
 <img src="/docs/v2/holesforcase.png" className="max-w-96" />
 
+<a name="top"/>
 ### Creating the top
 
 Next, we will make the other half to our case. Start by creating yet another sketch, making it the same size as the bottom half of the case. Create the holes like before, and then create 4 14mm x 14mm squares. Follow these dimensions: 
@@ -151,6 +225,7 @@ Make sure to cut out a port hole for your xiao, the best method is to look for a
 
 <img src="/docs/v2/casebottom.png" className="max-w-96" />
 
+<a name="finishing"/>
 ### Finishing Touches
 
 Next, we will brand our case! This part will not be seen and is for us to be able to keep track of who's submission is whos. Go to the bottom of the case, or somewhere that won't be seen, and create a new sketch. Make a text box, and enter the name of your hackpad on it. 
@@ -170,6 +245,8 @@ I would also recommend importing 3d models of all your components to test fit ev
 <img src="/docs/v2/testedcase.png" className="max-w-96" />
 
 
+<a name="firmware"/>
+<a name="code"/>
 ## Firmware
 
 This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You can find out how to port your keyboard here: \

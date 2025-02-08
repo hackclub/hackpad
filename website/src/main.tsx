@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 
 import Tutorial from "./pages/hackpad/Tutorial.mdx";
+import Errors from "./pages/hackpad/Errors.mdx";
 import Submission from "./pages/hackpad/Submission.mdx";
 import ApprovedParts from "./pages/hackpad/ApprovedParts.mdx";
 import Faq from "./pages/hackpad/Faq.mdx";
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
   {
     path: "/get-keycap",
     element: <DocPage Content={ GetKeycap } SideBar={ SideBar } />,
+  },
+  {
+    path: "/errors",
+    element: <DocPage Content={ Errors } SideBar={ SideBar } />,
   },
   {
     path: "/keyboard",
