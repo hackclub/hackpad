@@ -26,6 +26,8 @@ There's also [this](/resources) giant wall of resources to reference!
 
 Here is also a guide on [advanced PCB components](/advancedPCB)
 
+[Don't forget to find out some Tips'n Tricks here!](/tipsntricks)
+
 Lets start with:
 
 <a name="pcb_design"/>
@@ -186,10 +188,10 @@ You currently can view the 3D version of your PCB by pressing Alt+3 (Option+3 on
 
 Oh no! We are missing some 3D Models. Here we will learn how you add them.
 
-First, you must find 3D Models for your components on the internet, but here if @Cyao's trusty list of common models:
+First, you must find 3D Models for your components on the internet, but here if @Cyao's trusty list of common models. (If this opens a new tab and doesn't automatically download, press Control+S)
 
 - [Seeed-Studio Xiao](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/xiao.step)
-- [MX v2 (Models for the switches)](https://rawcdn.githack.com/cheyao/aniboard/835d8a1c2ee60be4e0bc82223e744c2568955295/PCB/MX%20v2.step)
+- [MX v2 (Models for the switches, there will be two iron pins sticking out of the PCB, but just ignore them)](https://rawcdn.githack.com/cheyao/aniboard/835d8a1c2ee60be4e0bc82223e744c2568955295/PCB/MX%20v2.step)
 - [Neopixel SK6812_Mini](https://rawcdn.githack.com/StefanHamminga/kicad-packages3D/395108dcab363619c3c82ad00e060acd423aeeb7/LED_SMD.3dshapes/SK6812_Mini.step)
 - [Reverse Mount Neopixel](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/neopixel.petty/SK6812MINI-E.step)
 - [128x64 SSD1306 OLED Display](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/KiCad-SSD1306-128x64-master/SSD1306_OLED_Display(128x64).step)
@@ -229,7 +231,7 @@ If you don't have anything in the "3D Model(s)" frame, click on the + icon. Afte
 
 If nothing is showing, make sure you checked the Show checkbox.
 
-We need to rotate and move it. Press the + and - buttons on the rotation tab until it is at the right orientation, then the + and - buttons at the offset tab until you have the right position. Mine will be like this:
+We need to rotate and move it. Press the + and - buttons on the rotation tab until it is at the right orientation, then the + and - buttons at the offset tab until you have the right position. Mine will be like this: (The + and - might be up and down arrows on some platforms)
 
 <img src="/docs/v2/correctneopixel3d.png" className="max-w-96" />
 
@@ -379,20 +381,38 @@ Now, select the outer lines that surround the keys, and delete them (Del key or 
 
 <img src="/docs/v2/freecadkeyhole.png" className="max-w-112" />
 
-To continue, click the draft to sketch button: (You might need to expand the toolbar menu by pressing ">>")
+After that, go to the tree view, open up "layers" and then "0", then shift select all the items with the blue square icon:
 
-<img src="/docs/v2/drafttosketch.png" className="max-w-96" />
+<img src="/docs/v2/freecadselect.png" className="max-w-112" />
+
+Click the draft to sketch button: (You might need to expand the toolbar menu by pressing ">>")
+
+<img src="/docs/v2/drafttosketch.png" className="max-w-112" />
+
+Now, add "layers" and "0" in the tree view to your selection and click delete. You should be left with something like this:
+
+<img src="/docs/v2/deletelayer.png" className="max-w-112" />
+
+Switch to the "Sketcher" workbench in the workbench selector. Click (**NOT** double click) the Sketch in the tree view, and click on validate sketch.
+
+<img src="/docs/v2/validatesketch.png" className="max-w-112" />
+
+Click the "Find" button under "Missing coincidences", then click the "Fix" button. After this click "Close". You should see something like this:
+
+<img src="/docs/v2/goodsketch.png" className="max-w-112" />
+
+Tip: You can click the "Top" on the cube on the 3d cube present at the top right of your screen to re-orientate your view!
 
 Let's create the outline of the plate! First go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
 
-<img src="/docs/v2/ruler.png" className="max-w-48" />
+<img src="/docs/v2/ruler.png" className="max-w-96" />
 <img src="/docs/v2/pcbsize.png" className="max-w-96" />
 
-Now we know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case. Go back to FreeCAD and click this button to create a new sketch:
+Now we know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case. Go back to FreeCAD, select the "Part Design" workbench and click this button to create a new sketch:
 
 <img src="/docs/v2/newsketch.png" className="max-w-96" />
 
-On the left menu bar, select XY-plane and click Ok. Now click the small arrow next to the rectangle at the top menu, and select Rounded rectangle.
+On the left menu bar, select XY-plane and click Ok. Now click the small arrow next to the square at the top menu, and select Rounded rectangle.
 
 <img src="/docs/v2/roundedrect.png" className="max-w-96" />
 
@@ -408,11 +428,25 @@ First, click on the quater circles at the edges and enter 5mm. (You can tweak th
 
 <img src="/docs/v2/edges.png" className="max-w-96" />
 
-Click ok. Now click on the straight line at the top, click again and enter "width-2*radius+5*2" (replace width with your board width, radius with your radius). In my case it is "41-2*5+5*2".
+Click ok. Now click on the straight line at the top, click again and enter "width-2*radius+5*2" (replace width with your board width, radius with your radius. The 5 at the end is our margin). In my case it is "41-2*5+5*2".
 
 <img src="/docs/v2/toplength.png" className="max-w-96" />
 
 Now do the same with the line at the right, but replace the width with the height.
+
+After all these, click escape multiple times (sometimes the escape just doesn't register TwT). Click and drag the "Sketch" onto the "Body", you should have something like this:
+
+<img src="/docs/v2/body.png" className="max-w-96" />
+
+Double click Sketch001 again, now select the External Geometry tool and click on the bottom left and down lines:
+
+<img src="/docs/v2/externalgeometry.png" className="max-w-96" />
+
+Now go to KiCAD, measure how far your Edge.Cuts is to the yellow Silkscreen of your bottom-left switch.
+
+<img src="/docs/v2/swoffset.png" className="max-w-96" />
+
+Select the dimension tool again, click on the dotted wire on the left side, and the left edge of the case. Set the distance to the x distance you just measured + 5.
 
 <a name="firmware"/>
 <a name="code"/>

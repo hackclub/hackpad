@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import Tutorial from "./pages/hackpad/Tutorial.mdx";
 import Errors from "./pages/hackpad/Errors.mdx";
 import AdvancedPCB from "./pages/hackpad/AdvancedPCB.mdx";
+import TipsnTricks from "./pages/hackpad/TipsnTricks.mdx";
 import Submission from "./pages/hackpad/Submission.mdx";
 import ApprovedParts from "./pages/hackpad/ApprovedParts.mdx";
 import Faq from "./pages/hackpad/Faq.mdx";
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/advancedPCB",
     element: <DocPage Content={ AdvancedPCB } SideBar={ SideBar } />,
+  },
+  {
+    path: "/tipsntricks",
+    element: <DocPage Content={ TipsnTricks } SideBar={ SideBar } />,
   },
   {
     path: "/errors",
