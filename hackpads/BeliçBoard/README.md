@@ -1,4 +1,5 @@
 # BeliçBoard
+![Image](./beliçboard.png)
 My very cool macropad thing!
 I have some plans to make it more functional but I want to get it first for debugging and stuff.
 
