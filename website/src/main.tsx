@@ -4,6 +4,7 @@ import App from "./App.tsx";
 
 import Tutorial from "./pages/hackpad/Tutorial.mdx";
 import Errors from "./pages/hackpad/Errors.mdx";
+import AdvancedPCB from "./pages/hackpad/AdvancedPCB.mdx";
 import Submission from "./pages/hackpad/Submission.mdx";
 import ApprovedParts from "./pages/hackpad/ApprovedParts.mdx";
 import Faq from "./pages/hackpad/Faq.mdx";
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
   {
     path: "/get-keycap",
     element: <DocPage Content={ GetKeycap } SideBar={ SideBar } />,
+  },
+  {
+    path: "/advancedPCB",
+    element: <DocPage Content={ AdvancedPCB } SideBar={ SideBar } />,
   },
   {
     path: "/errors",

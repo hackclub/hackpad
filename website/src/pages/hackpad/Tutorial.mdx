@@ -8,10 +8,14 @@ This process is going to be broken into 3 parts, each with its own sub-parts:
 - [PCB Design](#pcb_design)
   - [Drawing the schematic](#schematic)
   - [Routing the PCB](#routing)
-- [Case Design](#case_design)
+  - [Adding 3D models](#3d_models)
+- [Common Case Design](#case_design_common)
+- [Figma Case Design](#case_design_fusion)
   - [Creating the bottom](#bottom)
   - [Creating the top](#top)
   - [Finishing touches](#finishing)
+- [FreeCad Case Design](#case_design_freecad)
+  - [Creating the bottom](#bottom)
 - [Firmware](#firmware)
   - [Code!](#code)
 
@@ -19,6 +23,8 @@ This process is going to be broken into 3 parts, each with its own sub-parts:
 If you're unsure about anything, send a message in #hackpad! We have so many eager people to help. 
 
 There's also [this](/resources) giant wall of resources to reference!
+
+Here is also a guide on [advanced PCB components](/advancedPCB)
 
 Lets start with:
 
@@ -161,7 +167,7 @@ Enter your text and place it down!
 
 <img src="/docs/v2/realfinalpcb.png" className="max-w-96" />
 
-Good stuff! You're almost done the PCB. Let's run the DRC to make sure the PCB works. The silkscreen warnings you see are okay, make sure there are no more errors!
+Good stuff! You're almost done the PCB. Let's run the DRC to make sure the PCB works. The silkscreen warnings you see are okay, make sure there are no more errors! Here is a [list of all DRC errors you might encounter](/errors)
 
 <img src="/docs/v2/drcbutton.png" className="max-w-96" />
 
@@ -169,11 +175,68 @@ PS. You might need to cheange tabs to see all errors. (Click on "Unconnected Ite
 
 Thats all for your PCB! Great job.
 
-PSS. Here is a [list of all DRC errors you might encounter](/errors)
+If you aren't satisfied and wan't something more advanced, [check out the advanced PCB guide!](/advancedPCB)
 
-**REWORK**
-<a name="case_design"/>
-## Creating your case
+<a name="3d_models"/>
+### Bonus: 3D models!
+
+You currently can view the 3D version of your PCB by pressing Alt+3 (Option+3 on some platforms). It should look something like this:
+
+<img src="/docs/v2/3d-view.png" className="max-w-96" />
+
+Oh no! We are missing some 3D Models. Here we will learn how you add them.
+
+First, you must find 3D Models for your components on the internet, but here if @Cyao's trusty list of common models:
+
+- [Seeed-Studio Xiao](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/xiao.step)
+- [MX v2 (Models for the switches)](https://rawcdn.githack.com/cheyao/aniboard/835d8a1c2ee60be4e0bc82223e744c2568955295/PCB/MX%20v2.step)
+- [Neopixel SK6812_Mini](https://rawcdn.githack.com/StefanHamminga/kicad-packages3D/395108dcab363619c3c82ad00e060acd423aeeb7/LED_SMD.3dshapes/SK6812_Mini.step)
+- [Reverse Mount Neopixel](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/neopixel.petty/SK6812MINI-E.step)
+- [128x64 SSD1306 OLED Display](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/KiCad-SSD1306-128x64-master/SSD1306_OLED_Display(128x64).step)
+- [Kailh Choc v2 switched (You probably don't need this one)](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/Kailh-Choc-V2.step)
+
+Note: On some Linux distributions, you need to download the built-in kicad 3d models seperatly, most likely called "kicad-library-3d"
+
+You can find tons of information on how to add the models online! But here is a video that walks you through anyways :3
+
+FIXME: Make the video
+
+<video width="100%" controls>
+  <source src="" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+Now to export the PCB as a 3D Model, select File > Export > STEP...
+
+<img src="/docs/v2/exportstep.png" className="max-w-96" />
+
+And select the directory you want the output to be in, then click Export. You don't need to change any settings. In the end you will get a .STEP file, that is the 3D model of your PCB.
+
+<a name="case_design_common"/>
+## Common case design part
+
+First thing first, go to [ai03's plate generator](https://kbplate.ai03.com/).
+
+In the KLE Data fiels, you need to enter some custom json data. For example
+
+["", "", ""],
+["", "", ""],
+
+Is for a macropad that has 3 keys in each column and 2 rows
+
+If your keyboard is more complex, you can use [keyboard-layout-editor.com](https://www.keyboard-layout-editor.com/) to generate the json data. (Modify the layout, open the "Raw data" tab at the middle of the page and copy & paste)
+
+After that, scroll down and look at the preview to verify if it conforms to your macropad, and press download DXF.
+
+Now that you are done with generating your plates, it's time to choose which 3d modeling sofware you want to use. We have guides for the following softwares:
+
+- [Figma Case Design](#case_design_fusion)
+- [FreeCad Case Design](#case_design_freecad)
+
+<a name="case_design_fusion"/>
+## Creating your case in Fusion360
+
+- Difficulty: 2/5
 
 This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
 
@@ -221,7 +284,7 @@ Right now our case looks a little ugly, its so blocky! Lets round the corners, p
 <img src="/docs/v2/fillet.png" className="max-w-96" />
 <img src="/docs/v2/edgeround.png" className="max-w-96" />
 
-Make sure to cut out a port hole for your xiao, the best method is to look for a 3d model online, and test fit everything. You can export your PCB as a .STEP file, and test fit everything. After I test fitted everything, I made a few modifications.
+Make sure to cut out a port hole for your xiao, the best method is to add 3d models to your PCB, and test fit everything. You can import the .STEP file of your PCB, and test fit everything. After I test fitted everything, I made a few modifications.
 
 <img src="/docs/v2/casebottom.png" className="max-w-96" />
 
@@ -244,6 +307,14 @@ I would also recommend importing 3d models of all your components to test fit ev
 
 <img src="/docs/v2/testedcase.png" className="max-w-96" />
 
+<a name="case_design_freecad"/>
+## Creating your case in FreeCad
+
+- Difficulty: 4/5
+
+First, download [FreeCad](https://www.freecad.org/), and open the application.
+
+As a forenote, FreeCad comes with a lot of quirks, so when you are blocked, google will be your best friend.
 
 <a name="firmware"/>
 <a name="code"/>
@@ -254,6 +325,4 @@ This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You 
 
 # Next steps
 We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out! Again, don't copy this guide 1:1, add your own design into it.
-
-
 
