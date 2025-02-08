@@ -14,8 +14,8 @@ This process is going to be broken into 3 parts, each with its own sub-parts:
   - [Creating the bottom](#bottom)
   - [Creating the top](#top)
   - [Finishing touches](#finishing)
-- [FreeCad Case Design](#case_design_freecad)
-  - [Creating the bottom](#bottom)
+- [FreeCAD Case Design](#case_design_freecad)
+  - [Creating the plate](#freecad_plate)
 - [Firmware](#firmware)
   - [Code!](#code)
 
@@ -197,14 +197,51 @@ First, you must find 3D Models for your components on the internet, but here if 
 
 Note: On some Linux distributions, you need to download the built-in kicad 3d models seperatly, most likely called "kicad-library-3d"
 
-You can find tons of information on how to add the models online! But here is a video that walks you through anyways :3
+Now open the footprint editor:
 
-FIXME: Make the video
+<img src="/docs/v2/footprinteditor.png" className="max-w-96" />
 
-<video width="100%" controls>
-  <source src="" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+In the editor, search for the component you want to add the model to, and double click it, you should have something like this: (I'm taking SK6812MINI as an example)
+
+<img src="/docs/v2/editfootprint.png" className="max-w-96" />
+
+If you don't have your own library yet, click File > New Library... and select Project. Name the library anything you like. 
+
+<img src="/docs/v2/newlibrary.png" className="max-w-96" />
+
+If you want to add a 3d model to a footprint that was supplied by kicad, you need to create a copy of it.
+
+Right click the footprint in the left menu bar and click Copy Footprint.
+
+<img src="/docs/v2/copyfootprint.png" className="max-w-96" />
+
+Search for your library, right click on it and click Paste Footprint.
+
+<img src="/docs/v2/pastefootprint.png" className="max-w-96" />
+
+Now click File > Footprint Proprerities... And you should have a new window, select "3D Models" at the top:
+
+<img src="/docs/v2/3dmodels.png" className="max-w-96" />
+
+If you don't have anything in the "3D Model(s)" frame, click on the + icon. After that, click on the file icon on the right and choose the coresponding 3D model that you downloaded. Now you have something like this:
+
+<img src="/docs/v2/neopixel3d.png" className="max-w-96" />
+
+If nothing is showing, make sure you checked the Show checkbox.
+
+We need to rotate and move it. Press the + and - buttons on the rotation tab until it is at the right orientation, then the + and - buttons at the offset tab until you have the right position. Mine will be like this:
+
+<img src="/docs/v2/correctneopixel3d.png" className="max-w-96" />
+
+Repeat this process for all the parts that are missing models. If you created copies of footprints, you need to re-assign the footprints to **your own** versions in the schematic editor. Go back to the PCB editor and re-click "Update PCB from schematic"
+
+Now go to Tools > Update Footprints from Library... and click Update on the new window.
+
+<img src="/docs/v2/updatefromlib.png" className="max-w-96" />
+
+After all the work, you will have something like this when you press Alt+3 (Or Option+3):
+
+<img src="/docs/v2/3dwithcomponents.png" className="max-w-96" />
 
 Now to export the PCB as a 3D Model, select File > Export > STEP...
 
@@ -312,9 +349,70 @@ I would also recommend importing 3d models of all your components to test fit ev
 
 - Difficulty: 4/5
 
-First, download [FreeCad](https://www.freecad.org/), and open the application.
+As a forenote, FreeCAD comes with a lot of quirks, so when you are blocked, google will be your best friend.
 
-As a forenote, FreeCad comes with a lot of quirks, so when you are blocked, google will be your best friend.
+<a name="freecad_plate"/>
+### Plate
+
+First, download [FreeCAD](https://www.freecad.org/), and open the application. Click on "New File". You should have something like this:
+
+<img src="/docs/v2/newfreecad.png" className="max-w-112" />
+
+Here is the layout of the view you should see:
+
+<img src="https://wiki.freecad.org/images/d/d8/FreeCAD_interface_base_divisions.svg" className="max-w-112" />
+
+Here are the names of the most important parts I will use in the tutorial:
+
+- 1 and 2. The 3D view, showing the 3D model of your macropad.
+- 3. The tree view, shows the hierarchy of objects in the document
+- 4. The property editor, which allows viewing and modifying properties of the selected objects.
+- 9. The toolbar area, where the toolbars are docked.
+- 10. The workbench selector, where you select the active workbench.
+- 11. The standard menu, which holds basic operations of the program.
+
+After that, select the "Draft" workbench in the workbench selector, and draw your dxf file from the file explorer into FreeCAD. You should have something like this:
+
+<img src="/docs/v2/draft.png" className="max-w-112" />
+
+Now, select the outer lines that surround the keys, and delete them (Del key or rightclick and Delete). You should have something like this:
+
+<img src="/docs/v2/freecadkeyhole.png" className="max-w-112" />
+
+To continue, click the draft to sketch button: (You might need to expand the toolbar menu by pressing ">>")
+
+<img src="/docs/v2/drafttosketch.png" className="max-w-96" />
+
+Let's create the outline of the plate! First go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+
+<img src="/docs/v2/ruler.png" className="max-w-48" />
+<img src="/docs/v2/pcbsize.png" className="max-w-96" />
+
+Now we know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case. Go back to FreeCAD and click this button to create a new sketch:
+
+<img src="/docs/v2/newsketch.png" className="max-w-96" />
+
+On the left menu bar, select XY-plane and click Ok. Now click the small arrow next to the rectangle at the top menu, and select Rounded rectangle.
+
+<img src="/docs/v2/roundedrect.png" className="max-w-96" />
+
+Draw the rounded rectangle around your keys, click to start drawing it and click again to end the rectangle. Click a third time to set the edge radius. The measurement doesn't matter at the moment.
+
+<img src="/docs/v2/roundedrect2.png" className="max-w-96" />
+
+Now select the dimension tool at the top.
+
+<img src="/docs/v2/dimension.png" className="max-w-96" />
+
+First, click on the quater circles at the edges and enter 5mm. (You can tweak this!)
+
+<img src="/docs/v2/edges.png" className="max-w-96" />
+
+Click ok. Now click on the straight line at the top, click again and enter "width-2*radius+5*2" (replace width with your board width, radius with your radius). In my case it is "41-2*5+5*2".
+
+<img src="/docs/v2/toplength.png" className="max-w-96" />
+
+Now do the same with the line at the right, but replace the width with the height.
 
 <a name="firmware"/>
 <a name="code"/>
