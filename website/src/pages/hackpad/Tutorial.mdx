@@ -418,35 +418,62 @@ On the left menu bar, select XY-plane and click Ok. Now click the small arrow ne
 
 Draw the rounded rectangle around your keys, click to start drawing it and click again to end the rectangle. Click a third time to set the edge radius. The measurement doesn't matter at the moment.
 
-<img src="/docs/v2/roundedrect2.png" className="max-w-96" />
+<img src="/docs/v2/roundedrect2.png" className="max-w-128" />
 
 Now select the dimension tool at the top.
 
-<img src="/docs/v2/dimension.png" className="max-w-96" />
+<img src="/docs/v2/dimension.png" className="max-w-128" />
 
 First, click on the quater circles at the edges and enter 5mm. (You can tweak this!)
 
-<img src="/docs/v2/edges.png" className="max-w-96" />
+<img src="/docs/v2/edges.png" className="max-w-128" />
 
 Click ok. Now click on the straight line at the top, click again and enter "width-2*radius+5*2" (replace width with your board width, radius with your radius. The 5 at the end is our margin). In my case it is "41-2*5+5*2".
 
-<img src="/docs/v2/toplength.png" className="max-w-96" />
+<img src="/docs/v2/toplength.png" className="max-w-128" />
 
 Now do the same with the line at the right, but replace the width with the height.
 
 After all these, click escape multiple times (sometimes the escape just doesn't register TwT). Click and drag the "Sketch" onto the "Body", you should have something like this:
 
-<img src="/docs/v2/body.png" className="max-w-96" />
+<img src="/docs/v2/body.png" className="max-w-128" />
 
 Double click Sketch001 again, now select the External Geometry tool and click on the bottom left and down lines:
 
-<img src="/docs/v2/externalgeometry.png" className="max-w-96" />
+<img src="/docs/v2/externalgeometry.png" className="max-w-128" />
 
 Now go to KiCAD, measure how far your Edge.Cuts is to the yellow Silkscreen of your bottom-left switch.
 
 <img src="/docs/v2/swoffset.png" className="max-w-96" />
 
-Select the dimension tool again, click on the dotted wire on the left side, and the left edge of the case. Set the distance to the x distance you just measured + 5.
+Select the dimension tool again, click on the dotted wire on the left side, and the left edge of the case. Set the distance to the x distance you just measured + 5 (for me it's 3.99+5). Same for the bottom line and bottom dotted wire, y distance + 5.
+
+<img src="/docs/v2/halfdonefreecadsketch.png" className="max-w-128" />
+
+Now draw 4 circles on the edges with the circle tool:
+
+<img src="/docs/v2/circletool.png" className="max-w-128" />
+
+Use the dimension tool to set their diameter to 3.4mm (Click on the circles). And then set their distance to the edge by clicking on the center point, then one edge. It should be 3.3mm for both sides. You should have something like this:
+
+<img src="/docs/v2/doneplatesketch.png" className="max-w-96" />
+
+Double click escape, and you are done with the sketch!!! (My fingers are going to break tbh)
+
+Now click on the pad button:
+
+<img src="/docs/v2/freecadpad.png" className="max-w-96" />
+
+And change the length to 3mm. Then rotate to the other side of the board! You can either use the middle mouse button, or the cube at the top-right. Go to the Model tab, select the sketch and click pocket button now
+
+<img src="/docs/v2/freecadpocket.png" className="max-w-96" />
+<img src="/docs/v2/selectsketch.png" className="max-w-128" />
+
+Enter a 10mm, Check the revered button and press Ok
+
+<img src="/docs/v2/holefreecad.png" className="max-w-128" />
+
+Congrats! You finished the top plate.
 
 <a name="firmware"/>
 <a name="code"/>
