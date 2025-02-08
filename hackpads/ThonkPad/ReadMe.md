@@ -12,8 +12,7 @@ The hardest challenge was definatly the firmware. The firmware was very confusin
 ![top-view](https://github.com/user-attachments/assets/d3b773f6-fd29-4c84-86e1-5eb98ffb1e3b)
 
 
-BOL!
-
+BOM!
 List of Materials:
 - 3D printed base + side housing (black if possible)
 - 1 Seeed XIAO RP2040
