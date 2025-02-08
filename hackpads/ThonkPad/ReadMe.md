@@ -7,7 +7,13 @@ I stumbling accross this YSWS when searching the Hack Club Slack. I have always 
 What is/are the hardest challenge(s) you faced?
 The hardest challenge was definatly the firmware. The firmware was very confusing and the tutorial for the rotary encoder did not work. (I'll probably end up debugging the code once everything arrives.)
 
+![side-view](https://github.com/user-attachments/assets/11bbdfde-fec9-416e-9072-dbf1d9098461)
+
+![top-view](https://github.com/user-attachments/assets/d3b773f6-fd29-4c84-86e1-5eb98ffb1e3b)
+
+
 BOL!
+
 List of Materials:
 - 3D printed base + side housing (black if possible)
 - 1 Seeed XIAO RP2040
