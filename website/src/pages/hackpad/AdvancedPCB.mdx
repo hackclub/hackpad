@@ -59,13 +59,15 @@ Now, connect each row of diode heads together to form a row, and connect the eac
 
 <img src="/docs/v2/keymatrixschematicconnected.png" className="max-w-96" />
 
-Now you do the same things assigning the footprints, but for diodes you will use Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal as the footprint.
+Now you do the same things assigning the footprints, but for diodes you will use D_DO-35_SOD27_P7.62mm_Horizontal as the footprint.
 
 <img src="/docs/v2/keymatrixschematicassign.png" className="max-w-96" />
 
 Congrats! You got a working key matrix. Nothing really changed for the PCB routing part. Just as a side note, don't put the diodes directly on the switches (or they will collide in real life). I recommend putting them on the other side of the board (flip using F) and between the switches:
 
 <img src="/docs/v2/keymatrixdiode.png" className="max-w-96" />
+
+NOTE: When making the bom, write 1N4148 instead of diode
 
 <a name="silkscreen"/>
 ## Silkscreen art
@@ -115,14 +117,41 @@ Pretty right? UwU
 
 <a name="lcd"/>
 ## OLED
-[Download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2FKiCad-SSD1306-128x64-master). Add it to kicad.
+[Download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2FKiCad-SSD1306-128x64-master), then add it to kicad.
+
+Open up the schematic editor. If you have anything connected on the pins named "GPIO6/SDA" or "GPIO7/SCL", move them to another pin. Then add the symbol named SSD1306. Be sure to not use the built in symbol!
 
 Be sure to not use the built in footprint! The correct footprint should be called 128x64OLED:
+
+<img src="/docs/v2/oledsymbol.png" className="max-w-96" />
+
+Connect VCC to the +5V symbol, and GND to GND (Search these symbols using the G key). Then connect SDA to the SDA of the Xiao, and SCL to the SCL of the xiao.
+
+<img src="/docs/v2/oledhalfschem.png" className="max-w-96" />
+
+Now to the important part, you must add two pull-up resistors to the SCL and SDA lines. (What pull up means? It isn't really important but you can Google it)
+
+Search for the symbol named `R` and place one on each SDA and SCL lines, and wire the other end of the diodes to a +3.3V symbol (Find it using G). Don't forget to add a +3.3V symbol to the Xiao!
+
+<img src="/docs/v2/oledschem.png" className="max-w-96" />
+
+NOTE: In your BOM, you need to specify that the resistors are 4.7kΩ.
+
+Now you just need to associate the symbols to the footprint. Select R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal for the resistors, and 128x64OLED for the oled. (**NOT** Adafruit_SSD1306!)
+
+<img src="/docs/v2/oledassoc.png" className="max-w-128" />
+
+If you want to use a 0.91" display, download this library and add it to the .pretty folder:
+- [0.91" OLED Display](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty/blob/master/SSD1306-0.91-OLED-4pin-128x32.kicad_mod)
+Then choose this footprint when associating.
+
+Now continue to the PCB editors and route the pins! It isn't that different from routing the switches. I recommend placing the diodes on the back side of the OLED screen.
 
 <a name="expander"/>
 ## IO expander
 
 <a name="rneopixels"/>
+## Reverse mount neopixels
 
 I highly recommend you to look into how to make [a ground pour](#ground) first.
 
