@@ -10,14 +10,16 @@ This process is going to be broken into 3 parts, each with its own sub-parts:
   - [Routing the PCB](#routing)
   - [Adding 3D models](#3d_models)
 - [Common Case Design](#case_design_common)
-- [Figma Case Design](#case_design_fusion)
+- [Fusion360 Case Design](#case_design_fusion)
   - [Creating the bottom](#bottom)
   - [Creating the top](#top)
   - [Finishing touches](#finishing)
 - [FreeCAD Case Design](#case_design_freecad)
   - [Creating the plate](#freecad_plate)
+  - [Creating the bottom](#freecad_bottom)
+- [OnShape Case Design](#case_design_onshape)
 - [Firmware](#firmware)
-  - [Code!](#code)
+  - [kmk!](#kmk)
 
 
 If you're unsure about anything, send a message in #hackpad! We have so many eager people to help. 
@@ -349,7 +351,7 @@ I would also recommend importing 3d models of all your components to test fit ev
 <a name="case_design_freecad"/>
 ## Creating your case in FreeCad
 
-- Difficulty: 4/5
+- Difficulty: 4/5, but guide is ultra detailed!
 
 As a forenote, FreeCAD comes with a lot of quirks, so when you are blocked, google will be your best friend.
 
@@ -454,9 +456,29 @@ Now draw 4 circles on the edges with the circle tool:
 
 <img src="/docs/v2/circletool.png" className="max-w-128" />
 
-Use the dimension tool to set their diameter to 3.4mm (Click on the circles). And then set their distance to the edge by clicking on the center point, then one edge. It should be 3.3mm for both sides. You should have something like this:
+Use the dimension tool to set their diameter to 3.4mm (Click on the circles). And then set their distance to the edge by clicking on the center point, then one edge. It should be 3.3mm (radius - 3.4/2) for both sides. You should have something like this:
 
 <img src="/docs/v2/doneplatesketch.png" className="max-w-96" />
+
+Now go to kicad and measure the distance from the edge of the PCB to the USB port.
+
+<img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
+
+Then open back FreeCAD, select the rectangle tool and draw a rectangle at the top:
+
+<img src="/docs/v2/freecadrectangle.png" className="max-w-96" />
+
+Use the dimension tool to define a width of 18mm and height of 26mm. Click T and click on the top of the rectangle, then the top of the rounded rectangle. After that use the distance tool to set the distance from the left of the rectangle to the left edge of the rounded rectangle to x_distance_in_kicad+0.75mm
+
+<img src="/docs/v2/freecadplatehole.png" className="max-w-96" />
+
+Select the Trim edge tool:
+
+<img src="/docs/v2/freecadtrimedge.png" className="max-w-96" />
+
+Then click two times the top side of the rectangle you just drew:
+
+<img src="/docs/v2/freecadtrimmed.png" className="max-w-96" />
 
 Double click escape, and you are done with the sketch!!! (My fingers are going to break tbh)
 
@@ -464,23 +486,82 @@ Now click on the pad button:
 
 <img src="/docs/v2/freecadpad.png" className="max-w-96" />
 
-And change the length to 3mm. Then rotate to the other side of the board! You can either use the middle mouse button, or the cube at the top-right. Go to the Model tab, select the sketch and click pocket button now
+And change the length to 3mm. Then rotate to the other side of the board! You can either use the middle mouse button+left mouse button, or the cube at the top-right. Go to the Model tab, select the sketch and click pocket button now
 
 <img src="/docs/v2/freecadpocket.png" className="max-w-96" />
 <img src="/docs/v2/selectsketch.png" className="max-w-128" />
 
-Enter a 10mm, Check the revered button and press Ok
+Enter 10mm, check the Reversed radio button and press Ok
 
 <img src="/docs/v2/holefreecad.png" className="max-w-128" />
 
 Congrats! You finished the top plate.
 
+Click File > Save to save the freecad project, and click on the Body in the tree view, then go to File > Export to export, select STL mesh as file format.
+
+<a name="freecad_bottom"/>
+### Bottom
+
+First, create a new file, then a new sketch (Make sure you are in the Part Design workbench, still on the XY-plane).  Add a rounded rectangle, and make it have the same dimensions as the previous one (Use the distance tool to set the size). Then click C (This selects constraint coincident), click on any point of the rectangle, then the center of the xy axis:
+
+<img src="/docs/v2/freecadbase.png" className="max-w-96" />
+
+After that, draw the four circles like last time. with the same dimensions:
+
+<img src="/docs/v2/freecadbasewhole.png" className="max-w-96" />
+
+Double click escape, and click pad again. Enter 13mm:
+
+<img src="/docs/v2/freecadextrude.png" className="max-w-96" />
+
+Now click the top side of the case, and click on Create Sketch again. This time create a rectangle with the rectangle tool at the middle:
+
+<img src="/docs/v2/freecadrectangle.png" className="max-w-96" />
+
+First, use the external geometry tool and click on all 4 sides of our extruded case. Then use the dimension tool to set a distance between the edge of our rectangle and the edges of our extruded case of 5.2 mm.
+
+<img src="/docs/v2/freecadholesketch.png" className="max-w-96" />
+
+Double click escape, click the pocket tool and enter 10mm. You should have something like this:
+
+<img src="/docs/v2/freecadpocket2.png" className="max-w-96" />
+
+Click on one of the smaller sides of the case, and create a new sketch. Now go to kicad and measure the distance from the edge of the PCB to the USB port.
+
+<img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
+
+Now draw a rectangle (non-rounded) in freecad. Use the external geometry tool to click on the right and top edges of the case. Set the width of the rectangle to 18mm and the height to 7.5mm. Click T, then click the top of the rect and the top edge of the case, after that use the distance tool to set the distance from the right of the rectangle to the right edge of the case to x_distance_in_kicad+0.75mm
+
+<img src="/docs/v2/freecadusbsketch.png" className="max-w-96" />
+
+Double click escape, and click the pocket tool, then enter 6mm. And you finished your case!!! 🎊🎊 (I'm going to die writing all this) The steps to save it are the same.
+
+<img src="/docs/v2/freecadcase.png" className="max-w-96" />
+
+And finally to test fit the case! Export the 3d model of your PCB. Open a new FreeCAD file, click File > Import, and select all your components (case, plate and 3d PCB).
+
+Use the property editor to modify the position of the objects, so that they align: (The x, y, z fields, and rotate using the angle field)
+
+<img src="/docs/v2/freecadproperty.png" className="max-w-96" />
+
+After all this, you can assemble a 3d model like this and verify that everything fits:
+
+<img src="/docs/v2/freecadfinal.png" className="max-w-96" />
+
+PS. Yours should fit better, I make a tiny error to the measurements while creating the models :P. But I've corrected the sizes in the guide
+
 <a name="firmware"/>
-<a name="code"/>
+## OnShape case design
+
+TODO :3
+
+<a name="firmware"/>
 ## Firmware
 
 This tutorial uses the [QMK firmware](https://qmk.fm/) project as firmware! You can find out how to port your keyboard here: \
 [QMK Porting Guide](https://docs.qmk.fm/porting_your_keyboard_to_qmk)
+
+<a name="kmk"/>
 
 # Next steps
 We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out! Again, don't copy this guide 1:1, add your own design into it.
