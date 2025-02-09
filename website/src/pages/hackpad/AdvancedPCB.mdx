@@ -67,11 +67,57 @@ Congrats! You got a working key matrix. Nothing really changed for the PCB routi
 
 <img src="/docs/v2/keymatrixdiode.png" className="max-w-96" />
 
+<a name="silkscreen"/>
+## Silkscreen art
+
+Is your board too plain? Add some silkscreen art!
+
+First, you need to find the art. The best resource is google of course. I recommend you find a picture with well defined lines, and a good color contrast. This is needed since we will only have two colors: black and white. (Not even gray).
+
+PS. Find cute anime pics on pixiv.net UwU
+
+I'm taking this image as a example:
+
+<img src="/docs/v2/silkgura.png" className="max-w-96" />
+
+Credit: https://www.pixiv.net/en/artworks/124874618
+
+It has a good color contrast and well defined lines, which is perfect to use as silkscreen art.
+
+Now that you have your art. Open up kicad and launch the image converter.
+
+<img src="/docs/v2/silkconverter.png" className="max-w-96" />
+
+Click the "Load Source Image" button on the right hand side and select your image, you should see something like thiis:
+
+<img src="/docs/v2/silkbadsilk.png" className="max-w-96" />
+
+As you can see, the image isn't that good. Now play with the "Black / white threshold" slider on the right, and maybe try ticking the "Negative" checkbox. You should be able to find a point where you are satisfied:
+
+<img src="/docs/v2/silkgoodsilk.png" className="max-w-96" />
+
+If you can't find a good point, try finding another image, or open up a paint program, and make the contrast stronger.
+
+Now, at the bottom right, change the "Pcb Layer for Graphics" to "Front silk screen", and change the output format to "Footprint (.kicad_mod file)"
+
+<img src="/docs/v2/silkoptions.png" className="max-w-96" />
+
+Click on the "Export to Clipboard button", and go to your PCB editor. Click Control+V (Or Command+V on Macs), and place your silkscreen down. If your image is too small/big, try editing the size in "Output Size", and export to clipboard then paste again.
+
+If there is a "G***" text in your silkscreen, just select it and press del (or right click and delete).
+
+I placed mine on the back side of the PCB, and this is the final result:
+
+<img src="/docs/v2/silkfinal.png" className="max-w-96" />
+<img src="/docs/v2/silkfinal3d.png" className="max-w-96" />
+
+Pretty right? UwU
+
 <a name="lcd"/>
 ## OLED
 [Download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2FKiCad-SSD1306-128x64-master). Add it to kicad.
 
-Be sure to not use the built in footprint! The correct footprint should be called 128x64OLED.
+Be sure to not use the built in footprint! The correct footprint should be called 128x64OLED:
 
 <a name="expander"/>
 ## IO expander
