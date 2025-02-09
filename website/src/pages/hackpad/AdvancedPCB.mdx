@@ -4,13 +4,15 @@ Are you not satisfied with a simple PCB? Here you have more information on advan
 
 - [Ground Pour](#ground)
 - [Switch Matrix](#matrix)
-- [Silkscreen art](#silkscreen)
+- [Silkscreen Art](#silkscreen)
 - [LCD](#lcd)
-- [IO expander](#expander)
-- [Reverse mount neopixels](#rneopixels)
+- [Jumper Wire Holes](#jumpers)
+- [Reverse Mount Neopixels](#rneopixels)
+- [Rotatory Encoder](#rotatory_encoder)
+- [IO Expander](#expander)
 
 <a name="ground pour"/>
-## Ground pour
+## Ground Pour
 
 Do you have too many neopixels? A ground pour is a good way to remove the need to route the GND traces, and would allow current a shorter return circuit.
 
@@ -70,7 +72,7 @@ Congrats! You got a working key matrix. Nothing really changed for the PCB routi
 NOTE: When making the bom, write 1N4148 instead of diode
 
 <a name="silkscreen"/>
-## Silkscreen art
+## Silkscreen Art
 
 Is your board too plain? Add some silkscreen art!
 
@@ -147,12 +149,52 @@ Then choose this footprint when associating.
 
 Now continue to the PCB editors and route the pins! It isn't that different from routing the switches. I recommend placing the diodes on the back side of the OLED screen.
 
-<a name="expander"/>
-## IO expander
+<a name="jumpers"/>
+## Jumper Wire Holes
+
+Do you want some jumper wire holes? You can create a split macropad, or have some components away from the PCB with this!
+
+Just add the symbol named "Conn_01xNUM_Pin" to your schematic (Replace NUM by the number of pins you want).
+
+Wire it up and associate the footprint SolderWire-0.1sqmm_1xNUM_P3.6mm_D0.4mm_OD1mm (Replace NUM by the number of pins you want)
 
 <a name="rneopixels"/>
-## Reverse mount neopixels
+## Reverse Mount Neopixels
 
 I highly recommend you to look into how to make [a ground pour](#ground) first.
 
-To add reverse mounted neopixels, [download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2Fneopixel.petty). You need to use the SK6812MINI symbol with it.
+To add reverse mounted neopixels, [download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2Fneopixel.petty). You need to use the built-in SK6812MINI symbol with it.
+
+You already know how to wire neopixels from the general tutorial (aka DIN to DOUT, VDD to +5V and VSS to GND).
+
+The only difference is that you need to assign SK6812MINI-E footprint to the neopixel
+
+<img src="/docs/v2/neoassoc.png" className="max-w-96" />
+
+You can put them anywhere as usual, but if you want to put them under your switches, follow this:
+
+First, select the **center** of the neopixel, then move it to the **center** of the corresponding switch:
+
+<img src="/docs/v2/neomiddle.png" className="max-w-96" />
+
+Now click E, and enter +5.08 at the Y fiels on the bottom left
+
+<img src="/docs/v2/neoedit.png" className="max-w-96" />
+
+Click ok and you should see your neopixel move down. Now click F to flip it onto the other side. (They will be shining towards the top, since they are reverse mounted).
+
+Repeate for all your leds, and you should be done!
+
+<img src="/docs/v2/neofinal.png" className="max-w-96" />
+
+NOTE: You shouldn't route inside the white border of the neopixel, since it will be drilled out. KiCAD should prevent you from doing it, but you will need to move any existing traces.
+
+<a name="rotatory_encoder"/>
+## Rotatory Encoder
+
+So you want a rotating knob! Good idea!
+
+<a name="expander"/>
+## IO Expander
+
+Not enough IO pins? Want to add like a ton of rotatory encoders?? It's time for an IO expander!
