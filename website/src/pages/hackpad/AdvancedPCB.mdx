@@ -12,11 +12,37 @@ Are you not satisfied with a simple PCB? Here you have more information on advan
 <a name="matrix"/>
 ## Switch Matrix
 
-[If you want, here is a detailed explenation of how key matrices works](https://pcbheaven.com/wikipages/How_Key_Matrices_Works/)
+[If you want, here is a detailed explenation of how key matrices works.](https://pcbheaven.com/wikipages/How_Key_Matrices_Works/)
+
+Now you aren't satisfied with the number of keys you have? With switch matrices you can have more switches on less pins! (Wow this is a good sales pitch, hire me adafruit :3)
+
+First, open up your schematic and place the switches in a grid shape:
+
+<img src="/docs/v2/keymatrixschematic.png" className="max-w-96" />
+
+If you want a non-symetric shape for your keys, it's fine to delete any switch you don't want.
+
+Now add diodes. Their schematic name is `D`. Place them at one end of the switch (any end, but it should be the same for all the switches), **pointing away from the switch**:
+
+<img src="/docs/v2/keymatrixschematicdiode.png" className="max-w-96" />
+
+Now, connect each row of diode heads together to form a row, and connect the each row to a GPIO pin. Do the same with the each column of switches (on the side without the diode) to form a column. Connect each column to a GPIO pin too.
+
+<img src="/docs/v2/keymatrixschematicconnected.png" className="max-w-96" />
+
+Now you do the same things assigning the footprints, but for diodes you will use Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal as the footprint.
+
+<img src="/docs/v2/keymatrixschematicassign.png" className="max-w-96" />
+
+Congrats! You got a working key matrix. Nothing really changed for the PCB routing part. Just as a side note, don't put the diodes directly on the switches (or they will collide in real life). I recommend putting them on the other side of the board (flip using F) and between the switches:
+
+<img src="/docs/v2/keymatrixdiode.png" className="max-w-96" />
 
 <a name="lcd"/>
 ## OLED
-[Download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2FKiCad-SSD1306-128x64-master)
+[Download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2FKiCad-SSD1306-128x64-master). Add it to kicad.
+
+Be sure to not use the built in footprint! The correct footprint should be called 128x64OLED.
 
 <a name="expander"/>
 ## IO expander
