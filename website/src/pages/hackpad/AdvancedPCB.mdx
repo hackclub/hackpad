@@ -9,6 +9,35 @@ Are you not satisfied with a simple PCB? Here you have more information on advan
 - [IO expander](#expander)
 - [Reverse mount neopixels](#rneopixels)
 
+<a name="ground pour"/>
+## Ground pour
+
+Do you have too many neopixels? A ground pour is a good way to remove the need to route the GND traces, and would allow current a shorter return circuit.
+
+Let's take this macropad for example:
+
+<img src="/docs/v2/pourstart.png" className="max-w-96" />
+
+You can see 4 neopixels and the OLED missing the ground traces. Thus we would like to add a ground pour. Click on the Add Filled Zone button on the right hand side:
+
+<img src="/docs/v2/pouraddzone.png" className="max-w-96" />
+
+Click on one corner of your board. You will get a new window, where you select GND in the middle, and check both F.Cu and B.Cu on the left side:
+
+<img src="/docs/v2/pouradd.png" className="max-w-96" />
+
+Click ok, and then draw the outline around your Edge.Cuts (It can be bigger then it, but then it won't be that pretty :P). When you have finished, press B to fill. You should press B each time you make a change so the fill can get updated (well not each time, but you get what I mean). The end result is like this:
+
+<img src="/docs/v2/pourfilled.png" className="max-w-96" />
+
+Oh no! Do you see the empty areas on the back of the board? Those are places where the ground pour can't reach. To fix this, you need to add some vias.
+
+<img src="/docs/v2/pouraddvias.png" className="max-w-96" />
+
+Click on that button, and place a few vias on the parts where the ground pour is missing (and feel free to put some even the in places where it isn't missing). And don't forget to press B again to refill! Your end product should look like this:
+
+<img src="/docs/v2/pourfinish.png" className="max-w-96" />
+
 <a name="matrix"/>
 ## Switch Matrix
 
@@ -49,6 +78,6 @@ Be sure to not use the built in footprint! The correct footprint should be calle
 
 <a name="rneopixels"/>
 
-I highly reccomend you to look into how to make [a ground pour](#ground) first.
+I highly recommend you to look into how to make [a ground pour](#ground) first.
 
 To add reverse mounted neopixels, [download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2Fneopixel.petty). You need to use the SK6812MINI symbol with it.
