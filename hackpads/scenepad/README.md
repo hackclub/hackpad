@@ -13,3 +13,4 @@ Scenepad is Designed to be a Macro Pad to Control MyDMX3, A Theatre Lighting Sof
  - 3x White Cherry MX Key Caps
  - 1x Black Cherry MX Key Caps
  - 1x USB-C Cable
+ - 1x Soldering Kit/Soldering Iron
