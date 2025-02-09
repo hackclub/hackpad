@@ -1,6 +1,7 @@
 # AccentPad
 
 *A 4x4 keypad that lets you type most common accents.*
+![Assembled board render](assembled.png)
 
 * Keyboard Maintainer: [Hazel Viswanath](https://github.com/transdryad)
 * Hardware Supported: *Accent Pad Board with Seeed Studio Xiao RP2040 Controller*
