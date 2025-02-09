@@ -20,6 +20,7 @@ Bro when I tell you I STRUGGLED. I was literally thiiiis close to just giving up
 * 1x EC11 Rotary Encoder knob
 * 9x 1n4148 diodes
 * 4x M3x16mm screws(preferably crosshead, if available)
+* Lead free solder
 
 ### Others
 ![image](https://github.com/user-attachments/assets/431057c2-d7b8-4e51-9307-c02a75d23830)
