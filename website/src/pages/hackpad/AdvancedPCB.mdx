@@ -8,7 +8,7 @@ Are you not satisfied with a simple PCB? Here you have more information on advan
 - [LCD](#lcd)
 - [Jumper Wire Holes](#jumpers)
 - [Reverse Mount Neopixels](#rneopixels)
-- [Rotatory Encoder](#rotatory_encoder)
+- [Rotary Encoder](#rotary_encoder)
 - [IO Expander](#expander)
 
 <a name="ground pour"/>
@@ -127,13 +127,13 @@ Be sure to not use the built in footprint! The correct footprint should be calle
 
 <img src="/docs/v2/oledsymbol.png" className="max-w-96" />
 
-Connect VCC to the +5V symbol, and GND to GND (Search these symbols using the G key). Then connect SDA to the SDA of the Xiao, and SCL to the SCL of the xiao.
+Connect VCC to the +5V symbol, and GND to GND (Search these symbols using the P key). Then connect SDA to the SDA of the Xiao, and SCL to the SCL of the xiao.
 
 <img src="/docs/v2/oledhalfschem.png" className="max-w-96" />
 
 Now to the important part, you must add two pull-up resistors to the SCL and SDA lines. (What pull up means? It isn't really important but you can Google it)
 
-Search for the symbol named `R` and place one on each SDA and SCL lines, and wire the other end of the diodes to a +3.3V symbol (Find it using G). Don't forget to add a +3.3V symbol to the Xiao!
+Search for the symbol named `R` and place one on each SDA and SCL lines, and wire the other end of the resistors to a +3.3V symbol (Find it using P). Don't forget to add a +3.3V symbol to the Xiao!
 
 <img src="/docs/v2/oledschem.png" className="max-w-96" />
 
@@ -189,12 +189,43 @@ Repeate for all your leds, and you should be done!
 
 NOTE: You shouldn't route inside the white border of the neopixel, since it will be drilled out. KiCAD should prevent you from doing it, but you will need to move any existing traces.
 
-<a name="rotatory_encoder"/>
-## Rotatory Encoder
+<a name="rotary_encoder"/>
+## Rotary Encoder
 
 So you want a rotating knob! Good idea!
+
+First, add the symbol RotaryEncoder_Switch to your schematic.
+
+<img src="/docs/v2/rotarysym.png" className="max-w-96" />
+
+The right side of the symbol acts the same as a normal switch, you can just wire it into your key matrix/together with your switches. Connect the middle pin (C) to GND, then the top and bottom pins (A and B) to a GPIO pin:
+
+<img src="/docs/v2/rotarywired.png" className="max-w-128" />
+
+Now, you should associate the symbol to the RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles footprint.
+
+After that, just route your PCB as normal.
 
 <a name="expander"/>
 ## IO Expander
 
 Not enough IO pins? Want to add like a ton of rotatory encoders?? It's time for an IO expander!
+
+We are going to use the MCP23017 io expander chip. For the symbol select MCP23017_SO.
+
+<img src="/docs/v2/expandersym.png" className="max-w-96" />
+
+First, connect VDD to +3.3V and VSS to GND. The reset pin should also be connected to +3.3V. Connect A0, A1 adn A2 to GND.
+
+Connect SDA to the SDA pin of the Xiao, and SCL to the SCL pin. You need to add pull-up resistors on SDA and SCL.
+
+Search for the symbol named `R` and place one on each SDA and SCL lines, and wire the other end of the resistors to a +3.3V symbol (Find it using P). Don't forget to add a +3.3V symbol to the Xiao!
+
+<img src="/docs/v2/expanderwired.png" className="max-w-128" />
+
+NOTE: In your BOM, you need to specify that the resistors are 4.7kΩ.
+
+Now you got 16 additional IO pins! (GPA0-7 and GPB0-7) Use them wisely :D
+
+When associating the symbols to the footprint. Select R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal for the resistors. The MCP23017_SO should already be pre-assigned, but it's corresponding footprint is SOIC-28W_7.5x17.9mm_P1.17mm.
+
