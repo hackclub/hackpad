@@ -1,5 +1,7 @@
 # MacroPad-Lotus
 
+![lotuspad]("https://i.imgur.com/oIopzex.png")
+
 The inspiration for creating this macropad came from my love for coding and the need for efficient shortcuts while programming. It is designed to enhance productivity by providing quick access to frequently used commands and macros. The process of designing this project taught me a lot about using new tools like Fusion 360 and KiCad. It was also the most difficult part in the process. I think Fusion360 has a very steep learning curve.
 
 
