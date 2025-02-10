@@ -277,6 +277,10 @@ After that, scroll down, look at the preview to verify if it conforms to your ma
 
 Fusion360 has a free plan for students, you can create a education account. After you have your account, either download the native Fusion360 application, or [use this magic link](https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion) to launch it directly in your browser :D
 
+If you are using the browser version, don't forget to save regularly, since your session will close if you leave it alone for too long.
+
+I **strongly** recommend you use the desktop application if you are on a supported platform, since the web one is buggy and super slow.
+
 <a name="bottom"/>
 ### Creating the bottom
 Start by creating a new project, and a new component, this is better for organization. (Not applicable on web version)
@@ -290,47 +294,119 @@ Now go back to KiCAD PCB editor and measure the dimensions of your board with th
 
 We now know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case.
 
-Next, create a sketch by by pressing the green + button on the top left, then clicking the bottom orange retangle at the center of the screen. Create a rectangle that is 0.5mm bigger than your hackpad's PCB. For example, my PCB is 41mm x 62.7mm, I added 0.5mm to each on the sketch.
+Next, create a sketch by by pressing the green + button on the top left, then clicking the bottom orange retangle at the center of the screen.
 
 <img src="/docs/v2/1sketch1.png" className="max-w-96" />
+
+Create a rectangle that is 1mm bigger than your hackpad's PCB. For example, my PCB is 41mm x 62.7mm, I added 1mm to each size on the sketch. To set the size of a rectangle, click on the Sketch dimension button (You might need to expand the "Create" menu to see it, or press the D key), then click on the edge you wan't to define the length.
+
+<img src="/docs/v2/fusionrect.png" className="max-w-96" />
+<img src="/docs/v2/fusiondim.png" className="max-w-96" />
 <img src="/docs/v2/1sketch2.png" className="max-w-96" />
 
-Create another rectangle with 10mm extra on each dimension! (5mm bigger on each side) Center this rectangle by pressing the dimension button and setting the values to 5mm.
+Create another rectangle with 20mm extra on each dimension! (I will have 61mm x 82.7mm):
 
-<img src="/docs/v2/sketchdimension.png" className="max-w-96" />
-<img src="/docs/v2/properdimension.png" className="max-w-96" />
+<img src="/docs/v2/fusionrect2.png" className="max-w-96" />
 
-It should look something like this when you're completed! 
+Center this rectangle by pressing the dimension button, press one edge of the small rectangle then the corresponding edge of the big rectangle and setting the values to 9.5mm. (You only need to constrain one of the horizontal edges, and one of the vertical edges)
 
-<img src="/docs/v2/finishsketch.png" className="max-w-96" />
+<img src="/docs/v2/fusionrect3.png" className="max-w-96" />
 
-Select the outer rectangle and press extrude, extrude the outer by 13mm, and then do the same with the inner rectangle by 3mm.
+Now use the circle tool to draw 4 circles, one on each edge. Use the sketch dimension tool to set their size to 3.4mm. Then, use the dimension tool to set their distance to their corresponding edges to 5mm (by clicking on their centers, then the corresponding edge):
 
-<img src="/docs/v2/halfextrude.png" className="max-w-96" />
+<img src="/docs/v2/fusioncircle.png" className="max-w-96" />
+<img src="/docs/v2/fusioncircledim.png" className="max-w-96" />
+<img src="/docs/v2/fusioncircle2.png" className="max-w-96" />
 
-Thats the base of your case done! Next, lets create another sketch, this time creating circles with a diameter of 3.2mm, and 2.75mm from each edge. Extrude it to make it a hole! 
+Now add 4 more circles, this time with a diameter of 6mm. Select the coincident tool, and click on the centers of corresponding circles. 
 
-<img src="/docs/v2/holesforcase.png" className="max-w-96" />
+<img src="/docs/v2/fusioncoincident.png" className="max-w-96" />
+<img src="/docs/v2/fusionfinishsketch.png" className="max-w-96" />
+
+Press "Finish sketch" (green checkmark at top right of screen), then select all the middle circles (shift click) and press extrude. In the extrude menu, select Offset in Start, and enter 3.1mm as the Offset, then enter 9.9 mm in the Distance field and click ok:
+
+<img src="/docs/v2/fusionextrude.png" className="max-w-96" />
+<img src="/docs/v2/fusionselect.png" className="max-w-96" />
+<img src="/docs/v2/fusionextrudemenu.png" className="max-w-96" />
+
+Now, you must re-show the object be opening the Sketches folder on the left, and cliking the eye icon on Sketch1. Then select the outer rectangle and press extrude. This time the Start shall be "Profile Plane" (and will be for all future extrudes), and set the distance to 13mm:
+
+<img src="/docs/v2/fusionshow.png" className="max-w-96" />
+<img src="/docs/v2/fusionextrude2.png" className="max-w-96" />
+
+Now, click the center square, and extrude it by 3mm. Now you can move arround and your will see something like this:
+
+<img src="/docs/v2/fusioncasehalf.png" className="max-w-96" />
+
+Thats the base of your case done!
+
+Now go to kicad and measure the distance from the edge of the PCB to the USB port.
+
+<img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
+
+Now select the top of the case:
+
+<img src="/docs/v2/fusiontop.png" className="max-w-96" />
+
+And create a new sketch (Create Sketch button). Draw a rectangle at the top, and place your starting point on the top edge, and ending point on the inner top edge. Now define it's width to 18.5mm (You can define it by clicking on the left edge, then the right edge with the distance tool). After that, set the distance from the left of the rectangle to the left edge of the case to x_distance_in_kicad+5.75mm:
+
+<img src="/docs/v2/fusionhole.png" className="max-w-96" />
+
+Click finish sketch, select the rectangle we just draw and press extrude. This time set the distance to -7.5mm
+
+<img src="/docs/v2/fusioncase.png" className="max-w-96" />
+
+Now we finished the bottom case! Congratulations!
+
+You can now export the model by clicking File > Export... at the top left, and selecting STEP Files as the Type.
+
+To download the resulting STEP file on the web, go to [https://myhub.autodesk360.com/](https://myhub.autodesk360.com/), go to your project and click the download icon.
+
+Right now our case looks a little ugly, its so blocky! Lets round the corners, press the Fillet button found in the top, and click on each edge and make it 5mm. Should look as such:
+
+<img src="/docs/v2/fillet.png" className="max-w-96" />
+<img src="/docs/v2/edgeround.png" className="max-w-96" />
+<img src="/docs/v2/fusiongfinaltop.png" className="max-w-96" />
 
 <a name="top"/>
 ### Creating the top
 
-Next, we will make the other half to our case. Start by creating yet another sketch, making it the same size as the bottom half of the case. Create the holes like before, and then create 4 14mm x 14mm squares. Follow these dimensions: 
+Next, we will make the other half to our case. Start by clicking new design.
 
-<img src="/docs/v2/topsketch.png" className="max-w-96" />
+<img src="/docs/v2/fusionnewdesign.png" className="max-w-96" />
 
-Almost done, create another rectangle 18mm x 21mm, 17mm away from both edges and 5mm from the top, and extrude that plate by 3mm.
+Now go to the INSERT menu, expand it and click "Insert DXF". Select a dxf file (in the web you need to first click Upload from Fusion Team..., upload it from there, click refresh then select the file), and click ok. Now delete the outer lines surrounding the keyholes. You should have something like this:
 
-<img src="/docs/v2/topextrude.png" className="max-w-96" />
+<img src="/docs/v2/fusionholes.png" className="max-w-96" />
 
-Right now our case looks a little ugly, its so blocky! Lets round the corners, press the Fillet button found in the top, and click on each edge and make it 2mm. Select the top edge of the case and make that 1mm. Should look as such:
+Now select everything and click on the Lock button
 
-<img src="/docs/v2/fillet.png" className="max-w-96" />
-<img src="/docs/v2/edgeround.png" className="max-w-96" />
+<img src="/docs/v2/fusionlock.png" className="max-w-96" />
 
-Make sure to cut out a port hole for your xiao, the best method is to add 3d models to your PCB, and test fit everything. You can import the .STEP file of your PCB, and test fit everything. After I test fitted everything, I made a few modifications.
+Go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
 
-<img src="/docs/v2/casebottom.png" className="max-w-96" />
+<img src="/docs/v2/ruler.png" className="max-w-96" />
+<img src="/docs/v2/pcbsize.png" className="max-w-96" />
+
+Now lets create a new rectangle, define it's width and height the same as the size of the top plate. Set the distance between the left end of your keyholes and the left edge of the rectangle the x distance you just measured + 10.5 (for me it's 3.99+10.5). Same for the bottom edge of the keyhole and bottom edge of the rectangle, y distance + 10.5.
+
+<img src="/docs/v2/fusionalmost.png" className="max-w-96" />
+
+Add another rectangle, this time with it's start starting on the top line of our rectangle. Set it's width to 18.5mm and height to 31mm. After that use the distance tool to set the distance from the left of the rectangle to the left edge of the rounded rectangle to x_distance_in_kicad+5.75mm
+
+Add 4 more circles of 3.4mm and 5mm from the edges:
+
+<img src="/docs/v2/fusionfinalsketch.png" className="max-w-96" />
+
+Click finish sketch, and pad the main part 3mm.
+
+<img src="/docs/v2/fusionplate.png" className="max-w-96" />
+
+But currently the plate is kinda ugly. Do the same things with the fillet as the case:
+
+<img src="/docs/v2/fusionplatefinal.png" className="max-w-96" />
+
+You finished your plate!! Congrats
 
 <a name="finishing"/>
 ### Finishing Touches
