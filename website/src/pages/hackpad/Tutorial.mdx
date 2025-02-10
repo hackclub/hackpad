@@ -275,13 +275,22 @@ After that, scroll down, look at the preview to verify if it conforms to your ma
 <a name="case_design_fusion"/>
 ## Creating your case in Fusion360
 
+Fusion360 has a free plan for students, you can create a education account. After you have your account, either download the native Fusion360 application, or [use this magic link](https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion) to launch it directly in your browser :D
+
 <a name="bottom"/>
 ### Creating the bottom
-Start by creating a new project, and a new component, this is better for organization. 
+Start by creating a new project, and a new component, this is better for organization. (Not applicable on web version)
 
 <img src="/docs/v2/newcomponent.png" className="max-w-96" />
 
-Next, create a sketch by by pressing the green + button. Create a rectangle that is 0.5mm bigger than your hackpad's PCB. For example, my PCB is 42mm x 61.5mm, I added 0.5mm to each on the sketch.
+Now go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+
+<img src="/docs/v2/ruler.png" className="max-w-96" />
+<img src="/docs/v2/pcbsize.png" className="max-w-96" />
+
+We now know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case.
+
+Next, create a sketch by by pressing the green + button on the top left, then clicking the bottom orange retangle at the center of the screen. Create a rectangle that is 0.5mm bigger than your hackpad's PCB. For example, my PCB is 41mm x 62.7mm, I added 0.5mm to each on the sketch.
 
 <img src="/docs/v2/1sketch1.png" className="max-w-96" />
 <img src="/docs/v2/1sketch2.png" className="max-w-96" />
