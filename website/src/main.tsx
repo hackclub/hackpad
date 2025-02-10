@@ -3,9 +3,8 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 
 import Tutorial from "./pages/hackpad/Tutorial.mdx";
+import AdvancedTutorial from "./pages/hackpad/AdvancedTutorial.mdx";
 import Errors from "./pages/hackpad/Errors.mdx";
-import AdvancedPCB from "./pages/hackpad/AdvancedPCB.mdx";
-import TipsnTricks from "./pages/hackpad/TipsnTricks.mdx";
 import Submission from "./pages/hackpad/Submission.mdx";
 import ApprovedParts from "./pages/hackpad/ApprovedParts.mdx";
 import Faq from "./pages/hackpad/Faq.mdx";
@@ -40,8 +39,12 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/advancedguide",
+    element: <DocPage Content={ AdvancedTutorial } SideBar={ SideBar } />,
+  },
+  {
     path: "/submitting",
-    element: <DocPage Content={Submission} SideBar={ SideBar } />,
+    element: <DocPage Content={ Submission } SideBar={ SideBar } />,
   },
   {
     path: "/parts",
@@ -62,14 +65,6 @@ const router = createBrowserRouter([
   {
     path: "/get-keycap",
     element: <DocPage Content={ GetKeycap } SideBar={ SideBar } />,
-  },
-  {
-    path: "/advancedPCB",
-    element: <DocPage Content={ AdvancedPCB } SideBar={ SideBar } />,
-  },
-  {
-    path: "/tipsntricks",
-    element: <DocPage Content={ TipsnTricks } SideBar={ SideBar } />,
   },
   {
     path: "/errors",
