@@ -12,6 +12,8 @@ Bro when I tell you I STRUGGLED. I was literally thiiiis close to just giving up
 
 ## Specifications
 
+(A black case would be prefered)
+
 ### BOM:
 * 1x SEEED XIAO rp2040
 * 9x Cherry MX Switches
