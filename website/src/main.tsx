@@ -26,6 +26,7 @@ import "./index.css";
 import OrpheusPad from "./pages/submissions/Orpheuspad/OrpheusPad.mdx"
 import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
 import Wang01 from "./pages/submissions/Wang01/Wang01.mdx"
+import Artpad from "./pages/submissions/Artpad/Artpad.mdx"
 
 const router = createBrowserRouter([
   {
@@ -91,6 +92,10 @@ const router = createBrowserRouter([
   {
     path: "/projects/wang01",
     element: <DocPage Content={ Wang01 } SideBar={ SideBar } />
+  },
+  {
+    path: "/projects/artpad",
+    element: <DocPage Content={ Artpad } SideBar={ SideBar } />
   }
 ]);
 
