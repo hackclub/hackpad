@@ -16,3 +16,5 @@ The hardest part for me was trying to understand the firmware, but after enough 
 - 4x M3X16mm screws
 - 1x 3D printed case (prefer base.stl in black & top.stl in white if possible)
 
+![alt text](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/backMP.png?raw=true)
+![alt text](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/frontMP.png?raw=true)
