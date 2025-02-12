@@ -1,6 +1,18 @@
 # The emregency-pad!
-
+This macropad is designed to aid you in seriuos computer-related incidents, like software consuming
+exterme amouts of ram or some random virus taking over your computer.
+This dosen't guaratee your computers safety, but it can help you to open task-manager quickly 
+or stragiht-up shut down your computer.
+This macro-pad is also equipt with quaility-of-life functions, like a knob for volume-control and mute, a keycode layer for numpad and some copy and paste features.
 # BOM:
 1x XIAO RP2040
-15x mx-switches (preferably brown maybe?)
-15x Keykaps (13x black, 1x red and 1x white if possible)
+15x Mx-switches (preferably brown maybe?) <br/>
+15x 1N4148 Diodes <br/>
+15x Keykaps (13x black, 1x red and 1x white if possible)<br/>
+1x Ec11 encoder <br/>
+1x Case <br/>
+1x PCB <br/>
+1x Phoenix P5mm 1x2 Screw-terminal bought by grant. <br/>
+4x M3 screws <br/>
+
+Made with <3, by Hilding Lind, hilding@lind.pp.se
