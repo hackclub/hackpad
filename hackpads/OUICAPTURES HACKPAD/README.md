@@ -7,6 +7,7 @@ Challenges
 - First time using Kicad and fusion 360 so i had to learn alot before i could get started.
 
 Specifications
+
 BOM:
 
 - 6x Cherry MX switches
@@ -14,7 +15,11 @@ BOM:
 - 6x blank DSA keycaps
 - OLED 128x64
 - 6x Diode_DO-35
+- 1x PCB
+- 4x M3 x 7mm screws
+
   Others:
+
 - KMK firmware
 - Top of case stl file
 - bottom of case stl file
