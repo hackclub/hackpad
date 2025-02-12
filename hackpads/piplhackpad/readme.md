@@ -18,6 +18,7 @@ by `@pipl`, id `U07V3MD8BPW`
  - 1 encoder knob, blue
  - 8 m3x5mx4mm heatset inserts
  - 8 m3x16mm screws
+ - 4 m3 hex nuts
  - and something extra you think i might like :)
 
 ### pictures
