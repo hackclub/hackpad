@@ -7,10 +7,10 @@ const uint16_t PROGMEM encoder_map[][1][2] = {
 #endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [0] = LAYOUT(
+    [0]= LAYOUT(
         KC_1,   KC_2,   KC_3,   KC_AUDIO_MUTE,
-        KK_4,   KC_4,   KC_6,   KC_MINUS,
+        KC_4,   KC_4,   KC_6,   KC_MINUS,
         KC_7,   KC_8,   KC_9,   KC_PLUS,
-        KC_BSPC,   KC_0,   KX_DEL,   KC_ENTER,
+        KC_BSPC,   KC_0,   KC_DEL,   KC_ENTER
     )
 };
