@@ -2,7 +2,7 @@
 
 yet another keypad lmao, may reprogram in the future  
 by `@pipl`, id `U07V3MD8BPW`  
-`/pcb/` contains the kicad files  
+`/pcb/` contains the kicad files - both gerbers files and kicad files are contained within   
 `/firmware/` contains the qmk firmware files  
 `/cad/` contains 3d print files - I have a 3d printer, will print for myself  
   
