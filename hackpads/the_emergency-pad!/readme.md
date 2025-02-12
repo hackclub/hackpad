@@ -10,8 +10,8 @@ This macro-pad is also equipt with quaility-of-life functions, like a knob for v
 15x Mx-switches (preferably brown maybe?) <br/>
 15x 1N4148 Diodes <br/>
 15x Keykaps (13x black, 1x red and 1x white if possible)<br/>
-1x Ec11 encoder <br/>
-1x Case <br/>
+1x Ec11 encoder (with cap if possible)<br/>
+1x Case (preferably matt black)<br/>
 1x PCB <br/>
 1x Phoenix P5mm 1x2 Screw-terminal bought by grant. <br/>
 4x M3 screws <br/>
