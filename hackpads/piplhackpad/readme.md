@@ -5,7 +5,7 @@ by `@pipl`, id `U07V3MD8BPW`
 `/pcb/` contains the kicad files  
 `/firmware/` contains the qmk firmware files  
 `/cad/` contains 3d print files - I have a 3d printer, will print for myself  
-`/production/` contains production files  
+`/production/` contains production files, including the .uf2, 3d print files, and gerbers files  
   
 ### bom:
  - 15 MX cherry red switches (+ a spare if possible)
