@@ -29,5 +29,8 @@ by `@pipl`, id `U07V3MD8BPW`
 <td><img src="schematic.png"> schematic</td>
 <td><img src="trace.png"> traces</td>
 </tr>
+<tr>
+<td><img src="assembly.png"> assembly</td>
+<td><img src="case.png"> case</td>
+</tr>
 </table>
-<img src="case.png"> case
