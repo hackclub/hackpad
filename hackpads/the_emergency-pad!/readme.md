@@ -4,6 +4,7 @@ exterme amouts of ram or some random virus taking over your computer.
 This dosen't guaratee your computers safety, but it can help you to open task-manager quickly 
 or stragiht-up shut down your computer.
 This macro-pad is also equipt with quaility-of-life functions, like a knob for volume-control and mute, a keycode layer for numpad and some copy and paste features.
+![picture](https://cdn.hack.pet/slackcdn/0ea44c6bd6c507c077220631f71e763b.png)
 # BOM:
 1x XIAO RP2040
 15x Mx-switches (preferably brown maybe?) <br/>
