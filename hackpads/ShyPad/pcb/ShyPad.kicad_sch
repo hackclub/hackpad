@@ -577,23 +577,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "OL"
-				(at 0 2.54 0)
+			(property "Reference" "OL1"
+				(at 16.51 1.905 0)
 				(effects
 					(font
 						(size 1.2954 1.2954)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "OLED"
-				(at 0 -1.27 0)
+				(at 16.51 -0.635 0)
 				(effects
 					(font
 						(size 1.1938 1.1938)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "hackpad:SSD1306-0.91-OLED-4pin-128x32"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -635,7 +637,7 @@
 			)
 			(symbol "OLED_1_1"
 				(pin bidirectional line
-					(at -19.05 6.35 0)
+					(at -19.05 -5.08 0)
 					(length 5.08)
 					(name "SDA"
 						(effects
@@ -653,7 +655,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -19.05 2.54 0)
+					(at -19.05 -1.27 0)
 					(length 5.08)
 					(name "SCL"
 						(effects
@@ -671,7 +673,7 @@
 					)
 				)
 				(pin power_in line
-					(at -19.05 -1.27 0)
+					(at -19.05 2.54 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -689,7 +691,7 @@
 					)
 				)
 				(pin power_in line
-					(at -19.05 -5.08 0)
+					(at -19.05 6.35 0)
 					(length 5.08)
 					(name "GND"
 						(effects
