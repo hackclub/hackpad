@@ -9,7 +9,8 @@
 - 8x SK6812 MINI-E LEDs
 - 8x M3x16mm screws
 - 8x M3 hex nuts
+- 
 # CAD Images
-![Base plate v4](https://github.com/user-attachments/assets/923abaa0-790a-4438-82a7-85881a6a80ea)
+![Screenshot 2025-02-13 012316](https://github.com/user-attachments/assets/6e465e3b-9495-42e3-a443-5e424a61dec5)
 # PCB Image
-![Screenshot 2025-02-09 014819](https://github.com/user-attachments/assets/173f98eb-87af-46fd-9186-5ffd70d1fae3)
+![Screenshot 2025-02-13 012330](https://github.com/user-attachments/assets/a73a5fb5-3d8e-4033-9c52-88ce4d6926ed)
