@@ -11,6 +11,15 @@ The hardest challenge was definatly the firmware. The firmware was very confusin
 
 ![top-view](https://github.com/user-attachments/assets/d3b773f6-fd29-4c84-86e1-5eb98ffb1e3b)
 
+![image](https://github.com/user-attachments/assets/a653720b-40a6-4e13-a852-1820b74ea9c1)
+
+![image](https://github.com/user-attachments/assets/34e0a981-8014-455d-a0f1-87f078d26683)
+
+![image](https://github.com/user-attachments/assets/1ba2eae7-3bb2-4718-b781-07a06c198634)
+
+![image](https://github.com/user-attachments/assets/01e79044-0527-4f62-91a7-fb55d58f99b6)
+
+![image](https://github.com/user-attachments/assets/eb4ba8eb-6a38-4c7b-b468-6fefdd0bc55c)
 
 BOM!
 List of Materials:
