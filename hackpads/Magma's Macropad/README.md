@@ -15,6 +15,9 @@ BOM:
  - 1x XIAO RP2040
  - 4x blank DSA keycaps
  - 1x RotaryEncoder Alps EC11E Vertical H20mm
+ - 4x M3x16mm screws
+ - 4x M3x5mmx4mm heatset inserts
+ - 4x Through-hole 1N4148 Diodes
 
 Others:
  - KMK Firmware
