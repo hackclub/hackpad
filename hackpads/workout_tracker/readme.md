@@ -1,0 +1,1 @@
+This is a workout tracker that can give you a list of exercises to do based on which day it is, remember which workouts you've done, how many sets, and how much weight. Optionally, a micro SD card can be added to store workouts and view workout progression. It's mostly made to motivate me to work out more because I waste enough time. 
