@@ -1,6 +1,8 @@
 # AccentPad
 
 *A 4x4 keypad that lets you type most common accents.*
+
+Assembled:
 ![Assembled board render](assembled.png)
 
 * Keyboard Maintainer: [Hazel Viswanath](https://github.com/transdryad)
@@ -26,6 +28,15 @@ Layout:
        ├───┼───┼───┼───┤
        │ æ │ œ │ ð │ þ │
        └───┴───┴───┴───┘
+
+Schematic:
+![board schematic](schematic.png)
+
+PCB:
+![pcb](board.png)
+
+Case:
+![case](case.png)
 
 ## BOM:
  - 16x Cherry MX switches
