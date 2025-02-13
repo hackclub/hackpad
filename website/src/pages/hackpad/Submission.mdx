@@ -2,18 +2,20 @@
 
 Finally finished your hackpad? Nice job! Follow along and we're going to make sure you have everything necessary to *ship* your project, which includes:
 
-- Structuring your project
-- Exporting the production files
-- Publishing the design
+- [Structuring your project](#structure)
+- [Exporting the production files](#export)
+- [Adding the BOM](#bom)
+- [Adding README files](#readme)
+- [Publishing the design](#publishing)
 
-
+<a name="structure"/>
 ## Structuring your project
 To make reviewing easier, we need to make sure that the source files of our project are formatted in a way that's complete & easy to navigate.
 
 ### 1) Make sure you have everything necessary:
 
 Before we organize anything, make sure 
-- A *complete* CAD model of the assembled case in .STEP or .3MF format
+- A *complete* CAD model of the assembled case in .STEP, .STP or .3MF format
     - This should include the PCB (a blank rectangle is okay!) and all parts of the case
 - Original firmware for your macropad. QMK, KMK, ZMK, etc derivatives are valid
 - A complete BOM (Bill of Materials) with all the parts you would like in a separate markdown document!
@@ -21,9 +23,9 @@ Before we organize anything, make sure
 Additionally, make sure you meet the following requirements:
 - Your design uses a through-hole Seeed XIAO RP2040 as the main MCU
 - Your PCB is smaller or equal to 100mmx100mm
-- Your case fits within 200x200x100mm (x / y / z)
+- Your case fits within 200x200x100mm (length / width / height)
 - You have less than 16 inputs (switches, encoders, etc)
-- You are using approved parts only
+- You are using approved parts only (You can buy extra parts with the 20$ grant)
 - The PCB only uses 2 layers
 - Your case only has 3D printed parts
 
@@ -31,40 +33,79 @@ If you have all of that, it should be ready to go!
 
 ### 2) Organize your folders
 The above is a LOT of files! To make reviewing as easy as possible, your submission format should have 3 folders:
-- pcb
+
+- PCB
 - firmware
 - CAD
 
 Put each part of your design in their correspoding folders.
 
+<a name="export"/>
 ## Creating production files
 Nice job on organizing your files! Next, we need to create the manufacturing files that will actually be used to build your project.
 
 This is separate from the source files, which are usually a reference to check out & iterate on your design.
 
 ### 1) Export your PCB
-Depending on your tool of choice, the exact workflow will be different. What you want to do is export your PCB as a set of files called Gerbers, which are basically instructions for the
- manufacturer to build your PCB. it should be compressed into a .zip file.
+Depending on your tool of choice, the exact workflow will be different. What you want to do is export your PCB as a set of files called Gerbers, which are basically instructions for the manufacturer to build your PCB. It should be compressed into a .zip file.
 
 The internet will help you out on this one. The end file you get should be named gerbers.zip and contain all the production files in it.
 
+But here is a tiny guide anyways:
+
+First, open up the plugin manager of kicad.
+
+<img src="/docs/v2/plugins.png" className="max-w-96" />
+
+Search for "Fabrication Toolkit", select the one with JLC PCB in it's description. Click install, then "Apply Pending Changes". When it's done installing, close the window.
+
+<img src="/docs/v2/install.png" className="max-w-96" />
+
+Now open back up the PCB editor, you should see a new button at the top right:
+
+<img src="/docs/v2/fab.png" className="max-w-96" />
+
+Press it, then click generate. Now you should have a new folder named production, open it up and you should see files like this:
+
+<img src="/docs/v2/files.png" className="max-w-96" />
+
+The one you are looking for is the .zip, you can delete everything else.
+
 ### 2) Export your Case parts
 Each individual part of the case should be exported into its respective files:
-- If the part is 3D printed, it should be exported into STL 
-- If it's going to be laser cut, it should be exported as a DXF
+- If the part is 3D printed, it should be exported into STEP, STP or STL files.
+
+Note: Prefer STEP/STP to STL, since they use math to represent the objects, and thus will produce smoother curves and higher quality prints.
 
 Put it inside a folder called "case"
 
 ### 3) Compile your firmware
-This step is going to depend on what you used specifically, but the resulting file should be named firmware.uf2
+This step is going to depend on what you used specifically, for QMK the resulting file should be named firmware.uf2
+
+If you are using KMK, just put the main.py file inside the firmware folder/
 
 What you want to search for is how to compile firmware for an rp2040. Good luck!
 
 ### 4) Organize it all
 Now that you've made all the production files, create a new folder called production and put all the files in there.
 
-## Publishing your project
-The final step to making your PR is to actually publish your project! This involves writing a simple page for it explaining what it is.
+<a name="bom"/>
+## Adding a BOM
+Add a new file inside the root of your project, and call it BOM.txt.
+
+Write what components you need inside! Example:
+
+```
+- 1x 128x64 0.96" SSD1306 OLED Display
+- 8x SK6812 Mini Neopixels
+- 8x Alps MX switches
+- 1x Seeed XIAO RP2040
+- 2x 4.7kΩ THT resistors
+```
+
+<a name="readme"/>
+## Adding a README
+A README is essential to all open-source projects. It allows people to know more about you and your project. You submission should have one!
 
 You can put absolutely *anything* on it, as it's your page. I recommend talking about:
 
@@ -74,14 +115,60 @@ You can put absolutely *anything* on it, as it's your page. I recommend talking 
 
 Every hackpad submission's page will be published on the main hackpad website, so make sure to go submit!
 
-## Make a PR 
+Here is a tiny guide on creating a README.md, be sure to modify your own version!
+
+Start by creating a new file called README.md at the top of your project using any text editor. Any file ending in .md is called a markdown file, it will be parsed by github to create [pretty texts](https://github.com/hackclub/asylum/blob/main/designs/weather_stations/dari_awesome_example/README.md).
+
+Check [here](https://commonmark.org/help/) to learn the basic markdown syntax.
+
+Remember, to make a new line you **must** press enter 2 times!
+
+First please discribe the featurs of your macropad! What did you add? How many leds you have? Do you have any special art on it?
+
+Then please make a part where you introduce your PCB! Write us a little about how you made your PCB. Please also make a table with the pictures of your schematic and pcb:
+
+First, take a screenshot of your macropad. Upload it to the #cdn channel in slack! You should receive a link to the file. (And if #cdn is down, try https://imgbb.com/, you will get a link starting with ibb.co, change it to i.ibb.co then append "/image.png" or "/image.jpg" to the link)
+
+Then add a table of the following format to your README.md:
+
+```
+| **Schematic** | **PCB** |
+|---------------|---------|
+|![](link_to_schematic)|![](link_to_pcb)|
+```
+
+While replacing link_to_schematic and link_to_pcb to your links.
+
+Don't forget to add a line stating that you ran DRC and have 0 erors! If you haven't done it, do it now in kicad!
+
+You can showcase your 3D view too :3
+
+After that make a part showcasing your CAD model. Discribe it a bit, then embed a image of it with `![](link_to_image)`.
+
+After that, give us a overview on your firmware!
+
+At the end, copy and paste your BOM please.
+
+Maybe write something funny at the end! Thats up to you!
+
+A good example would be [this, even if it's not for hackpad](https://github.com/hackclub/asylum/blob/main/designs/weather_stations/dari_awesome_example/README.md). Or look at [my readme!](https://github.com/hackclub/hackpad/blob/main/hackpads/cyaopad/README.md)
+
+PS. You might want to license your work, look at [https://choosealicense.com/](https://choosealicense.com/), pick a license and copy then paste the text into a LICENSE.txt file
+
+If you want, you can also add some readme files into your subdirectories, that would be awesome!
+
+### Make a PR 
 First, double check your submission against the [Orpheuspad](https://github.com/hackclub/hackpad/tree/main/hackpads/orpheuspad) example to make sure you have the correct structure. Everything should match exactly, except for the filenames.
+
+The directory should almost look like this:
+
+<img src="/docs/v2/tree.png" className="max-w-96" />
 
 If anything is unclear, make sure to ask in #hackpad!
 
 Once everything is organized, you can make a PR to the repository [here](https://github.com/hackclub/hackpad)!
 
-## After submitting
+### After submitting
 If everything went correctly, your PR will be reviewed (and hopefully approved!) by @alexren. If it's approved, then you'll get:
 - All of your parts from the approved list
 - A soldering iron
@@ -89,3 +176,33 @@ If everything went correctly, your PR will be reviewed (and hopefully approved!)
 - Your 3D printed case
 
 For many of you, the firmware may not work the first try. That's okay! Keep working at it until it's fixed; if you send a video in #hackpad showing it working, I'll ship you a free custom hack-club keycap and sticker!
+
+<a name="publishing"/>
+## Publishing your project
+You received your board, and now want the custom keycaps? You now need to actually publish your project! This involves writing a simple page for it explaining what it is.
+
+First, go to the directory `website/src/pages/submissions`, create a new folder for your submission (Cyaopad for me). Then make a .mdx file that is named after your macropad (Cyaopad.mdx for me).
+
+Copy all the content of the README.md over, but remove the table and put the images on separate lines.
+
+Then open the file `hackpad/website/src/main.tsx` and add a line of the following format at where it says IMPORT YOUR PROJECTS HERE:
+
+```
+import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
+```
+
+Be sure to change the name to your own.
+
+Then scroll down to almost the bottom of the page, to where it says "Submitting? Great! Do something like this:". Add a new entry in the following format:
+
+```
+  {
+    path: "/projects/cyaopad",
+    element: <DocPage Content={ CyaoPad } SideBar={ SideBar } />
+  },
+```
+
+Be sure to change the name to your own again. Now you should be able to view your site at the adress https://hackpad.hackclub.com/projects/\{yourname\} after your pr is merged.
+
+Your final result should look like this [this](/projects/cyaopad)
+
