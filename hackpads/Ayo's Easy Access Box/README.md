@@ -24,6 +24,7 @@ Bro when I tell you I STRUGGLED. I was literally thiiiis close to just giving up
 * 4x M3x16mm screws(preferably crosshead, if available)
 * Lead free solder
 * Flux
+* Desoldering wick
 
 ### Others
 ![image](https://github.com/user-attachments/assets/431057c2-d7b8-4e51-9307-c02a75d23830)
