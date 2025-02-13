@@ -29,6 +29,6 @@ List of Materials:
 - 6 MX-Style switches
 - 1 EC11 Rotary encoder
 - 1 0.91 inch OLED displays
-- 7 Blank DSA keycaps (preferably black but white is the second choice)
+- 6 Blank DSA keycaps (preferably black but white is the second choice)
 - 5 M3x16mm screws
 - 5 M3 hex nuts
