@@ -3,7 +3,7 @@
 ShyPad is a simple 11 key macropad with a rotary encoder and an OLED display.
 The hardest part about this project was the case design and using a parametric 3D modeling software for the first time.
 
-## BOM:
+## BOM
 
 - 1x Seeed XIAO RP2040 Microcontroller
 - 11x MX-Style switches
@@ -14,7 +14,15 @@ The hardest part about this project was the case design and using a parametric 3
 - 1x 3D Printed Case + Knob (All black if possible)
 - 1x PCB
 
+## Preview
+
 ![Preview](./images/front.png)
+
+Schematic            |  PCB         |   3D PCB
+:-------------------------:|:-------------------------:|:-------------------------:|
+| ![Schematic](./images/pcb_schematic.png) | ![PCB](./images/pcb.png) | ![PCB 3D](./images/pcb_3d.png) |
+
+## Case
 
 ```stl
 solid ASCII
