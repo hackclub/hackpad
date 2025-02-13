@@ -7,3 +7,7 @@ This is a 9 key macropad with a rotary encoder and a custom two-piece case. It u
 - 1x PCB
 
 ![Complete screenshot](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/Screenshot%202025-02-05%20151139.png?raw=true)
+
+Schematic            |  PCB         |   Case
+:-------------------------:|:-------------------------:|:-------------------------:|
+![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/schem.png?raw=true)    |  ![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/pcb.png?raw=true)  | ![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/CAD/case.png?raw=true)
