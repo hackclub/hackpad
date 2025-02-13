@@ -16,7 +16,7 @@ This macro-pad is also equipt with quaility-of-life functions, like a knob for v
 1x Phoenix P5mm 1x2 Screw-terminal bought by grant. <br/>
 4x M3 screws <br/>
 #Pictures:
-![picture_case]()
+![picture_case](https://cdn.hack.pet/slackcdn/7dba3f1a2b05330fac87eb9b6fa08501.png)
 ![picture_sch](https://cdn.hack.pet/slackcdn/abb354741a231a373e7325de6ec6204b.png)
 ![picture_pcb](https://cdn.hackclubber.dev/slackcdn/29aeb0a12633a004fe847e3e3b241444.png)
 Made with <3, by Hilding Lind, hilding@lind.pp.se
