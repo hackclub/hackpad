@@ -5,6 +5,8 @@ With that in mind, there are *thousands* of other resources on the internet that
 
 If a guide doesn't seem to work, try it again. If it *really* doesn't work, try another guide! The magic of it is to keep at it, because if so many other teens can do it, you absolutely can too.
 
+There is also a list of [common DRC errors here](/errors)
+
 ## KiCad Libraries
 - [Keyswitch footprints](https://github.com/ai03-2725/MX_V2)
 - [XIAO Footprints](https://github.com/Seeed-Studio/OPL_Kicad_Library)
@@ -29,6 +31,7 @@ It has an OLED, a rotary encoder, 4 switches in a matrix, 2 addressable LEDs, an
 - [XIAO RP2040 Docs](https://wiki.seeedstudio.com/XIAO-RP2040/)
 - [Anatomy of a keyboard](https://matt3o.com/anatomy-of-a-keyboard/)
 - [Keyboard Mounting Styles](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7)
+- [Holo's PCB Routing Commandments](https://libsharedobject.so/howsmypcb.html)
 
 ## Useful measurements
 - Making holes for your PCB:
@@ -50,9 +53,14 @@ It has an OLED, a rotary encoder, 4 switches in a matrix, 2 addressable LEDs, an
 - Generally speaking, go to [grabcad](https://grabcad.com/library) and search for your part + sort by popular, and you should be able to find the model you need
 
 ## Generally useful tips
-- Most DIY keyboards are at least partially open source.
-You can go to their git repositories and copy their tolerances/footprints/schematics/whatever
+- Most DIY keyboards are at least partially open source. You can go to their git repositories and copy their tolerances/footprints/schematics/whatever
 - You can export your KiCad PCB to a PDF and print them to check measurements
-- Most Keyboards are wired in a matrix to save pins, but if you have 5 or less switches just avoid the matrix altogether
+- Most Keyboards are wired in a matrix to save pins, but if you have 6 or less switches just avoid the matrix altogether
 - For screens, just use a 4-pin header for footprints
 - Adding graphics in KiCad is really annoying. Instead, you can design your entire thing in Figma and import it as an overlay instead
+- Google is your best friend. 9 times out of 10 the first result will help you out.
+- Try routing everything on one layers first, if you can't without making a big loop, move to the second layer. This keeps your board clean.
+- Make multiple revisions! I rerouted my first macropad like 10 times while adding stuff.
+- After routing everything, run Tools > Cleanup Tracks & Vias. You gotta press the Build changes button twice for the optimizations to apply.
+- Use a ground fill, they are good!
+- Maybe use some thicker traces! Edit the trace width a at the top left "Track: use netclass width", click edit predefined and add yours. Then select it in the same menu.
