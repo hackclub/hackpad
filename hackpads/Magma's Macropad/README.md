@@ -1,8 +1,10 @@
 # Magma's Macropad
 **Inspiration**
+
 I wanted to create a macropad that helped me move around in video games easier. I used an rp2040, 4 switches and a rotary encoder for the volume.
 
 **Challenges**
+
 This was my first time using fusion 360 and kicad, so it was quite tough. however, after learning how to use these softwares, i feel more comfortable with PCBs and 3D design.
 
 **Specifications**
@@ -25,4 +27,5 @@ Others:
 |![](https://cdn.hack.pet/slackcdn/2a1ae648924a0e662cd118a8f83509fe.png)|![](https://cdn.hack.pet/slackcdn/48e177c8b59bb30721047313a89f933d.png)|![](https://cdn.hack.pet/slackcdn/a95901f19c3e030a88db1f98165ba00d.png)|
 
 **Firmware**
+
 The firmware uses kmk. the keys are laid out in a COL2ROW manner, like arrow or WASD keys. The rotary encoder helps increase and decrease volume of the system.
