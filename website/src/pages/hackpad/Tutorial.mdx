@@ -278,7 +278,7 @@ After that, scroll down, look at the preview to verify if it conforms to your ma
 <a name="case_design_fusion"/>
 ## Creating your case in Fusion360
 
-Fusion360 has a free plan for students, you can create a education account. After you have your account, either download the native Fusion360 application, or [use this magic link](https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion) to launch it directly in your browser :D
+Fusion360 has a [free plan for students](https://www.autodesk.com/education/home), you can create a education account. You can also use [Autodesk Fusion for personal use](https://www.autodesk.com/products/fusion-360/personal) After you have your account, either download the native Fusion360 application, or [use this magic link](https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion) to launch it directly in your browser :D
 
 If you are using the browser version, don't forget to save regularly, since your session will close if you leave it alone for too long.
 
@@ -291,12 +291,12 @@ Start by creating a new project, and a new component, this is better for organiz
 <img src="/docs/v2/fusioncomp.png" className="max-w-96" />
 <img src="/docs/v2/newcomponent.png" className="max-w-96" />
 
-Now go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+Now go back to KiCAD PCB editor and click on your Edge.Cuts outline. In the bottom left of your screen, you can find the length and widgth of your PCB. Alternatively, measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
 
 <img src="/docs/v2/ruler.png" className="max-w-96" />
 <img src="/docs/v2/pcbsize.png" className="max-w-96" />
-
-We now know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case.
+If you used the Edge.Cuts outline, the width and height of your board are the widgth and height listed.
+If you used the ruler tool, the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case.
 
 Next, create a sketch by by pressing the green + button on the top left, then clicking the bottom orange retangle at the center of the screen.
 
@@ -316,24 +316,29 @@ Center this rectangle by pressing the dimension button, press one edge of the sm
 
 <img src="/docs/v2/fusionrect3.png" className="max-w-96" />
 
-Now use the circle tool to draw 4 circles, one on each edge. Use the sketch dimension tool to set their size to 3.4mm. Then, use the dimension tool to set their distance to their corresponding edges to 5mm (by clicking on their centers, then the corresponding edge):
+Now use the circle tool to draw 4 circles, one at each corner of the larger rectangle. set the diameter to 3.4mm when creating the circle, or use the sketch dimension tool to set their size to 3.4mm. Then, use the dimension tool to set their distance to their corresponding edges to 5mm (by clicking on their centers, then the corresponding edge):
 
 <img src="/docs/v2/fusioncircle.png" className="max-w-96" />
 <img src="/docs/v2/fusioncircledim.png" className="max-w-96" />
 <img src="/docs/v2/fusioncircle2.png" className="max-w-96" />
 
-Now add 4 more circles, this time with a diameter of 6mm. Select the coincident tool, and click on the centers of corresponding circles. 
+Now add 4 more circles, this time with a diameter of 6mm. Select the center of the small circle when you place the larger circle's center point, or select the coincident tool, and click on the centers of corresponding circles to align them.
 
 <img src="/docs/v2/fusioncoincident.png" className="max-w-96" />
 <img src="/docs/v2/fusionfinishsketch.png" className="max-w-96" />
 
-Press "Finish sketch" (green checkmark at top right of screen), then select all the middle circles (shift click) and press extrude. In the extrude menu, select Offset in Start, and enter 3.1mm as the Offset, then enter 9.9 mm in the Distance field and click ok:
+Press "Finish sketch" (green checkmark at top right of screen), then select all the outer circles (shift click) and press extrude (e). In the extrude menu, select Offset in Start, and enter 3.1mm as the Offset, then enter 9.9 mm in the Distance field and click ok:
 
 <img src="/docs/v2/fusionextrude.png" className="max-w-96" />
 <img src="/docs/v2/fusionselect.png" className="max-w-96" />
 <img src="/docs/v2/fusionextrudemenu.png" className="max-w-96" />
 
+<<<<<<< HEAD
 Now, you must re-show the object be opening the Sketches folder on the left, and clicking the eye icon to the left of Sketch1. Then select the outer rectangle and press extrude. This time the Start shall be "Profile Plane" (and will be this for all future extrudes), and set the distance to 13mm:
+=======
+Now, you must re-show the object be opening the Sketches folder on the left, and cliking the eye icon on Sketch1. 
+Then select the outer rectangle and press extrude. This time the Start shall be "Profile Plane" (and will be for all future extrudes), and set the distance to 13mm:
+>>>>>>> pr-source/tutorial-fix
 
 <img src="/docs/v2/fusionshow.png" className="max-w-96" />
 <img src="/docs/v2/fusionextrude2.png" className="max-w-96" />
@@ -344,7 +349,7 @@ Now, click the center square, and extrude it by 3mm. You can move arround and yo
 
 That's the base of your case done!
 
-Now go to kicad and measure the distance from the edge of the PCB to the USB port.
+Now go to kicad and measure the distance from the edge of the PCB to the USB port using the ruler tool
 
 <img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
 
@@ -366,7 +371,7 @@ You can now export the model by clicking File > Export... at the top left, and s
 
 To download the resulting STEP file on the web, go to [https://myhub.autodesk360.com/](https://myhub.autodesk360.com/), go to your project and click the download icon.
 
-Right now our case looks a little ugly, its so blocky! Lets round the corners, press the Fillet button found in the top, and click on each edge and make it 5mm. Should look as such:
+Right now our case looks a little ugly, its so blocky! Lets round the vertical edges, press the Fillet button found in the top, and click on each edge and make it 5mm. Should look as such:
 
 <img src="/docs/v2/fillet.png" className="max-w-96" />
 <img src="/docs/v2/edgeround.png" className="max-w-96" />
@@ -387,7 +392,7 @@ Now select everything and click on the Lock button
 
 <img src="/docs/v2/fusionlock.png" className="max-w-96" />
 
-Go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+Go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end. You can also select your Edge.Cuts and find the width and height in the bottom right.
 
 <img src="/docs/v2/ruler.png" className="max-w-96" />
 <img src="/docs/v2/pcbsize.png" className="max-w-96" />
