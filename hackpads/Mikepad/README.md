@@ -31,3 +31,13 @@ I loved working on this idea and project, I can't thank you enough for making me
 - 4x M3x20mm screws 
 - 3x EC11 Encoder
 - 9x Through-hole 1N4148 Diodes
+
+
+Case:
+![case](https://i.imgur.com/jNQGnfd.png)
+
+Schema:
+![schema](https://i.imgur.com/aHAC95N.png)
+
+PCB:
+![pcb](https://i.imgur.com/3ICVJ2P.png)
