@@ -35,5 +35,5 @@ I wrote the firmware using QMK. I had a bunch of errors so I just turned off err
 - 2x 4.7k resistor
 - 4x M3x16mm SHCS Bolts
 - 4x M3x5x4 Heatset inserts
-- 1x Case
+- 1x Black Case
 - Black PCB pls
