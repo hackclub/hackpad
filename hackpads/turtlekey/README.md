@@ -1,5 +1,5 @@
 # Turtle Key
-![image](/images/turtlekey.png)
+![image](../images/turtlekey.png)
 
 # BOM
 - 9x Cherry MX Switches
@@ -12,4 +12,4 @@
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-![image](/images/schematic.png)    |  ![image](/images/PCB.png)  | ![image](/images/case.png)
+![image](../images/schematic.png)    |  ![image](../images/PCB.png)  | ![image](../images/case.png)
