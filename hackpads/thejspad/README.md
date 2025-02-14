@@ -17,3 +17,8 @@ I've seen lots of other people on YouTube creating macropads and I've always wan
 ### Other
 - pcb (duh)
 - case
+
+Schem | PCB | Case
+:----------:|:----------:|:----------:
+![image](https://github.com/user-attachments/assets/41866c15-8877-4574-bf17-d60e70e337b8) | ![image](https://github.com/user-attachments/assets/8f8e4d4f-37e2-4a7c-a0d2-1ded27878361) | ![image](https://github.com/user-attachments/assets/ad6cc76e-a817-4ca3-8727-38fac7dfa252)
+
