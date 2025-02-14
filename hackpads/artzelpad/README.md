@@ -27,8 +27,10 @@ lots and lots of google search
 [0.91 inch OLED display x1](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty/blob/master/SSD1306-0.91-OLED-4pin-128x32.kicad_mod)
 Cherry MX Switches x9
 Through-hole 1N4148 Diodes x9
+Blank DSA keycaps (preferably white) x9
 M3x16mm screws x4
 M3x5mx4mm heatset inserts x4
+
 
 
 Schematic            |  PCB         |   Case
