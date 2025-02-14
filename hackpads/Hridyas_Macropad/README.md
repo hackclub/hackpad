@@ -1,6 +1,10 @@
 # Hridya's Macropad
 
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/481bca52-2969-447f-abad-520d833cd3ed" />
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/d7303079-6b86-4e21-98ce-481e7827c089" />
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/81a46f45-259d-4ebb-bb9f-b5975512d683" />
+
+
 
 A 2 knob, 6 switch with a 128x64 OLED.
 
