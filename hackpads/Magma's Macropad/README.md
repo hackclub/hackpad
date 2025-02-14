@@ -1,4 +1,8 @@
 # Magma's Macropad
+
+![](https://cdn.hackclubber.dev/slackcdn/069b79df7569e9e1600e752b3b9bc1d4.png)
+
+
 **Inspiration**
 
 I wanted to create a macropad that helped me move around in video games easier. I used an rp2040, 4 switches and a rotary encoder for the volume.
