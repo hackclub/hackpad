@@ -1,4 +1,6 @@
 # ButtonBlaster-Macropad
+![Modelo](https://github.com/Cesarweon/ButtonBlaster-Macropad/blob/main/Armado.png)
+
 ## Inspiration
 My inspiration for my macropad was a keyboard I once saw on the internet; it only had the essential keys for playing shooter video games.
 
