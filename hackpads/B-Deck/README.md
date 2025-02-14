@@ -10,11 +10,22 @@ Welcome to the B-Deck project!
 
 ## Introduction
 
-B-Deck is a macropad made by Battak(me) for Hackpad. I created it to learn more about keyboards and to have something i can play osu! with.
+B-Deck is a macropad made by Battak(me) for Hackpad.
 
-# BOM
+## Why I made this?
+1. I fell into the keyboard rabbit hole
+2. It was fun and i learnt new things
+3. Custom keyboards go brrrrr
+4. I wanted a macropad for playing osu!
+
+## Challenges
+1. I had no idea what i am doing, I just connected random wires till everything looked good
+2. It was my first time and had to face the steep learning curve
+
+
+## BOM
 - 1 SEEEDUINO XIAO RP2040
-- 8x [Kailh Box Thick Clicky Jade Switch Set](https://www.kailh.net/products/kailh-box-thick-clicky-switch-set)
+- 8x [Gateron Magnetic FOX Switch Set(or any magnetic switch)](https://lumekeebs.com/products/gateron-magnetic-fox-linear-switches?_psq=ks&_v=1.0)
 - 8x Blank DSA keycaps(preferably black)
 - 8x 1N4148 diodes
 - 1x SSD1306 128x64 OLED
@@ -23,3 +34,17 @@ B-Deck is a macropad made by Battak(me) for Hackpad. I created it to learn more 
 - 4x M3x5mx4mm heatset inserts
 - 4x M3 hex nuts(just in case)
 - 8x Kailh Hot-swap Socket
+
+# B-Deck
+![image](https://github.com/bigloosegoose/B-Deck/blob/main/B-Deck/Images/B-deck.png?raw=true)
+
+# Case
+![image](https://github.com/bigloosegoose/B-Deck/blob/main/B-Deck/Images/BottomCase.png?raw=true)
+![image](https://github.com/bigloosegoose/B-Deck/blob/main/B-Deck/Images/Plate.png?raw=true)
+![image](https://github.com/bigloosegoose/B-Deck/blob/main/B-Deck/Images/TopCase.png?raw=true)
+
+# Schematic
+![image](https://github.com/bigloosegoose/B-Deck/blob/main/B-Deck/Images/Schematic.png?raw=true)
+
+# PCB
+![image](https://github.com/bigloosegoose/B-Deck/blob/main/B-Deck/Images/pcb.png?raw=true)
