@@ -5,6 +5,10 @@
 ![macropad screenshot](https://cdn.hackclubber.dev/slackcdn/dbf3e67dda1e0ee26ea2d1d6ddf0743c.png)
 ![macropad screenshot](https://cdn.hackclubber.dev/slackcdn/cbb5707c8fd107bc6a224d095e9d887a.png)
 ![macropad screenshot](https://cdn.hackclubber.dev/slackcdn/7e357057150a6d76dbe4c7b6b100240c.png)
+![macropad screenshot](https://cdn.hackclubber.dev/slackcdn/3f8644151ea9761de3d25451e4bc039b.png)
+![macropad screenshot](https://cdn.hack.pet/slackcdn/ad10378e4e6ddc2d7fc77931ff0b7454.png)
+![macropad screenshot](https://cdn.hackclubber.dev/slackcdn/6415f842b6966a6f9c368e8ad9f8d0b1.png)
+![macropad screenshot](https://cdn.hackclubber.dev/slackcdn/92f71602398ea87599b8e7b84f6bdcf8.png)
 I made this macopad to use some softwares like Fusion360, Blender, or even to play some games, with a few keys and macros.
 
 **BOM**
@@ -18,3 +22,4 @@ I made this macopad to use some softwares like Fusion360, Blender, or even to pl
 - 16x 1N4148 diodes
 - 4x M3x5mx4mm heatset inserts
 - 4x M3x16mm screws
+- 4x M3 hex nuts
