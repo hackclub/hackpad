@@ -17,6 +17,7 @@ I had tons of issues with Ki-cad libraries and my files. I accidently lost all o
 ![image](images/sch.png)
 ---
 ### PCB (the back silkscreen is hidden for easy understanding)
+ for some reason, the connections of my PCB (wires) are blank in between, is it a problem? I am using KiCAD
 ![image](images/pcb.png)
 
 ### Case
