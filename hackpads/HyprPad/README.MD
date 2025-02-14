@@ -16,5 +16,5 @@ I had tons of issues with Ki-cad libraries and my files. I accidently lost all o
 ### Schematic
 ![image](sch.png)
 ---
-### PCB
+### PCB (the back silkscreen is hidden for easy understanding)
 ![image](pcb.png)
