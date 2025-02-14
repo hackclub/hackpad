@@ -13,3 +13,5 @@ I made this macopad to use some softwares like Fusion360, Blender, or even to pl
 - 1x EC11 rotary encoder
 - 1x 0.96 inch OLED display
 - 16x 1N4148 diodes
+- 4x M3x5mx4mm heatset inserts
+- 4x M3x16mm screws
