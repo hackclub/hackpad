@@ -27,4 +27,4 @@ I had tons of issues with Ki-cad libraries and my files. I accidently lost all o
 - Top
 ![image](images/top.png)
 
-P.S. The case also has three other parts for decoration
+P.S. The case also has three other parts for decoration. They are clearly visible in the image at the top of this file.
