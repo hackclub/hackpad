@@ -18,3 +18,10 @@ I had tons of issues with Ki-cad libraries and my files. I accidently lost all o
 ---
 ### PCB (the back silkscreen is hidden for easy understanding)
 ![image](pcb.png)
+
+### Case
+- Bottom
+![image](bot.png)
+
+- Top
+![image](top.png)
