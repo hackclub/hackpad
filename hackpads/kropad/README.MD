@@ -23,6 +23,7 @@ Keycaps - Black<br>
 <br>
 Here are screenshots showing all the components:<be>
 ![full](https://raw.githubusercontent.com/m5kro/hackpad/refs/heads/main/hackpads/kropad/full.png)
+![case](https://raw.githubusercontent.com/m5kro/hackpad/refs/heads/main/hackpads/kropad/case.png)
 ![pcb](https://raw.githubusercontent.com/m5kro/hackpad/refs/heads/main/hackpads/kropad/pcb.png)
 ![schematic](https://raw.githubusercontent.com/m5kro/hackpad/refs/heads/main/hackpads/kropad/schematic.png)
 ![fits](https://raw.githubusercontent.com/m5kro/hackpad/refs/heads/main/hackpads/kropad/fits.png)
