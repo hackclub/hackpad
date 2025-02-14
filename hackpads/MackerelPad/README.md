@@ -18,3 +18,7 @@ The hardest part for me was trying to understand the firmware, but after enough 
 
 ![alt text](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/backMP.png?raw=true)
 ![alt text](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/frontMP.png?raw=true)
+
+Schematic            |  PCB         |   Case
+:-------------------------:|:-------------------------:|:-------------------------:|
+![image](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/schematic.png)    |  ![image](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/pcb.png)  | ![image](https://github.com/Beenana02/hackpad/blob/main/hackpads/MackerelPad/case.png)
