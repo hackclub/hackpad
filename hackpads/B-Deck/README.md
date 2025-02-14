@@ -25,7 +25,7 @@ B-Deck is a macropad made by Battak(me) for Hackpad.
 
 ## BOM
 - 1 SEEEDUINO XIAO RP2040
-- 8x [Gateron Magnetic FOX Switch Set(or any magnetic switch)]((https://www.gateron.com/products/gateron-magnetic-fox-switch-set?VariantsId=10810))
+- 8x [Gateron Magnetic FOX Switch Set(or any magnetic switch)](https://www.gateron.com/products/gateron-magnetic-fox-switch-set?VariantsId=10810)
 - 8x Blank DSA keycaps(preferably black)
 - 8x 1N4148 diodes
 - 1x SSD1306 128x64 OLED
