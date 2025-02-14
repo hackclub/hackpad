@@ -1,5 +1,5 @@
 # Hyprpad
-![image](img.png)
+![image](images/img.png)
 ### Why did I make it?
 As a hyprland user, I really needed a quick way to switch between windows without having to press those stupid shortcuts! So, I designed HyprPad.
 
@@ -14,16 +14,16 @@ I had tons of issues with Ki-cad libraries and my files. I accidently lost all o
  - Case (all black or a mix of Black and White)
 
 ### Schematic
-![image](sch.png)
+![image](images/sch.png)
 ---
 ### PCB (the back silkscreen is hidden for easy understanding)
-![image](pcb.png)
+![image](images/pcb.png)
 
 ### Case
 - Bottom
-![image](bot.png)
+![image](images/bot.png)
 
 - Top
-![image](top.png)
+![image](images/top.png)
 
 P.S. The case also has three other parts for decoration
