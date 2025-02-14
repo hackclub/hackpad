@@ -2,6 +2,8 @@
 <img src=images/turtlekey.png/><br>
 ## Inspiration
 a keyboard that allows you to type turtleeee in one shot (press all the keys). also changes volume
+## challenges
+literally everything. ionknowhowtomakeapcb. ionknowhowtowritefirmware. pcb design and footprints were really annoying because i couldnt find anything :'(
 
 # BOM
 - 9x Cherry MX Switches
