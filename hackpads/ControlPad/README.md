@@ -6,7 +6,7 @@ I wanted to create a simple macropad.
 
 ### Challenges
 
-I'm had a lot of difficulties with cadding, espiecally using especially, so I try and did it in onshape.
+I'm had a lot of difficulties with cadding, espiecally using fusion, so I try and did it in onshape.
 
 ### Specifications
 
