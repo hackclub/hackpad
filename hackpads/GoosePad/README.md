@@ -25,6 +25,10 @@ PCB:
 
 I wrote the firmware using QMK. I had a bunch of errors so I just turned off errors in VSCode lol.
 
+## Challenges
+
+The biggest challege I had was probably aligning things for the case, I also remodeled the case and PCB cause I thought the wall between the OLED and switch was too thin and it probably was.
+
 ## BOM
 
 - 1x XIAO RP2040
