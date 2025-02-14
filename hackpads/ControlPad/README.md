@@ -3,6 +3,7 @@
 ### Inspiration
 
 I wanted to create a simple macropad. 
+![FullRender](https://cdn.hackclubber.dev/slackcdn/b18204a4a29dafafc14879fbd99fbc37.png)
 
 ### Challenges
 
