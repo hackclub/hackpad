@@ -2,7 +2,8 @@
 
 TITANPAD is a custom 12-key macropad with two rotary encoders, designed for versatility and ease of use. It features a compact and ergonomic layout, making it perfect for productivity, gaming, and creative applications.
 
-![alt text](140b4d34-b72a-4d30-9474-50b4b4b6f794.PNG)
+![Assembled](Render2.PNG)
+![Parts](Render1.PNG)
 ## Features
 - 12 programmable keys with Cherry MX switches
 - 2 rotary encoders for enhanced control
@@ -42,3 +43,8 @@ qmk setup
 qmk compile -kb titanpad -km default
 qmk flash -kb titanpad -km default
 ```
+| Part | Image |
+|-|-|
+|Schematic|![Schematic](Schematic.png)|
+|PCB|![PCB](PCB.png)|
+|Case|![Case](Case.png)|
