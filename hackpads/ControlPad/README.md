@@ -1,7 +1,4 @@
 # Ye's Control Pad
-Done your hackpad? Congrats! This is an example submission for a hackpad.
-![Duccpad_2025-Jan-29_11-21-00PM-000_CustomizedView41037845089](https://github.com/user-attachments/assets/21300858-fc34-466f-8b79-2abc2fd9e564)  
-
 
 ### Inspiration
 
@@ -26,7 +23,6 @@ Others:
 - top - Part1.stl
 - bottom - Part1.stl
 
-Schematic            |  PCB         |   Case
-:-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://github.com/user-attachments/assets/8ce0ab16-e0b0-42d0-b748-d4ee08ce5972)    |  ![image](https://github.com/user-attachments/assets/556275d9-b148-4d51-b6e8-0c6bf95b5a16)  | ![image](https://github.com/user-attachments/assets/bcfd98e1-e562-48c3-b617-4d55031ebec4)
-
+| Schematic | PCB | Case |
+|:---------:|:---:|:----:|
+| ![Schematic](https://cdn.hack.pet/slackcdn/d6bbee747295aac47d330b504d2ecc91.png) | ![PCB](https://cdn.hackclubber.dev/slackcdn/f648a14f2d49a2d76582e51a1c6a759a.png) | ![Case 1](https://cdn.hackclubber.dev/slackcdn/58501f8ad9018c79f5e9bd01f7fb4b7b.png) <br> ![Case 2](https://cdn.hackclubber.dev/slackcdn/35ad97b5b1ad24de3e2c90ca55275f93.png) |
