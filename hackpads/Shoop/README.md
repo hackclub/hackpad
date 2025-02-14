@@ -8,7 +8,8 @@ Shoop is a 2x4 with 1 rotary encoder.
 
 Everything fits together using 4 M2 Bolts.
 It has 1 stl file
-https://cdn.hack.pet/slackcdn/36743de4c59d0eda55e3f0e20f0f2638.png
+![image](https://github.com/user-attachments/assets/a7cc2982-b4de-4a77-9df4-07ca1e64d79d)
+
 
 Made in Fusion360. 
 
@@ -18,10 +19,12 @@ Made in Fusion360.
 
 Here's my PCB! It was made in KiCad. The silkscreen was imported from a Figma image.
 
-Schematic: [https://cdn.hack.pet/slackcdn/c0aa51be5db1acd655c066bdd85161a9.png](https://cdn.hack.pet/slackcdn/c0aa51be5db1acd655c066bdd85161a9.png)  
+Schematic: ![image](https://github.com/user-attachments/assets/ba13377a-ba37-4b7e-bcde-db50a986527a)
 
 
-PCB  [https://cdn.hackclubber.dev/slackcdn/13a1785b7b86f411d92f7b9a5c96b08c.png](https://cdn.hackclubber.dev/slackcdn/13a1785b7b86f411d92f7b9a5c96b08c.png)  
+
+PCB  ![image](https://github.com/user-attachments/assets/dc7834a3-c5a7-4789-b555-fb8c45371158)
+
 
 
 ## Firmware Overview
