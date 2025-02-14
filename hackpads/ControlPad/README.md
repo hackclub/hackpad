@@ -2,11 +2,11 @@
 
 ### Inspiration
 
-I wanted to create a macropad that allowed me to fidget. I created a macropad using 4 switches, 1 rp2040, and 2 leds. 
+I wanted to create a simple macropad. 
 
 ### Challenges
 
-Believe it or not, this was my first time using Fusion 360! I watched numerous tutorials and guides and did a TON of googling, but in the end, I'm pretty proud of the final product. I had the most struggle figuring out how to make sketches, and with the new mouse controls, it definitely took me a while to get the hang of it.
+I'm had a lot of difficulties with cadding, espiecally using especially, so I try and did it in onshape.
 
 ### Specifications
 
