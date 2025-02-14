@@ -12,6 +12,11 @@ I don't need a soldering iron, thanks for the offer though!
 
 £1,000,000 in diamonds :D
 
+# Case Render
+
+![image](https://github.com/user-attachments/assets/c380317e-f342-4adf-bf95-705343e53e48)
+
+
 # PCB 
 
 ![image](https://github.com/user-attachments/assets/4ebeab11-0f8b-4dd4-a31d-977402b3a8bb)
