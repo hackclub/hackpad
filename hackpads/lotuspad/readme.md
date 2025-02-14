@@ -23,3 +23,8 @@ This macropad is designed for developers and coders who rely heavily on keyboard
 - Running scripts or compiling code.
 - Custom code snippets.
 
+
+Schematic            |  PCB         |   Case
+:-------------------------:|:-------------------------:|:-------------------------:|
+![image](https://github.com/user-attachments/assets/8ce0ab16-e0b0-42d0-b748-d4ee08ce5972) | ![{CC343F72-010C-4069-A6DB-7706ABC77A28}](https://github.com/user-attachments/assets/2ca9d2ee-e2ad-43bf-9aac-17dd09d3ae52) | ![{2EEBEA61-51E1-4645-A6CB-9056319CD2AA}](https://github.com/user-attachments/assets/8056d2be-9988-452b-9b04-c1fc68961976)
+
