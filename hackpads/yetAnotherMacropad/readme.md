@@ -1,6 +1,6 @@
 # yetAnotherMacropad
 It's just another macropad.
-![3D Render of yet another macropad](https://cdn.hack.pet/slackcdn/8f053ea1a3a229be13a27c6b0170c717.png)
+![3D Render of yet another macropad](https://cdn.hackclubber.dev/slackcdn/94cddecf015a9d962d590e78a33744ee.png)
 
 Will it work? Who knows. I sure hope it does though, I spent ages designing this.
 
