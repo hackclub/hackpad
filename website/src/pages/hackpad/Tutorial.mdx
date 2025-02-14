@@ -21,11 +21,9 @@ If you're unsure about anything, send a message in #hackpad! We have so many eag
 
 There's also [this](/resources) giant wall of resources to reference!
 
-Here is also a guide on [advanced PCB components](/advancedPCB).
+Here is also a guide on [advanced PCB components](/advancedguide).
 
-Don't forget to find out some [Tips'n Tricks here!](/tipsntricks)
-
-[Look up DRC errors here :D](/tipsntricks)
+[Look up DRC errors here :D](/errors)
 
 Lets start with:
 
@@ -34,7 +32,8 @@ Lets start with:
 
 For this guide we're going to be using [KiCad](https://www.kicad.org/), which is an open source PCB designer tool.   
 
-To start, we're going to have to install the kicad library! We are going to use the following respository
+To start, we're going to have to install the kicad library! We are going to use the following respository:
+
 - [OPL Kicad Library](https://github.com/Seeed-Studio/OPL_Kicad_Library/) 
 
 There are many tutorials on how to install libraries! Google is your best friend here :)
@@ -55,9 +54,9 @@ Start by opening up KiCad, a window will pop up, create a new project then click
 This should open up a new window with your schematic editor! Once you're in, press the A key on your keyboard. This should open up a menu where you can add **symbols** for your different components! Search for the following to add them:
 - XIAO-RP2040-DIP (your microcontroller)
 - SW_Push (This will be our keyboard switch! Copy and paste this 4 times)
-- SK6812 MINI LED (its an RGB LED - I will be using 2 of these!)
+- SK6812 MINI LED (it's an RGB LED, also known as neopixels - I will be using 2 of these!)
 
-Start by placing these symbols down. They don't have to be in any particular order, but place them somewhat close together
+Start by placing these symbols down. They don't have to be in any particular order, but place them somewhat close together.
 
 To rotate the symbols, click R. And to mirror them, click X.
 
@@ -65,7 +64,7 @@ To rotate the symbols, click R. And to mirror them, click X.
 
 Afterwards, it should look something like this ^^
 
-Now it's time to start wiring. Hit the W key on your keyboard to start wiring! This should make a green wire start to appear. Connect your components like so:
+Now it's time to start wiring. Hit the W key on your keyboard to start wiring! This should make a green wire appear. Connect your components like so:
 
 <img src="/docs/v2/wiredcomponents.png" className="max-w-96" />
 
@@ -100,7 +99,7 @@ First, to be able to better place the components, we would need to change the gr
 
 Grids are used to allow efficient placement, movement and connection between symbols and wires. It defines what is the spacing of the grid, which components will snap to.
 
-Select the button at the top that says "1.2700 mm (50 mils)" (Replace xx by a arbitrary number). You can use this menu to change what grid you are on. hen click on Edit Grids...
+Select the button at the top that says "1.2700 mm (50 mils)". You can use this menu to change what grid you are on. Then click on Edit Grids...
 
 <img src="/docs/v2/grid.png" className="max-w-96" />
 
@@ -108,14 +107,14 @@ You should have the following menu open:
 
 <img src="/docs/v2/editgrid.png" className="max-w-96" />
 
-Now click on the + button at the bottom left, and enter "2.38125" in the field named "X". Press Ok then Ok again. Now you have defined a custom grid!
+Now click on the + button at the bottom left, and enter "2.38125" in the field named "X". Press Ok, then click on Ok again. Now you have defined a custom grid!
 (this is the distance between the switches divided by 8. 19.05mm / 8 = 2.38125mm)
 
-We now need to place the components!
+We now need to place the components:
 
 Select a footprint, drag it around to move it (Or if you prefer, click a component to select it, press M to move it and click again to put it down). To rotate the footprint, press R when selecting it.
 
-When placing the switches, I recommend you to use the newly defined grid of 2.38125 mm (Select it in the menu). **Important**: While moving the switches, select the blue circle at the center. This will make sure all the switches are alighed properly. You should align the outer while lines of the switches as so:
+When placing the switches, I recommend you to use the newly defined grid of 2.38125 mm (Select it in the menu), and for placing other components, I recommend a grid of 0.10000 mm. **Important**: While moving the switches, select the blue circle at the center, this will make sure all the switches are alighed properly. You should align the outer while lines of the switches as so:
 
 <img src="/docs/v2/align.png" className="max-w-96" />
 
@@ -127,7 +126,7 @@ If you want to put the footprint on the back side, press F. Here is what the foo
 
 <img src="/docs/v2/compfrontback.png" className="max-w-96" />
 
-Move, rotate and flip your footprints into a design that you like! It should looks like this:
+Move, rotate and flip your footprints into a design that you like! It should look something like this:
 
 <img src="/docs/v2/placedfootprints.png" className="max-w-96" />
 
@@ -145,11 +144,11 @@ This shall be the size of your physical board.
 
 <img src="/docs/v2/xiaohead.png" className="max-w-96" />
 
-Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a thin blue line poking out. It should dim the entire screen and show you where to go:
+Now it's time to route the PCB! Hit X on your keyboard and hit any golden pad with a thin blue line poking out of it. It should dim the entire screen, show you which direction you need to go with a thin blue line and highlight the destination:
 
 <img src="/docs/v2/routing.png" className="max-w-96" />
 
-Join the highlighted pads together. If there isn't enough space on the front side, or there is a trace already present that is blocking you, you can route on the back side by clicking B.Cu on the right toolbar. At the same time, if you want to change sides during routing, you can press V, and a via shall be added, and you will be on the other side of the board:
+Join the highlighted pads together. If there isn't enough space on the front side, or there is a trace already present that is blocking you, you can route on the back side by clicking B.Cu on the right toolbar. At the same time, if you want to change sides during routing, press V and a via shall be added, which will transfer your trace to the other side of the board:
 
 <img src="/docs/v2/via.png" className="max-w-96" />
 
@@ -169,89 +168,17 @@ Enter your text and place it down!
 
 <img src="/docs/v2/realfinalpcb.png" className="max-w-96" />
 
-Good stuff! You're almost done the PCB. Let's run the DRC to make sure the PCB works. The silkscreen warnings you see are okay, make sure there are no more errors! Here is a [list of all DRC errors you might encounter](/errors)
+If you want to add some pictures to your PCB to make it even more personal, [check this out!](/advancedguide#silkscreen)
+
+Good work! You're almost done with the PCB. Let's run the DRC to make sure the PCB works. The silkscreen warnings you see are okay, make sure there are no more errors! Here is a [list of all DRC errors you might encounter](/errors)
 
 <img src="/docs/v2/drcbutton.png" className="max-w-96" />
 
-PS. You might need to cheange tabs to see all errors. (Click on "Unconnected Items")
+PS. You might need to change tabs to see all errors. (Click on "Unconnected Items")
 
 Thats all for your PCB! Great job.
 
 If you aren't satisfied and wan't something more advanced, [check out the advanced PCB guide!](/advancedPCB)
-
-<a name="3d_models"/>
-### Bonus: 3D models!
-
-You currently can view the 3D version of your PCB by pressing Alt+3 (Option+3 on some platforms). It should look something like this:
-
-<img src="/docs/v2/3d-view.png" className="max-w-96" />
-
-Oh no! We are missing some 3D Models. Here we will learn how you add them.
-
-First, you must find 3D Models for your components on the internet, but here is @Cyao's trusty list of common models. (If this opens a new tab and doesn't automatically download, press Control+S)
-
-- [Seeed-Studio Xiao](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/xiao.step)
-- [Cherry MX v2 (Models for the switches)](https://rawcdn.githack.com/cheyao/macropad/3adb7e07d888458e6d1985f4e6be17601a1c2350/PCB/third_party/SW_Cherry_MX_PCB.stp)
-- [Neopixel SK6812_Mini](https://rawcdn.githack.com/StefanHamminga/kicad-packages3D/395108dcab363619c3c82ad00e060acd423aeeb7/LED_SMD.3dshapes/SK6812_Mini.step)
-- [Reverse Mount Neopixel](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/neopixel.petty/SK6812MINI-E.step)
-- [128x64 0.96" SSD1306 OLED Display](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/KiCad-SSD1306-128x64-master/SSD1306_OLED_Display(128x64).step)
-- [128x64 0.91" SSD1306 OLED Display](https://rawcdn.githack.com/cheyao/macropad/3adb7e07d888458e6d1985f4e6be17601a1c2350/PCB/third_party/oled_0.91_128x32.step)
-- [Rotatory encoder Alps EC11E](https://rawcdn.githack.com/horfee/kicad-packages3D/7a1d016fbda6eb6f7ae842b31ead5cd162b98a05/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.step)
-- [Kailh Choc v2 switched (You probably don't need this one)](https://rawcdn.githack.com/cheyao/macropad/642f4e5dbdabb88147ccd878850d199042967667/PCB/third_party/Kailh-Choc-V2.step)
-
-Note: On some Linux distributions, you need to download the built-in kicad 3d models seperatly, most likely called "kicad-library-3d"
-
-Now open the footprint editor:
-
-<img src="/docs/v2/footprinteditor.png" className="max-w-96" />
-
-In the editor, search for the component you want to add the model to, and double click it, you should have something like this: (I'm taking SK6812MINI as an example)
-
-<img src="/docs/v2/editfootprint.png" className="max-w-96" />
-
-If you don't have your own library yet, click File > New Library... and select Project. Name the library anything you like. 
-
-<img src="/docs/v2/newlibrary.png" className="max-w-96" />
-
-If you want to add a 3d model to a footprint that was supplied by kicad, you need to create a copy of it.
-
-Right click the footprint in the left menu bar and click Copy Footprint.
-
-<img src="/docs/v2/copyfootprint.png" className="max-w-96" />
-
-Search for your library, right click on it and click Paste Footprint.
-
-<img src="/docs/v2/pastefootprint.png" className="max-w-96" />
-
-Now click File > Footprint Proprerities... And you should have a new window, select "3D Models" at the top:
-
-<img src="/docs/v2/3dmodels.png" className="max-w-96" />
-
-If you don't have anything in the "3D Model(s)" frame, click on the + icon. After that, click on the file icon on the right and choose the coresponding 3D model that you downloaded. Now you have something like this:
-
-<img src="/docs/v2/neopixel3d.png" className="max-w-96" />
-
-If nothing is showing, make sure you checked the Show checkbox.
-
-We need to rotate and move it. Press the + and - buttons on the rotation tab until it is at the right orientation, then the + and - buttons at the offset tab until you have the right position. Mine will be like this: (The + and - might be up and down arrows on some platforms)
-
-<img src="/docs/v2/correctneopixel3d.png" className="max-w-96" />
-
-Repeat this process for all the parts that are missing models. If you created copies of footprints, you need to re-assign the footprints to **your own** versions in the schematic editor. Go back to the PCB editor and re-click "Update PCB from schematic"
-
-Now go to Tools > Update Footprints from Library... and click Update on the new window.
-
-<img src="/docs/v2/updatefromlib.png" className="max-w-96" />
-
-After all the work, you will have something like this when you press Alt+3 (Or Option+3):
-
-<img src="/docs/v2/3dwithcomponents.png" className="max-w-96" />
-
-Now to export the PCB as a 3D Model, select File > Export > STEP...
-
-<img src="/docs/v2/exportstep.png" className="max-w-96" />
-
-And select the directory you want the output to be in, then click Export. You don't need to change any settings. In the end you will get a .STEP file, that is the 3D model of your PCB.
 
 <a name="case"/>
 ## Creating your case
@@ -262,21 +189,22 @@ If you are interested for guides on how to use different software, look into the
 
 First thing first, go to [ai03's plate generator](https://kbplate.ai03.com/).
 
-In the KLE Data fiels, you need to enter some custom json data. For example
+Then, open [keyboard-layout-editor.com](https://www.keyboard-layout-editor.com/) in a new tab. 
 
-["", "", ""],
-["", "", ""],
+On the top left you should see a small keyboard. Now click the keys that doesn't match your macropad and press "Delete Keys". And if you need more keys, press the "Add keys button". The text displayed on the keys have no importance.
 
-Is for a macropad that has 3 keys in each column and 2 rows
+After you made the layout match your macropad, switch to the "Raw Data" tab in the middle:
 
-If your keyboard is more complex, you can use [keyboard-layout-editor.com](https://www.keyboard-layout-editor.com/) to generate the json data. (Modify the layout, open the "Raw data" tab at the middle of the page, then copy & paste)
+<img src="/docs/v2/layout.png" className="max-w-96" />
+
+Copy the text inside the textbox, and paste it into ai03's plate generator.
 
 After that, scroll down, look at the preview to verify if it conforms to your macropad, and then press download DXF.
 
 <a name="case_design_fusion"/>
 ## Creating your case in Fusion360
 
-Fusion360 has a free plan for students, you can create a education account. After you have your account, either download the native Fusion360 application, or [use this magic link](https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion) to launch it directly in your browser :D
+Fusion360 has a [free plan for students](https://www.autodesk.com/education/home), you can create a education account. You can also use [Autodesk Fusion for personal use](https://www.autodesk.com/products/fusion-360/personal) After you have your account, either download the native Fusion360 application, or [use this magic link](https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion) to launch it directly in your browser :D
 
 If you are using the browser version, don't forget to save regularly, since your session will close if you leave it alone for too long.
 
@@ -289,12 +217,14 @@ Start by creating a new project, and a new component, this is better for organiz
 <img src="/docs/v2/fusioncomp.png" className="max-w-96" />
 <img src="/docs/v2/newcomponent.png" className="max-w-96" />
 
-Now go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+Now go back to KiCAD PCB editor and click on your Edge.Cuts outline. In the bottom left of your screen, you can find the length and widgth of your PCB. Alternatively, measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
 
 <img src="/docs/v2/ruler.png" className="max-w-96" />
 <img src="/docs/v2/pcbsize.png" className="max-w-96" />
 
-We now know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case.
+If you used the Edge.Cuts outline, the width and height of your board are the widgth and height listed.
+
+If you used the ruler tool, the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case.
 
 Next, create a sketch by by pressing the green + button on the top left, then clicking the bottom orange retangle at the center of the screen.
 
@@ -314,35 +244,35 @@ Center this rectangle by pressing the dimension button, press one edge of the sm
 
 <img src="/docs/v2/fusionrect3.png" className="max-w-96" />
 
-Now use the circle tool to draw 4 circles, one on each edge. Use the sketch dimension tool to set their size to 3.4mm. Then, use the dimension tool to set their distance to their corresponding edges to 5mm (by clicking on their centers, then the corresponding edge):
+Now use the circle tool to draw 4 circles, one at each corner of the larger rectangle. Set the diameter to 3.4mm when creating the circle, or use the sketch dimension tool to set their size to 3.4mm. Then, use the dimension tool to set their distance to their corresponding edges to 5mm (by clicking on their centers, then the corresponding edge):
 
 <img src="/docs/v2/fusioncircle.png" className="max-w-96" />
 <img src="/docs/v2/fusioncircledim.png" className="max-w-96" />
 <img src="/docs/v2/fusioncircle2.png" className="max-w-96" />
 
-Now add 4 more circles, this time with a diameter of 6mm. Select the coincident tool, and click on the centers of corresponding circles. 
+Now add 4 more circles, this time with a diameter of 6mm. Select the center of the small circle when you place the larger circle's center point, or select the coincident tool, and click on the centers of corresponding circles to align them.
 
 <img src="/docs/v2/fusioncoincident.png" className="max-w-96" />
 <img src="/docs/v2/fusionfinishsketch.png" className="max-w-96" />
 
-Press "Finish sketch" (green checkmark at top right of screen), then select all the middle circles (shift click) and press extrude. In the extrude menu, select Offset in Start, and enter 3.1mm as the Offset, then enter 9.9 mm in the Distance field and click ok:
+Press "Finish sketch" (green checkmark at top right of screen), then select all the outer circles (shift click) and press extrude (E key or the button at the top). In the extrude menu, select Offset in Start, and enter 3.1mm as the Offset, then enter 9.9 mm in the Distance field and click ok:
 
 <img src="/docs/v2/fusionextrude.png" className="max-w-96" />
 <img src="/docs/v2/fusionselect.png" className="max-w-96" />
 <img src="/docs/v2/fusionextrudemenu.png" className="max-w-96" />
 
-Now, you must re-show the object be opening the Sketches folder on the left, and cliking the eye icon on Sketch1. Then select the outer rectangle and press extrude. This time the Start shall be "Profile Plane" (and will be for all future extrudes), and set the distance to 13mm:
+Now, you must re-show the object be opening the Sketches folder on the left, and clicking the eye icon to the left of Sketch1. Then select the outer rectangle and press extrude. This time the Start shall be "Profile Plane" (and will be this for all future extrudes), and set the distance to 13mm:
 
 <img src="/docs/v2/fusionshow.png" className="max-w-96" />
 <img src="/docs/v2/fusionextrude2.png" className="max-w-96" />
 
-Now, click the center square, and extrude it by 3mm. Now you can move arround and your will see something like this:
+Now, click the center square, and extrude it by 3mm. You can move arround and you will see something like this:
 
 <img src="/docs/v2/fusioncasehalf.png" className="max-w-96" />
 
-Thats the base of your case done!
+That's the base of your case done!
 
-Now go to kicad and measure the distance from the edge of the PCB to the USB port.
+Now go to kicad and measure the distance from the edge of the PCB to the USB port using the ruler tool
 
 <img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
 
@@ -354,7 +284,7 @@ And create a new sketch (Create Sketch button). Draw a rectangle at the top, and
 
 <img src="/docs/v2/fusionhole.png" className="max-w-96" />
 
-Click finish sketch, select the rectangle we just draw and press extrude. This time set the distance to -7.5mm
+Click finish sketch, select the rectangle we just drew and press extrude. This time set the distance to -7.5mm
 
 <img src="/docs/v2/fusioncase.png" className="max-w-96" />
 
@@ -364,7 +294,7 @@ You can now export the model by clicking File > Export... at the top left, and s
 
 To download the resulting STEP file on the web, go to [https://myhub.autodesk360.com/](https://myhub.autodesk360.com/), go to your project and click the download icon.
 
-Right now our case looks a little ugly, its so blocky! Lets round the corners, press the Fillet button found in the top, and click on each edge and make it 5mm. Should look as such:
+Right now our case looks a little ugly, its so blocky! Lets round the vertical edges, press the Fillet button found in the top, and click on each edge and make it 5mm. Should look as such:
 
 <img src="/docs/v2/fillet.png" className="max-w-96" />
 <img src="/docs/v2/edgeround.png" className="max-w-96" />
@@ -373,11 +303,11 @@ Right now our case looks a little ugly, its so blocky! Lets round the corners, p
 <a name="top"/>
 ### Creating the top
 
-Next, we will make the other half to our case. Start by clicking new design.
+Next, we will make the other half of our case. Start by clicking new design.
 
 <img src="/docs/v2/fusionnewdesign.png" className="max-w-96" />
 
-Now go to the INSERT menu, expand it and click "Insert DXF". Select a dxf file (in the web you need to first click Upload from Fusion Team..., upload it from there, click refresh then select the file), and click ok. Now delete the outer lines surrounding the keyholes. You should have something like this:
+Now go to the INSERT menu, expand it and click "Insert DXF". Select the dxf file we generated at the start (in the web you need to first click Upload from Fusion Team..., upload it from there, click refresh then select the file), and click ok. Now delete the outer lines surrounding the keyholes. You should have something like this:
 
 <img src="/docs/v2/fusionholes.png" className="max-w-96" />
 
@@ -385,22 +315,22 @@ Now select everything and click on the Lock button
 
 <img src="/docs/v2/fusionlock.png" className="max-w-96" />
 
-Go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+Go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end. You can also select your Edge.Cuts and find the width and height in the bottom right.
 
 <img src="/docs/v2/ruler.png" className="max-w-96" />
 <img src="/docs/v2/pcbsize.png" className="max-w-96" />
 
-Now lets create a new rectangle, define it's width and height the same as the size of the top plate. Set the distance between the left end of your keyholes and the left edge of the rectangle the x distance you just measured + 10.5 (for me it's 3.99+10.5). Same for the bottom edge of the keyhole and bottom edge of the rectangle, y distance + 10.5.
+Now lets create a new rectangle, define it's width and height be the same as the size of the top plate. Set the distance between the left keyhole end and the left rectangle edge the x distance you just measured + 10.5 (for me it's 3.99+10.5). Same for the bottom edge of the keyhole and bottom edge of the rectangle, y distance + 10.5.
 
 <img src="/docs/v2/fusionalmost.png" className="max-w-96" />
 
 Add another rectangle, this time with it's start starting on the top line of our rectangle. Set it's width to 18.5mm and height to 31mm. After that use the distance tool to set the distance from the left of the rectangle to the left edge of the rounded rectangle to x_distance_in_kicad+5.75mm
 
-Add 4 more circles of 3.4mm and 5mm from the edges:
+Add 4 more circles of 3.4mm and set their position to 5mm from the edges with the distance tool:
 
 <img src="/docs/v2/fusionfinalsketch.png" className="max-w-96" />
 
-Click finish sketch, and pad the main part 3mm.
+Click finish sketch, and pad out the main part by 1.5mm.
 
 <img src="/docs/v2/fusionplate.png" className="max-w-96" />
 
@@ -408,7 +338,7 @@ But currently the plate is kinda ugly. Do the same things with the fillet as the
 
 <img src="/docs/v2/fusionplatefinal.png" className="max-w-96" />
 
-You finished your plate!! Congrats
+You finished your plate!! Congrats 🎉
 
 <a name="finishing"/>
 ### Finishing Touches
@@ -486,4 +416,8 @@ The board should automatically restart and be recognised as a new external drive
 
 # Next steps
 We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out! Again, don't copy this guide 1:1, add your own design into it.
+
+You might want to check out the [advanced guide](/advancedguide).
+
+Or maybe do you think you are done? Check out how to submit [here](/submitting)
 
