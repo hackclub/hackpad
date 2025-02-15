@@ -1,6 +1,6 @@
 # Makropad BOM
 
-- 10x Gateron Brown LOW PROFILE 2.0 switches (or any other gateron LP switch)
+- 10x Kailh choc v2 switches (or any other choc v2 switch)
 - 10x Reverse-mounted SK6812MINI-E SMD LEDs
 - 12x SMD Diodes (1N4148W)
 - 6x Normal front-mounted SK6812-MINI SMD LEDs (SK6812mini-012)

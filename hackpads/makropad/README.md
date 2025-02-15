@@ -3,7 +3,7 @@
 [Original Repo](https://github.com/Badbird5907/makropad)
 
 Makropad is my attempt at a custom macropad, inspired by the [Stream Deck Plus](https://www.elgato.com/ca/en/p/stream-deck-plus-black).
-It uses Gateron Low Profile 2.0 switches, 2 encoders, powered by a RP2040.
+It uses Kaith Choc v2 switches, 2 encoders, powered by a RP2040.
 
 A user-friendly BOM can be found [here](https://github.com/Badbird5907/makropad/blob/master/PCB/BOM.md)
 
