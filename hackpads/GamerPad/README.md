@@ -12,9 +12,8 @@ wanted to add. I'll add them in the next few weeks.
 
 This was a lot of fun, I especially noticed how much I liked PCB designing.
 
-I made the board like this because I wanted to make something "unique", even
-though I'm not entirely sure it really improves things. But at least it's not
-just a smaller keyboard.
+I made the board like this because I wanted to make something "unique" and gaming-related, even
+though I'm not entirely sure it really improves things. But at least it's not just a smaller keyboard.
 
 ## Features
 
@@ -29,6 +28,7 @@ just a smaller keyboard.
 
 - OLED display integration -> showing a hint about the current layer, also showing the recently pressed keys
 - display of the macros, maybe even adding another layer that allows controlling the displayed info
+- instead of using 3 keys for 3 layers, use only 2 (for switching one layer up/down) or just 1 (for switching to next layer) -> 1 or 2 more keys for actual functionality
 
 ## BoM
 
