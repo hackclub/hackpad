@@ -18,6 +18,14 @@ Game - A mode to keep you entertained(currently tic-tac-toe)
 ![image](https://github.com/user-attachments/assets/4e75b4bd-800c-4087-89c5-7adbc302d98e)
 ![image](https://github.com/user-attachments/assets/8bf51e55-5e5a-4318-92fa-b156e47aee4d)
 
+# Inspiration
+A lot of times, when working on projects, or in general, I will have a need to use utilities, such as stopwatch, timer, RNG, etc.
+
+This is what inspired the subsequent parts of this macropad.
+
+# Challenges
+Before this, I haven't really ever worked on something which requires interacting with hardware, or creating a case. This was a learning opportunity for me, and it was fun creating the PCB.
+
 # BOM
 1 SEEEDUINO XIAO RP2040
 
