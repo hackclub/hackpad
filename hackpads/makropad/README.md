@@ -11,6 +11,10 @@ A user-friendly BOM can be found [here](https://github.com/Badbird5907/hackpad/b
 - 10 backlit keys
 - 128x32 OLED display
 
+## Challenges
+I ran into a couple challenges while designing makropad, namely which switches and LEDs I should use. I ended up switching from Cherry MX to Gateron Low Profile and finally to Choc v2 switches, with each iteration requiring painstakingly rerouting a LOT of traces.
+At this point, i've probably spent over 50 hours obsessing over every trace in the PCB.
+
 ## Screenshots
 ![Case](https://github.com/user-attachments/assets/6ef4d4da-5106-4ad7-971b-9e16aacf33dd)
 
