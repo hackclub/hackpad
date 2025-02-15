@@ -33,7 +33,7 @@ though I'm not entirely sure it really improves things. But at least it's not ju
 ## BoM
 
 - 12x Cherry MX Switches
-- 12x DSA Keycaps (preferrably in white)
+- 12x DSA Keycaps (preferably in white)
 - 12x 1N4148 THT Diodes
 - 4x M3x16mm screws
 - 4x M3x5x4 Heatset inserts
@@ -41,7 +41,7 @@ though I'm not entirely sure it really improves things. But at least it's not ju
 - 4x SK6812 MINI-E RGB LEDs
 - 2x Resistor 4,7k Ohm
 - 1x XIAO RP2040
-- 1x Case (2 printed parts)
+- 1x Case (2 printed parts) (preferably in either teal, cyan, blue or black)
 
 ## Renders
 
