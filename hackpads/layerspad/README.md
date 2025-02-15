@@ -59,3 +59,4 @@ EC11 Rotary Encoder | 1
 seeed studio XIAO RP2040 | 1**
 
 ## .UF2 FILE IS NOT IN THE FOLDERS, FIRMWARE IS IN "QMK-FIRMWARE" FOLDER, WITH RULES.MK, KEYMAP.C, AND CONFIG.H
+my slack handle: aryan
