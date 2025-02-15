@@ -27,8 +27,8 @@ Others:
 - Case bottom.stl
 
 Schematic            |  PCB         |   Case
-:-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://cdn.hackclubber.dev/slackcdn/749dc306ac58f6cfa6c8b6a34eb5c2b1.png)    |  ![image](https://cdn.hackclubber.dev/slackcdn/b7d3242e91398aa26c269f6271fc1f12.png | ![image] https://cdn.hackclubber.dev/slackcdn/79aad25bb2a42f94fb86bb16e9f464fe.png)  |  ![image](https://cdn.hack.pet/slackcdn/145d20323730aa4e7457f78ae627d6fe.png  | ![image] https://cdn.hackclubber.dev/slackcdn/2ea5bb56440fab8986400011f993cd1b.png) 
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+![image](https://cdn.hackclubber.dev/slackcdn/749dc306ac58f6cfa6c8b6a34eb5c2b1.png)    |  ![image](https://cdn.hackclubber.dev/slackcdn/b7d3242e91398aa26c269f6271fc1f12.png) | ![image] (https://cdn.hackclubber.dev/slackcdn/79aad25bb2a42f94fb86bb16e9f464fe.png)  |  ![image](https://cdn.hack.pet/slackcdn/145d20323730aa4e7457f78ae627d6fe.png)  | ![image] (https://cdn.hackclubber.dev/slackcdn/2ea5bb56440fab8986400011f993cd1b.png) 
 
 
 
