@@ -12,5 +12,7 @@ Introducing the Barni Hackpad, a sleek and innovative macropad designed with a u
 - 1 Seeed XIAO RP2040
 - 4 MX-Style switches
 
-## Images
-![Schematic](assets/schematic.png)    |  ![PCB](assets/pcb.png)  | ![Case](assets/case.png)
+## Images of the makropad
+![Schematic](assets/schematic.png)  
+![PCB](assets/pcb.png)  
+![Case](assets/case.png)  
