@@ -7,17 +7,19 @@ It's a 5 key macropad with 2 SK6812MINI LEDs for lighting. It uses KMK firmware.
 ## CAD Model
 Everything fits together using M3 bolts and heatset inserts. This is how the case should fit together with the PCB inside. I made it in Fusion 360
 ![image](https://github.com/user-attachments/assets/f036244f-73d2-44aa-9fbe-0f5507143bb8)
+![image](https://github.com/user-attachments/assets/87f29d42-ca6e-447a-a7f2-05ed8a618d4f)
 
-![alt text](image-2.png)
 ## PCB
 This is my PCB. I made it in KiCad. I should have added an image on the silkscreen layer :( .
 ### The schematic:
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/09fea22c-4d46-4f40-a976-62db14af1815)
+
 
 
 
 ### The PCB
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/31a7d83f-c7ff-455a-be73-3d992d7cd054)
+
 
 ## Bill Of Materials
 
