@@ -3,6 +3,12 @@ this is my submission for hackclub's hackpadv2 ysws.
 
 i used kicad for the pcb, bricscad for the case, and kmk for the firmware
 
+# screenshots
+![schematic](images/schematic.png)
+![pcb](images/pcb.png)
+![case](images/case.png)
+![everything](images/everything.png)
+
 # BOM:
 - 5x cherry mx pink switches
 - 1x ec11 encoder
