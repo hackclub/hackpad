@@ -22,6 +22,9 @@ im quite happy with how compacts the CAD all ends up being
 <img src="https://cdn.hack.pet/slackcdn/4048c1e9b58b5e421ba829795504f52c.png"
      alt="another cross section of hackpack"
      style="float: left; margin-right: 10px;" />
+<img src="https://cdn.hack.pet/slackcdn/8be9f89d22ce2b94943cb7714d83de27.png"
+     alt="another cross section of hackpack"
+     style="float: left; margin-right: 10px;" />
 
 
 ## PCB:
