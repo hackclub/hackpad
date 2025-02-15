@@ -1,0 +1,16 @@
+MOUSEKEY_ENABLE = no       # Mouse keys
+EXTRAKEY_ENABLE = yes      # Audio control and System control
+CONSOLE_ENABLE = no        # Console for debug
+COMMAND_ENABLE = no        # Commands for debug and configuration
+NKRO_ENABLE = yes         # Enable N-Key Rollover
+BACKLIGHT_ENABLE = no     # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = no      # Enable keyboard RGB underglow
+AUDIO_ENABLE = no         # Audio output
+TAP_DANCE_ENABLE = yes    # Enable tap dance feature
+OLED_ENABLE = yes         # Enable OLED display
+OLED_DRIVER = SSD1306     # Add OLED driver specification
+LTO_ENABLE = yes          # Enable Link Time Optimization
+RGB_MATRIX_ENABLE = yes   # Enable per-key RGB
+RGB_MATRIX_DRIVER = WS2812
+ENCODER_ENABLE = yes      # Enable encoder support
+DEFERRED_EXEC_ENABLE = yes  # Better handling of timed events
