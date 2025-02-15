@@ -38,4 +38,6 @@ Here should be everything you need to make this hackpad
 - 1x PCB (It cost 14.08 USD to make)
 
 ## Extra Stuff
+I require a soldering iron. (hopefully HQ will send one)
+
 It was fun making this :)
