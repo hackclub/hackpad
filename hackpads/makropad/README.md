@@ -1,5 +1,4 @@
 # Makropad
-
 [Original Repo](https://github.com/Badbird5907/makropad)
 
 Makropad is my attempt at a custom macropad, inspired by the [Stream Deck Plus](https://www.elgato.com/ca/en/p/stream-deck-plus-black).
