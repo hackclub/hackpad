@@ -13,11 +13,11 @@ A user-friendly BOM can be found [here](https://github.com/Badbird5907/makropad/
 - 128x32 OLED display
 
 ## Screenshots
-![Case](https://github.com/user-attachments/assets/a755c0eb-335f-4646-8e48-35d940f2a022)
+![Case](https://github.com/user-attachments/assets/6ef4d4da-5106-4ad7-971b-9e16aacf33dd)
 
-![Schematic](https://github.com/user-attachments/assets/c4b839d3-f36a-49d8-b878-de2629ed9761)
+![Schematic](https://github.com/user-attachments/assets/c8573e58-0352-46c7-a33b-72c3ecf3107d)
 
-![PCB](https://github.com/user-attachments/assets/26a4c12b-007d-4c04-89c1-9ad33e1b77c3)
+![PCB](https://github.com/user-attachments/assets/f0697076-1049-4767-806c-4aed2b2ba250)
 
 3D Renders of the Cherry MX switch version (made with Shapr3D):
 
