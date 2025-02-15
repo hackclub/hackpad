@@ -60,3 +60,6 @@ seeed studio XIAO RP2040 | 1**
 
 ## .UF2 FILE IS NOT IN THE FOLDERS, FIRMWARE IS IN "QMK-FIRMWARE" FOLDER, WITH RULES.MK, KEYMAP.C, AND CONFIG.H
 my slack handle: aryan
+
+This was my first time building something like this, and I enjoyed the entire process (although there were some frustrating challenges along the way :p)
+The 3D model was made in Shapr3d, and the final version was the 3rd or 4th redesign, and the PCB wiring was the toughest part. My first PCB design was 19 mm too big, so i had to rewire it, then it was 2mm too big so i had to refit the tracks again haha. This is also my first PR so ths took AGES of experimenting too! At the end of the day, it's very satisfying to be finally making the PR :D
