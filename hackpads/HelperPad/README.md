@@ -8,15 +8,15 @@ HelperPad is easily to use and customize.
 
 ## Parts of HelperPad
 ### Schematik
-<img src="img/shematic.png" width="800">
+<img src="/img/shematic.png" width="800">
 
 ### PCB
-<img src="img/pcb.png" width="800">
+<img src="/img/pcb.png" width="800">
 
 ### Case
-<img src="img/cad1.png" width="800">
-<img src="img/cad2.png" width="800">
-<img src="img/cad3.png" width="800">
+<img src="/img/cad1.png" width="800">
+<img src="/img/cad2.png" width="800">
+<img src="/img/cad3.png" width="800">
 
 ### Firmware
 In kb.py you can define what each action should do.<br>
