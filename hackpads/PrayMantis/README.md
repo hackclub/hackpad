@@ -13,8 +13,10 @@ There have been some frustrating mistakes while designing this but we got over a
 ### Bom:
 1. 9x Cherry MX Switches
 2. 6x SK6812 Neopixels
-3. 1x OLED
+3. 1x SSD1306 128x64 0.96in 4-pin OLED
 4. 1x XIAO-RP2040
+5. 9x DSA Key Caps
+6. 4x M3 16mm Screws
 
 ### Others:
 
