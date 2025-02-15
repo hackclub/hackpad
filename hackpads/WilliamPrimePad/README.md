@@ -44,3 +44,7 @@ Here should be everything you need to make this hackpad
 - 2x knobs for EC11 Rotary Encoder
 - 1x XIAO RP2040
 - 1x Case (3 printed parts)
+
+##Extra stuff
+I dont need a solder iron as i allready have a functional one
+I also have the ability to 3D print my own parts, so i can print my own case
