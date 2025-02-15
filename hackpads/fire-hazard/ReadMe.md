@@ -14,3 +14,7 @@ BOM:
 - 4x Blank DSA Keycaps
 
 ![Render](./render.png)
+
+![Schematic](./fire-hazard-schematic.png)
+
+![PCB](./fire-hazard-pcb.png)
