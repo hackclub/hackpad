@@ -26,6 +26,6 @@ Others:
 - hack-pad-zaid-top-v1.stl
 
 Schematic            |  PCB         |   Case            | All Together
-:-------------------------:|:-------------------------:|:-------------------------:|
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 ![image](https://cdn.hack.pet/slackcdn/0e794b5950c5aec8c9dfb1bdebc9f4ad.png)    |  ![image](https://cdn.hackclubber.dev/slackcdn/02a4e10744bac648818f4d9da1946126.png)  | ![image](https://cdn.hackclubber.dev/slackcdn/dec4e1dcbd1e3476e1730a084248dec3.png)    | ![image](https://cdn.hack.pet/slackcdn/299eb78c2cbabe9b6c935908d2f2d57d.png)
 
