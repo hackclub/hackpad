@@ -9,4 +9,4 @@ This is my macropad which has snowman. snowman nice.
 - x9 keycaps 7 white, 2 red
 
 ![image](https://github.com/user-attachments/assets/3d346ff4-e9ca-4ecc-93f3-d011d3959bcf)
-![image](https://github.com/user-attachments/assets/40723d4c-fb52-408e-b49f-ec0229283be4)
+![image](https://github.com/user-attachments/assets/7007aca6-ef59-4522-896a-2d1d13fb59de)
