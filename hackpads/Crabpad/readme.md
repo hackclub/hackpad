@@ -13,17 +13,18 @@ Everything fits together using 4 M3 Bolts and heatset inserts.
 
 It has 2 separate printed pieces.
 
-Made in OpenScad i think.
+Made in OnShape.
 
+<img src=https://cdn.hackclubber.dev/slackcdn/0f0ef517f1eac2a884cab483584f16c9.png alt="model" width="300"/>
 
 ## PCB
 Here's my PCB! It was made in KiCad.
 
 Schematic
-<img Crabpad/PCB/schematic.png alt="Schematic" width="300"/>
+<img src=https://cdn.hack.pet/slackcdn/dcdf8a14fe17082ca29df7d522696c76.png alt="Schematic" width="300"/>
 
 PCB
-<img src=Crabpad/PCB/CrabPAd.png alt="Schematic" width="300"/>
+<img src=/hackpads/Crabpad/PCB/CrabPAd.png alt="Schematic" width="300"/>
 
 I used MX_V2 for the keyswitch footprints. I think in retrospect, I should've added a ground plane
 
