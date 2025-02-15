@@ -19,3 +19,4 @@ My hackpad is a 3x3 macropad with a rotary encoder. The switches are wired in a 
 - 9x Red Blank DSA keycaps 
 - 9x Through Hole 1N4148 Diodes
 - 9x SK6812 MINI-E neopixels
+- PCB (preferrably black not green)
