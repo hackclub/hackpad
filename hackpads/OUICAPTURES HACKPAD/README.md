@@ -1,3 +1,4 @@
+<img src='CAD/cad pictures/rendered.png'>
 Inspiration
 
 - I wanted to create my own personalised macropad.
