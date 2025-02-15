@@ -4,9 +4,12 @@ this is my submission for hackclub's hackpadv2 ysws.
 i used kicad for the pcb, bricscad for the case, and kmk for the firmware
 
 # screenshots
+## pcb
 ![schematic](images/schematic.png)
 ![pcb](images/pcb.png)
-![case](images/case.png)
+## case
+![bottom](images/bottom.png)
+![top](images/top.png)
 ![everything](images/everything.png)
 
 # BOM:
