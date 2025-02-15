@@ -31,12 +31,13 @@ Blank DSA keycaps (preferably white) x9
 M3x16mm screws x4
 M3x5mx4mm heatset inserts x4
 
-
+### Changes
+I updated the gerber files and kicad files to fit the guidelines
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![Schematic](https://i.imgur.com/SWS57F5.png)    
-|  ![PCB](https://i.imgur.com/SVBRaCA.png)  
+|  ![PCB](https://i.imgur.com/91NFYik.png)  
 | ![Case](https://i.imgur.com/2t6b2Yr.png)
 *<sup> took this table image format from Duccs Fidget Toy 
 
