@@ -4,7 +4,7 @@
 Makropad is my attempt at a custom macropad, inspired by the [Stream Deck Plus](https://www.elgato.com/ca/en/p/stream-deck-plus-black).
 It uses Kaith Choc v2 switches, 2 encoders, powered by a RP2040.
 
-A user-friendly BOM can be found [here](https://github.com/Badbird5907/makropad/blob/master/PCB/BOM.md)
+A user-friendly BOM can be found [here](https://github.com/Badbird5907/hackpad/blob/main/hackpads/makropad/BOM.md)
 
 ## Features
 - 2 rotary encoders
@@ -21,3 +21,4 @@ A user-friendly BOM can be found [here](https://github.com/Badbird5907/makropad/
 3D Renders of the Cherry MX switch version (made with Shapr3D):
 
 ![Shapr Image-2025-02-09 170116](https://github.com/user-attachments/assets/6395306b-516e-4ca8-8b34-7880ed2c5260)
+
