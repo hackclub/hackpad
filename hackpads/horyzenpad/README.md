@@ -34,6 +34,7 @@
 top:<img width="1129" alt="image" src="https://github.com/user-attachments/assets/f0b6535c-d29e-4f46-9f52-ac7458e79eb7" />
 bottom:<img width="932" alt="image" src="https://github.com/user-attachments/assets/4c453dde-9c3f-47e4-b05d-72d5ba6f6262" />
 
+## Preferably the case 3d print color should be black for both TOP and BOTTOM!
 
 ## BOM:
  - 1x RP2040
