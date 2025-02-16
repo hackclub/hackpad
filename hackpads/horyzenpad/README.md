@@ -27,7 +27,7 @@
   <img width="1202" alt="image" src="https://github.com/user-attachments/assets/b588ca32-7c13-4c70-a89f-5caf962568b1" />
 
 
-## The bottom case will be screwed into the top case, using m2 screws that will be self-funded(bought my myself)
+## The bottom case will be screwed into the top case, using m2 screws that will be bought on aliexpress
 
 
 
@@ -46,7 +46,7 @@ bottom:<img width="932" alt="image" src="https://github.com/user-attachments/ass
  - 1x soldering iron
  - 11x Black DSA Keycaps
  - 2x Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal | pull up resistors for oled
-
+ - 1x m2 screw kit on aliexpress
 
 
 
