@@ -1,1 +1,0 @@
-I am using KMK for firmware, so there is no UF2 file.

@@ -1,2 +1,0 @@
-#define WS2812_DI_PIN GP9
-#define RGBLIGHT_LED_COUNT 15
