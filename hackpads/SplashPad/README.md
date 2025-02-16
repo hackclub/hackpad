@@ -85,6 +85,9 @@ I built this macropad for [Hackpad](https://hackpad.hackclub.com/)—an awesome 
 
 #### why settle for ordinary when you can hack something extraordinary?
 
+## The Biggest Challenge:
+I wanted to use nice thick wires for my PCB (0.6mm) and routing all of these took quite a bit of effort. I think the time spent was definitely worth it, as the routing looks *awesome*.
+
 ---
 
 ## Future Plans (Maybe):  

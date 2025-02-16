@@ -16,7 +16,7 @@ This folder contains the **KMK firmware** for my **SplashPad**.
 | Row   | Key 1  | Key 2      | Key 3           |
 |-------|--------|------------|-----------------|
 | **1** | Rewind | Play/Pause | Fast Forward    |
-| **2** | Media  | Calculator | Cmd+R (Refresh) |
+| **2** | Media  | Calculator | Cmd+R (Run)     |
 | **3** | Left   | Right      | Cmd+L (Lock)    |
 
 - **Rotary Encoder:**  
