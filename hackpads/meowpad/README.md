@@ -16,6 +16,7 @@ the fact that fusion360 was not available on linux, so i had to keep rebooting b
 ## pcb
 ![schematic](images/schematic.png)
 ![pcb](images/pcb.png)
+![pcb with components](images/everythingpcb.png)
 ## case
 ![bottom](images/bottom.png)
 ![top](images/top.png)
