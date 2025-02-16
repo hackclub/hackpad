@@ -1,39 +1,40 @@
 # LayersPad by Aryan Pathak
 ## The LayersPad is a 9-key macropad with a rotary encoder and a OLED display, with multiple layers of keybindings for everyone.
 
-##Layers:
-- Layer 1: ZERO (Default):
-   
-COPY, PASTE, SPOTLIGHT,
+## Layers:
+- Layer ZERO (default): 
 
-MOVE_THROUGH_WINDOWS(LEFT), MISSION_CONTROL, MOVE_THROUGH_WINDOWS(RIGHT),
+SWITCH LAYERS, PERPLEXITY, YOUTUBE,
+
+MOVE APP LEFT, SPOTLIGHT/RAYCAST, MOVE APP RIGHT
 
 PREVIOUS, PLAY/PAUSE, NEXT
 
-- Layer 2: GAME:
- 
-R W Q
+- Layer GAMING:
 
-A S D
+SWITCH LAYER, W, R,
 
-SPRINT JUMP CROUCH
+A, S, D,
+
+SPRINT, JUMP, CROUCH
+
+- Layer DEVELOPER
+
+SWITCH LAYER, COPY, PASTE,
+
+MOVE APP LEFT, AI (command + K), MOVE APP RIGHT
+
+COMMENT/UNCOMMENT, NEXT, PREVIOUS
+
+- Layer ART (Procreate):
+
+SWITCH LAYER, UNDO, REDO,
+
+CUT, PASTE, SELECTION MODE
+
+HSB, LAYERS, COLOR
 
 
-- Layer 3: DEVELOPER
-  
-COMMENT/UNCOMMENT COPY PASTE
-
-MOVE_THROUGH_WINDOWS(LEFT) AI MOVE_THROUGH_WINDOWS(RIGHT)
-
-UNDO TAB REDO
-
-- Layer 4: ART (PROCREATE)
-  
-UNDO HSB REDO
-
-CUT PASTE COPY
-
-SELECTION LAYERS COLORS
 
 *Each layer has a different artwork on the OLED display.*
 
