@@ -2,19 +2,19 @@
 
 This is my hackpad submission! The jankpad is a macropad I made in 24 hours in a procrastination fueled frenzy.
 
-![image](full.png)
+![image](assets/full.png)
 
 It features a 128x32 OLED display, 16 MX switches, and 2 rotary switches, the case is seperated into two parts connected by four screws.
 
-![image](case.png)
+![image](assets/case.png)
 
 # PCB #
 
 A 4x4 keyboard matrix is used to support 16 keys. An IO extender is used to give the XIAO enough pins to connect two rotary switches
 
-![image](schematic.png)
+![image](assets/schematic.png)
 
-![image](pcb.png)
+![image](assets/pcb.png)
 
 # BOM #
 
