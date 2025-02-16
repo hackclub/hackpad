@@ -15,6 +15,7 @@
 Extras:-
 - Few Jump Wires
 - Breadboard
+- A soldering iron and its required materials
 For testing before placing
 
 Others:
