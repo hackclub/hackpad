@@ -29,5 +29,5 @@ the fact that fusion360 was not available on linux, so i had to keep rebooting b
 - 1x 100nF through hole capacitor
 - 1x 75kOhms through hole resistor
 - 1x bourns inc. PTA4543-2215CPB103
-- 1x SSD1306 OLED
+- 1x SSD1306 OLED 128x32 (i2c Version)
 - 5x white keycaps (please)
