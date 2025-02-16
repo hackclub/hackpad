@@ -16,11 +16,11 @@ I ran into a couple challenges while designing makropad, namely which switches a
 At this point, i've probably spent over 50 hours obsessing over every trace in the PCB.
 
 ## Screenshots
-![Case](https://github.com/user-attachments/assets/6ef4d4da-5106-4ad7-971b-9e16aacf33dd)
+![Case](https://github.com/user-attachments/assets/966eb49f-d42d-4db6-b4db-72f778f5b8e1)
 
-![Schematic](https://github.com/user-attachments/assets/c8573e58-0352-46c7-a33b-72c3ecf3107d)
+![Schematic](https://github.com/user-attachments/assets/cb9d35dc-01b0-4de5-866a-cf99ff83b200)
 
-![PCB](https://github.com/user-attachments/assets/f0697076-1049-4767-806c-4aed2b2ba250)
+![PCB](https://github.com/user-attachments/assets/4f0f774d-3f83-435d-8324-2e9a14d98d16)
 
 3D Renders of the Cherry MX switch version (made with Shapr3D):
 
