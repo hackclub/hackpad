@@ -1,7 +1,7 @@
 ## YeagPad:
 This is a 10 key general purpose macropad for stuff like... I don't know, playing games and whatever (。・ω・。)
 
-![The Render](YeagPad_render.PNG)
+![The Render](This is just for the README file, sorry/YeagPad_render.PNG)
 
 ## Inspiration:
 I was a macropad that I could use for rhythm games and also for 3d enviroments, while also still having options incase I wanted to make my macropad a makeshift launchpad for music.
@@ -27,10 +27,10 @@ I was a macropad that I could use for rhythm games and also for 3d enviroments, 
     1x 3D Printed Top Plate
 
 ## Schematic
-![The Schematic](YeagPad_schematic.png)
+![The Schematic](This is just for the README file, sorry/YeagPad_schematic.png)
 
 ## PCB
-![The PCB](YeagPad_pcb.png)
+![The PCB](This is just for the README file, sorry/YeagPad_pcb.png)
 
 ## Case
-![The Case](YeagPad_case.png)
+![The Case](This is just for the README file, sorry/YeagPad_case.png)
