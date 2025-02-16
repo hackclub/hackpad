@@ -14,3 +14,9 @@ This is the Legitimate Salvage. It is a macro pad that includes ten keys, one ro
 - 1x 0.91 inch 128x32 OLED
 
 
+| Schematic | PCB | Case|
+|----------|-----|-----|
+|![image](https://github.com/user-attachments/assets/7cdfeba9-f5a0-4bcc-97e6-304b6ee37472)|![image](https://github.com/user-attachments/assets/5d4d4ce4-2c01-4b98-9a36-7dbc03879420)|![image](https://github.com/user-attachments/assets/ede3ee64-54af-4f15-8f28-0d68c0459083)|
+
+
+
