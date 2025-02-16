@@ -1,6 +1,8 @@
 # CT5 Macropad
 ![image](https://github.com/user-attachments/assets/e482f094-9d12-4835-a08f-a39821ea6c4e)
-
+![Bottom Plate](https://github.com/hackclub/hackpad/blob/main/hackpads/CT5_Macropad/BottomPlate.png?raw=true)
+![Top Plate](https://github.com/hackclub/hackpad/blob/main/hackpads/CT5_Macropad/TopPlate.png?raw=true)
+![PCB](https://github.com/hackclub/hackpad/blob/main/hackpads/CT5_Macropad/PCB.png?raw=true)
 
 ## BOM
  - DO-35 x9
