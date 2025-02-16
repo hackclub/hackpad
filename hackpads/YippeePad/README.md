@@ -27,4 +27,4 @@ BOM:
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-!CAD.png    |  ![](Assets/Schematic.png)  | ![](Assets/PCB.png)  |  ![](Assets/CAD.png)
+!CAD.png    |  ![](assets/schematic.png)  | ![](assets/pcb.png)  |  ![](assets/schematic.png)
