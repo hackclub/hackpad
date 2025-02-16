@@ -25,6 +25,10 @@ A 4x4 keyboard matrix is used to support 16 keys. An IO extender is used to give
 - 16 MX-Style Switches
 - 16 Keycaps
 - 2 EC11 Rotary encoders
-- -0.96 inch OLED
+- 0.96 inch OLED
 - 4 M3x16mm screws
 - 4 M3 hex nuts
+
+# Lessons Learned #
+
+Trying to make a keyboard at 2 am in the morning is not good for your sanity
