@@ -51,6 +51,30 @@ The keycap sizes below are derived from the provided JSON layout (ANSI style):
   - Arrow keys (←, ↓, →): **1u** each
 
 *Note:* Many custom keyboards use keycap sets sold by unit size (e.g. 1u, 1.25u, 1.5u, etc.). Verify that your keycap set includes all these sizes.
+1u Keys:
+Function Row: Esc, F1–F12, PrtSc, Scroll Lock, Pause Break → 16 keys
+Number Row: ~, 1–0, -, =, Insert, Home, PgUp → 14 keys
+Q–] Row: Q, W, E, R, T, Y, U, I, O, P, {, } → 12 keys
+A–' Row: A–L, ;, ' → 12 keys
+Z–/ Row: Z, X, C, V, B, N, M, <, >, ? → 10 keys
+Bottom Row: Arrow keys (←, ↓, →) → 3 keys
+Additional key (↑) → 1 key
+Total 1u keys: 68
+
+1.25u Keys:
+Bottom Row:
+Left Ctrl, Left Win, Left Alt → 3 keys
+Right Alt, Right Win, Menu, Right Ctrl → 4 keys
+Gap key between spacebar and right-hand keys → 1 key
+Total 1.25u keys: 8
+
+Other Key Sizes:
+1.5u → Tab (1 key)
+1.75u → Caps Lock (1 key)
+2u → Backspace (1 key)
+2.25u → Enter (1 key), Left Shift (1 key), Backslash/Pipe (1 key)
+2.75u → Right Shift (1 key)
+6.25u → Spacebar (1 key)
 
 #### 4. Stabilizers
 For a smooth and rattles-free experience, larger keys (generally >1.5u) should be stabilized. Typical candidates:
