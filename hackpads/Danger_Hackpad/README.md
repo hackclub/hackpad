@@ -1,6 +1,13 @@
 # Hackpad
 Please i worked so hard on this.
-## PCB
+## Inspiration
+I discovered this challenge back in October, but I was so busy that I didn't know how to get started. When version 2 came along, I knew I didn't want to let this one pass me by! I thought it would be great to create a hack pad that makes it super easy to access my favorite apps and Chrome profiles.
+## Challenges
+I had quite the adventure redesigning the PCB—at least six times! Sometimes it ended up being too big, and other times I just wasn’t thrilled with the results. I also tried importing components into Fusion for the first time, which was a bit of a challenge. In the end, I really enjoyed the experience and was happy to learn so much along the way!
+# Full render
+![Danger_Hackpad_Render full](https://github.com/user-attachments/assets/64d7dc9f-cf18-4a16-ad27-82a67be17334)
+
+# PCB
 <img width="851" alt="Screenshot 2025-02-15 at 8 49 53 PM" src="https://github.com/user-attachments/assets/19a21693-1a4a-4bdf-9ec0-dd24336888c7" />
 <img width="525" alt="Screenshot 2025-02-15 at 8 50 08 PM" src="https://github.com/user-attachments/assets/be647d5d-5e07-46a6-8020-f97ef0104476" />
 
