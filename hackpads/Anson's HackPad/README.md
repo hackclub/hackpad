@@ -1,6 +1,6 @@
 # Anson's HackPad
 
-Just a generic 12 keys macropad I made in 12 hours. It features 12 addressable RGB leds (reverse mounted) for lighting effects, and an oled display to show some graphics.
+Just a generic 12 keys macropad I made in 16 hours. It features 12 addressable RGB leds (reverse mounted) for lighting effects, and an oled display to show some graphics.
 
 ## Features
 
