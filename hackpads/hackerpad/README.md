@@ -16,3 +16,4 @@ Challenges
  ![Case](assets/SCR-20250216-nojz.png)
  ![PCB](assets/SCR-20250216-novt.png)
  ![Schematic](assets/SCR-20250216-npcv.png)
+![another view of da case](assets/SCR-20250216-rlvw.png)
