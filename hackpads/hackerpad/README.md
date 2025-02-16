@@ -7,5 +7,12 @@ bom
 7x Neon Green DSA Keycaps for MX Compatible Switches
 7x Dark Blue DSA Keycaps for MX Compatible Switches
 
-i had a really REALLY strong inspo from my friend who i saw was doing this after school. 
-the main challenges i faced were the software and a VERY big time constraint (i did this during my exam week)
+^^ a few extra for backup incase it breaks or smt 
+
+Inspiration:
+ i got REALLY REALLY REALLLY BIG from my friend who i saw working on this project one day. i thought it was very intereesting and i get it for free too i said why not i just do it? in the end i sunk about 30 hours into this in the span of a few days and many sleepless nights
+Challenges
+ while making this i faced a ~few~ challenges. most of which were the software but mostly time constrains as i found out about this ysws abit TOO late and had to speedrun this
+ ![Case](assets/SCR-20250216-nojz.png)
+ ![PCB](SCR-20250216-novt.png)
+ ![Schematic](SCR-20250216-npcv.png)
