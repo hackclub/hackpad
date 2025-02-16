@@ -13,5 +13,5 @@ Tired of boring scrolling? Use the 6keyKEEB, with buttons for page up, page down
 ## Images
 ![Schematic](assets/schematic.png)  
 ![PCB](assets/pcb.png)  
-![Case](assets/case.png)  
+![Overall](assets/overall.png)  
 ![Fitted together](assets/fitTogether.png)  
