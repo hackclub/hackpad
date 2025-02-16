@@ -38,9 +38,8 @@ bottom:<img width="932" alt="image" src="https://github.com/user-attachments/ass
 
 ## BOM:
  - 1x RP2040
- - 1x Akko 45pcs Cherry MX Switch ([https://www.amazon.com/Akko-Keyboard-Dustproof-Mechanical-Switches/dp/B0CBK74L29?crid=2XE7757IB7P4&dib=eyJ2IjoiMSJ9.TMKz6N67lHYrltd0CadVVmHukAJgqNukX0fYJWs9s3ncOIwz_GbX3WOdEtOZ214-kmBC0YPh70P_gwbKc002NLloJqhIWbiuU1pHPh1uttUHDbob1zWmDI3YAJ3tJZ01vwipCPWMD12eJdWqohCquN017eu4PUtgq4eG2pIWDnDfWm1Ti1fa24ooUqsIcSs1220Gesk_c1I8cxYpn02wYl8zEOsW_2NRFNuKefcwIKk.AvxC5IId6CipkBB52yIQ0G-PwQYmZ-ysRDhce7DxXuk&dib_tag=se&keywords=venus+keyboard+switch&qid=1739655703&sprefix=venus+keyboard+swit%2Caps%2C109&sr=8-6](https://a.co/d/fdSmfTe))
+ - 1x Akko 45pcs Cherry MX Switch ((https://a.co/d/fdSmfTe))
  - 1x 0.96 OLED(ssd1306)
- - will self-fund the m2 screw box
  - 1x EC11 Rotary Encoder
  - 12x 1n4148 diodes
  - 1x USB A to USB C cable
