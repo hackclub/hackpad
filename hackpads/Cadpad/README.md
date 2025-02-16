@@ -2,7 +2,10 @@
 This is a macropad that I am making because I think that it would be cool if I hade a keypad that had the buttons in the shape of my hand, so I took measurements for that, and I modeled around that. I also tried to make this to help me with 3d modeling, with having some of the functions on one keypad
 
 <img src=images/Thing.png alt="Schematic" width="500"/>
-This is a rendering of my Macropad.
+
+<img src=images/Case.png alt="Schematic" width="500"/>
+
+These are renderings of my Macropad.
 
 ## CAD Model
 I made my case in fusion 360. It is just made out of a base and a lid which would be held together by 4 M3 screws and heatset insets. I will probably just tape the PCB to the base, but maybe I will come up something better.
