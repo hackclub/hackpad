@@ -1,4 +1,4 @@
-# Froppipad
+# Froppiipad
 
 ## Specifications:
 - 7 keys? 
@@ -13,7 +13,7 @@ This took a while because ive never made pcbs before but it turned out to be qui
 ![pcb-render](https://cdn.hackclubber.dev/slackcdn/1b84480f70a50b8a63a31a91773dce8b.jpg)
 
 ## CAD
-The CAD! 
+The CAD!
 ![cad](https://cdn.hack.pet/slackcdn/055138575e1939f95037d4dc502938e6.jpg)
 
 ## Firmware
