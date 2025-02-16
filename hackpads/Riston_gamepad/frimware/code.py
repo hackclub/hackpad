@@ -70,7 +70,7 @@ keyboard.keymap = [
 ]
 
 current_color_index = 0
-colors = [  # Define your color palettes (RGB tuples)
+colors = [ 
     (255, 0, 0),  # Red color
     (0, 255, 0),  # Green colour
     (0, 0, 255),  # Blue
