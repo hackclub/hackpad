@@ -1,5 +1,0 @@
-MCU = RP2040
-
-ENCODER_ENABLE = yes
-
-
