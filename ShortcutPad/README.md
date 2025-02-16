@@ -10,7 +10,8 @@ Everything fits together using 4 M3 bolts and heatset inserts. It consists of 2 
 
 Created in Fusion360.
 
-![CAD Img](assets/cad.png)
+![CAD Img](assets/cad0.png)
+![CAD Img 2](assets/cad1.png)
 
 # Schematic:
 The schematic is created in KiCad. The XIAO symbol is imported from the Seeed OPL library.
