@@ -16,6 +16,9 @@
 ## Firmware
 i used KMK, without creating a matrix. And the OLED displays a dino (itll be animated later on)
 
+## Note
+This is a small part of a bigger project im working on - thats why my case is that big
+
 ## BOM
 - 1 XIAO SEED RP2040 dip
 - 1 SSD1306
