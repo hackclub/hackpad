@@ -27,7 +27,7 @@ I was a macropad that I could use for rhythm games and also for 3d enviroments, 
     1x 3D Printed Top Plate
 
 ## Schematic
-![The Schematic](This is just for the README file, sorry/YeagPad_schematic.png)
+![The Schematic]([This is just for the README file, sorry/YeagPad_schematic.png](https://cdn.hackclubber.dev/slackcdn/14af6205190dab68fc10ec7eaf5e7684.png))
 
 ## PCB
 ![The PCB](This is just for the README file, sorry/YeagPad_pcb.png)
