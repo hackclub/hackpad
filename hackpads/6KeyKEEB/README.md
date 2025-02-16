@@ -16,4 +16,4 @@ Challenges: Figuring out dimensions for the case was the toughest part personall
 ![Schematic](assets/schematic.png)  
 ![PCB](assets/pcb.png)  
 ![Overall](assets/overall.png)  
-![Fitted together](assets/fitTogether.png)  
+![Fitted together](assets/fittogether.png)  
