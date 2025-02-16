@@ -14,5 +14,5 @@ Inspiration:
 Challenges
  while making this i faced a ~few~ challenges. most of which were the software but mostly time constrains as i found out about this ysws abit TOO late and had to speedrun this
  ![Case](assets/SCR-20250216-nojz.png)
- ![PCB](SCR-20250216-novt.png)
- ![Schematic](SCR-20250216-npcv.png)
+ ![PCB](assets/SCR-20250216-novt.png)
+ ![Schematic](assets/SCR-20250216-npcv.png)
