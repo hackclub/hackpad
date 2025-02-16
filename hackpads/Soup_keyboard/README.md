@@ -82,5 +82,15 @@ For a smooth and rattles-free experience, larger keys (generally >1.5u) should b
 - **Diodes:** Ensure you have appropriate diodes (e.g., 1N4148 or similar) for each switch if your PCB does not include them.
 - **Microcontroller:** The PCB likely accommodates a microcontroller (running KMK firmware); verify that it is included or purchase separately.
 - **Miscellaneous:** Solder, wires, standoffs, and assembly tools.
+- assembly
+![alt text](image.png)
+- Schematic
+![alt text](image-1.png)
+- pcb top
+![alt text](image-4.png)
+- my branding with isro lockheed martin and meth and more 
+![](image-2.png)
 
+- pcb bot 
+![alt text](image-3.png)
 ---
