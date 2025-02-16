@@ -18,7 +18,7 @@ BOM:
 
 - 12x Cherry MX Switches (Blue)
 - 1x XIAO RP2040
-- 12x Blank DSA Keycaps
+- 12x Blank DSA Keycaps (Preferably 4 of each color)
 - 12x Through-hole 1N4148 Diodes
 - 1x 3D Printed Case (Black)
 - 1x 3D Printed Plate (preferably white or black)
