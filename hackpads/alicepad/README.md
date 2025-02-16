@@ -4,7 +4,13 @@
 
 ### Schematic & PCB
 
+![image](https://github.com/user-attachments/assets/5bfef695-e2cc-472b-82b4-2200f9cce786)
+![image](https://github.com/user-attachments/assets/b9ef2366-5e32-457e-ae60-19d9de69c45a)
+
 ### Case
+
+![image](https://github.com/user-attachments/assets/c1f657ed-68ff-4f9d-b889-6eff504b8796)
+
 
 ## BOM
 
