@@ -1,6 +1,13 @@
 # PegokuPad
 This is my first Macropad. It has 16 switches, one being a rotary encoder. It uses KMK.
 
+## Inspiration
+I always wanted to do an Stream Deck-like device and when I found out I could do the HackPad I went all in. 
+Wanted to have a keyboard with the ability to directly launch apps.
+
+## Challenges
+The hardest part was understanding how the Switch matrix works.
+
 # Hackpad
 ![image](assets/image.png)
 # PCB
