@@ -18,4 +18,4 @@
 - 3 x MX 2.00u Stabilizer
 - 1 x MX 6.25u Stabilizer
 - 1 x SSD1306 128x32 OLED (sda,scl,vcc,gnd)
-- 8 x SK6812-MINI-E LED
+- 8 x SK6812-MINI-E LED (reverse mount)
