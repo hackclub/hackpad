@@ -21,11 +21,11 @@ Others:
 | **1U Keycaps**         | 9       |
 | **KMK Firmware**       | 1       |
 | **PCB**                | 1       |
-| [**Case Top.stl**](/CAD/STL/SplashPad%20Case%20-%20Case%20Top.stl)       | 1 |
-| [**Case Bottom.stl**](/CAD/STL/SplashPad%20Case%20-%20Case%20Bottom.stl) | 1 |
+| [**Case Top.stl**](./CAD/STL/SplashPad%20Case%20-%20Case%20Top.stl)       | 1 |
+| [**Case Bottom.stl**](./CAD/STL/SplashPad%20Case%20-%20Case%20Bottom.stl) | 1 |
 | **Knob.stl**           | 1       |
 
 ### Notes:
-It would be awesome to have the crown parts printed in black!
-I can print the knob.
-I am buying the M3x8 Bolts.
+It would be awesome to have the crown parts printed in black! (Files in [production folder](./Production).)<br>
+I can print the knob.<br>
+I am buying the M3x8 Bolts.<br>
