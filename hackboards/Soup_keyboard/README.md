@@ -16,7 +16,7 @@ Below is an example Bill of Materials (BOM) for Soup_pad 88‐key keyboard build
 - **Notes:** Use a black-fronted module if aesthetics matter.
 
 #### 2. Switches
-- **Component:** Cherry MX Mechanical Switches  
+- **Component:** Cherry MX Mechanical Switches  these -> https://www.cherry.de/en-gb/product/mx2a-blue
 - **Quantity:** 88 pcs  
 - **Type:** (Specify your preferred variant, e.g. Cherry MX Brown, Red, Blue, etc.)
 
