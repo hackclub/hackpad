@@ -1,0 +1,1 @@
+#define ENCODER_A_PINS { GP7, GP0 }
