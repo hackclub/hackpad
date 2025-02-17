@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kommie-keeb – Custom Keyboard by Souptik Samanta</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+  <style>
+    /* Custom Font Imports */
+    @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+    @font-face {
+      font-family: 'Soviet';
+      src: url('https://fonts.cdnfonts.com/css/soviet') format('woff2');
+    }
+
+    :root {
+      --primary-color: #1a1a1a;
+      --soviet-red: #CC0000;
+      --hammer-gold: #FFD700;
+      --text-color: #ffffff;
+      --transition: all 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Spectral', serif;
+      line-height: 1.6;
+      background: var(--primary-color);
+      color: var(--text-color);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1400px;
+      margin: auto;
+      padding: 1rem 0;
+    }
+
+    /* Communist Theme Elements */
+    .hammer-sickle {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+      height: 50px;
+      opacity: 0.5;
+      animation: rotate 20s infinite linear;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Header Styles */
+    header {
+      background: rgba(204, 0, 0, 0.95);
+      backdrop-filter: blur(10px);
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      border-bottom: 2px solid var(--hammer-gold);
+    }
+
+    header h1 {
+      font-family: 'Soviet', sans-serif;
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 1rem 0;
+      color: var(--hammer-gold);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    /* Revolutionary Navigation */
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav ul li a {
+      color: var(--text-color);
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+      transition: var(--transition);
+      border: 2px solid transparent;
+    }
+
+    nav ul li a:hover {
+      border-color: var(--hammer-gold);
+      color: var(--hammer-gold);
+      transform: scale(1.1);
+    }
+
+    /* Hero Section with Propaganda Style */
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(rgba(204,0,0,0.7), rgba(0,0,0,0.8));
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCI+PHBhdGggZD0iTTI1LDAgTDUwLDI1IEwyNSw1MCBMMCwyNSBaIiBmaWxsPSIjQ0MwMDAwIiBmaWxsLW9wYWNpdHk9IjAuMSIvPjwvc3ZnPg==');
+      opacity: 0.1;
+      animation: backgroundScroll 20s linear infinite;
+    }
+
+    @keyframes backgroundScroll {
+      from { background-position: 0 0; }
+      to { background-position: 100px 100px; }
+    }
+
+    /* Enhanced Gallery */
+    .gallery {
+      padding-top: 80px;
+      background: var(--primary-color);
+    }
+
+    .slider-container {
+      position: relative;
+      max-width: 1000px;
+      margin: 2rem auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(204, 0, 0, 0.5);
+    }
+
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease;
+      width: 100%;
+    }
+
+    .slide {
+      min-width: 100%;
+      position: relative;
+      transition: transform 0.5s ease;
+    }
+
+    .slide img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .slider-controls {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 1rem;
+      z-index: 2;
+    }
+
+    .slider-dots {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      justify-content: center;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--hammer-gold);
+      opacity: 0.5;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .dot.active {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+
+    /* Creator's Mark */
+    .creator-link {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background: var(--soviet-red);
+      color: var(--hammer-gold);
+      text-decoration: none;
+      border-radius: 5px;
+      font-family: 'Soviet', sans-serif;
+      transition: var(--transition);
+    }
+
+    .creator-link:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(204, 0, 0, 0.3);
+    }
+
+    /* Revolutionary Hover Effects */
+    .revolutionary-button {
+      background: var(--soviet-red);
+      color: var(--hammer-gold);
+      border: none;
+      padding: 1rem 2rem;
+      font-family: 'Soviet', sans-serif;
+      cursor: pointer;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .revolutionary-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: 0.5s;
+    }
+
+    .revolutionary-button:hover::before {
+      left: 100%;
+    }
+
+    .revolutionary-button:hover {
+      transform: scale(1.1) rotate(2deg);
+    }
+
+    /* BOM Section Styles */
+    .bom {
+      padding: 120px 0 60px;
+      background: linear-gradient(to bottom, var(--primary-color), rgba(204, 0, 0, 0.1));
+    }
+    
+    .components-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    
+    .component-card {
+      background: rgba(204, 0, 0, 0.1);
+      border: 2px solid var(--hammer-gold);
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .component-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(204, 0, 0, 0.3);
+    }
+    
+    .component-card::before {
+      content: '☭';
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: var(--hammer-gold);
+      opacity: 0.2;
+      font-size: 24px;
+    }
+    
+    /* Contact Section Styles */
+    .contact {
+      padding: 120px 0 60px;
+      background: linear-gradient(to top, var(--primary-color), rgba(204, 0, 0, 0.1));
+    }
+    
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    
+    .contact-card {
+      background: rgba(204, 0, 0, 0.1);
+      border: 2px solid var(--hammer-gold);
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: var(--transition);
+    }
+    
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(204, 0, 0, 0.3);
+    }
+    
+    .social-link {
+      color: var(--hammer-gold);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: var(--transition);
+    }
+    
+    .social-link:hover {
+      transform: translateX(10px);
+      color: var(--soviet-red);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+      }
+      .hero {
+        height: 70vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hammer and Sickle Background Animation -->
+  <div class="hammer-sickle">
+    ⚒️
+  </div>
+
+  <header>
+    <div class="container">
+      <h1>Kommie-keeb</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#bom">Components</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container text-center">
+      <h2 class="text-4xl mb-4">The People's Keyboard</h2>
+      <p class="text-xl">United in Mechanical Symphony</p>
+      <button class="revolutionary-button mt-8">Join the Revolution</button>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2 class="text-center text-3xl mb-8">Gallery of the Revolution</h2>
+      <div class="slider-container">
+        <div class="slider">
+          <!-- Slides will be generated dynamically -->
+        </div>
+        <div class="slider-controls">
+          <button class="revolutionary-button prev">←</button>
+          <button class="revolutionary-button next">→</button>
+        </div>
+        <div class="slider-dots">
+          <!-- Dots will be added dynamically via JavaScript -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Creator's Link -->
+  <a href="https://souptik.me" class="creator-link">
+    Created by Souptik Samanta
+  </a>
+
+  <section id="bom" class="bom">
+    <div class="container">
+      <h2 class="text-center text-3xl mb-8">Components of the Revolution</h2>
+      <div class="components-grid">
+        <div class="component-card">
+          <h3 class="text-xl mb-2" style="color: var(--hammer-gold);">Display</h3>
+          <p>SSD1306 OLED Display</p>
+          <p>0.96", I2C interface</p>
+          <p>Revolutionary visibility</p>
+        </div>
+        <div class="component-card">
+          <h3 class="text-xl mb-2" style="color: var(--hammer-gold);">Switches</h3>
+          <p>Cherry MX Mechanical Switches</p>
+          <p>88 pieces of pure solidarity</p>
+        </div>
+        <div class="component-card">
+          <h3 class="text-xl mb-2" style="color: var(--hammer-gold);">Keycaps & Layout</h3>
+          <p>ANSI layout</p>
+          <p>Various key sizes for the people</p>
+        </div>
+        <div class="component-card">
+          <h3 class="text-xl mb-2" style="color: var(--hammer-gold);">PCB</h3>
+          <p>Custom "Soup_pad" PCB</p>
+          <p>USB-C connector</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="text-center text-3xl mb-8">Join the Movement</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3 class="text-xl mb-4" style="color: var(--hammer-gold);">Connect with the Creator</h3>
+          <div class="flex flex-col gap-4">
+            <a href="https://souptik.me" class="social-link">
+              <i class="fas fa-globe"></i>
+              <span>souptik.me</span>
+            </a>
+            <a href="https://github.com/souptik-samanta" class="social-link">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://instagram.com/souptik.me" class="social-link">
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Enhanced Slider with Consolidated Functions
+    const slider = document.querySelector('.slider');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    const sliderDotsContainer = document.querySelector('.slider-dots');
+    let slideIndex = 0;
+    let autoSlideInterval;
+
+    // List of image paths – update these as needed
+    const images = [
+      "./img/image.png",
+      "./img/wholething.png",
+      "./img/image-1.png",
+      "./img/image-2.png",
+      "./img/image-3.png",
+      "./img/image-4.png",
+      "./img/image (17).png",
+      "./img/image (16).png"
+    ];
+
+    // Create slides dynamically
+    function createSlides() {
+      slider.innerHTML = ''; // Clear existing slides
+      images.forEach((imgSrc, index) => {
+        const slide = document.createElement('div');
+        slide.className = 'slide';
+        slide.innerHTML = `
+          <img src="${imgSrc}" alt="Keyboard view ${index + 1}" class="transition-transform duration-500 hover:scale-105"/>
+        `;
+        slider.appendChild(slide);
+      });
+    }
+
+    // Update slider position and dots
+    function updateSlider() {
+      slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+      updateDots();
+    }
+
+    // Create navigation dots
+    function createDots() {
+      sliderDotsContainer.innerHTML = '';
+      images.forEach((_, index) => {
+        const dot = document.createElement('div');
+        dot.className = `dot ${index === slideIndex ? 'active' : ''}`;
+        dot.addEventListener('click', () => {
+          slideIndex = index;
+          updateSlider();
+        });
+        sliderDotsContainer.appendChild(dot);
+      });
+    }
+
+    // Update dots to reflect current slide
+    function updateDots() {
+      const dots = document.querySelectorAll('.dot');
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === slideIndex);
+      });
+    }
+
+    // Slide transition effect for manual navigation
+    function transitionSlide(direction) {
+      const currentSlide = slider.children[slideIndex];
+      currentSlide.style.transition = 'transform 0.5s ease-out';
+      currentSlide.style.transform = `translateX(${direction * 100}%)`;
+      setTimeout(() => {
+        currentSlide.style.transition = '';
+        currentSlide.style.transform = '';
+      }, 500);
+    }
+
+    // Initialize slider and dots
+    createSlides();
+    createDots();
+    updateSlider();
+
+    // Prev/Next button functionality
+    prevBtn.addEventListener('click', () => {
+      if (slideIndex > 0) {
+        transitionSlide(1);
+        slideIndex--;
+        updateSlider();
+      }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (slideIndex < images.length - 1) {
+        transitionSlide(-1);
+        slideIndex++;
+        updateSlider();
+      }
+    });
+
+    // Keyboard navigation for slider
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') prevBtn.click();
+      if (e.key === 'ArrowRight') nextBtn.click();
+    });
+
+    // Touch support for slider swipes
+    let touchStartX = 0;
+    let touchEndX = 0;
+    slider.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    });
+    slider.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      const swipeThreshold = 50;
+      const diff = touchStartX - touchEndX;
+      if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) nextBtn.click();
+        else prevBtn.click();
+      }
+    });
+
+    // Auto-advance slider every 5 seconds
+    function startAutoSlide() {
+      autoSlideInterval = setInterval(() => {
+        slideIndex = (slideIndex + 1) % images.length;
+        updateSlider();
+      }, 5000);
+    }
+
+    function stopAutoSlide() {
+      clearInterval(autoSlideInterval);
+    }
+
+    // Pause auto-slide on hover and resume on mouse leave
+    slider.addEventListener('mouseenter', stopAutoSlide);
+    slider.addEventListener('mouseleave', startAutoSlide);
+    startAutoSlide();
+  </script>
+</body>
+</html>
