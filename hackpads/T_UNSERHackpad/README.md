@@ -3,7 +3,7 @@
 This is my submission for Hackcklub Hackpad. It should provide music data later in the process of writing the firmware, and then also skipping, pausing and starting songs. The rotary encoder will be responsible for changing volume.
 
 ## Design
-![grafik](https://github.com/user-attachments/assets/03582040-9d45-4e0c-af8f-10559018bc58)
+![grafik](https://github.com/user-attachments/assets/506cac1e-b114-4a1d-8f9e-8ebb2283b5f6)
 
 
 ## Inspiration
@@ -32,4 +32,4 @@ Other:
 
 | Schematics | PCB | Case |
 |------------|-----|------|
-| ![grafik](https://github.com/user-attachments/assets/5e568cde-e135-49bb-99c7-88ec5ef33ba9) | ![grafik](https://github.com/user-attachments/assets/a89f3408-92a4-4832-9892-441fddb1ad76) | ![grafik](https://github.com/user-attachments/assets/2faf2411-25c6-46cb-bae9-0f421d96d4ef) <br> ![grafik](https://github.com/user-attachments/assets/61c139e2-50dc-4b81-bbdb-00e8d18e70e9) |
+| ![grafik](https://github.com/user-attachments/assets/214843e2-6c50-4fd4-abe5-11af7047bda5) | ![grafik](https://github.com/user-attachments/assets/28121e1b-f912-4e97-911d-9f3bf22c799e) | ![grafik](https://github.com/user-attachments/assets/7c4d4a68-faf8-4a8b-a064-62d1c0c93d75) <br> ![grafik](https://github.com/user-attachments/assets/d3c356b7-1f83-476d-9b4e-da44b7352301) |
