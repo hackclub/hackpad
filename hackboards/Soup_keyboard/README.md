@@ -1,7 +1,7 @@
 Below is an example Bill of Materials (BOM) for Soup_pad 88‐key keyboard build. This BOM lists the main electronic components, mechanical parts (switches, keycaps, stabilizers), and other necessary hardware
 ---
 
-### Looks
+### Looks (pic quality is bad as its a screenshot from jlcpcb gerber vieweer)
 ![alt text](<image (17).png>)
 
 
