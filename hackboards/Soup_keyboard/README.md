@@ -17,6 +17,7 @@ Below is an example Bill of Materials (BOM) for Soup_pad 88‐key keyboard build
 
 #### 2. Switches
 - **Component:** Cherry MX Mechanical Switches  these -> https://www.cherry.de/en-gb/product/mx2a-blue
+- 
 - **Quantity:** 88 pcs  
 - **Type:** (Specify your preferred variant, e.g. Cherry MX Brown, Red, Blue, etc.)
 
@@ -82,12 +83,11 @@ For a smooth and rattles-free experience, larger keys (generally >1.5u) should b
   - Name: **Soup_pad**  
   - Color: **Black**
 - **Case:**  
-  - Material/Finish: **Black** (to match PCB aesthetics)
+  - Material/Finish: **Black** (to match PCB aesthetics) 
 
 #### 7. Additional Considerations
-- **Diodes:** Ensure you have appropriate diodes (e.g., 1N4148 or similar) for each switch if your PCB does not include them.
-- **Microcontroller:** The PCB likely accommodates a microcontroller (running KMK firmware); verify that it is included or purchase separately.
-- **Miscellaneous:** Solder, wires, standoffs, and assembly tools.
+- **Microcontroller:** raspberry pi pico
+  
 - assembly
 ![alt text](image.png)
 - Schematic
