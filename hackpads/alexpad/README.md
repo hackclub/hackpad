@@ -1,29 +1,33 @@
 # alexpad
 
-A 16 key macropad with individual per-key rgb lighting, with a rotary encoder and oled screen powered by QMK firmware.
+A 16 key macropad with individual per-key rgb lighting, a rotary encoder and oled screen powered by QMK firmware.
 
 ## Features:
 - 128x32 OLED Display
 - EC11 Rotary encoder
 - 16 Keys
 - 16 SK6812 LEDs (one per key)
+- **__Vibration motor__**
 
 ## CAD Model:
 
-
-
+![image](https://github.com/user-attachments/assets/c79dbcdb-139f-4f5c-b48d-ee0aaa23672b)
 
 ## PCB
+![image](https://github.com/user-attachments/assets/35d65298-ba3e-45a6-a3d3-fb285fe2f208)
+
+![image](https://github.com/user-attachments/assets/de9607df-78ce-4cc8-9a4b-f078a166f46a)
+
 Made using KiCad!
 
 Uses an RP2040
 
-I used the normal cherry mx footprint. 
+I used the normal Cherry MX footprint. 
+
+Also has a vibration motor. Don't ask why
 
 ## Firmware Overview
 Built using [KMK](https://github.com/KMKfw/kmk_firmware) firmware. 
-
-Also has a vibration motor. Don't ask why
 
 ## BOM:
 - 16x Cherry MX Blues Switches
@@ -36,10 +40,3 @@ Also has a vibration motor. Don't ask why
 - 1x Case (2 printed parts)
 
 That's everything I'm getting from hack club, the full bom can be found in the bom.csv file which I will send to LCSC.
-
-## Special Requests
-My hackpad mildly breaks the rules, so there are a few things I want to specify.
-
-I would like to have the pcb **with a stencil**, and all the parts I listed in the bom. The rest of the stuff I'll buy from LCSC. 
-
-I intend to use my money to add onto the $20 LCSC grant, so expect a donation to the HCB once I get this approved. Please use that to top-up my grant.
