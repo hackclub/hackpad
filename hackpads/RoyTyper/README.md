@@ -60,9 +60,16 @@ Except for that the key mapping goes as follows:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Bill of material
+## Bill of materials
 
 Check BOM.md for that please!
+
+## Inspiration & Challenges
+
+This design is inspired by [this](https://hackclub.slack.com/archives/C07LESGH0B0/p1739321918184579) post on the hackpad channel in Hackclub's slack 
+The grills look cool to me, so I thought to make something which uses something similar but better. I also tried to add triangular shapes to give it an aesthetic look. Moreover, I think having too many holes/cutouts in the case will make the macropad more prone to dust, and so rather than making those designs inwards, I made it go outwards.
+
+While making the PCB I had to struggle to get the RGB lights connected properly, I apparently had no idea how they were connected and I made a mess, with some help from other members of the YSWS I was *finally able to complete it!*
 
 ## To-Do 🛠️
 - Do testing
