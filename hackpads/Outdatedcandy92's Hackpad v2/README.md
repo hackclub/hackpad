@@ -2,6 +2,13 @@
 
 Don't have a name for it yet :c
 
+It's a 75% compact keyboard with an oled display and 2 rotary encoders
+
+### Inspiration
+I wanted to create a keyboard that was approximatly the same size as my current keychron k2 but with additional components on top, like the 2 rotary encoders (which im gonna use for audio and playback), and an oled screen (to display cool stuff 😎)
+
+### Challenges
+uhhh, routing this was a nightmare. my original plan was to have per key lighting but I quickly decided that it was not worth it after routing up all the switches, instead of per key I opted for a light bar at the top (which I would make reactive to music maybe?). 
 
 ### BOM
 
