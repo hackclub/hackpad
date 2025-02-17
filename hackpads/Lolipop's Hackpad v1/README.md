@@ -1,6 +1,6 @@
 # Lolipop's Hackpad
 
-![Render of the case](https://raw.githubusercontent.com/Lolgamer303/discord-bot/f165abf9e538dca0af43ebec37b6c0f50aceeba8/Screenshot%202025-02-16%20133236.png?token=A5STHQRRKZT2ZGFPGHNOOO3HWHOLY)
+![Render of the case](https://raw.githubusercontent.com/Lolgamer303/images/refs/heads/main/Lolipop's%20Hackpad/Screenshot%202025-02-16%20133236.png)
 
 ## Inspiration 
 I wanted to create a macropad to gift for someone, and I created this useful hackpad to help save time with macros. I created a macropad using 8 switches, 1 RP2040, 2 LEDs, and 1 OLED display.
@@ -28,4 +28,4 @@ I had never done anything like this before. My experience was only in coding stu
 
 | Schematic | PCB | Case |
 |-----------|-----|------|
-| ![Schematic](https://raw.githubusercontent.com/Lolgamer303/discord-bot/f165abf9e538dca0af43ebec37b6c0f50aceeba8/Screenshot%202025-02-16%20133401.png?token=A5STHQUQWPFZPPEXGQLVCF3HWHOL2) | ![PCB](https://raw.githubusercontent.com/Lolgamer303/discord-bot/f165abf9e538dca0af43ebec37b6c0f50aceeba8/Screenshot%202025-02-16%20133312.png?token=A5STHQRYUMENMG6NBJWXQIDHWHOLY) | ![Case](https://raw.githubusercontent.com/Lolgamer303/discord-bot/f165abf9e538dca0af43ebec37b6c0f50aceeba8/Screenshot%202025-02-16%20133454.png?token=A5STHQTZUM4EO55ZKNSI62THWHOL2) |
+| ![Schematic](https://raw.githubusercontent.com/Lolgamer303/images/refs/heads/main/Lolipop's%20Hackpad/Screenshot%202025-02-16%20133401.png) | ![PCB](https://raw.githubusercontent.com/Lolgamer303/images/refs/heads/main/Lolipop's%20Hackpad/Screenshot%202025-02-16%20133312.png) | ![Case](https://github.com/Lolgamer303/images/blob/main/Lolipop's%20Hackpad/Screenshot%202025-02-16%20133454.png?raw=true) |
