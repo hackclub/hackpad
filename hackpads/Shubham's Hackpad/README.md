@@ -1,6 +1,8 @@
 # Shubham's Hackpad
 
-A 11 keys macropad with a rotary encoder, a 128x32 OLED display and firmware using KMK.
+A 11 keys macropad with a rotary encoder, a 128x32 OLED display and firmware using KMK. 
+
+[3D Model on Onshape](https://cad.onshape.com/documents/590ef7999de06c164921b514/w/550f2ae2c25971e09114dde0/e/22fce819d1e0d64cd533a2d4?renderMode=0&uiState=67b2b5783d8ea30a460be418)
 
 Inspiration: I didn't participated in Hackpad V1 because I didn't knew anything about PCB and 3D Modeling but when V2 was started, I joined the channel and saw many new people joining and making something unique about their Hackpad and the experienced people helping them so I thought I should try it is well, and it was very fun experience making my very own Hackpad that would help me in improving my productivity.
 
