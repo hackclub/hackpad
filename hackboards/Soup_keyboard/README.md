@@ -10,7 +10,7 @@ Below is an example Bill of Materials (BOM) for Soup_pad 88‐key keyboard build
 - **Notes:** Use a black-fronted module if aesthetics matter.
 
 #### 2. Switches
-- **Component:** Cherry MX blue Mechanical Switches  these guys https://www.cherry.de/en-gb/product/mx2a-blue
+- **Component:** Cherry MX Mechanical Switches  
 - **Quantity:** 88 pcs  
 - **Type:** (Specify your preferred variant, e.g. Cherry MX Brown, Red, Blue, etc.)
 
@@ -50,39 +50,7 @@ The keycap sizes below are derived from the provided JSON layout (ANSI style):
   - Additional keys (Alt, Win, Menu, Ctrl): **1.25u** each  
   - Arrow keys (←, ↓, →): **1u** each
 
-
-
-### **1u Keycaps:**  
-- **Function Row:** Esc, F1–F12, PrtSc, Scroll Lock, Pause Break → **16 keyscap**  
-- **Number Row:** `~`, 1–0, `-`, `=`, Insert, Home, PgUp → **14 keyscap**  
-- **Q–] Row:** Q, W, E, R, T, Y, U, I, O, P, `{`, `}` → **12 keyscap**  
-- **A–' Row:** A–L, `;`, `'` → **12 keys**  
-- **Z–/ Row:** Z, X, C, V, B, N, M, `<`, `>`, `?` → **10 keyscap**  
-- **Bottom Row:** Arrow keys (←, ↓, →) → **3 keyscap**  
-- **Additional key (↑)** → **1 key**  
-
-**Total 1u keycaps: 68**  
-
----
-
-### **1.25u Keycaps:**  
-- **Bottom Row:**  
-  - Left Ctrl, Left Win, Left Alt → **3 keyscap**  
-  - Right Alt, Right Win, Menu, Right Ctrl → **4 keyscap**  
-  - Gap key between spacebar and right-hand keys → **1 keycap**  
-
-**Total 1.25u keys: 8**  
-
----
-
-### **Other Keycap Sizes:**  
-- **1.5u** → **Tab (1 keycap)**  
-- **1.75u** → **Caps Lock (1 keycap)**  
-- **2u** → **Backspace (1 keycap)**  
-- **2.25u** → **Enter (1 keycap), Left Shift (1 keycap), Backslash/Pipe (1 keycap)**  
-- **2.75u** → **Right Shift (1 keycap)**  
-- **6.25u** → **Spacebar (1 keycap)**  
-
+*Note:* Many custom keyboards use keycap sets sold by unit size (e.g. 1u, 1.25u, 1.5u, etc.). Verify that your keycap set includes all these sizes.
 
 #### 4. Stabilizers
 For a smooth and rattles-free experience, larger keys (generally >1.5u) should be stabilized. Typical candidates:
