@@ -2,6 +2,10 @@
 
 A 11 keys macropad with a rotary encoder, a 128x32 OLED display and firmware using KMK.
 
+Inspiration: I didn't participated in Hackpad V1 because I didn't knew anything about PCB and 3D Modeling but when V2 was started, I joined the channel and saw many new people joining and making something unique about their Hackpad and the experienced people helping them so I thought I should try it is well, and it was very fun experience making my very own Hackpad that would help me in improving my productivity.
+
+Challenges: The main challenge I faced was with the Case, I was going to make a 3D Model for the first time but I don't know why I thought of making it angled, which was a very challenging task for a beginner, I made, scrapped, made again, scrapped again for almost 3 days, watching multiple tutorials to get 3D model of the case. But it was just the begining, as I imported 3D model of PCB many of my mesaurements were wrong due to angle so I had to adjust the case for that as well, and the top which should have been easy but I made it complex as well, initially I made it go into the base, so the base had to be extended but it didn't looked very nice so I decided to make the plate cover the base for which I had to shrink the base and extended the plate in all directions. AFter this also there were some more little problems like incorrect placements of holes for switches, display not properly aligned, etc. But by facing all these challenges I learnt a lot of things and now I know how to avoid these challenges.
+
 ## Features
 
 -   Vs Code shortcuts like Format Document
