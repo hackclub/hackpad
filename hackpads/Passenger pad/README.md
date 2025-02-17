@@ -21,7 +21,7 @@ I went with the name 'Passenger' as just like a passenger sits along with us in 
 - Top plate + bottom plate
 - 4x M3x16 Bolt
 - 4x M3 Heatset
-
+- 9x Diodes 
 From grant: 
 - Metal Knob for rotary encoder
 - Sheet of foam for sound padding
