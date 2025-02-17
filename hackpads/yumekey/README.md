@@ -1,11 +1,22 @@
 # yumekey
 
-<img style="display:inline-block;width:50%;" src="yumekey0.png"><img style="display:inline-block;width:50%;" src="yumekey1.png">
+![](images/logotype.png)
+
+<img style="display:inline-block;width:50%;" src="images/yumekey0.png"><img style="display:inline-block;width:50%;" src="images/yumekey1.png">
 
 So named because I intend to use it for [Yume Nikki Online](https://ynoproject.net/), particularly the OLED for displaying location updates.
 
-All of this was new to me. I have never designed a schematic, PCB, or case before, nor have I ever programmed firmware for any processor. Expectantly, it did not really quite work out, but I still managed
-to finish it two weeks late.
+All of this was new to me. I have never designed a schematic, PCB, or case before, nor have I ever programmed firmware for any processor. Expectantly, it did not really quite work out (edit: IT ACTUALLY DIDSIES), but I still managed
+to finish it two weeks late (edit: TWO DAYS EARLY).
+
+![](images/yesss.png)
+
+(THEY'RE INSIDE YOUR COMPUTER ... AND IN YOUR KEYBOARD (which i hope is a yumekey)...)
+
+# Screenshots
+
+![schematic](images/schematic.png)
+![pcb](images/pcb.png)
 
 # Bill of Materials
 
