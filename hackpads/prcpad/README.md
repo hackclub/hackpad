@@ -38,3 +38,4 @@ I am terrible at soldering so it will be painful but luckily I have 5 of them to
 ## Photography
 <img width="529" alt="image" src="https://github.com/user-attachments/assets/5464bbe7-f831-4d43-a581-23b816131320" />
 <img width="860" alt="image" src="https://github.com/user-attachments/assets/c1a1f78e-7c71-4dac-b845-56ee2bbb93ec" />
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/edb45a97-317f-4f59-a401-db37024c5d41" />
