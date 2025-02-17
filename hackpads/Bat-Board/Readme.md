@@ -62,10 +62,11 @@ Here should be everything you need to make this hackpad
 Extras:-
 - Few Jump Wires
 - Breadboard
+- A soldering iron and its required materials
 For testing before placing
+- a sd card
 
 Others:
 - KMK Firmware
 - Top Case.stl 
 - Bottom Case.stl
-
