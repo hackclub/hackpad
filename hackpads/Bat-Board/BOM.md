@@ -17,6 +17,7 @@ Extras:-
 - Breadboard
 - A soldering iron and its required materials
 For testing before placing
+- a sd card
 
 Others:
 - KMK Firmware
