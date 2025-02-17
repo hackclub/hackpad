@@ -15,10 +15,16 @@ I tried to make a multipupose and multi layer macropad. 1 layer for 1 purpose. I
 ## PCB
 Here's my PCB! It was made in KiCad. I was thing of using a silkscreen but didn't like anything .
 
+<img src=Images/pcb_f.png alt="Pcb" width="300"/>
+<img src=Images/pcb_b.png alt="Pcb" width="300"/>
+<img src=Images/pcb_3d_f.png alt="Pcb" width="300"/>
+<img src=Images/pcb_3d_b.png alt="Pcb" width="300"/>
+
 Schematic
 - [Schematics](/PCB/Macropad_Schematics.pdf) 
 
-I used MX_V2 for the keyswitch footprints. I think in retrospect, I should've added a ground plane
+<img src=Images/schematics.png alt="schematics" width="300"/>
+
 
 ## Firmware Overview
 This hackpad uses [QMK](https://qmk.fm/) firmware for everything. 
@@ -29,6 +35,12 @@ This hackpad uses [QMK](https://qmk.fm/) firmware for everything.
 
 
 I might add more in the future! That's it for now
+
+## CAD:
+
+<img src=Images/cad_3d.png alt="Cad" width="300"/>
+<img src=Images/cad_3d_2.png alt="Cad" width="300"/>
+<img src=Images/cad_3d_3.png alt="Cad" width="300"/>
 
 ## BOM:
 
