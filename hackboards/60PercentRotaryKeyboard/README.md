@@ -6,8 +6,8 @@ This is a mechanical 60% keyboard with a rotary encoder. Designing the PCB was a
 - 62x Cherry MX Switches (Preferrably Low Profile)
 - 1x PCB
 
-![Complete screenshot](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/Screenshot%202025-02-05%20151139.png?raw=true)
+![Complete screenshot](https://github.com/lukasn9/hackpad/blob/main/hackboards/60PercentRotaryKeyboard/assets/case.png?raw=true)
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/schem.png?raw=true)    |  ![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/pcb.png?raw=true)  | ![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/CAD/case.png?raw=true)
+![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/schem.png?raw=true)    |  ![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/pcb.png?raw=true)  | ![image](https://github.com/lukasn9/hackpad/blob/main/hackboards/60PercentRotaryKeyboard/assets/case.png?raw=true)
