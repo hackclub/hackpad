@@ -57,7 +57,7 @@ I wanted to challenge myself by trying to route as many components as possible o
 
 I tried doing this in one all nighter and I think I've gone insane, it's okay though because I have a really cool looking numpad design now :D
 
-![image](assets/full.png])
+![image](assets/full.png)
 
 Jankpad V3 managed to slim down the design at the cost of a rotary encoder, as I learned that I could place components on the back side of the board.
 
