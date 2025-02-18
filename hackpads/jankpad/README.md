@@ -6,7 +6,7 @@ This is my hackpad submission!
 
 ![image](assets/v3_full_back.png)
 
-It features a 128x32 OLED display, 16 MX switches, and a rotary switche, the case is seperated into two three parts connected by screws
+It features a 128x32 OLED display, 16 MX switches, and a rotary switch, the case is seperated into two three parts connected by screws
 
 ![image](assets/v3_case.png)
 
@@ -54,9 +54,10 @@ Misc
 
 I haven't every played with kicad or pcb design before, so this project presented the perfect oppurtunity for me to do just that!
 I wanted to challenge myself by trying to route as many components as possible on my pcb, and so my first Jankpad had almost every item in the approved list. 
-I was able to fit 16 switches, 16 leds, an OLED, and 2 diodes on the V1 using an IO expander.
 
-![assets/full.png]
+I tried doing this in one all nighter and I think I've gone insane, it's okay though because I have a really cool looking numpad design now :D
+
+![image](assets/full.png])
 
 Jankpad V3 managed to slim down the design at the cost of a rotary encoder, as I learned that I could place components on the back side of the board.
 
