@@ -20,7 +20,7 @@ BOM:
 - 14x 1N4148 diodes
 - 4x M3x16mm screws
 - 4x M3 hex nuts
-- 7x Neon Green DSA Keycaps for MX Compatible Switches
-- 7x Dark Blue DSA Keycaps for MX Compatible Switches
+- 7x Neon Green DSA Keycaps for MX Compatible Switches (please use [this](https://www.adafruit.com/product/5015) if possible)
+- 7x Dark Blue DSA Keycaps for MX Compatible Switches (please use [this](https://www.adafruit.com/product/5016) if possible)
 
 (Extras for backup)
