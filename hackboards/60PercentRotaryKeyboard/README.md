@@ -10,4 +10,4 @@ This is a mechanical 60% keyboard with a rotary encoder. Designing the PCB was a
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/schem.png?raw=true)    |  ![image](https://github.com/lukasn9/hackpad/blob/main/hackpads/Rotary9Key/pcb/pcb.png?raw=true)  | ![image](https://github.com/lukasn9/hackpad/blob/main/hackboards/60PercentRotaryKeyboard/assets/case.png?raw=true)
+![image](https://github.com/lukasn9/hackpad/blob/main/hackboards/60PercentRotaryKeyboard/assets/schematic.png?raw=true)    |  ![image](https://github.com/lukasn9/hackpad/blob/main/hackboards/60PercentRotaryKeyboard/assets/pcb.png?raw=true)  | ![image](https://github.com/lukasn9/hackpad/blob/main/hackboards/60PercentRotaryKeyboard/assets/case.png?raw=true)
