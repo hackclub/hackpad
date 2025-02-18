@@ -15,7 +15,7 @@ and so I wanted it to be more accessible. The STEP file is zipped so Git doesn't
 ![CAD model](https://cdn.hackclubber.dev/slackcdn/adc4e25d2d4dbb5d4699b475fb0dc19b.png)
 
 ## PCB
-The PCB was designed entirely in KiCAD. Files can be found in the `pcb/` directory.
+The PCB was designed entirely in KiCAD. Files can be found in the `pcb/` directory. I used the [OPL](https://github.com/seeed-studio/OPL_Kicad_library) KiCAD library, and the [ScottoKeebs KiCAD](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad) library. You can put both of these folders into the `libraries/` directory.
 
 This is my schematic:
 ![Schematic](https://cdn.hack.pet/slackcdn/45281b1fc2215bc8769d24a836e7c1d7.png)
