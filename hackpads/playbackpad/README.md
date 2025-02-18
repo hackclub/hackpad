@@ -14,7 +14,7 @@ Schematics | PCB
 
 Made the casing with Fusion 360, quite painful to make the holes ngl 💀🙏
 
-![Casing](images/CADAssistant_iCwul75G0X.png)
+![Casing](images/307d369a-21b9-4ea1-92bc-5f00588191d4.jpg)
 
 ## Firmware
 
