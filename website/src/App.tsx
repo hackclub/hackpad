@@ -152,7 +152,7 @@ export default function App() {
           <div>
             <h2 className="text-xl py-3">What's new in V2?</h2>
             <p>
-              After making a macropad and verifying it works, you'll get to make an entire  {" "} <b>keyboard</b> after. Check the <a href="/faq">docs</a> to find out more!
+              After making a macropad and getting approved, you'll get to make an entire  {" "} <b>keyboard</b> after. Check the <a href="/faq">docs</a> to find out more!
             </p>
           </div>
         </div>
