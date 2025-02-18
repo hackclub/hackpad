@@ -17,7 +17,7 @@ Used Onshape (Fusion360 edu plan didn't work 😭)
 ![cad](https://github.com/user-attachments/assets/cf3a7cd0-3d8d-4874-8238-7dc2311b7d9d)
 
 # Firmware
-The firmware is written using QMK and just has 4 keys (control, x, c, v)
+The firmware is written using KMK and just has 4 keys (control, x, c, v)
 
 # BOM
 - 2x LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
