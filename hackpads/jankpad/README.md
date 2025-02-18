@@ -10,6 +10,18 @@ It features a 128x32 OLED display, 16 MX switches, and a rotary switch, the case
 
 ![image](assets/v3_case.png)
 
+# kicad library files #
+
+[MX_V2](https://github.com/ai03-2725/MX_V2)
+
+[OPL_Kicad_Library](https://github.com/Seeed-Studio/OPL_Kicad_Library)
+
+[KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty.git)
+
+# kicad 3d models #
+
+[models](models.zip)
+
 # Pretty PCB Pictures 
 
 A 4x4 keyboard matrix is used to support 16 keys. An IO extender is used to give the XIAO enough pins to connect to the matrix and other components
