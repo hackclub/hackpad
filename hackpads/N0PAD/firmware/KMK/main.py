@@ -32,13 +32,13 @@ keyboard.encoder_handler.pins = (board.GP4, board.GP3, None, True, 2,)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 keyboard.keymap = [
-    [KC.M,][KC.Y,][KC.B,][KC.A,]
-    [KC.L,][KC.L,][KC.S,][KC.I,]
-    [KC.T,][KC.C,][KC.H,][KC.A,]
-    [KC.C,][KC.V,]
+    [KC.P7,][KC.P8,][KC.P9,][KC.NUMLOCK,]
+    [KC.P4,][KC.P5,][KC.P6,][KC.PMNS,]
+    [KC.P1,][KC.P2,][KC.P3,][KC.PPLS,]
+    [KC.P0,][KC.PENT,]
 ]
 
-keyboard.encoder_handler.map = [ (KC.UP, KC.DOWN, KC.MUTE), ]
+keyboard.encoder_handler.map = [ (KC.UP, KC.DOWN, KC.MSTP), ]
 
 if __name__ == '__main__':
     keyboard.go()
