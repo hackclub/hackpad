@@ -23,7 +23,9 @@ import "./index.css";
 
 
 // IMPORT YOUR PROJECTS HERE
-import OrpheusPad from "./pages/submissions/Orpheuspad/OrpheusPad.mdx"
+
+import OrpheusPad from "./pages/submissions/OrpheusPad/OrpheusPad.mdx"
+import NumMacroPad from "./pages/submissions/NumMacroPad/NumMacroPad.mdx"
 import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
 import Wang01 from "./pages/submissions/Wang01/Wang01.mdx"
 
@@ -83,6 +85,10 @@ const router = createBrowserRouter([
   {
     path: "/projects/orpheuspad",
     element: <DocPage Content={ OrpheusPad } SideBar={ SideBar } />
+  },
+  {
+    path: "/projects/nummacropad",
+    element: <DocPage Content={ NumMacroPad } SideBar={ SideBar } />
   },
   {
     path: "/projects/cyaopad",
