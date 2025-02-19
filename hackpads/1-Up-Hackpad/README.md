@@ -5,7 +5,7 @@
 My 1-Up Hackpad has 7 keys: 2 rows of 3, plus one extra key that will look like Mario hitting a question mark block.
 It also has a rotary encoder and a 128x32 OLED screen.
 
-## Features
+## Features:
 - 7 Keys
 - 2 Part Case
 - Mario Design on Case
@@ -13,6 +13,12 @@ It also has a rotary encoder and a 128x32 OLED screen.
 - Rotary Encoder
 - Reverse Neopixels to light up keys!
 - Powered by a XIAO RP2040
+
+### Inspirtation
+I really love the Super Mario world so used that to design the aesthetics of my Hackpad. When hitting the 7th key, it is as if Mario is hitting the question mark block. I wonder what will happen...
+
+### Challenges
+I had some difficulties figuring out how to secure my Hackpad into the case so that it will be stable and not move around. With my prior understanding of Fusion360, I was able to solve this issue. I had also never used KMK or QMK before. I tried QMK but then eventually decided that KMK was better and used the extensive documentation they have to understand how to use it.
 
 ## CAD:
 ### How it Works
