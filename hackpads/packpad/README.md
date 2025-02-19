@@ -13,7 +13,8 @@ I took inspiration of macropads I found online, but changed up the layout a litt
 - 9x 1N4148 diodes
 - 1x OLED Display
 - 3x SK6812 led's (the rgb ones)
-- 1x Desoldering wick (i ran out)
+- 1x Desoldering wick (i ran out)  
+- (maybe a usb-c cable?)
 
 ## Some images
 <img width="448" alt="schematic" src="https://github.com/user-attachments/assets/6c2f719e-6325-4bec-964f-bd24d696fea0" />
