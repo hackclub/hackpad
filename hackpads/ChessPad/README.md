@@ -1,10 +1,10 @@
 # ChessPad!
 
-###Inspiration
+### Inspiration
 I came across this event just from a random email, and knew I had to try it out. The name was chosen quite randomly in the end though, and its only real implementation is as a symbol on the pcb
 So much thanks goes to whoever made "Ducc's fidget toy". I even ended up stealing their BOM, with slight adjustments
 
-###Extra info
+### Extra info
 So all the required images for this, won't be in the readme, I added them in a seperate folder, as I wasn't too sure on how to add images to a README.md
 
 
