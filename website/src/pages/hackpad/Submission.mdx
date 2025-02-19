@@ -8,7 +8,7 @@ Finally finished your hackpad? Nice job! Follow along and we're going to make su
 - [Publishing the design](#publishing)
 
 <a name="structure"/>
-## Structuring your project
+## Structuring your project design files
 To make reviewing easier, we need to make sure that the source files of our project are formatted in a way that's complete & easy to navigate.
 
 ### 1) Make sure you have everything necessary:
@@ -17,7 +17,6 @@ Before we organize anything, make sure
 - A *complete* CAD model of the assembled case in .STEP, .STP or .3MF format
     - This should include the PCB (a blank rectangle is okay!) and all parts of the case
 - Original firmware for your macropad. QMK, KMK, ZMK, etc derivatives are valid
-- A complete BOM (Bill of Materials) with all the parts you would like in a separate markdown document!
 
 Additionally, make sure you meet the following requirements:
 - Your design uses a through-hole Seeed XIAO RP2040 as the main MCU
@@ -31,17 +30,22 @@ Additionally, make sure you meet the following requirements:
 If you have all of that, it should be ready to go!
 
 ### 2) Organize your folders
-The above is a LOT of files! To make reviewing as easy as possible, your submission format should have 3 folders:
+The above is a LOT of files! To make organization easy, you should create a folder for each part of your macropad:
 
-- PCB
-- firmware
-- CAD
+**CAD:**
+This should contain a single file containing your ENTIRE hackpad. This should be a .STEP, .STP, or .3MF file
 
-Put each part of your design in their correspoding folders.
+**PCB:**
+This should contain your PCB Design files
+
+**Firmware: **
+This should contain the source files for your firmware. main.py if you're using KMK, and then several files if you're using QMK
+
+In total, you should have 3 folders in your project folder.
 
 <a name="export"/>
 ## Creating production files
-Nice job on organizing your files! Next, we need to create the manufacturing files that will actually be used to build your project.
+Nice job on organizing your design files! Next, we need to create the manufacturing files that will actually be used to build your project.
 
 This is separate from the source files, which are usually a reference to check out & iterate on your design.
 
