@@ -20,7 +20,8 @@ This is my first ever proper hardware project!
 - x1 XIAO RP2040
 
 ## Demo
-
+![full](screenshots/01.jpeg)
+![full2](screenshots/01.jpeg)
 ![Case](screenshots/01.png)
 ![PCB](screenshots/02.png)
 ![Schematic](screenshots/03.png)
