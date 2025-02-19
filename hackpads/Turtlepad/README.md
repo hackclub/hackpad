@@ -16,13 +16,13 @@ Inspiration: I love turtles :)
 "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12","SW_Push","~","Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB","12",""
 "SW15","RotaryEncoder_Switch","~","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles","1",""
 "U1","XIAO-RP2040-DIP","","tlibfootprint:XIAO-RP2040-DIP","1",""
-
-12x Cherry MX Switches
-2x SK6812 MINI Leds
-1x XIAO RP2040
-12x Blank DSA Keycaps
-4x M3x16 Bolt
-4x M3 Heatset <--idk what this is but it was in the demo thing so im leaving it
-16x 1N4148 diodes
-4x same screws as orpheuspad and corresponding nuts
-1x Rotary encoder (RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm) (whatever the standard encoder was in the advanced guide)
+______
+12x Cherry MX Switches_______
+2x SK6812 MINI Leds_______
+1x XIAO RP2040______
+12x Blank DSA Keycaps________
+4x M3x16 Bolt______
+4x M3 Heatset <--idk what this is but it was in the demo thing so im leaving it_______
+16x 1N4148 diodes_______
+4x same screws as orpheuspad and corresponding nuts________
+1x Rotary encoder (RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm) (whatever the standard encoder was in the advanced guide)______
