@@ -1,6 +1,8 @@
 # Hackpad
 name: minipad
 description: this is a three key macropad designed forminimal use and simplicity.
+inspiration: wanted something small to fit on my desk but also look sleek/functionable
+challenges: no experience in making pcbs or keyboards, had to learn a lot about the requirements and process
 overall hackpad:
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/16321ce3-d0a1-401c-bd67-bd18465f8f21" />
 schematic:
