@@ -1,6 +1,6 @@
 # bfpad
 
-bfpad is an 8-key macropad with an additional 0.91 inch 128x32 OLED display and an EC11 rotary encoder. there are 3 reverse-mount neopixels to light under the keys, as well as 8 under the board. the goal is to write firmware to allow you to write and run [bf](https://en.wikipedia.org/wiki/Brainfuck) code directly on the keyboard. hopefully.
+bfpad is an 8-key macropad with an additional 0.91 inch 128x32 OLED display and an EC11 rotary encoder. there are 3 reverse-mount neopixels to light under the keys, as well as 8 under the board. with limited keys on the pad, i figured interpreting a limited-character and simple language directly on the microcontroller would be a perfect fit. the goal is to write firmware to allow you to write and run [bf](https://en.wikipedia.org/wiki/Brainfuck) code directly on the keyboard. hopefully.
 ![bfpad](assets/bfpad.png)
 
 ## case
@@ -12,6 +12,7 @@ i want to leave the PCB exposed, so i made a stand that can be attached to the P
 
 the 8 keys (and secret 9th rotary encoder key) are addressed via a 3x3 key matrix, using only 6 pins of the RP2040.
 ![schematic](assets/schematic.png)
+this pcb was incredibly annoying to route. it looks very ugly. hopefully my hackboard will look a little more attractive
 ![pcb](assets/pcb.png)
 
 ## BOM
