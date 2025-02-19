@@ -1,5 +1,5 @@
-Advays Hackpad
-3 key, 1 rotary encoder switch, so it can also be pressed
+Advays Hackpad  
+3 key, 1 rotary encoder switch, so it can also be pressed  
 KMK
 2 part case, all 3D printed
 Made in Fusion 360, Kicad, VSC
