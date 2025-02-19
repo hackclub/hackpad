@@ -18,7 +18,7 @@ this pcb was incredibly annoying to route. it looks very ugly. hopefully my hack
 ## BOM
 
 -   Seeed XIAO RP2040 (through-hole)
--   8x kailh choc v2 switches
+-   8x kailh choc v2 switches (and corresponding keycaps! any color)
 -   9x 1N4148 DO-35 Diodes
 -   1x EC11 rotary encoder
 -   1x 0.91 inch OLED SSD1306 display
