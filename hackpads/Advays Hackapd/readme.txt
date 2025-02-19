@@ -12,6 +12,7 @@ Made in Fusion 360, Kicad, VSC
 BOM:
 
 3x Cherry MX Switches
+
 1x RotaryEncoder_Alps_EC11E-Switch
 1x XIAO RP2040
 1x Case
