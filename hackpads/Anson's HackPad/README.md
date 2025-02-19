@@ -46,10 +46,12 @@ The biggest challenge I faced was getting used to KiCad, as my transition from e
 ## BOM
 
 - 1x XIAO RP2040 (Wihout header pins)
-- 12x Generic Red Switch (With clear case)
-- 12x Generic White DSA Keycaps (I won't mind HC keycaps :3)
+- 12x [Gateron Lunar Probe MX-Style Switch](https://my.shp.ee/uWrz9oV)
+  • If my grant doesn't support this vendor, I'd like 12x Generic Linear MX-Style Switches from HQ
+- 12x Generic White DSA Keycaps
 - 1x SSD1306 128x32 0.91" OLED
 - 12x 1N4148 Diodes
+- 12x SK6812 MINI-E LED
 - 2x 4.7k resistor
 - 4x M3x16mm SHCS Bolts
 - 4x M3x5x4 Heatset inserts
