@@ -1,11 +1,11 @@
 ## BOM
 - 1 x Raspberry Pi Pico or Orpheus Pico (With headers preferably) (I'm assuming they have the same pinout)
 - 1 x PCB
-- 1 x 3D Case (3 parts- top, bottom and plate)
+- 1 x 3D Case (Black Filament) (3 parts- top, bottom and plate)
 - 1 x Acrylic part 
 - 2 x EC11 15mm Rotary Encoder
 - 1 x MCP23017_SO
-- 84 x [Cherry MX2A Blue 60g Clicky Switch (PCB Mount) ](https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492058924)
+- 84 x [Cherry MX Blue 60g Clicky Switch ](https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492058924](https://keychron.ca/products/cherry-switch-set?variant=40205838286931)
 - 84 x 1N4148 diodes
 - 84 x White Keycaps (75% compact)
     - 1 x 6.25u (space)
