@@ -18,7 +18,7 @@ The JaiPad was born from the desire to create a streamlined, efficient workflow 
 - PCB and mounting hardware
   4x heatset m3
   4x m3 bolts
-- Case components (optional)
+- Case 
 
 ## Technical Challenges
 
