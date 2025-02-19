@@ -1,4 +1,3 @@
-
 import board
 import busio
 from kmk.kmk_keyboard import KMKKeyboard
@@ -45,8 +44,23 @@ keyboard.keymap = [
     # 1st row: 3 keys
     [KC.DEL, KC.LCTRL(KC.TAB), KC.UP],
     # 2nd row: 4 keys
-    [KC.ENTER, KC.LEFT, KC.DOWN KC.RIGHT]
+    [KC.ENTER, KC.LEFT, KC.DOWN, KC.RIGHT]
 ]
+
+display = Display(
+    display=driver,
+    entries=[
+        TextEntry(text='Yayitworks', x=0, y=0, y_anchor='M'),
+    ],
+    width=128,
+    height=32,
+    dim_time=10,
+    dim_target=0.2,
+    off_time=1200,
+    brightness=1,
+)
+
+keyboard.extensions.append(display)
 
 if __name__ == '__main__':
     keyboard.go()
