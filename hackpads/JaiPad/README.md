@@ -14,8 +14,10 @@ The JaiPad was born from the desire to create a streamlined, efficient workflow 
 
 - 1x Seeed XIAO Controller
 - 12x KAILH Choc White (clicky)
-- 8x SK6812 Addressable RGB LEDs
-- PCB and mounting hardware (details below)
+-1x rotary encoder
+- PCB and mounting hardware
+  4x heatset m3
+  4x m3 bolts
 - Case components (optional)
 
 ## Technical Challenges
