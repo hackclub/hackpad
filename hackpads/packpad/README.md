@@ -1,5 +1,8 @@
 # j4y_boi's *PackPad*!  
-This is my very own hackpad, crafted from the depths of *my laptop*
+This is my very own hackpad, crafted from the depths of *my laptop*  
+I quite enjoyed this YSWS because of the new things I learnt to do!
+One of the problems I did face was Fusion 360 acting up, that slowed down progress a lot, and I hope it didn't cause irreperable harm to my model...
+I took inspiration of macropads I found online, but changed up the layout a little.
 ## BOM (Bill of materials)
 - 9x Red Cherry MX switches
 - 9x keycaps (preferably white)
