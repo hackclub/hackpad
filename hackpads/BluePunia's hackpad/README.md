@@ -4,17 +4,17 @@ I wanted to create something PCB-related for the first time in my life - wanted 
 
 I created a rather simple design, yet it was challenging for me cause I've never used KiCad or Fusion 360 before. 
 Design:
-![alt text](assets/image.png)
+![alt text](./assets/image.png)
 
 # Schematic:
-![alt text](assets/image-1.png)
+![alt text](./assets/image-1.png)
 
 # PCB:
 ![alt text](assets/image-2.png)
 
 # Case:
-![alt text](assets/image-3.png)
-![alt text](assets/image-4.png)
+![alt text](./assets/image-3.png)
+![alt text](./assets/image-4.png)
 (It's branded on the very bottom)
 
 # BOM:
