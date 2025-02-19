@@ -4,17 +4,18 @@
 - 7 keys? 
 - Spinny EC11 Encoder!
 - SK6812 MINI-E LEDs
+- 128x32 Screen
 - KMK Firmware
 
 ## PCB
 This took a while because ive never made pcbs before but it turned out to be quite fun to do
-![schematic](https://cdn.hack.pet/slackcdn/716a40262c6d875acb9f50b3eeaeb520.jpg)
-![pcb](https://cdn.hack.pet/slackcdn/70a6f9aa96fa064bab21b8c2ae2ffafd.jpg)
-![pcb-render](https://cdn.hackclubber.dev/slackcdn/1b84480f70a50b8a63a31a91773dce8b.jpg)
+![schematic](https://cdn.hackclubber.dev/slackcdn/d47cd24b70cf3cafb89db724f7720674.png)
+![pcb](https://cdn.hackclubber.dev/slackcdn/01bd2f0ded94cca537916dba99575849.png)
+![pcb-render](https://cdn.hack.pet/slackcdn/2123ccfb717511cbe22fe937b8080796.png)
 
 ## CAD
 The CAD!
-![cad](https://cdn.hack.pet/slackcdn/055138575e1939f95037d4dc502938e6.jpg)
+![cad](https://cdn.hack.pet/slackcdn/a1bca2f1730139263cc8c720c1c12d6d.png)
 
 ## Firmware
 Made with KMK! You can find it somewhere in the froppiipad folder
@@ -24,6 +25,7 @@ Made with KMK! You can find it somewhere in the froppiipad folder
 - 7x Blank DSA keycaps
 - 7x Cherry MX switches
 - 1x EC11 Encoder
+- 1x 0.91 OLED Display
 - 2x SK6812 MINI-E LEDs
 - 1x PCB - black
 - 8x Through-hole 1N4148 Diodes
