@@ -25,7 +25,7 @@ BOM:
 - 1x SSD1306 128x32 0.91" OLED (5V VCC, 3.3V logic, I2C)
 - 1x EC11 Rotary Encoder
 - 1x PCB
-- 1x Case (Top and Bottom)
+- 1x Case (I would like both the TOP and BOTTOM to be printed in Black, if not available: Message me @Daamin on Slack)
 
 Others:
 
