@@ -1,0 +1,73 @@
+# Keyboard Mappings
+# =================
+
+## Key Matrix Layout
+# ------------------
+# The key matrix is organized as follows:
+# 
+# [SW6,  SW7,  ENC_SWA]
+# [SW10, SW11, SW8]
+# [SW2,  SW3,  SW4]
+
+## Key Functions
+# --------------
+# SW6:   Keycode SW6
+# SW7:   Keycode SW7
+# SW10:  Keycode SW10
+# SW11:  Keycode SW11
+# SW2:   Keycode SW2
+# SW3:   Keycode SW3
+# SW4:   Keycode SW4
+# ENC_SWA: Rotary Encoder Switch (Button Press)
+
+## Rotary Encoder
+# ---------------
+# The rotary encoder is mapped to control volume:
+# - Clockwise Rotation: Increase Volume (KC.VOLU)
+# - Counterclockwise Rotation: Decrease Volume (KC.VOLD)
+# - Button Press: ENC_SWA (Keycode SW6)
+
+## OLED Display
+# -------------
+# The OLED display shows the following:
+# - Corner 1: "White Screen" (Static Text)
+# - Corner 2: Layer Indicator (1, 2, 3, 4)
+# - Corner 3: Layer Name (BASE, LOWER, RAISE, ADJUST)
+# - Corner 4: Layer Description (qwerty, nums, shifted, leds)
+
+## RGB LEDs
+# ---------
+# The RGB LEDs are configured as follows:
+# - Number of LEDs: 6
+# - Color: Light Blue (Hue = 170)
+# - Mode: Static (No Animation)
+
+## Media Keys
+# -----------
+# Media keys are enabled for sound control:
+# - Volume Up: KC.VOLU
+# - Volume Down: KC.VOLD
+
+## Power and Ground
+# -----------------
+# VCC_3V3: 3.3V Power
+# VCC_5V:  5V Power
+# GND:     Ground
+
+## Pin Definitions
+# ----------------
+# COL_PINS: [PA02_A0_D0, PA04_A1_D1, PA10_A2_D2]
+# ROW_PINS: [PB08_A7_D7, PA09_A8_D8, PA11_A3_D3]
+# ENC_SWA:  D14
+# ENC_SWB:  D10
+# ENC_A:    PA06_A10_D10_MISO
+# ENC_B:    PA07_A9_D9_MOSI
+# ENC_C:    GND
+# OLED_SCL: PA09_A8_D8_SCK
+# OLED_SDA: PA08_A4_D4_SDA
+# OLED_VCC: VCC
+# OLED_GND: GND
+# LED_PIN:  PA03_A3_D3
+# VCC_3V3:  VCC
+# VCC_5V:   PA14_A5_D5
+# GND:      GND
