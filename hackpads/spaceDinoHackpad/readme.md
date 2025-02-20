@@ -70,3 +70,14 @@ The first key on the fourth row is routed to Ctrl+ `. In VS Code, this switches 
 #### Blank Keys
 The last two keys currently have no function. Functions will likely be added in the future. For now, they serve as keys to fidget with while thinking.
 
+## BOM
+- 12x Cherry MX Switches
+- 12x DSA Keycaps(assorment of colors prefered)
+- 12x SK6812 MINI-E LEDs
+- 12x Through hole 1N4148 Diodes
+- 1x EC11 Roatary Encoder
+- 1x Seeed XIAO RP2040
+- 4x M3 screws
+- 4x M3 heatset inserets
+- 1x 3d printed case(2 parts)
+
