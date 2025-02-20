@@ -1,5 +1,5 @@
 # Min1Mal 1.0
-![Min1Mal](https://github.com/user-attachments/assets/d861ea7d-31b7-48f6-8f9a-a90b2080f48d)
+![image](https://github.com/user-attachments/assets/f1457b61-2eef-4697-a1c7-b9aac90132f2)
 
 ## Inspiration
 
@@ -33,4 +33,5 @@ Others:
 ![image](https://github.com/user-attachments/assets/ffd128f0-73cc-4fe9-8ff5-1ff4d58e0971)
 
 ## Case
-![image](https://github.com/user-attachments/assets/a9bc98d6-5ad2-4f06-b9cb-ef6094260194)
+![image](https://github.com/user-attachments/assets/4846f7df-eb19-4fe4-ae88-ad4f512bba91)
+
