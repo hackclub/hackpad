@@ -9,6 +9,8 @@ Primarily intended as a general-use hackpad, I intend to use most of the extra F
 ![Above View](firepad-assets/firepad-above.png)
 #### Diagonal
 ![Diagonal View](firepad-assets/firepad-diagonal.png)
+#### Below
+![Below View](firepad-assets/firepad-below.png)
 #### PCB
 ![PCB View](firepad-assets/firepad-pcb.png)
 #### 3D PCB
