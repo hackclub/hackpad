@@ -17,6 +17,9 @@ Since this was my first ever PCB, routing and learning the process took a looong
 The top and bottom are assembled using 4 M3 bolts and heated inserts. 
 ![KW-01 Deconstructed](https://github.com/user-attachments/assets/96ae4558-9c86-4993-9616-8be3fa3641ab)
 
+Here's a top view:
+![image](https://github.com/user-attachments/assets/d3515b09-fb1e-4789-a6e7-f877bb367d06)
+
 ## PCB
 The PCB was made in KiCad - the board is powered by a Seeed Studio XIAO RP2040.
 
