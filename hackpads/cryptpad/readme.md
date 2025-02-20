@@ -15,12 +15,16 @@ the most challenging part was finding the time to revamp the project from scratc
 ### assembled
 ![image](https://github.com/user-attachments/assets/01b18c36-ba45-4ef2-9264-d93b0e797bcb)
 <img width="495" alt="image" src="https://github.com/user-attachments/assets/4967301c-8624-430e-ade6-8aa2191354de" />
+<img height="283" alt="image" src="https://github.com/user-attachments/assets/c4450e54-2e62-432e-b96e-34794b0f440d" />
 
 ### schematic
 ![image](https://github.com/user-attachments/assets/757076c4-be4d-4d9f-b925-9199202da2e5)
 
 ### pcb
 ![image](https://github.com/user-attachments/assets/1a796de8-ed10-4cf3-9406-c45a5e1a582c)
+
+### case
+![image](https://github.com/user-attachments/assets/ee38c26c-885c-4a0e-a007-0ec91dba20bc)
 
 ## bill of materials
 - pcb x 1
