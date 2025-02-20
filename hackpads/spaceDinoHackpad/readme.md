@@ -70,6 +70,9 @@ The first key on the fourth row is routed to Ctrl+ `. In VS Code, this switches 
 #### Blank Keys
 The last two keys currently have no function. Functions will likely be added in the future. For now, they serve as keys to fidget with while thinking.
 
+## Challenges
+This was my first time using both KiCad and 3d design software, meaning I had to learn the ins and outs of the software. I also attempted to use FreeCad on a pi 4, which in hindsight wasn't the best of ideas. It led to long loading times, slow software, and many crashes. It wasn't too bad, as these problems were minimized for most of the design process, and mostly caused problems when the PCB was loaded into the software. 
+
 ## BOM
 - 12x Cherry MX Switches
 - 12x DSA Keycaps(assorment of colors prefered)
