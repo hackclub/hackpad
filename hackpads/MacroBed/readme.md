@@ -6,9 +6,9 @@
 
 > This macropad used a ESP32-S3-WROOM instead of a XIAO RP2040
 
-> This macropad also slightly exceeds the 20$ Budget: 26$ total
+> This macropad exceeds the $20 budget by $6, for a total of $26. But this design also doesn't need an expensive XIAO RP2040, so maybe it cancels out?
 
-This macropad features:
+Features:
 
 - An ESP32S3 for WiFi and BLE
 - An integrated 400mAh Lipo + charger circuit
@@ -68,6 +68,7 @@ Parts already in stock:
 - 1x JST 2-Pin PH-connector
 - 2.54mm Pins
 - M3 Screws
+- Lipo battery
 
 ## Schematic
 
