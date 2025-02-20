@@ -7,6 +7,7 @@ A 16 key macropad with individual per-key rgb lighting, a rotary encoder and ole
 - EC11 Rotary encoder
 - 16 Keys
 - 16 SK6812 LEDs (one per key)
+- Loud buzzer
 - **__Vibration motor__**
 
 ## CAD Model:
@@ -14,9 +15,14 @@ A 16 key macropad with individual per-key rgb lighting, a rotary encoder and ole
 ![image](https://github.com/user-attachments/assets/c79dbcdb-139f-4f5c-b48d-ee0aaa23672b)
 
 ## PCB
-![image](https://github.com/user-attachments/assets/35d65298-ba3e-45a6-a3d3-fb285fe2f208)
+![image](https://github.com/user-attachments/assets/fb6c07d1-f93b-4b67-ad24-6584d2ab9534)
 
-![image](https://github.com/user-attachments/assets/de9607df-78ce-4cc8-9a4b-f078a166f46a)
+![image](https://github.com/user-attachments/assets/b417ad52-5d23-4165-8abe-f90606c79a1d)
+
+![image](https://github.com/user-attachments/assets/cde31cd6-9f0c-4040-8952-7c44e5a3a4d6)
+
+![image](https://github.com/user-attachments/assets/178d8d32-a372-4632-a61c-2588a8657eaf)
+
 
 Made using KiCad!
 
