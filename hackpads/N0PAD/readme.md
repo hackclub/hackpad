@@ -1,5 +1,8 @@
 # N0BUDGET N0PAD
 
+## !!!IMPORTANT NOTICE!!! 
+### THIS HACKPAD WAS MADE DURING V1 BUT NOT ACCEPTED
+
 ### slack handle: spacevini8
 
 ## features
