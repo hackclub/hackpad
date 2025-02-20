@@ -13,7 +13,7 @@ Made in F360, Kicad, VSC
 
 ⚡ I also added a lightning bolt on the case bcuz lightning bolts are cool ⚡
 
-💲 BOM:  
+💲 BOM (so like not the $20 grant ig):  
  
 3x Cherry MX Switches  
 1x RotaryEncoder_Alps_EC11E-Switch  
