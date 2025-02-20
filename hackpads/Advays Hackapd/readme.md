@@ -5,7 +5,7 @@ KMK
 Made in F360, Kicad, VSC  
 
 
-1️⃣ This also the first PCB i've ever made so... 
+1️⃣ This also the first PCB i've ever made so that was for sure a challenge, but I enjoyed it and might do onboard now.
 
 ![Screenshot (252)](https://github.com/user-attachments/assets/4f8544a8-6943-4f50-910d-9b8732bb9db0)
 ![Screenshot (211)](https://github.com/user-attachments/assets/dc4803df-a6a6-42e9-a5b6-a656f33ea95b)
@@ -13,7 +13,7 @@ Made in F360, Kicad, VSC
 
 ⚡ I also added a lightning bolt on the case bcuz lightning bolts are cool ⚡
 
-💲 BOM (so like not the $20 grant ig):  
+💲 BOM :  
  
 3x Cherry MX Switches  
 1x RotaryEncoder_Alps_EC11E-Switch  
