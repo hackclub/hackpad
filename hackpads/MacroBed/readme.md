@@ -16,9 +16,9 @@ This macropad features:
 
 Why?:
 
-When working with 3D printers running Klipper you always need to have the webinterface open to move the hotend, extrude filament, etc. This quickly gets annoying when your phone locks itself after a few minutes or you have to reload the webinterface because it constantly breaks (thank you slow RPI).
+When working with 3D printers running Klipper you always need to have the webinterface open to move the hotend, extrude filament, etc. This quickly gets annoying when your phone locks itself after a few minutes or you have to reload Fluidd because it constantly breaks (thank you slow RPI).
 
-This MacroBed (from "Bedlsinger" 3D printers... Brilliant name right ?) will use the ESP32's WiFi to interact with moonraker in standalone-mode and can be powered of the internal Lipo for ~1h.
+This MacroBed (from "Bedslinger" 3D printers... Brilliant name right ?) will use the ESP32's WiFi to interact with moonraker in standalone-mode and can be powered of the internal Lipo for ~1h.
 
 Assembly:
 
