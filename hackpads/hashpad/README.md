@@ -5,6 +5,7 @@ This is my macropad, made for the (awesome!) Hackpad V2 program of Hackclub (htt
 
 I will use this hackpad for (eventually) Hyprland control (like workspace switching) or as a mini protable keyboard (TBD)
 
+What I found particuliary difficult was the case design, I couldn't use Fusion and FreeCAD was hard to use, even with the tutorial (Cyao in the slack helped me alot for that).
 
 # Features
 
