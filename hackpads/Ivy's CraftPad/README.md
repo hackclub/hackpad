@@ -1,3 +1,4 @@
+![Ivy's HackPad](assets/case.png)
 # Ivy's HackPad aka. CraftPad
 I've made a hackpad which I'm calling a craftpad because it is made to be used to control a minecraft server.
 
