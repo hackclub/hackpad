@@ -22,8 +22,7 @@ This MacroBed (from "Bedslinger" 3D printers... Brilliant name right ?) will use
 
 Assembly:
 
-All 3D printed parts have a tolerance of 0.3mm. It would be awesome if you guys could print them in matt white filament, because i only have black filament. Please enable tree support for both `fdm_main.stl` and `fdm_middle.stl`.
-This MacroBed features CNC cut acrylic plates, which i can manufacture myself.  I also have access to a hot air soldering station for the ESP32 and other ICs.
+This MacroBed features CNC cut acrylic plates, which i can manufacture myself. All 3D printed parts have a tolerance of 0.3mm. I also have access to a hot air soldering station for the ESP32 and other ICs.
 
 Future plans:
 
