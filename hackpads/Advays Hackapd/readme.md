@@ -18,8 +18,8 @@ Made in F360, Kicad, VSC
 3x Cherry MX Switches  
 1x RotaryEncoder_Alps_EC11E-Switch  
 1x XIAO RP2040  
-1x Case  (top and bottom)
-3x DSA Keycaps  
-4x M3x16 Bolt
-4x M3 Heatset
+1x Case  (top and bottom)  
+3x DSA Keycaps   
+4x M3x16 Bolt  
+4x M3 Heatset  
 
