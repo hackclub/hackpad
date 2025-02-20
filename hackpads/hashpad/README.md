@@ -25,3 +25,22 @@ BOM :
 - 4x M3 hex nuts
 
                     
+# Images
+
+![Schematics](https://github.com/Hash-AK/hackpad/blob/main/hackpads/hashpad/assets/Schematic.png)  
+_Scheatics of the macropad_
+
+
+![PCB](https://github.com/Hash-AK/hackpad/blob/main/hackpads/hashpad/assets/PCB.png)  
+_PCB of the macropad_
+
+![Front of the board](https://github.com/Hash-AK/hackpad/blob/main/hackpads/hashpad/assets/BoardFront.png)  
+_Front of the board (3D Model)_
+
+![Back of the board](https://github.com/Hash-AK/hackpad/blob/main/hackpads/hashpad/assets/BoardRear.png)  
+_Back of the board (3D Model, the SK8612 is missing in the images, there's only a cutout/pads)_
+
+
+![Case Full](https://github.com/Hash-AK/hackpad/blob/main/hackpads/hashpad/assets/CaseFull.png)  
+_Full image of the case with the PCB._
+
