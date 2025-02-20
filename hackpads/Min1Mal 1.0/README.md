@@ -23,7 +23,7 @@ BOM:
 Others:
 
  - KMK Firmware
- - Case Top.step
+ - Case Top V2.step
  - Case Bottom.step
  
 ## Schematic 
