@@ -45,9 +45,3 @@ Here should be everything needed for this hackpad:
 
 A nice render
 <img src=assets/render.png alt="Render" width="300"/>
-
-
-## Extra stuff
-Honestly I'm not quite too sure what to add here. Favourite meme? a joke?? Uhhh you can imagine it
-
-Oh fun fact: I built mine in SF the day before github universe LOL
