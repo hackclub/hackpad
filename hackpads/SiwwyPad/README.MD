@@ -2,6 +2,14 @@
 This is my [HackClub](https://hackclub.com/) [HackPad](https://hackpad.hackclub.com/) Project!
 It has 9 Keys, 4 LED's, a Rotary Encoder and uses KMK firmware.
 
+## Inspiration
+I was Inspired by those macropads OSU players use but i wanted some more buttons so i added some and added a rotary for easy volume control.
+Another inspiration was the [MacroBoard](https://github.com/palmacas/MacroBoard).
+
+## Challenges
+One of the main Challenges was learning Fusion360 and all of its many many quirks.
+Everything else was medium difficulty and could be done pretty quickly.
+
 ## hacpad!
 This is it this is the hackpad in all its glory (minus the keycaps).
 ![tengo hacer pad](media/fullcase.png)
