@@ -17,9 +17,11 @@ It's basically a small keyboard that I can use for gaming or anything else.  The
 | XIAO RP2040 MCU   | 1        |                                           |
 | SK6812 MINI-E LEDs | 12      | Using up to 9, 3 exxtra for backup.       |
 | 1N4148 Diodes    | 16       | 13 for the keys, 3 extra just in case.      |
-| OLED Display     | 1        | [Link to OLED](https://www.aliexpress.com/item/1005007689097248.html?spm=a2g0o.productlist.main.7.6b645392Io9IUI&algo_pvid=d0e2f0a7-25ca-4bd2-abf9-0d51e69e6301&algo_exp_id=d0e2f0a7-25ca-4bd2-abf9-0d51e69e6301-3&pdp_npi=4%40dis%21INR%21101.20%21101.20%21%21%218.30%218.30%21%402151e46917294483196643000e636e%2112000041848914065%21sea%21US%213949123155%21ABX&curPageLogUid=vjNGXR7xkV8a&utparam-url=scene%3Asearch%7Cquery_from%3A&gatewayAdapt=4itemAdapt) |
+| OLED Display -0.96 0ne   | 1        | [Link to OLED](https://www.aliexpress.com/item/1005007689097248.html?spm=a2g0o.productlist.main.7.6b645392Io9IUI&algo_pvid=d0e2f0a7-25ca-4bd2-abf9-0d51e69e6301&algo_exp_id=d0e2f0a7-25ca-4bd2-abf9-0d51e69e6301-3&pdp_npi=4%40dis%21INR%21101.20%21101.20%21%21%218.30%218.30%21%402151e46917294483196643000e636e%2112000041848914065%21sea%21US%213949123155%21ABX&curPageLogUid=vjNGXR7xkV8a&utparam-url=scene%3Asearch%7Cquery_from%3A&gatewayAdapt=4itemAdapt) |
 | M3 Hex Nuts      | 8     |                                           |
 | Heatset Inserts  | 8      |                            |
+|330 OHM RESISTOR  | 1      |                            |
+|100uf capicitor-JBLH2101M050D090RLM 100UF 50V| 1        | lcsc  or https://quartzcomponents.com/products/100uf-50v-smd-electrolytic-capacitor?srsltid=AfmBOoqkiAGV60obKofCiIf2igcHeRBV1DKk76Hr393-YOcm_n1JSx92 2 dollars wth dilevery              |
 | Case Bottom      | 1        | `case_bot.stl` (Black)                     |
 | Case Top         | 1        | `case_top.stl` (Black)                     |
 
