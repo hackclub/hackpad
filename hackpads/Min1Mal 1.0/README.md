@@ -3,7 +3,7 @@
 
 ## Inspiration
 
-I wanted to uild a minimalist numpad that gave me back the keys I lost when going to a 75 percent keyboard.
+I wanted to build a minimalist numpad that gave me back the keys I lost when going to a 75 percent keyboard.
 
 ## Challenges
 
