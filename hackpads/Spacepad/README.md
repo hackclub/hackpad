@@ -4,6 +4,10 @@
 Spacepad is a macropad consisting of 12 keybinds that can boost your productivity to the moon! With custom keybinds,
 you do not need to worry about complicated key shortcuts.
 
+**inspiration and Challenges**
+I was always interested in hardware but didn't really have a chance to dive in yet. And this was a great chance to start.
+In addition, some challenges I had were just changing pcb errors and trying to add Firmware.
+
 ---
 
 ## Table of Contents
@@ -18,15 +22,19 @@ you do not need to worry about complicated key shortcuts.
 ## Screenshots
 
 ### Hackpad Overview
+
 ![Hackpad Screenshot](hackpads\Spacepad\assets\Full Assembly Picture.png)
 
 ### Schematic Diagram
+
 ![Schematic Screenshot](hackpads\Spacepad\assets\Schematic picture.png)
 
 ### PCB Layout
+
 ![PCB Screenshot](hackpads\Spacepad\assets\PCB picture.png)
 
 ### Case Design and Assembly
+
 ![Case Screenshot](hackpads\Spacepad\assets\Part Picture.png)
 
 ---
