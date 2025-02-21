@@ -17,7 +17,7 @@ Firmware for basmati is made with [KMK](https://github.com/KMKfw/kmk_firmware). 
 - SW Cherry MX Switches
 - 3D-Printed Case (See `CAD/`)
 - PCB (SEE `PCB/`)
-
+- 4x Red DSA Keycaps
 ## Case
 
 The case comes in two parts:
