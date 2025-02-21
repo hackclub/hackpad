@@ -2,6 +2,15 @@
 
 OwOMacro is a 4 key macropad with a rotary encoder.
 
+
+## Challange 
+
+well I wanted to go with something simple yet useful 
+I plan to use the rotary as a little vol dial and the buttons mapped to F13-F16 as little hot keys 
+As this is my first PCB I had a bit of trouble understanding out to route the traces at first but got a hang of that pretty quick 
+
+
+
 ## Features:
 - Rotary encoder
 - 4 Keys
