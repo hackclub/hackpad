@@ -39,14 +39,14 @@ Finished Macropad:
 
 Schematic:
 
-<img alt="schematic" src="Assets/schematic.png" width=400>
+<img alt="schematic" src="Assets/schematic.PNG" width=400>
 
 PCB!:
 
-<img alt="PCB front" src="Assets/pcb.png" width=400>
+<img alt="PCB front" src="Assets/pcb.PNG" width=400>
 
 Another Macropad photo because why not:
 
-<img alt="PCB back" src="Assets/pad.png" width=400>
+<img alt="PCB back" src="Assets/pad.PNG" width=400>
 
 
