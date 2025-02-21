@@ -1,5 +1,7 @@
 # Ethan's hackpad macropad
 
+I made this hackpad to lean how to design a PCB and because I want to be able to do hackpad v2 and make my own keyboard.
+
 ## PCB
 ![image](https://github.com/user-attachments/assets/f7b3e27c-0251-410e-a6a1-6e17d0d4c44a)
 ![image](https://github.com/user-attachments/assets/9af7590d-ef83-4cd3-ade1-65c3f444730c)
