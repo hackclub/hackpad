@@ -19,6 +19,7 @@ I had never designed a macropad before, let alone use Fusion360 or KiCAD at all.
 
 BOM:
  - 16x Cherry MX switches
+ - 16x 1N4148 diodes
  - 1x XIAO RP2040
  - 16x Blank DSA keycaps
  - 4x M3x16 Bolt
