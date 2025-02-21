@@ -45,7 +45,7 @@ In addition, some challenges I had were just changing pcb errors and trying to a
 - 12x through hole 1N4148 Diodes
 - 1x SEEED Studio XIAO RP2040
 - 1x PCB
-- 3d case (bottom and front)
+- 3d case (fully black pls)
 - 4x M3 screw
 
 ---
