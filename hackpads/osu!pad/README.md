@@ -17,19 +17,19 @@ I am a complete beginner at everything Electrical so that includes the PCB and t
 My Osu!Pad uses no screws to attach the top and bottom since the fit together. I made both the top and bottom in 1 file while still being under the 200x200 dimensions.
 
 Final Case CAD
-<img src="/hackpads/osu!pad/asets/cad.png" alt="CAD" width="800"/>
+<img src="/hackpads/osu!pad/assets/case.png" alt="CAD" width="800"/>
 
 ## Schematic:
 I built my schematic using KiCad
 
 Final Schematic
-<img src="/hackpads/osu!pad/asets/schematic.png" alt="schematic" width="800"/>
+<img src="/hackpads/osu!pad/assets/schematic.png" alt="schematic" width="800"/>
 
 ## PCB:
 I built my PCB using KiCad
 
 Final PCB
-<img src="/hackpads/osu!pad/asets/pcb.png" alt="pcb" width="800"/>
+<img src="/hackpads/osu!pad/assets/pcb.png" alt="pcb" width="800"/>
 
 ## Firmware Overview
 The osu!pad uses KMK with python for the firmware
