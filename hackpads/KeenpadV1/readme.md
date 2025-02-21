@@ -6,3 +6,4 @@ BOM: <br/>
 12x cherry mx switches (the ones linked in the guide)<br/>
 12x 1N148 diodes <br/>
 1x XIAO DIP SMD <br/>
+3x 3d printed parts (top case, bottom case, rotary encoder cap)
