@@ -1,6 +1,6 @@
 # ControlBoard
 
-![image](CAD/ControlBoard.png)
+![image](ControlBoard.png)
 A 2 knob, 9 switch macropad with a 128x32 OLED.
 All powered by a Seeed XIAO RP2040 along with a MCP23017. 
 
