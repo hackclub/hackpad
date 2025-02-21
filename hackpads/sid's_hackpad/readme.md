@@ -1,6 +1,8 @@
 # Sid's Hackpad
 My hackpad has 11 switches to be the most useless modifier keys just because.   
 I'll probably figure out how it best fits into my workflow as I use it.
+Though I was new to both KiCad and Fusion, designing the case in Fusion was definitely the most challenging part of the project.
+However, it was also really rewarding to understand how these different softwares work and be able to help others complete their hackpad as well.
 
 # Key features:
 * 11 MX switches
