@@ -18,7 +18,7 @@ Primarily intended as a general-use hackpad, intend to use most of the extra F-k
 #### Schematic
 ![Schematic View](Foxpad-assets/foxpad-schematic.png)
 
-### Frimware
+### Firmware
 
 The top three buttons (from left to right) are:
 - Skip Backward
@@ -29,7 +29,7 @@ The next 5 buttons are F13-F17, the next five F18-F22, and the last two are F23 
 
 The rotary encoder is volume control, and can be clicked to mute.
 
-Clicking any button will slightly adjust the color of the power LED, and the mute key will switch on/off the mute LED, although it might be inverted, since I don't think I can detect host mute status.
+Clicking any button will slightly adjust the color of the power LED, and the mute key will switch on/off the mute LED.
 
 ### BOM
 - 1x Seeed XIAO RP2040
