@@ -1,10 +1,10 @@
 # Atlaspad
 
-![](/assets/L1.png)
+![](./assets/L1.png)
 A compact Macropad based on a rp2040 xiao, packed with features!
 (Originally intended as a Macropad for playing NMS, that functionality is WIP)
 
-![](/assets/Fullassembly.png)
+![](./assets/Fullassembly.png)
 
 ## Features:
 
@@ -23,7 +23,7 @@ The model is based on a sandwich mount (Top,Plate,Base), but also includes the f
 It's held together by 6 M2x16 (Back&OLED) and 2 M2x12 (Front) screws and corresponding hex nuts (DIN 912 & 934)
 
 Exploded Assembly
-![](/assets/Assembly.png)
+![](./assets/Assembly.png)
 
 (the wheels are press-fit for the encoders / have to be glued, these were the only encoders small enough i could find)
 _Designed in Fusion360_
@@ -31,8 +31,8 @@ _Designed in Fusion360_
 ## PCB
 
 (Front side of PCB)
-![](/assets/PCB.png)
-![](/assets/PCB3D.png)
+![](./assets/PCB.png)
+![](./assets/PCB3D.png)
 
 _Designed in KiCad_
 
@@ -100,7 +100,7 @@ Here is how to adjust when leaving them out:
 -   Capacitor is a buffer for the LEDs (the can draw >700mA at max Brightness). leave empty
 -   Voltage shifter is to accomodate the specified 3.4V minimum data High level, just above the 3.3V outputted by the rp2040. It may work without, but possibly inconsistently. If leaving out, bridge the LED_DIN and LED_DIN_Shifted contacts of the IC Footprint (see below).
 
-![](/assets/LevelShifter.png)
+![](./assets/LevelShifter.png)
 
 ## Notes:
 
