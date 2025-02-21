@@ -1,0 +1,74 @@
+{
+    "manufacturer": "Sreekar Ramisetty",
+    "keyboard_name": "sreekar617_hackpad",
+    "description": "A 4x1 macropad with 4 keys",
+    "maintainer": "Sreekar617",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP4", "GP7", "GP8", "GP9", "GP10"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "macros": [
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["LSFT"]},
+            {"action":"tap", "keycodes": ["M"]},
+            {"action":"tap", "keycodes": ["SPC"]},
+            {"action":"up", "keycodes": ["LSFT"]},
+            {"action":"up", "keycodes": ["LCTL"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LSFT"]},
+            {"action":"tap", "keycodes": ["TAB"]},
+            {"action":"tap", "keycodes": ["TAB"]},
+            {"action":"up", "keycodes": ["LSFT"]},
+
+            {"action":"tap", "keycodes": ["TAB"]},
+            {"action":"tap", "keycodes": ["SPC"]},
+            {"action":"tap", "keycodes": ["TAB"]},
+            {"action":"tap", "keycodes": ["SPC"]},
+            {"action":"tap", "keycodes": ["TAB"]},
+            {"action":"tap", "keycodes": ["SPC"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LALT"]},
+            {"action":"tap", "keycodes": ["F4"]},
+            {"action":"up", "keycodes": ["LALT"]}
+        ],
+        [
+            {"action":"down", "keycodes": ["LCTL"]},
+            {"action":"down", "keycodes": ["LSFT"]},
+            {"action":"tap", "keycodes": ["ESC"]},
+            {"action":"up", "keycodes": ["LSFT"]},
+            {"action":"up", "keycodes": ["LCTL"]}
+        ]
+    ],
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0},
+                {"matrix": [0, 4], "x": 4, "y": 0}
+            ]
+        }
+    }
+}
