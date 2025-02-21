@@ -20,3 +20,14 @@ It would help me when I don't have my mouse with me, can be used with my laptop 
 - 1x Switch plate (Laser-cut acrylic)
 - 1x Through-hole 4.7k resistor
 - 1x Seeed XIAO RP2040
+
+## Challenges:
+I am new to PCB design and 3D design, so i had to learn a lot of things, the guides really game in handy.
+
+Schematic            |  PCB         |   Case
+:-------------------------:|:-------------------------:|:-------------------------:|
+![image](https://github.com/user-attachments/assets/47e60830-810e-4c88-b23d-02feb969890a) | ![image](https://github.com/user-attachments/assets/728c2853-8688-4fe4-a8e5-acafb7fc76a6) | ![image](https://github.com/user-attachments/assets/88584854-1404-4d92-80f4-a796fb8cb5a5)
+
+
+
+
