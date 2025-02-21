@@ -1,3 +1,9 @@
+# This isn't complete because I couldn't yet find out how to use the IO expander with kmk and I'm running out of time now. (And also I think I need the ToF distance sensor to test before being able to write any working code for it).
+# Basically, the keyboard will have 4 sets of 8 macros, and the left rotary encoder will switch between those.
+# The other rotary encoder will switch between what the ToF distance sensor controls (screen brightness, audio volume, keyboard brightness, off) (you raise/lower your hand over the sensor to control the currently selected setting). I think this will probably need something running on the computer as well.
+# The OLED will simply display both of these states controlled by the rotary encoders.
+
+
 import board
 from kmk.modules.encoder import EncoderHandler
 
