@@ -16,7 +16,7 @@ Primarily intended as a general-use hackpad, intend to use most of the extra F-k
 #### 3D PCB
 ![3D PCB View](foxpad-assets/foxpad-pcb-3D.png)
 #### Schematic
-![Schematic View](Foxpad-assets/foxpad-schematic.png)
+![Schematic View](foxpad-assets/foxpad-schematic.png)
 
 ### Firmware
 
