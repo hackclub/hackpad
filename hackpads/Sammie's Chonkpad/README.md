@@ -26,8 +26,8 @@ BOM:
 
 Others:
  - KMK firmware
- - TopCase.stl (as soon as I sort my files!)
- - Bottomcase.stl (as soon as I sort my files!)
+ - Top_Plate.stl
+ - Bottom_Case.stl
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
