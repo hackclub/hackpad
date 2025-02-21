@@ -2,8 +2,6 @@ Github README
 
 # Stoopid_Pad
 
-<b>Running from the 10th to the 25th of November, You ship AI software, We ship AI hardware.</b>
-
 <br>
 
   
@@ -37,7 +35,7 @@ I had a lot of fun making the macropad, this was my first time making a PCB, tho
 
 Finished Macropad:
 
-<img alt="finished hackpad" src="Assets/case.png" width=400>
+<img alt="finished hackpad" src="Assets.PNG" width=400>
 
 Schematic:
 
