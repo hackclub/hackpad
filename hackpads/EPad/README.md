@@ -1,6 +1,12 @@
 # Epad
 This is my submission for Hackpad V2!
 
+## Inspiration
+I was inspired by a macropad that I saw in a YouTube video a while back. It looked really cool so I tried to replicate it as best as I could from memory.
+
+## Challenges
+My biggest challenge was getting everything to line up correctly. I know I spent a long time just getting every hole at the top lined up with the switches.
+
 ## Features
 - 12x cherry mx keys
 - 1x rotary encoder switch
