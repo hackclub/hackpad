@@ -25,6 +25,7 @@ module case_top() {
         translate([-55, -55, 0]) cylinder(r=3.4, h=13+overlapBuffer, center=true);
         translate([-55, 55, 0]) cylinder(r=3.4, h=13+overlapBuffer, center=true);
         translate([55, 55, 0]) cylinder(r=3.4, h=13+overlapBuffer, center=true);
+        translate([0, -50, 0.5]) linear_extrude(1+overlapBuffer) text("robopad, made proudly by urjith mishra (thescientist101 on gh)", size=2, halign="center", valign="center", font="Arial:style=Bold", $fn=100);
     }
 }
 
