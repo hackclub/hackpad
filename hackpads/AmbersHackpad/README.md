@@ -2,7 +2,7 @@
 
 Unfortunately, I’ve not been able to come up with a fancy name for it :(
 
-My hackpad is quite generic - it has 11 switches, 3 neopixels, a rotary encoder and a 128x64px OLED display
+My hackpad is quite generic - it has 11 switches, 3 neopixels, a rotary encoder and a 128x64px OLED display. The idea is that different keys will be hooked up to quickly do different tasks such as running scripts or restarting services, and will execute different functions when clicked. The OLED will randomly switch between showing stats for my self-hosted stuff, stats for HC stuff or maybe fun art.
 
 
 ## Features
@@ -37,7 +37,7 @@ I borrowed some of Max’s Heidi & Orpheus art for the PCB as well as adding a H
 
 ## Firmware
 
-The firmware isn’t finished yet! I started it and I think the rotary encoder and some keys would work, but I want to make this when I get the hardware. The idea is that different keys will be hooked up to my Pi and will execute different functions when clicked. The OLED will randomly switch between showing stats for my self-hosted stuff, stats for HC stuff or maybe fun art.
+The firmware isn’t finished yet! I started it and I think the rotary encoder and some keys would work, but I want to make this when I get the hardware. 
 
 ## BOM
 
