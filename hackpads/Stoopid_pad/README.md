@@ -35,18 +35,18 @@ I had a lot of fun making the macropad, this was my first time making a PCB, tho
 
 Finished Macropad:
 
-<img alt="finished hackpad" src="Assets.PNG" width=400>
+<img alt="finished hackpad" src="Assets/case.PNG" width=400>
 
 Schematic:
 
-<img alt="schematic" src="schematic.png" width=400>
+<img alt="schematic" src="Assets/schematic.png" width=400>
 
 PCB!:
 
-<img alt="PCB front" src="pcb.png" width=400>
+<img alt="PCB front" src="Assets/pcb.png" width=400>
 
 Another Macropad photo because why not:
 
-<img alt="PCB back" src="pad.png" width=400>
+<img alt="PCB back" src="Assets/pad.png" width=400>
 
 
