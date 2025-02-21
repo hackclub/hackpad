@@ -19,6 +19,17 @@ My Osu!Pad uses no screws to attach the top and bottom since the fit together. I
 Final Case CAD
 <img src="/hackpads/osu!pad/asets/cad.png" alt="CAD" width="800"/>
 
+## Schematic:
+I built my schematic using KiCad
+
+Final Schematic
+<img src="/hackpads/osu!pad/asets/schematic.png" alt="schematic" width="800"/>
+
+## PCB:
+I built my PCB using KiCad
+
+Final PCB
+<img src="/hackpads/osu!pad/asets/pcb.png" alt="pcb" width="800"/>
 
 ## Firmware Overview
 The osu!pad uses KMK with python for the firmware
