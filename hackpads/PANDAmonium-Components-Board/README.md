@@ -24,3 +24,5 @@ I want to use my macropad to potentially make some complicated VIM motions like 
 - 1x XIAO-RP2040-DIP
 - 9x Cherry MX Switches
 - 2x SK6812 MINI LED
+
+Expanded BOM in /PCB/BOM.csv
