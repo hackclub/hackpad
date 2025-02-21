@@ -26,7 +26,7 @@ Here should be everything you need to make this hackpad
 
 - 4x Cherry MX Switches
 - 4x Keycaps of your choice
-- 1x PEC12R Rotary Encoder
+- 1x EC11 Rotary Encoder (schematic is done with PEC12R) 
 - 1x XIAO RP2040
 - 1x Case 
 
