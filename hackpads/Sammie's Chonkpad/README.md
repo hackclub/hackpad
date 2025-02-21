@@ -1,9 +1,9 @@
 # Sammie's Chonkpad
 A macropad I think might be somewhat chonky
 
+Note: I did not include the OPL submodule + other stuff, you can see https://github.com/sz6084/hackpad-self for the full repository.
+
 ![Hackpad-case v12](https://github.com/user-attachments/assets/5aa71cc5-84b1-45f7-84d2-9d4e23bbaadc)
-
-
 
 ### Inspiration
 
