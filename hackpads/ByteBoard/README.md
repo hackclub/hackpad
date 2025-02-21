@@ -19,6 +19,9 @@ I had to remake my case multiple times as I am new to Fusion and had a hard time
   - 3x Red, 3x Black, 3x White
 - 4x M3x16 Bolt
 - 4x M3 Heatset
+- 9x 1N4148 Diodes
+- 1x EC11 Rotary Encoder
+- 1x 128x32 OLED
 
 ## Features
 - 128x32 OLED Display
