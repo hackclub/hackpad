@@ -14,7 +14,7 @@ Fully assembled:
 Schematic:          
 <img src="images/schematic.png" width="350">                           
 PCB:            
-<img src="images/pcb.png" width="350">                              
+<img src="images/pcb.png" width="350"><img src="images/pcb2.png" width="350">                                                    
 Case:           
 <img src="images/case_bottom.png" width="350">                              
 <img src="images/case_top.png" width="350">                                             
