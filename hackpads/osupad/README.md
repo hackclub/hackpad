@@ -1,5 +1,5 @@
 # osupad
-!![osupad](https://github.com/user-attachments/assets/5e14917d-51de-451b-8d9a-a27e7bdc7afb)
+![osupad](https://github.com/user-attachments/assets/5e14917d-51de-451b-8d9a-a27e7bdc7afb)
 
 ### Inspiration
 
@@ -17,6 +17,8 @@ BOM:
 - 4x Keycaps
 - 1x Alps EC11E Rotary Encoder/Switch
 - 1x Knob for Rotary Encoder
+- 4x M3x16mm screws
+- 1x 3D Printed Case (3 parts)
 
 Others:
 - QMK Firmware
