@@ -1,35 +1,28 @@
-# Ducc's Fidget Toy
-Done your hackpad? Congrats! This is an example submission for a hackpad.
-![Duccpad_2025-Jan-29_11-21-00PM-000_CustomizedView41037845089](https://github.com/user-attachments/assets/21300858-fc34-466f-8b79-2abc2fd9e564)  
-
+# osupad
+!![osupad](https://github.com/user-attachments/assets/5e14917d-51de-451b-8d9a-a27e7bdc7afb)
 
 ### Inspiration
 
-I wanted to create a macropad that allowed me to fidget. I created a macropad using 4 switches, 1 rp2040, and 2 leds. 
+I was inspired by the 23lives ["Foot Keyboard"](https://www.youtube.com/watch?v=cwqtAuxATQg) that was making rounds in Hypixel Skyblock a while ago. I looked at it and thought "hmm, i wonder if you could play osu with that". I started with 4 keys, one for each note in 4K Mania, and a rotary encoder, for spinners. As I was making it, I realized it would be a lot cooler and more useful as a macropad, so I wrote the firmware for some of my most useful hotkeys.
 
 ### Challenges
 
-Believe it or not, this was my first time using Fusion 360! I watched numerous tutorials and guides and did a TON of googling, but in the end, I'm pretty proud of the final product. I had the most struggle figuring out how to make sketches, and with the new mouse controls, it definitely took me a while to get the hang of it.
+While I have minimal experience in EasyEDA for NFC Hacker Cards and Onshape for school (our school made all 7th graders learn basic 3d modeling), this was my first time making a real project in KiCad and Fusion. While there was a fair bit of trial and error, my experience helped it go smoothly.
 
 ### Specifications
 
 BOM: 
 - 4x Cherry MX Switches
-- 2x SK6812 MINI Leds
 - 1x XIAO RP2040
-- 4x Blank DSA Keycaps
-- 4x M3x16 Bolt
-- 4x M3 Heatset
+- 4x Keycaps
+- 1x Alps EC11E Rotary Encoder/Switch
+- 1x Knob for Rotary Encoder
 
 Others:
-- KMK Firmware
-- Top Case.stl 
-- Bottom Case.stl
+- QMK Firmware
+- Direct Pin Wiring
+- Through-Hole mounting style
 
 Schematic            |  PCB         |   Case
 :-------------------------:|:-------------------------:|:-------------------------:|
-![image](https://github.com/user-attachments/assets/8ce0ab16-e0b0-42d0-b748-d4ee08ce5972)    |  ![image](https://github.com/user-attachments/assets/556275d9-b148-4d51-b6e8-0c6bf95b5a16)  | ![image](https://github.com/user-attachments/assets/bcfd98e1-e562-48c3-b617-4d55031ebec4)
-
-
-
-
+![sch](https://github.com/user-attachments/assets/fc51cdb9-8ee1-402c-9310-0c18a049af75) | ![pcb](https://github.com/user-attachments/assets/cae6224d-a5f5-4b18-805d-d57e8b284db4)  | ![case](https://github.com/user-attachments/assets/9dbecb3b-4504-4077-9d12-ac281de4052c)
