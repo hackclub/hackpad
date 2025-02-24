@@ -21,7 +21,7 @@ BOM
 -1x PCB
 -5x Blank DSA keycaps ( 4 Black, 1 Red)
 -1x Seeed XIAO RP2040
-Case
+
 
 ![Screenshot 2025-02-20 at 9 00 11 PM](https://github.com/user-attachments/assets/cb630675-cd6b-46ad-a5b6-a697841ab06a)
 
