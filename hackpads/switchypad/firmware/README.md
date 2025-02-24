@@ -1,0 +1,1 @@
+This firmware file needs micropython installed/flashed on the microcontroller to work.
