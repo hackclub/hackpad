@@ -14,6 +14,7 @@ This time my inspiration was an ergonomic keyboard that I saw in a Joe Scotto vi
 - 1x Orpheus Pico
 - 10x M3 Heatset
 - 10x M3x16 Bolt
+- 10x M3 Nuts
 
 **Others:**
 
