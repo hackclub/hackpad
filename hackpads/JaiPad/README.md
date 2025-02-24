@@ -25,9 +25,24 @@ Some of the main challenges encountered during this project include:
 - Ensuring reliable switch mounting with the low-profile design
 
 |           Schematic      |
+
+
+
 | <img width="758" alt="Screenshot 2025-02-24 at 10 39 27 PM" src="https://github.com/user-attachments/assets/a8be08e4-2623-43b8-bfda-feaf3d286c41" />
+
+
+
 |           PCB            |
+
+
+
  <img width="652" alt="Screenshot 2025-02-24 at 10 41 10 PM" src="https://github.com/user-attachments/assets/b3afd17a-d2cb-4ed5-bb7e-0dd7ae38c142" />
+
+ 
 |             Case         |
+
+
 <img width="927" alt="jai" src="https://github.com/user-attachments/assets/1d337e01-ecd0-48fc-a4ee-b4f7506f9ef6" />
+
+
  
