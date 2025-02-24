@@ -18,8 +18,8 @@ This time my inspiration was an ergonomic keyboard that I saw in a Joe Scotto vi
 **Others:**
 
 - KMK Firmware
-- BB-K Bottom_.stl
-- BB-K Top.stl
+- ButtonBlaster-KeypadBottom.stl
+- ButtonBlaster-KeypadTop.stl
 
 ![Schematic](https://github.com/Cesarweon/ButtonBlaster-Keypad/blob/main/Imagenes/EsquemaF.png)
 
