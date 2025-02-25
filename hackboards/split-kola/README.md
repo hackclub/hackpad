@@ -43,3 +43,12 @@ But yeah! It should work hopefully!
 - 10 M3 Screws, 5-7mm length
 - 1 PCB for each side (Two unique total)
 - All 3D printed case parts
+
+### Images
+
+![https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/schematic_01.png](https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/schematic_01.png)
+
+
+![https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/pcb_01.png](https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/pcb_01.png)
+
+![https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/case_01.png](https://raw.githubusercontent.com/PonderSlime/Keyboards/refs/heads/main/split-kola/assets/case_01.png)
