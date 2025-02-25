@@ -1,6 +1,8 @@
-12-key macropad intended for ultrakill gaming
--> has all movement keys, macro for knuckleblaster punch without swapping, rotary encoder for weapon swapping and an extra key for a Railcannon
-RGB diodes intended for showing things like style/hard damage (if i can implement that)
+# Purpose
+**12-key macropad intended for ultrakill gaming**
+has all movement keys, macro for knuckleblaster punch without swapping, rotary encoder for weapon swapping and an extra key for a Railcannon
+has RGB diodes intended for showing things like style/hard damage (if i can implement that)
+I made it mainly because school keyboards suck and i wanted to P-rank in spite of that
 
 # BOM
 - Xiao RP2040 (THT?)
