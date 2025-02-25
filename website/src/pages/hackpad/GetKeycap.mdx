@@ -1,0 +1,77 @@
+# Get your Hack Club keycaps!
+
+Finally got your hackpad, eager to get your new custom HACK CLUB BRANDED keycap? Read on to find out how!
+
+## Assemble your hackpad
+
+Once you got the hardware, you'll need to assemble it! Your XIAO RP2040 should've come presoldered, but you'll need to do the rest. You should've gotten a soldering iron sent to you as well (haven't yet? DM me in slack!).
+
+If you don't know how to solder, [this](https://www.youtube.com/watch?v=QKbJxytERvg) video by Colin from Adafruit provides a great primer on soldering. Definitely would recommend you watch
+
+As always, if you ever need help, ask in #hackpad!
+
+## Get the firmware working
+
+When you initially flash your firmware, there's a good chance that it won't actually work. That's okay! It's pretty hard to develop firmware without the physical device. Now's your chance to fix it, edit it, and add whatever features you may want.
+
+Eventually, it should work! Send a video in #hackpad and let everyone see what you've made. Now it's time to add it to the hackpad website!
+
+## Update the website to add your page
+
+Now you have an awesome working macropad, that you designed yourself. Time to add it to the hackpad website! We're now going to edit the website.
+
+First, clone the repository. Navigate over to the "website" folder. Run the command "pnpm install", then run "pnpm dev". It should show up on port 5173. That can be pretty confusing, so if you have any issues make sure to ask in #hackpad!
+
+(side note: node v23.0 and up breaks the site, so try downgrading if you're running into issues)
+
+Navigate over to `website/src/pages/submissions`. Make a new folder with the title of your hackpad, then create a new MDX file with the same name. It should look something like this:
+<img src="/docs/newpage.png" alt="New Page" width="500"/>
+(there's some additional assets in there. Note the OrpheusPad.mdx file)
+
+Now you're ready to start writing your page! Let's get to it
+
+#### Write your page!
+
+Now that you have the website set up locally, you can now edit it to add a page on your hackpad. Edit the MDX file
+
+Make sure to add each section. It really goes a long way to document your project. Imagine if I didn't docuemnt any of this!!
+
+- Overview
+- CAD model
+- PCB
+- Firmware
+- BOM
+- Any fun facts / random stuff you wanna share
+
+Check the [OrpheusPad](https://hackpad.hackclub.com/projects/orpheuspad) page as a reference. Doesn't need to be as fancy, but this is your chance to get on an OFFICIAL hack club page. Use it wisely
+
+#### Add the route
+Once you're done writing the page, you need to add the route so that people can actually see it! Head over to main.tsx, then you're going to do 2 things.
+
+First, at the top of the file, import your page. In the case of orpheuspad:
+```javascript
+import OrpheusPad from "./pages/submissions/Orpheuspad/OrpheusPad.mdx"
+```
+It should look something like this:
+<img src="docs/importpage.png" alt="Import Page" width="500"/>
+
+Next, we need to add a route to your page. Otherwise, people wouldn't be able to find it! The route is basiaclly where your page will be located.
+
+Head over to main.tsx. You should see a bunch of routes. Add a new route to your page at the bottom. Each route follows the same syntax. To add OrpheusPad:
+
+```javascript
+  // Submitting? Great! Do something like this:
+  {
+    path: "/projects/orpheuspad",
+    element: <DocPage Content={ OrpheusPad } />
+  }
+```
+
+After, it should look something like this:
+<img src="docs/routepage.png" alt="Add Route" width="500"/>
+
+You should be done! Make sure to test these changes locally by going to `http://localhost:5173/projects/yourprojectname`. If it works, you're ready to make a PR! Head on over to the repository and make a PR with your changes.
+
+## Fill out the form!
+If all goes well, your PR will be merged and you'll be sent a form to get your keycap. Have fun!!
+
