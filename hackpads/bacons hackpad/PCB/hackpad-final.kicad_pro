@@ -53,11 +53,26 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "silk_edge_clearance|121452619|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|5a8012d7-1bce-4e46-85ce-a28b0ff450b0",
-        "silk_edge_clearance|124087500|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|8464d8a5-9b0a-4ebb-89e7-62842d73d19e",
-        "silk_edge_clearance|133087500|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|7bc6231b-9c4b-4a56-9d14-05c3a504ef9f",
-        "silk_edge_clearance|135487500|29982160|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|4cd959c0-0abf-491e-825e-37dda353f8f1",
-        "silk_edge_clearance|135722740|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|e5878e4c-0e23-4cfa-ba89-e1ae099235b4"
+        [
+          "silk_edge_clearance|121452619|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|5a8012d7-1bce-4e46-85ce-a28b0ff450b0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|124087500|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|8464d8a5-9b0a-4ebb-89e7-62842d73d19e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|133087500|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|7bc6231b-9c4b-4a56-9d14-05c3a504ef9f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|135487500|29982160|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|4cd959c0-0abf-491e-825e-37dda353f8f1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|135722740|30000000|2d78f4bf-7c0b-4956-84c0-d56c2e68b61b|e5878e4c-0e23-4cfa-ba89-e1ae099235b4",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -69,16 +84,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +107,11 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -106,7 +126,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -119,6 +141,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -136,10 +159,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -214,6 +238,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -438,7 +463,7 @@
   },
   "meta": {
     "filename": "hackpad-final.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -453,6 +478,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -461,7 +487,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
