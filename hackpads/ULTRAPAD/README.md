@@ -9,6 +9,8 @@ RGB diodes intended for showing things like style/hard damage (if i can implemen
 - 1x EC11E rotary encoder with switch
 - 11x THT 1N4148 diodes
 - 8x SMD SK6812MINI RGB diodes
+- 4x M3 16mm screws
+- 4x M3 heatset inserts
 
 # Pictures:
 case:
