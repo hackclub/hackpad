@@ -2,6 +2,8 @@
 ![Screenshot 2025-02-25 233441](https://github.com/user-attachments/assets/3f185525-d055-4f02-a17b-12ff9398da40)
 ![image](https://github.com/user-attachments/assets/330f5fc6-9c27-46a7-9147-36061b8e637c)
 ![image](https://github.com/user-attachments/assets/e55119cf-fe1f-48d4-aca7-853be455d206)
+
+
 BOM:
 
     6x Cherry MX Switches
