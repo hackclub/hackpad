@@ -1,5 +1,5 @@
 ## Keypad
-A simple keypad with 5 buttons that pulgs into a computer via usb
+A simple keypad with 5 buttons that pulgs into a computer via usb. The idea was to create a customizable easy to use macropad that could be used as a stepping stone learning project to eventually be able to make a full keyboard from scratch.
 
 #Parts
   - Xiao rp2040
