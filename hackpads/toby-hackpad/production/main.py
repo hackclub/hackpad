@@ -4,49 +4,48 @@ print("Hackpad Testing!")
 
 # Basic imports for orpheuspad
 import board
-
-from kmk.kmk_keyboard import KMKKeyboard
+import busio
+from adafruit_mcp230xx.mcp23017 import MCP23017
+from kmk.extensions.RGB import RGB
 from kmk.keys import KC
+from kmk.kmk_keyboard import KMKKeyboard
+from kmk.modules.encoder import EncoderHandler
 from kmk.scanners import DiodeOrientation
 
 # Extra features
 
-from kmk.modules.encoder import EncoderHandler
-from kmk.extensions.RGB import RGB
-
-
 print(dir(board))
+
+i2c = busio.I2C(board.GP_SCL, board.GP_SDA)
+mcp = MCP23017(i2c)
 
 keyboard = KMKKeyboard()
 
-keyboard.col_pins = (board.GP27, board.GP26)
-keyboard.row_pins = (board.GP29, board.GP28)
-
-keyboard.diode_orientation = DiodeOrientation.COL2ROW
-
 # RGB imports
 # TODO: ADD PINS
-rgb = RGB(pixel_pin=board.GP3, num_pixels=2)
+rgb = RGB(pixel_pin=board.GP7, num_pixels=12)
 keyboard.extensions.append(rgb)
 
-# TODO: add OLED display
+# TODO: add waveshare display
 
 encoder_handler = EncoderHandler()
-encoder_handler.pins = ((keyboard.pin_a, keyboard.pin_b, None, False))
+encoder_handler.pins = (
+    # regular direction encoder and a button
+    (
+        board.GP2,
+        board.GP1,
+        board.GP3,
+    ),  # encoder #1 
+)
 
-
-keyboard.keymap = [ # TODO: fix this lol
-    [
-        # Example for rotary encoder
-        KC.AUDIO_VOL_DOWN,
-        KC.AUDIO_VOL_UP,
-
-        # switches
-              KC.F, 
-        KC.U, KC.C, KC.K,
-    ]
+encoder_handler.map = [
+    ((KC.UP, KC.DOWN), ),
 ]
 
+keyboard.keymap = [[
+    KC.AUDIO_VOL_DOWN,
+    KC.AUDIO_VOL_UP,
+]]
 
 if __name__ == '__main__':
     keyboard.go()
