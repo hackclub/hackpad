@@ -30,3 +30,7 @@ A cool Keyboard made in KiCad, OnShape and Blender
  - [Mill Max Socket (0305-2-15-80-47-80-10-0 $22.20)](https://au.mouser.com/ProductDetail/Mill-Max/0305-2-15-80-47-80-10-0?qs=QtQX4uD3c2Uys0ai6Tr8NQ%3D%3D&srsltid=AfmBOooyb6HTM4vnLh8h4yDBkP2k1LwmXXjLIcHoy3S925Os2tJ9olaj) x122
 
  Total Price: AUD$104.05
+![image](https://github.com/user-attachments/assets/1d596d81-42f5-4330-834d-2fec6f1d2484)
+![image](https://github.com/user-attachments/assets/5bfa8c81-7bbb-4232-b9cd-3217f70589d2)
+![image](https://github.com/user-attachments/assets/0bb49dcf-064d-49fc-9f68-46ff5ee30bf5)
+![image](https://github.com/user-attachments/assets/29507283-e1cb-43ca-90c2-2fa88ef2d1fa)
