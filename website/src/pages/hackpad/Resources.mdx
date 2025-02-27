@@ -1,11 +1,19 @@
-# Resources
+# Resources & Tips
 Here lies a collection of resources & tips I've amassed over the years; use them well.
 
 With that in mind, there are *thousands* of other resources on the internet that I can't cover here. Use youtube, reddit, discord, whatever works for you!
 
 If a guide doesn't seem to work, try it again. If it *really* doesn't work, try another guide! The magic of it is to keep at it, because if so many other teens can do it, you absolutely can too.
 
+There is also a list of [common DRC errors here](/errors)
 
+## KiCad Libraries
+- [Keyswitch footprints](https://github.com/ai03-2725/MX_V2)
+- [XIAO Footprints](https://github.com/Seeed-Studio/OPL_Kicad_Library)
+- [Rotary Encoder footprint](https://kicad.github.io/footprints/Rotary_Encoder)
+- [0.91" OLED Display](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty/blob/master/SSD1306-0.91-OLED-4pin-128x32.kicad_mod)
+- You can almost always find the footprint/symbol you're looking for if you use [SnapEDA](https://www.snapeda.com/) or similar sites. Google is your best friend.
+ 
 ## Top Tier
 - [The Keyboard Atelier Discord](https://kbatelier.org/) \<- THE community for keyboard design! PLEASE do not spam the discord though, your best shot is to lurk.
 - [The Keyboard Designer Wiki](https://wiki.ai03.com/books) \<- this is insanely useful
@@ -23,15 +31,15 @@ It has an OLED, a rotary encoder, 4 switches in a matrix, 2 addressable LEDs, an
 - [XIAO RP2040 Docs](https://wiki.seeedstudio.com/XIAO-RP2040/)
 - [Anatomy of a keyboard](https://matt3o.com/anatomy-of-a-keyboard/)
 - [Keyboard Mounting Styles](https://www.keyboard.university/200-courses/keyboard-mounting-styles-4lpp7)
-
-## KiCad Libraries
-- [Keyswitch footprints](https://github.com/ai03-2725/MX_V2)
-- [XIAO Footprints](https://github.com/Seeed-Studio/OPL_Kicad_Library)
-- [Rotary Encoder footprint](https://kicad.github.io/footprints/Rotary_Encoder)
-- [0.91" OLED Display](https://github.com/gorbachev/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty/blob/master/SSD1306-0.91-OLED-4pin-128x32.kicad_mod)
-- You can almost always find the footprint/symbol you're looking for if you use [SnapEDA](https://www.snapeda.com/) or similar sites. Google is your best friend.
+- [Holo's PCB Routing Commandments](https://libsharedobject.so/howsmypcb.html)
 
 ## Useful measurements
+- Making holes for your PCB:
+    - KiCAD has specific footprints for mounting holes, don't use Edge.Cuts - use the M3 mounting holes
+- Making holes for your case:
+    - if you're using [heatset inserts](https://www.aliexpress.us/item/2255800046543591.html), make a 4.7mm diameter hole, 4mm deep
+    - if you're screwing directly into the plastic, use a 2.9mm diameter hole
+    - if you just want the screw to pass through without threading, use a 3.4mm diameter hole.
 - Use a 0.2mm gap between 3D printed parts
 - There's 19.05mm gap between the center of each switch
 - This image shows general height measurements
@@ -45,9 +53,14 @@ It has an OLED, a rotary encoder, 4 switches in a matrix, 2 addressable LEDs, an
 - Generally speaking, go to [grabcad](https://grabcad.com/library) and search for your part + sort by popular, and you should be able to find the model you need
 
 ## Generally useful tips
-- Most DIY keyboards are at least partially open source.
-You can go to their git repositories and copy their tolerances/footprints/schematics/whatever
+- Most DIY keyboards are at least partially open source. You can go to their git repositories and copy their tolerances/footprints/schematics/whatever
 - You can export your KiCad PCB to a PDF and print them to check measurements
-- Most Keyboards are wired in a matrix to save pins, but if you have 5 or less switches just avoid the matrix altogether
+- Most Keyboards are wired in a matrix to save pins, but if you have 6 or less switches just avoid the matrix altogether
 - For screens, just use a 4-pin header for footprints
 - Adding graphics in KiCad is really annoying. Instead, you can design your entire thing in Figma and import it as an overlay instead
+- Google is your best friend. 9 times out of 10 the first result will help you out.
+- Try routing everything on one layers first, if you can't without making a big loop, move to the second layer. This keeps your board clean.
+- Make multiple revisions! I rerouted my first macropad like 10 times while adding stuff.
+- After routing everything, run Tools > Cleanup Tracks & Vias. You gotta press the Build changes button twice for the optimizations to apply.
+- Use a ground fill, they are good!
+- Maybe use some thicker traces! Edit the trace width a at the top left "Track: use netclass width", click edit predefined and add yours. Then select it in the same menu.
