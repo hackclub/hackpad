@@ -5,17 +5,9 @@
 - 1 x Acrylic part 
 - 2 x EC11 15mm Rotary Encoder
 - 1 x MCP23017_SO
-- 84 x [Cherry MX Blue 60g Clicky Switch ](https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky?variant=48020492058924](https://keychron.ca/products/cherry-switch-set?variant=40205838286931)
+- 84 x [Cherry MX Blue 60g Clicky Switch ](https://www.keychron.com/products/cherry-switch-set?variant=40136561492057)
 - 84 x 1N4148 diodes
-- 84 x White Keycaps (75% compact)
-    - 1 x 6.25u (space)
-    - 2 x 2.25u (enter,shift)
-    - 1 x 2.00u (backspace)
-    - 2 x 1.75u (caps lock, shift)
-    - 2 x 1.5u (tab, backslash)
-    - 3 x 1.25u (win,ctrl,alt)
-    - 73 x 1.00u
-- 3 x MX 2.00u Stabilizer
-- 1 x MX 6.25u Stabilizer
+- [Keycaps](https://www.keychron.com/collections/all-keycaps/products/neon-night-cherry-profile-dye-sub-pbt-full-keycap-set)
+- [Stabelizer Set](https://www.keychron.com/products/keychron-gold-plated-pcb-mounted-stabilizer-set)
 - 1 x SSD1306 128x32 OLED (sda,scl,vcc,gnd)
 - 8 x SK6812-MINI-E LED (reverse mount)
