@@ -1,6 +1,7 @@
 # Full-Size Hackpad.V1
 Finally completed my Hackpad consisting of 16 keys and a 0.91" OLED after lots of research and routing lol!
 ![HackpadV1-PCB v1](https://github.com/user-attachments/assets/5e8024fc-5402-4d5d-a6f2-d0932fe3c81d)
+(* Branding on Case is on the bottom side of the Case)
 
 ### Inspiration
 
@@ -15,7 +16,7 @@ Everything was a challenge for me from using KiCad to designing the case in Fusi
 
 BOM: 
 - 16x Cherry MX Switches
-- 16x SK6812 MINI Leds
+- 16x SK6812 MINI-E Reverse Mount Leds
 - 1x XIAO RP2040
 - 16x Blank DSA Keycaps
 - 4x M3x16 Bolt
