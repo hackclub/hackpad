@@ -1,0 +1,13 @@
+## BOM
+- 1 x Raspberry Pi Pico or Orpheus Pico (With headers preferably) (I'm assuming they have the same pinout)
+- 1 x PCB
+- 1 x 3D Case (Black Filament) (3 parts- top, bottom and plate)
+- 1 x Acrylic part 
+- 2 x EC11 15mm Rotary Encoder
+- 1 x MCP23017_SO
+- 84 x [Cherry MX Blue 60g Clicky Switch ](https://www.keychron.com/products/cherry-switch-set?variant=40136561492057)
+- 84 x 1N4148 diodes
+- [Keycaps](https://www.keychron.com/collections/all-keycaps/products/neon-night-cherry-profile-dye-sub-pbt-full-keycap-set)
+- [Stabelizer Set](https://www.keychron.com/products/keychron-gold-plated-pcb-mounted-stabilizer-set)
+- 1 x SSD1306 128x32 OLED (sda,scl,vcc,gnd)
+- 8 x SK6812-MINI-E LED (reverse mount)
