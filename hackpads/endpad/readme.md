@@ -1,22 +1,22 @@
-# Foxpad
-## A Foxy's macropad
+# Endpad
+## A endy's macropad
 
 Primarily intended as a general-use hackpad, intend to use most of the extra F-keys for keybinds primarily for streaming, have way more then needed.
 
 ### Pictures
 
 #### Above
-![Above View](foxpad-assets/foxpad-above.png)
+![Above View](endpad-assets/endpad-above.png)
 #### Diagonal
-![Diagonal View](foxpad-assets/foxpad-diagonal.png)
+![Diagonal View](endpad-assets/endpad-diagonal.png)
 #### Below
-![Below View](foxpad-assets/foxpad-below.png)
+![Below View](endpad-assets/endpad-below.png)
 #### PCB
-![PCB View](foxpad-assets/foxpad-pcb.png)
+![PCB View](endpad-assets/endpad-pcb.png)
 #### 3D PCB
-![3D PCB View](foxpad-assets/foxpad-pcb-3D.png)
+![3D PCB View](endpad-assets/endpad-pcb-3D.png)
 #### Schematic
-![Schematic View](foxpad-assets/foxpad-schematic.png)
+![Schematic View](endpad-assets/endpad-schematic.png)
 
 ### Firmware
 
