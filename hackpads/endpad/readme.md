@@ -1,5 +1,5 @@
 # Endpad
-## A endy's macropad
+## A ProtoFox's macropad
 
 Primarily intended as a general-use hackpad, intend to use most of the extra F-keys for keybinds primarily for streaming, have way more then needed.
 
