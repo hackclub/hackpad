@@ -6,7 +6,8 @@ It contains 6 keys, 4 arrow keys arranged in a reverse T formation, a larger "sp
 ![Screen Shot 2025-02-27 at 10 54 46 PM](https://github.com/user-attachments/assets/f33d8409-1621-4126-9b71-a4046f17201f)
 
 ## BOD
-- 6x Cherry MX Switches
+- 5x CHERRY MX BROWN Switches
+- 1x CHERRY MX BLUE Switches
 - 2x SK6812 MINI Leds
 - 1x XIAO RP2040
 - 6x Blank DSA Keycaps
