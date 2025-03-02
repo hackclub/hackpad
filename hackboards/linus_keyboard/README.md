@@ -27,14 +27,15 @@ I have also added a 128x64 OLED display. I'm planning to implement tetris on it!
 ![pcb.png](pcb.png)
 
 ### F.Cu
-![hackpad-full-keyboard-F_Cu.svg](pcb/hackpad-full-keyboard-F_Cu.svg)
+![hackpad-full-keyboard-F_Cu.svg](./PCB/hackpad-full-keyboard-F_Cu.svg)
 
 ### B.Cu
-![hackpad-full-keyboard-B_Cu.svg](pcb/hackpad-full-keyboard-B_Cu.svg)
+![hackpad-full-keyboard-B_Cu.svg](./PCB/hackpad-full-keyboard-B_Cu.svg)
 
 ### B.Silkscreen
 I added a few cats to the back silkscreen. I hope you like them!
-![hackpad-full-keyboard-B_Silkscreen.svg](pcb/hackpad-full-keyboard-B_Silkscreen.svg)
+
+![hackpad-full-keyboard-B_Silkscreen.svg](./PCB/hackpad-full-keyboard-B_Silkscreen.svg)
 
 ## BOM
 | Part                                               | Quantity | Value (taxes included)                   | Value in $                                     | Link                                                                                                                            |
