@@ -19,3 +19,10 @@ BOM:
 9  - CHERRY_CHERRY_MX yellow
 
 1  - PEC11R-4215F-S0024
+PCB:
+![PCB](image.png)
+SCHEMATIC:
+![schema elettrico](image-1.png)
+CASE:
+![cad1](image-2.png)
+![cad2](image-3.png)
