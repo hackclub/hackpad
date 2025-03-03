@@ -39,6 +39,3 @@ This YSWS is only guaranteed to run through October 21st, so make sure to get yo
 
 List of questions from the slack that you may want answered too:
 
-
-
-
