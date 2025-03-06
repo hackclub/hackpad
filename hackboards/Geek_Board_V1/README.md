@@ -63,3 +63,7 @@ Here should be everything you need to make this keyboard
 - 58x 1N4148 DO-35 Diodes.
 - 1x Orpheus Pico with header pins
 - 1x Case (4x 3D  Printed parts and 2x laser cut acrylic parts)
+
+# Extra stuff
+CAD file download
+http://cdn.hackclubber.dev/slackcdn/bfa912b4b45594d4537d9ada9615cb2f.step
