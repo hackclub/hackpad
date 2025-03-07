@@ -15,12 +15,12 @@ Getting the right size for the keys were a challenge for me. I had to redo the d
 
 BOM:
 
-    1x SEEEDUINO XIAO RP2040
-    14x Cherry MX Switches
-    14x 1N4148 diodes
-    4x M3x16mm screws
-    4x M3 hex nuts
-    7x Neon Green DSA Keycaps for MX Compatible Switches
-    7x Dark Blue DSA Keycaps for MX Compatible Switches
+- 1x SEEEDUINO XIAO RP2040
+- 14x Cherry MX Purple Switches (from Glarses, please use [this](https://ktechs.store/products/cherry-purple-tactile-switches) if possible)
+- 14x 1N4148 diodes
+- 4x M3x16mm screws
+- 4x M3 hex nuts
+- 7x Neon Green DSA Keycaps for MX Compatible Switches (please use [this](https://www.adafruit.com/product/5015) if possible)
+- 7x Dark Blue DSA Keycaps for MX Compatible Switches (please use [this](https://www.adafruit.com/product/5016) if possible)
 
 (Extras for backup)
