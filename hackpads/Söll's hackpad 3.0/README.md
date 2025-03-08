@@ -38,12 +38,12 @@
 
 ## Pictures
 
-	![Here is the picture of my case](case.jpg)
+	![Here is the picture of my case][case.jpg]
 	This is my case. It's a plug-in system becase I think that's better and 'cleaner' for me.
 
-	![Here is the picture of my overall hackpad](overal_hackpad.jpg)
+	![Here is the picture of my overall hackpad][overal_hackpad.jpg]
 	
-	![Here is the picture of my shematics](schematic.jpg)
+	![Here is the picture of my shematics][schematic.jpg]
 
 
 **BOM:**
