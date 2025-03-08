@@ -43,9 +43,11 @@ case](https://github.com/Violix13/hackpad/blob/main/hackpads/S%C3%B6ll's%20hackp
 This is my case. It's a plug-in system becase I think that's better and
 'cleaner' for me.
 
-	![Here is the picture of my overall hackpad][overal_hackpad.jpg]
+![Here is the picture of my overall
+hackpad](https://github.com/Violix13/hackpad/blob/main/hackpads/S%C3%B6ll's%20hackpad%203.0/overal_hackpad.jpg)
 	
-	![Here is the picture of my shematics][schematic.jpg]
+![Here is the picture of my
+shematics](https://github.com/Violix13/hackpad/blob/main/hackpads/S%C3%B6ll's%20hackpad%203.0/schematic.jpg)
 
 
 **BOM:**
