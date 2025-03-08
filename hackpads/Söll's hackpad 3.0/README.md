@@ -18,6 +18,7 @@
 - an Oled-Display
 - XIAO-RP2040-DIP
 - IQ-Expander
+
    **everything possible in black please**
 
 ## case:
