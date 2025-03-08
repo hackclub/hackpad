@@ -7,33 +7,32 @@
 
 ## Ideas:
 
-	- make it like in the style of my keyboard
+- make it like in the style of my keyboard
  
 
 ## Features:
 
-	- 2 rotary encoders
-	- 12 normal switches (switch matrix)
-	- 12 LED's under the switches 
-	- an Oled-Display
-	- XIAO-RP2040-DIP
-	- IQ-Expander
+- 2 rotary encoders
+- 12 normal switches (switch matrix)
+- 12 LED's under the switches 
+- an Oled-Display
+- XIAO-RP2040-DIP
+- IQ-Expander
 
- 
-   **!everything possible in black please!**
+   **everything possible in black please**
 
 ## case:
 
-	- like my keyboard
-	- Plug-in system
+- like my keyboard
+- Plug-in system
  
 
 
 ## *IMPORTANT:*
 
-	- every possible in black (for example the case or the switches)
-	- code isn't completely ready yet, but with my Hackpad I will fix it
-	- please check if my case is only 10*10cm because I made it with Blender and sometimes there happens some Mistakes
+- every possible in black (for example the      case or the switches)
+- code isn't completely ready yet, but with      my Hackpad I will fix it
+- please check if my case is only 10*10cm       because I made it with Blender and             sometimes there happens some Mistakes
 
 
 ## Pictures
