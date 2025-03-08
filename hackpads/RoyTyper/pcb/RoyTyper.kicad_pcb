@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,42 +9,43 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(grid_origin 90.225 60.325)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0001100_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02020000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -54,7 +55,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin yes)
 			(hpglpennumber 1)
@@ -62,16 +62,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue no)
-			(plotfptext yes)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab yes)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -131,19 +135,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ebc0e44-6897-4e1f-9f2b-ce2db614df82")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -326,7 +317,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "0e5e096d-cd87-4859-b79b-e5618c69366e")
 		)
@@ -356,7 +347,7 @@
 		(pad "1" smd rect
 			(at -1.75 -0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "unconnected-(D12-DOUT-Pad1)")
 			(pinfunction "DOUT")
 			(pintype "output")
@@ -365,7 +356,7 @@
 		(pad "2" smd rect
 			(at -1.75 0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
@@ -374,7 +365,7 @@
 		(pad "3" smd rect
 			(at 1.75 0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "Net-(D11-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
@@ -383,12 +374,13 @@
 		(pad "4" smd rect
 			(at 1.75 -0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "+5V")
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(uuid "854408aa-33a6-4734-8b0e-4ef75a79cd04")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -436,19 +428,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d0b1106-97a5-4952-9b6c-23613c05c09c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -697,6 +676,7 @@
 			(pintype "passive")
 			(uuid "6f29d8f9-e11f-4989-bbca-6ecd34b723bd")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -745,19 +725,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82666aa8-8cdb-4b22-bc8c-c4e0cb99177d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1006,6 +973,7 @@
 			(pintype "passive")
 			(uuid "340d09d9-9e66-4e72-bd57-f94a7cb16baa")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -1054,19 +1022,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74c6be93-75bb-43a6-b68a-f6515e7ce53e")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1315,6 +1270,7 @@
 			(pintype "passive")
 			(uuid "02f8f928-974b-4b5d-a1b1-64948e47bd60")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -1363,19 +1319,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "85b80d7e-bd94-47e0-9c50-c709e85eb377")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1624,6 +1567,7 @@
 			(pintype "passive")
 			(uuid "6fed602c-95bd-4dec-abec-21cc685ca461")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -1672,19 +1616,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "249be698-8e6b-4994-80aa-6dc81e99ff11")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1933,6 +1864,7 @@
 			(pintype "passive")
 			(uuid "7cb252b6-3fc6-4177-a9e8-8b4e562b316c")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -1981,19 +1913,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81b0350e-c6a4-47a9-9a64-294ceeab9204")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2242,6 +2161,7 @@
 			(pintype "passive")
 			(uuid "8e6af25b-bf44-4fee-90bb-7408887b3d7a")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -2290,18 +2210,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ca4e1d3-4106-4c98-b32f-4750f61f532d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2482,7 +2390,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "932f0872-225a-4d47-a7a3-a35708a5428e")
 		)
@@ -2603,7 +2511,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "2b687a09-c31b-4d99-9b7a-7a4ae255c4fb")
 		)
@@ -2689,6 +2597,7 @@
 			(pintype "passive")
 			(uuid "b7b499aa-43a1-4217-be0b-2b7ac150bf18")
 		)
+		(embedded_fonts no)
 		(model "${KISYS3DMOD}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles.wrl"
 			(hide yes)
 			(offset
@@ -2737,19 +2646,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "065de5a1-a458-4983-be44-341344a0149c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2998,6 +2894,7 @@
 			(pintype "passive")
 			(uuid "37aba2d1-eba7-4562-9da4-57111b143960")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -3046,19 +2943,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b547e11b-53b6-4fd8-8895-6f656935402c")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3307,6 +3191,7 @@
 			(pintype "passive")
 			(uuid "e4d9e460-0aad-44d6-ad2f-dd6acfe879e5")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -3355,19 +3240,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "33454e10-965a-453b-b636-947323015d0f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3550,7 +3422,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "dbfa14d8-52e9-4dae-9063-59a0654405a2")
 		)
@@ -3580,7 +3452,7 @@
 		(pad "1" smd rect
 			(at -1.75 -0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "Net-(D11-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
@@ -3589,7 +3461,7 @@
 		(pad "2" smd rect
 			(at -1.75 0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
@@ -3598,7 +3470,7 @@
 		(pad "3" smd rect
 			(at 1.75 0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "Net-(D10-DOUT)")
 			(pinfunction "DIN")
 			(pintype "input")
@@ -3607,12 +3479,13 @@
 		(pad "4" smd rect
 			(at 1.75 -0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "+5V")
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(uuid "fef46568-b18b-4064-ac92-d1ebb566147a")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3660,19 +3533,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:SW_Cherry_MX_1.00u_PCB"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72dbb058-1cbb-4d34-a1e3-efb0029781da")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3921,6 +3781,7 @@
 			(pintype "passive")
 			(uuid "297441b2-a53e-4533-af7e-52a211951de9")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 			(hide yes)
 			(offset
@@ -3969,19 +3830,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "227831bf-84e6-42c8-94eb-34fea03d56ff")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4164,7 +4012,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "c4281ac5-d7c6-4a25-baf7-e382e26fc87a")
 		)
@@ -4194,7 +4042,7 @@
 		(pad "1" smd rect
 			(at -1.75 -0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "Net-(D10-DOUT)")
 			(pinfunction "DOUT")
 			(pintype "output")
@@ -4203,7 +4051,7 @@
 		(pad "2" smd rect
 			(at -1.75 0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "GND")
 			(pinfunction "VSS")
 			(pintype "power_in")
@@ -4212,7 +4060,7 @@
 		(pad "3" smd rect
 			(at 1.75 0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "Net-(D10-DIN)")
 			(pinfunction "DIN")
 			(pintype "input")
@@ -4221,12 +4069,13 @@
 		(pad "4" smd rect
 			(at 1.75 -0.875)
 			(size 1.6 0.85)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "+5V")
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(uuid "04dca159-5358-468f-9d74-e7e08af70041")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4275,19 +4124,6 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.1016)
-				)
-			)
-		)
-		(property "Footprint" "3dModels:XIAO-RP2040-DIP"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26071ef6-9ee2-46e1-a708-4c1ce8bbf8a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4474,7 +4310,7 @@
 				(width 0.5)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "4c439ab4-4d55-4849-8464-fd9208b4f892")
 		)
@@ -4485,7 +4321,7 @@
 				(width 0.5)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "07bb72f9-d279-43e9-b7ce-2e64af1a2aab")
 		)
@@ -4496,7 +4332,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "0670ce3d-b061-4ba5-828d-f13cf1a63681")
 		)
@@ -4507,7 +4343,7 @@
 				(width 0.1)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "a71794e3-0b65-40bb-b975-3770cb126be2")
 		)
@@ -4518,7 +4354,7 @@
 				(width 0.5)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "21225f82-af79-46d8-9266-533c413f61f6")
 		)
@@ -4830,6 +4666,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "a20213f4-d636-490b-8dcd-e8a5b81a43b0")
 		)
+		(embedded_fonts no)
 		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
 			(hide yes)
 			(offset
@@ -4909,7 +4746,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D8"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "d9357289-8a28-4b6b-a721-c2d9a8a30e4d")
 			(effects
@@ -4921,7 +4758,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "c85ba2fa-6cba-4be4-8f54-db58a86f0334")
 			(effects
@@ -4932,22 +4769,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "301d731c-e7ed-4c53-97c4-71d6789c9312")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4961,7 +4784,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4975,7 +4798,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4989,7 +4812,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5228,7 +5051,7 @@
 			(uuid "2e99885b-1018-4e5f-9fbe-6852438e24cd")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "9bbf1e1f-1e62-40d2-af53-f699e546318a")
 			(effects
@@ -5240,7 +5063,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "0c9b2017-d0a1-478f-9c08-124d16f4085b")
 			(effects
@@ -5252,7 +5075,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "3aeefa63-2db5-4f79-b159-b1c6a8a138ff")
 			(effects
@@ -5285,6 +5108,7 @@
 			(pintype "passive")
 			(uuid "3e2e1ebe-e5e1-4aa5-9b9a-84583d72ae12")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5304,7 +5128,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D7"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "61fead91-6903-49ba-9e35-49c1978d8657")
 			(effects
@@ -5316,7 +5140,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "01ddc2b8-9582-4fd7-a51a-95c1239c8dc1")
 			(effects
@@ -5327,22 +5151,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0775df88-5776-473a-a35d-34b6543599b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5356,7 +5166,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5370,7 +5180,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5384,7 +5194,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5623,7 +5433,7 @@
 			(uuid "73b31625-c93d-4cd4-96fe-8b34ccbc09a5")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "5ac07edc-0b91-4d19-8aca-e58238a5460d")
 			(effects
@@ -5635,7 +5445,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "09d81e72-f56c-48f1-a3af-0959eb99b3fb")
 			(effects
@@ -5647,7 +5457,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "ef3d8e45-069c-44ce-a5bf-48ebaf7ed3cb")
 			(effects
@@ -5680,6 +5490,7 @@
 			(pintype "passive")
 			(uuid "50191370-38ab-40fa-8c73-df2049a09a72")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5699,7 +5510,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "8dda1628-bcce-4592-aceb-4c1c2fdf96fb")
 			(effects
@@ -5711,7 +5522,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "2627d00d-a428-4fcc-a3cb-007f52924cd7")
 			(effects
@@ -5722,22 +5533,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "023d70da-f779-41a6-b185-7f1b5cf82b2c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5751,7 +5548,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5765,7 +5562,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5779,7 +5576,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6018,7 +5815,7 @@
 			(uuid "944e4a1f-0d23-4929-909d-7e467fa016de")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "5efd4705-c44b-4b36-9dbc-8b3e17104562")
 			(effects
@@ -6030,7 +5827,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "0ae8d3bf-1548-43e6-9ba9-7ce65f62fda0")
 			(effects
@@ -6042,7 +5839,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "a8746be1-8520-49b7-9f2d-30b460555053")
 			(effects
@@ -6075,6 +5872,7 @@
 			(pintype "passive")
 			(uuid "d2121770-c45e-48d0-894c-078bb188bc12")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6094,7 +5892,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D9"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "2b098318-ffa5-4eb5-8fa3-3ed1aa158d63")
 			(effects
@@ -6106,7 +5904,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "1dd8829e-434d-4b96-8938-3a4407deefc8")
 			(effects
@@ -6117,22 +5915,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ce047b9c-07d8-4f4d-a299-157c95036210")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6146,7 +5930,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6160,7 +5944,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6174,7 +5958,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6413,7 +6197,7 @@
 			(uuid "05fae6db-2656-4fa4-b7b2-5ae34581e0db")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "2aa8138d-3a77-424a-95de-02f50ee81cdf")
 			(effects
@@ -6425,7 +6209,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "254750a1-a728-4190-bd54-15d0a2683d08")
 			(effects
@@ -6437,7 +6221,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "9aaee8cf-c161-4df3-9f9e-84ef02114bbf")
 			(effects
@@ -6470,6 +6254,7 @@
 			(pintype "passive")
 			(uuid "909a4dea-f48e-4be5-9ff7-77367d327772")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6489,7 +6274,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D6"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "f1e391bd-f81d-41e5-8ce0-8aedb5bd06bd")
 			(effects
@@ -6501,7 +6286,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "88b38ce9-af32-4956-b3eb-9b8caaca532a")
 			(effects
@@ -6512,22 +6297,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "34cb0e90-7d7b-457e-be56-e76455323569")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6541,7 +6312,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6555,7 +6326,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6569,7 +6340,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6808,7 +6579,7 @@
 			(uuid "677cb904-2465-4d90-a409-c3c0434e6ef7")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "9be801a9-e814-4e48-87d5-e3ae9803d33f")
 			(effects
@@ -6820,7 +6591,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "7841d8ff-5019-4d4c-8b57-997af3fbedad")
 			(effects
@@ -6832,7 +6603,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "bad25db3-8bac-4582-95d8-4c2dc4bb9ab7")
 			(effects
@@ -6865,6 +6636,7 @@
 			(pintype "passive")
 			(uuid "ca85473e-aeb7-4a4f-8e49-c4d6c9d70dd1")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6884,7 +6656,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "65e22104-cf2f-493b-8f71-f411258197af")
 			(effects
@@ -6896,7 +6668,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "816d6cc3-60e3-4933-b592-ee411f6ca338")
 			(effects
@@ -6907,22 +6679,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c2068d3d-15c2-4af9-b3b7-aab3ef12324b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6936,7 +6694,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6950,7 +6708,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6964,7 +6722,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7203,7 +6961,7 @@
 			(uuid "3d8c3d36-a275-4fd6-ad3c-ffbf51357dff")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "c814cff1-953e-4cc0-ba6d-df1a251c9941")
 			(effects
@@ -7215,7 +6973,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "2acd9634-3b8c-4297-8091-9003573aa092")
 			(effects
@@ -7227,7 +6985,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "d679fd93-9c5d-40f4-9d76-eed981a7de75")
 			(effects
@@ -7260,6 +7018,7 @@
 			(pintype "passive")
 			(uuid "e972bd45-ae3c-4906-8d2f-faffe5ae3cd1")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -7279,7 +7038,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D5"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "55dc668d-6fcc-4657-aca9-9a15815afb22")
 			(effects
@@ -7291,7 +7050,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "87fc8199-0a3b-481a-bd6d-dcfe50fca747")
 			(effects
@@ -7302,22 +7061,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "64c639e9-6525-40aa-84f5-0ce679c0a840")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7331,7 +7076,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7345,7 +7090,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7359,7 +7104,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7598,7 +7343,7 @@
 			(uuid "9a0dfd6d-242d-4ed9-a81c-44ede2918dcb")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "6b6525a6-8454-41d8-957e-6f8e194bc311")
 			(effects
@@ -7610,7 +7355,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "35f238a3-a95b-4017-ad8d-b45d7325fe50")
 			(effects
@@ -7622,7 +7367,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "a8159cc9-b5d2-4a54-943a-fc9aa706a999")
 			(effects
@@ -7655,6 +7400,7 @@
 			(pintype "passive")
 			(uuid "1c498174-843a-4617-a277-c3684ccf764c")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -7674,7 +7420,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "03ec1681-a29c-4a36-bb64-002f15ec60ee")
 			(effects
@@ -7686,7 +7432,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "3743347b-5606-4c21-b075-b5d081d7b5b3")
 			(effects
@@ -7697,22 +7443,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a77331e2-baa8-44a1-bbaf-f558166f012e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7726,7 +7458,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7740,7 +7472,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7754,7 +7486,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7993,7 +7725,7 @@
 			(uuid "697b7a79-4909-48af-9d31-d8955856bcd3")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "28b4e16b-98c5-45e5-aaa5-40276998b481")
 			(effects
@@ -8005,7 +7737,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "4f5d1349-8b82-4c7c-8e8d-9b3a394edd2d")
 			(effects
@@ -8017,7 +7749,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "f4a477cb-9235-495c-a7ca-bd966026468a")
 			(effects
@@ -8050,6 +7782,7 @@
 			(pintype "passive")
 			(uuid "7cb3c4d9-1050-4bb8-823c-afcf1ec53f41")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -8069,7 +7802,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
-			(at 3.81 2.12 -90)
+			(at 3.81 2.12 270)
 			(layer "B.SilkS")
 			(uuid "918a77d3-b774-4768-a160-a1b23f40ea3e")
 			(effects
@@ -8081,7 +7814,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 3.81 -2.12 -90)
+			(at 3.81 -2.12 270)
 			(layer "B.Fab")
 			(uuid "35b74d23-f7bf-455c-bf94-5ffdbbc2697e")
 			(effects
@@ -8092,22 +7825,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "809ab4b0-9125-4eca-966e-7ecc673f0fc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8121,7 +7840,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8135,7 +7854,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8149,7 +7868,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8388,7 +8107,7 @@
 			(uuid "e4b0bde3-f9bc-41ca-9479-4ee48794ac3f")
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.SilkS")
 			(uuid "ff44a927-d138-4f44-8503-1fd85e4202ff")
 			(effects
@@ -8400,7 +8119,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 -90)
+			(at 4.11 0 270)
 			(layer "B.Fab")
 			(uuid "2bec0f4d-2757-47f9-bfa6-25ee2e0fb3a0")
 			(effects
@@ -8412,7 +8131,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 1.8 -90)
+			(at 0 1.8 270)
 			(layer "B.Fab")
 			(uuid "bb26870e-0df6-47d6-a21f-526c775315ac")
 			(effects
@@ -8445,6 +8164,7 @@
 			(pintype "passive")
 			(uuid "dfff593a-8d88-4c0d-92c7-4b245b1f9b78")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -8464,7 +8184,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f93500a0-0c59-4a95-96f7-e1f6005b98ad")
 	)
@@ -9584,4 +9304,5 @@
 		(net 25)
 		(uuid "d8152303-ff55-4a52-ac59-585cd6c5b475")
 	)
+	(embedded_fonts no)
 )
