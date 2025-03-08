@@ -38,8 +38,10 @@
 
 ## Pictures
 
-	![Here is the picture of my case](hackpads/Söll's hackpad 3.0/case.jpg)
-	This is my case. It's a plug-in system becase I think that's better and 'cleaner' for me.
+![Here is the picture of my
+case](https://github.com/Violix13/hackpad/blob/main/hackpads/S%C3%B6ll's%20hackpad%203.0/case.jpg)
+This is my case. It's a plug-in system becase I think that's better and
+'cleaner' for me.
 
 	![Here is the picture of my overall hackpad][overal_hackpad.jpg]
 	
