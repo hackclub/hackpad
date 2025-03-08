@@ -6,7 +6,7 @@ Really happy with what I made. I might update the art on the PCB, but I just wan
 
 **Switches:**  
 [Lunar Probe Switches](https://milktooth.com/products/switches/lunar-probe?gQT=2) - 10 switches @ $4.19 x 10 + $5 shipping = $46.90  
-Cost per switch: $0.469  
+Cost per switch: $0.469  (They are on sale rn, but if they don't go on sale imma either wait or just pay out of pocket!)
 
 ---
 
