@@ -1,6 +1,6 @@
 # Introducing, the KeenPad V1:</br>
-CAD: ![case]([http://url/to/img.png](https://raw.githubusercontent.com/keenwarice/hackpad/refs/heads/main/hackpads/KeenpadV1/assets/cad2.png))
-PCB: ![pcb with lots of art]([http://url/to/img.png](https://raw.githubusercontent.com/keenwarice/hackpad/refs/heads/main/hackpads/KeenpadV1/assets/pcb.png))
+CAD: ![case](https://raw.githubusercontent.com/keenwarice/hackpad/refs/heads/main/hackpads/KeenpadV1/assets/cad2.png))
+PCB: ![pcb with lots of art](https://raw.githubusercontent.com/keenwarice/hackpad/refs/heads/main/hackpads/KeenpadV1/assets/pcb.png))
 I was inspired by myself, as i created the design along the way. This is the first PCB ive ever made, and am pround of it. One challenge i have overcome is my procrastination, which has pushed writing this readme and making the firmware to tthe deadline. <br/>
 BOM: <br/>
 1x EC11E Rotary encoder with switch <br/>
