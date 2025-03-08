@@ -2,7 +2,7 @@
 
 ## Problems:
 
-	- Code is very difficult without the hackpad
+- Code is very difficult without the hackpad
  
 
 ## Ideas:
