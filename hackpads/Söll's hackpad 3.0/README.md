@@ -29,7 +29,7 @@
  
 
 
-*IMPORTANT:*
+## *IMPORTANT:*
 
 	- every possible in black (for example the case or the switches)
 	- code isn't completely ready yet, but with my Hackpad I will fix it
