@@ -44,12 +44,14 @@ This is my case. It's a plug-in system becase I think that's better and
 
 ![Here is the picture of my overall
 hackpad](https://github.com/Violix13/hackpad/blob/main/hackpads/S%C3%B6ll's%20hackpad%203.0/overal_hackpad.jpg)
+This is my PCB.
 	
 ![Here is the picture of my
 shematics](https://github.com/Violix13/hackpad/blob/main/hackpads/S%C3%B6ll's%20hackpad%203.0/schematic.jpg)
+That are the shematics.
 
 
-**BOM:**
+# **BOM:**
 
 1. 12*Red Cherry MX switches
 2. 12*keycaps (black)
