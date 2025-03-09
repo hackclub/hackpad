@@ -21,7 +21,7 @@
 
    **everything possible in black please**
 
-## case:
+## Case:
 
 - like my keyboard
 - Plug-in system
