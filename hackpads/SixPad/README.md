@@ -6,19 +6,19 @@ I didn't know what to name it so I just used the number of keys :)
 
 ### Full Render
 
-[](./assets/SixPad_Full_Render.png)
+![](./assets/SixPad_Full_Render.png)
 
 ### Schematic
 
-[](./assets/SixPad_Schematic.png)
+![](./assets/SixPad_Schematic.png)
 
 ### PCB
 
-[](./assets/SixPad_PCB.png)
+![](./assets/SixPad_PCB.png)
 
 ### Case
 
-[](./assets/SixPad_Case.png)
+![](./assets/SixPad_Case.png)
 
 ## Bill of Materials (BOM)
 
