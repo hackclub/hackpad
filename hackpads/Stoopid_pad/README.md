@@ -35,18 +35,18 @@ I had a lot of fun making the macropad, this was my first time making a PCB, tho
 
 Finished Macropad:
 
-<img alt="finished hackpad" src="Assets/case.PNG" width=400>
+<img alt="finished hackpad" src="https://github.com/Stupid-Creations/hackpad/edit/main/hackpads/Stoopid_pad/README.mdhttps://hc-cdn.hel1.your-objectstorage.com/s/v3/34ac41ba874e7db8696b003478140c16b5a01c30_case.png" width=400>
 
 Schematic:
 
-<img alt="schematic" src="Assets/schematic.PNG" width=400>
+<img alt="schematic" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d53e3d56873dfb47e80dcb9cf9a4a0f55ffbc020_schematic.png" width=400>
 
 PCB!:
 
-<img alt="PCB front" src="Assets/pcb.PNG" width=400>
+<img alt="PCB front" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d53e3d56873dfb47e80dcb9cf9a4a0f55ffbc020_schematic.pnghttps://hc-cdn.hel1.your-objectstorage.com/s/v3/c032ce6f414d45428fd9afcf8ee7e3b0e2b0a2c3_pcb.png" width=400>
 
 Another Macropad photo because why not:
 
-<img alt="PCB back" src="Assets/pad.PNG" width=400>
+<img alt="PCB back" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/26b58fc37b47ed6ce0d8eade9a856c8dc9072ca2_pad.png" width=400>
 
 
