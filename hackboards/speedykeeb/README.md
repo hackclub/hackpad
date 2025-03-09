@@ -17,10 +17,10 @@ This is my Keyboard. It has compartments on the left for screws and such and a c
 
 
 
-![](D:\hackpad\speedykeeb\submission\speedykeeb\img\assembly.png)
+![](img\assembly.png)
 
-![](D:\hackpad\speedykeeb\submission\speedykeeb\img\case.png)
+![](img\case.png)
 
-![](D:\hackpad\speedykeeb\submission\speedykeeb\img\pcb.png)
+![](img\pcb.png)
 
-![](D:\hackpad\speedykeeb\submission\speedykeeb\img\schematic.png)
+![](img\schematic.png)
