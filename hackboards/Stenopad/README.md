@@ -4,17 +4,17 @@ This is my hackpad full keyboard submission!
 # PCB
 Schematic:
 
-![schematic]()
+![schematic](https://github.com/B-Eddie/hackpad/blob/main/hackboards/Stenopad/assets/schematic.png)
 
 PCB:
 
-![pcb]()
+![pcb](https://github.com/B-Eddie/hackpad/blob/main/hackboards/Stenopad/assets/pcb.png)
 
 
 # CAD
 Used Onshape
 
-![cad]()
+![cad](https://github.com/B-Eddie/hackpad/blob/main/hackboards/Stenopad/assets/cad.png)
 
 # Firmware
 The firmware is written using KMK and uses the Steno layout
@@ -35,6 +35,9 @@ The firmware is written using KMK and uses the Steno layout
 <!-- - 1x Orpheus Pico -->
 <!-- - 4x M3 x 16mm Screws
 - 4x M3 Heatset -->
+
+# Inspiration
+When I started looking for my first actual keyboard, I found out about StenoKeyboards, where a bunch of YouTube videos boast 200+ wpm typing speeds. However, after just getting a plain old mechanical keyboard, I forgot about StenoKeyboards for a long time. However, when I found out about Hackpad, I suddenly remembered StenoKeyboards and wanted to make one myself.
 
 # Extra notes
 Steno Keyboard!!!
