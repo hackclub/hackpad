@@ -1,0 +1,34 @@
+---
+modified: 2025-02-11T08:53:41-07:00
+---
+- ~~Chrono key~~ Some fantasy mythacal item.
+- ~~fingerstick~~ Healthcare needles, no thank you!
+- ~~fighter stick~~. Already exists as a controller
+- ~~water stick~~ Water softener for showers.
+- keygame
+- ~~keynote~~ Something else entirely
+- ~~Controkey~~ To similar to Ctrl key
+- macrolight
+- keylight
+- lightfire
+- firelight
+- firekey
+- furkey
+- turkey
+- jerkey
+- herkey
+- gamekey
+- keystick
+- ~~tofurkey~~ Fun but weird
+- CADkey
+- mkey dash
+- ~~macrokey dash~~ Lame
+- light con
+- ~~legit dash~~ to similar
+- ~~shrimp-key~~ taken
+- keyfire controller
+- dash key
+- Casykey
+- Caskey
+- Pulas-key
+- 
