@@ -6,11 +6,12 @@ Geek Board is a 60% ortholinear keyboard inspired by the  [Luberjack](https://gi
 ## Features:
 
 - Acrylic and 3D printed case.
+- Hotswapable
 - Orpheus pico on board.
 - QMK programable
 - PCB Silk screen is full of geeky references. 
   
-	![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7d079ccc81a24134a429726e48cc29f38766325f_ksnip_20250306-125442.png)
+	![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8e8ab3bb088a54dce387c8db0a40c2dd4bebee42_ksnip_20250310-155713.png)
 
 ## CAD Model:
 
@@ -32,7 +33,7 @@ Schematic
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3f88b6cae6a1d0285467371a5b3b22f281631e03_ksnip_20250306-122451.png)
 
 PCB
-![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/738a73d419cec2e1c65867047dc1f95355b757e9_ksnip_20250306-122130.png)
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/9ea058a626d398d66156359574e13b3e3d69c35e_ksnip_20250310-155614.png)
 
 ## Firmware Overview
 
@@ -56,6 +57,7 @@ Here should be everything you need to make this keyboard
 
 - 1x PCB
 - 58x GEON HG Red / Silent Linear switches
+- 58x kailh hot swap sockets
 - 1x [keycap](https://www.amazon.de/YMDK-Profile-Keyset-Mechanical-Keyboard/dp/B07S18VCDN?ref_=ast_sto_dp&th=1) set with 56x 1u keys and 2x 2u keys.
 - 1x SW Knight Stabilizers (V3) set you will only need 2x 2u's for the build.
 - 6x m2x16 screws
