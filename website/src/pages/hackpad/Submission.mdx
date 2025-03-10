@@ -8,7 +8,7 @@ Finally finished your hackpad? Nice job! Follow along and we're going to make su
 - [Publishing the design](#publishing)
 
 <a name="structure"/>
-## Structuring your project
+## Structuring your project design files
 To make reviewing easier, we need to make sure that the source files of our project are formatted in a way that's complete & easy to navigate.
 
 ### 1) Make sure you have everything necessary:
@@ -17,31 +17,35 @@ Before we organize anything, make sure
 - A *complete* CAD model of the assembled case in .STEP, .STP or .3MF format
     - This should include the PCB (a blank rectangle is okay!) and all parts of the case
 - Original firmware for your macropad. QMK, KMK, ZMK, etc derivatives are valid
-- A complete BOM (Bill of Materials) with all the parts you would like in a separate markdown document!
 
 Additionally, make sure you meet the following requirements:
 - Your design uses a through-hole Seeed XIAO RP2040 as the main MCU
 - Your PCB is smaller or equal to 100mmx100mm
 - Your case fits within 200x200x100mm (length / width / height)
 - You have less than 16 inputs (switches, encoders, etc)
-- You are using approved parts only (You can buy extra parts with the 20$ grant)
+- You are using approved parts only
 - The PCB only uses 2 layers
 - Your case only has 3D printed parts
 
 If you have all of that, it should be ready to go!
 
 ### 2) Organize your folders
-The above is a LOT of files! To make reviewing as easy as possible, your submission format should have 3 folders:
+The above is a LOT of files! To make organization easy, you should create a folder for each part of your macropad:
 
-- PCB
-- firmware
-- CAD
+**CAD:**
+This should contain a single file containing your ENTIRE hackpad. This should be a .STEP, .STP, or .3MF file
 
-Put each part of your design in their correspoding folders.
+**PCB:**
+This should contain your PCB Design files
+
+**Firmware: **
+This should contain the source files for your firmware. main.py if you're using KMK, and then several files if you're using QMK
+
+In total, you should have 3 folders in your project folder.
 
 <a name="export"/>
 ## Creating production files
-Nice job on organizing your files! Next, we need to create the manufacturing files that will actually be used to build your project.
+Nice job on organizing your design files! Next, we need to create the manufacturing files that will actually be used to build your project.
 
 This is separate from the source files, which are usually a reference to check out & iterate on your design.
 
@@ -103,9 +107,13 @@ Once everything is organized, you can make a PR to the repository [here](https:/
 
 ### After submitting
 If everything went correctly, your PR will be reviewed (and hopefully approved!) by @alexren. If it's approved, then you'll get:
-- All of your parts from the approved list
+- All of your parts from the approved list shipped from HQ
 - A soldering iron
 - A $20 grant for your PCB + custom components
 - Your 3D printed case
 
+Fulfillment will begin during march break. You can work on your keyboard immediately after it's approved and merged
+
 For many of you, the firmware may not work the first try. That's okay! Keep working at it until it's fixed; if you send a video in #hackpad showing it working, I'll ship you a free custom hack-club keycap and sticker!
+
+Any questions? Check out the [FAQ](/faq)
