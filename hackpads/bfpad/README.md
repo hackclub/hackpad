@@ -12,7 +12,7 @@ i want to leave the PCB exposed, so i made a stand that can be attached to the P
 
 the 8 keys (and secret 9th rotary encoder key) are addressed via a 3x3 key matrix, using only 6 pins of the RP2040.
 ![schematic](assets/schematic.png)
-this pcb was incredibly annoying to route the first time around. i rerouted it after reading some pcb tips and it turned out... better. i think.
+this is the third iteration of the PCB.
 ![pcb](assets/pcb.png)
 
 ## BOM

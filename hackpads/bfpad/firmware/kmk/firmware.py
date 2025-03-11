@@ -1,31 +1,38 @@
-# You import all the IOs of your board
 import board
-
-# These are imports from the kmk library
+import busio
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.scanners import DiodeOrientation
 from kmk.keys import KC
-from kmk.modules.macros import Press, Release, Tap, Macros
+from kmk.modules.encoder import EncoderHandler
+from kmk.extensions.display import Display, TextEntry, ImageEntry
+from kmk.extensions.display.ssd1306 import SSD1306
+from kmk.extensions.RGB import RGB
 
-# This is the main instance of your keyboard
 keyboard = KMKKeyboard()
 
-# Add the macro extension
-macros = Macros()
-keyboard.modules.append(macros)
+encoder = EncoderHandler()
+encoder_handler.pins = ((board.SCK, board.RX, None,),)
+encoder_handler.map = [((KC.VOLD, KC.VOLU, KC.NO,),)]
+keyboard.modules.append(encoder)
 
-# Define your pins here!
-keyboard.col_pins = (board.A0, board.A1, board.A2)
-keyboard.row_pins = (board.A3, board.MISO, board.MOSI)
+i2c_bus = busio.I2C(board.SCL, board.SDA)
+display_driver = SSD1306(i2c=i2c_bus)
+display = Display(display=display_driver)
+display.entries = [
+	ImageEntry(image="pfptiny.bmp", x=0, y=0),
+	TextEntry(text="bfpad", x=40, y=16, y_anchor="M")
+]
+keyboard.extensions.append(display)
+
+rgb = RGB(pixel_pin = board.TX, num_pixels=11)
+keyboard.extensions.append(rgb)
+
+keyboard.col_pins = (board.MOSI, board.A0, board.MISO)
+keyboard.row_pins = (board.A3, board.A2, board.A1)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
-
-# Here you define the buttons corresponding to the pins
-# Look here for keycodes: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/keycodes.md
-# And here for macros: https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/macros.md
 keyboard.keymap = [
-    [[KC.RABK, KC.DOT, KC.COMMA], [KC.LABK, KC.PLUS, KC.LBRACKET], [KC.MINUS, KC.NO, KC.RBRACKET]]
+    [[KC.RABK, KC.DOT, KC.COMMA], [KC.LABK, KC.PLUS, KC.LBRACKET], [KC.MINUS, KC.MUTE, KC.RBRACKET]]
 ]
 
-# Start kmk!
 if __name__ == '__main__':
     keyboard.go()
