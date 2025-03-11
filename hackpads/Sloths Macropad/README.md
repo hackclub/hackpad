@@ -22,3 +22,9 @@ Others:
 
 TOP.stl
 BOTTOM.stl
+
+#Inspiration and Challenges
+This project marked my first time using KiCad for PCB design, which was difficult for me and required a lot of fixing.
+
+I just wanted to create something electronic as I had never done so before
+
