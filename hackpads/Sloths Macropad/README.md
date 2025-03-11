@@ -7,7 +7,7 @@
 ![PCB](PCB.png)
 
 ## Full Hackpad
-![Full Hackpad](full_hackpad.png)
+![Full Hackpad](hackpad.png)
 
 ##Specifications
 BOM:
@@ -19,6 +19,6 @@ BOM:
 4x M3x16 Bolt
 4x M3 Heatset
 Others:
- 
+
 TOP.stl
 BOTTOM.stl
