@@ -19,7 +19,6 @@ BOM:
 4x M3x16 Bolt
 4x M3 Heatset
 Others:
-
-KMK Firmware
-Top Case.stl
-Bottom Case.stl
+ 
+TOP.stl
+BOTTOM.stl
