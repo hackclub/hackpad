@@ -6,6 +6,9 @@ The GrassPad has 6 MX switches and one rotary encoder it also has an 128x32 OLED
 # Full Model
 <img src="./assets/GrassPad.png">
 
+# Case
+<img src="./assets/case.png">
+
 # Schematic
 <img src="./assets/schematic.png">
 
