@@ -11,3 +11,6 @@ This is a very simple keyboard, nothing special except 3 macro/shortcut buttons.
 1x ??? keycap set*
 *bought from "max-gaming.se"
 **bought from "electrokit.se"
+#OBS! Full case file
+The complete case-file was to big for github, therefor i uploaded it to the slac cdn:
+https://hc-cdn.hel1.your-objectstorage.com/s/v3/3df98c002cca8f447206d590c6b9a0739d3f8359_a_keyboard_v1_full.stl
