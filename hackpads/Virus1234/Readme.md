@@ -50,3 +50,6 @@ Made by @meddy ben ayed on slack
 | ----------- | -------- | -------- | --------- | -------- | ----------- | --------- |
 | $123.77     | $27.22   | $48.30   | 5.44/ns   | 21.79/ws | 19.59/ns    | ~24.03/ws |
  
+
+
+If anything is overbudget, please hit me up on slack at @meddy ben ayed and I can transfer money :)
