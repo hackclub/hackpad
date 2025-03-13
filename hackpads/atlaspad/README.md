@@ -30,7 +30,12 @@ _Designed in Fusion360_
 
 ## PCB
 
-(Front side of PCB)
+Schematic:
+
+![](./assets/Schematic.png)
+
+Front side of PCB:
+
 ![](./assets/PCB.png)
 ![](./assets/PCB3D.png)
 
@@ -90,7 +95,7 @@ Here should be everything you need to make this hackpad besides the PCB and 3d p
 ### Optional (but recommended)
 
 -   2x 10k 0402 Resistors
--   1x 22uF Electrolytic cap
+-   1x 10uF Electrolytic cap
 -   1x SN74LV1T34DBV level shifter
 
 The hackpad might work w/o these components, but its better to add them.
