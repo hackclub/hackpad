@@ -14,7 +14,7 @@ p-t's hackpad :3c is a 4 key macropad arranged in the style of arrow keys. You c
 Everything fits together using 5 M3 Bolts and heatset inserts. 4 for the case, one for the PCB. Also, it has a 5 degree tilt
 
 It has 2 separate printed pieces. The bottom and the top cover.
-<img src=assets/cad.png alt="Schematic" width="500"/>
+<img src=assets/cad.png alt="3d model of the case" width="500"/>
 
 I made it in Fusion 360! :3
 
@@ -26,7 +26,7 @@ Schematic
 <img src=assets/schematic.png alt="Schematic" width="300"/>
 
 PCB
-<img src=assets/pcb.png alt="Schematic" width="300"/>
+<img src=assets/pcb.png alt="pcb" width="300"/>
 
 It was made by moving around the tutorial a bit
 
