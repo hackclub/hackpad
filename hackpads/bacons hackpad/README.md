@@ -12,16 +12,16 @@ a base and a top layer.
 I also plan to redisign it to not need screws to attach the top and bottom. 
 It should use the M3 screws and heatset inserts.
 
-![Case](CASE.png)
+![Case](./PRODUCTION/CASE.png)
 
 ## PCB
 I use KiCAD to design the entire PCB. 
 
 Schematic:
-![Schematic](LAYOUT.png)
+![Schematic](./PRODUCTION/LAYOUT.png)
 
 PCB: 
-![PCB](PCB.png)
+![PCB](./PRODUCTION/PCB.png)
 
 ## BOM
 Here is everything that should be needed.
