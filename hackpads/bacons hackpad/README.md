@@ -1,4 +1,4 @@
-# Baconpad
+#Baconpad
 This is a somewhat basic hackpad that I have been designing, three iterations with countless revisions, it has 4 keys and rotatary encoders.
 
 ## Features
@@ -12,16 +12,16 @@ a base and a top layer.
 I also plan to redisign it to not need screws to attach the top and bottom. 
 It should use the M3 screws and heatset inserts.
 
-![image](https://github.com/user-attachments/assets/61e7bbaa-89cd-40de-aac0-a853d56f4e6f)
+![Case](CASE.png)
 
 ## PCB
 I use KiCAD to design the entire PCB. 
 
 Schematic:
-![image](https://github.com/user-attachments/assets/4e5fa84f-6e36-4672-a52e-6f182cdfcfe3)
+![Schematic](LAYOUT.png)
 
 PCB: 
-![image](https://github.com/user-attachments/assets/78ec9b9f-b9f7-4561-9d41-05d752a6cea8)
+![PCB](PCB.png)
 
 ## BOM
 Here is everything that should be needed.
@@ -37,4 +37,4 @@ Here is everything that should be needed.
  - 6x 1N4148 Through-hole diodes
 
 ## Extra
-I learned a lot from this event, even if I am too late for sumbitting thank you for putting this together. I also plan to print the case on my own. As for the rotary switches I plan to do volume control with one, and switching keymaps with another, alas its time for bed and I am lacking enough brain to code it.
+I learned a lot from this event, even if I am too late for sumbitting thank you for putting this together. I also plan to print the case on my own. As for the rotary switches I plan to do volume control with one, and switching keymaps with another
