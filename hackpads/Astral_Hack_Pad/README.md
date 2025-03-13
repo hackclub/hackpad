@@ -12,7 +12,7 @@
 
 # Hck Pad PCB
 
-![This is the PCB](assets/pcb.png)
+![This is the PCB](assets/PCB.png)
 
 # BOM
 
