@@ -50,7 +50,7 @@ The case was designed in Fusion360 by refering to the Hackpad case designing gui
 ## BOM
 
 
-| Name                                                          | Qty | Price (INR - incl. shipping) | Link                                                                                                     |
+| Name                                                          | Qty | Price (INR) | Link                                                                                                     |
 | ------------------------------------------------------------- | --- | ---------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Gateron G Pro 3.0 Switch Brown                               | 90  | 1620                         | [here](https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/gateron-g-pro-3-0-switch/) |
 | Cherry Profile PBT Keycaps                                    | 1   | 1399                         | [here](https://curiositycaps.in/products/blue-rose-mechainner-blue-cherry-pbt-keycaps)                   |
