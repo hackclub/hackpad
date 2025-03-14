@@ -1,0 +1,71 @@
+import schematicImage from './schematic.png';
+import pcbImage from './pcb.png';
+import cadImage from './cad.png';
+import tincan from './TINCAN.jpg';
+
+# Mittal1
+
+The Mittal1 is my macropad for hackpad. It uses a 3x4 matrix with an encoder in the corner. It also has a 128x32 oled screen. I wanted to add a slider but QMK doesnt support them and I was not going to learn kmk for it.
+## Features:
+- Bunch of anime references written on it
+- 128x32 OLED Display
+- EC11 Rotary encoder for whatever you want
+- 11 keys
+- TEAM SKY!!!!
+
+
+## CAD Model:
+
+The Mittal1 has 2 parts that are screwed together in a integrated plate mount. it has a bunch of anime references and quotes all around it, as well as the team sky logo from mandjtv on youtube(go check him out, he is awesome)
+
+My case is a dark red colour with black keycaps
+<img src={cadImage} alt="Schematic" width="500"/>
+
+I made the whole thing in Shapr3D since my computer is too weak to run fusion. so thats cool I guess
+
+## PCB
+Here's my PCB! It was made in KiCad. the oled is connected with wires and placed in the middle.
+
+Schematic
+<img src={schematicImage} alt="Schematic" width="300"/>
+schematic is the same as any normal one
+
+PCB
+<img src={pcbImage} alt="Schematic" width="300"/>
+
+the pcb isnt actually 19.05mm apart. i just eyeballed it and i wish i hadnt. Its very noticeable that the gaps are uneven.
+
+## Firmware Overview
+This hackpad uses [QMK](https://qmk.fm/) firmware for everything. 
+
+- the rotary encoder changes volume. press to mute
+- the 11 keys have various keyboard commands like copy, paste, find, and cut. I do this because I always forget half of my keyboard commands
+- The OLED is a refernce to my friend Alivetin who is just a tin can
+
+<img src={tincan} alt="tincan" width="300"/>
+
+
+## BOM:
+Here should be everything you need to make this hackpad
+
+- 11 MX Cherry Red switches
+- 12 1n4148 diodes
+- 1 ec11 rotary encoder with switch
+- 1 xiao rp2040
+- 1 128x32 i2c oled 0.91 inch (pls dont solder this)
+- 1 pcb
+- 2 4.7k resistors
+- 12 DSA Keycaps
+- 4 M3x5x4 Heatset inserts
+- 4 M3x16mm Bolts
+- Case(2 3d printed parts)
+- Box signed by alex
+
+
+
+## Funny
+I spent a lot of time making this and had to make like 3 different versions of my case because I kept messing up.
+
+The current version probably also has a messed up space for the oled but I will fix it once i get my parts and get the actual dimentions of it
+
+Join #taran-does-stupid-things cuz its my personal channel and you get to see me make cool stuff(named #pochita-cult-gang for a limited time).
