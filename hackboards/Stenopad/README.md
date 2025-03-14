@@ -40,4 +40,4 @@ The firmware is written using KMK and uses the Steno layout
 When I started looking for my first actual keyboard, I found out about StenoKeyboards, where a bunch of YouTube videos boast 200+ wpm typing speeds. However, after just getting a plain old mechanical keyboard, I forgot about StenoKeyboards for a long time. However, when I found out about Hackpad, I suddenly remembered StenoKeyboards and wanted to make one myself.
 
 # Extra notes
-Steno Keyboard!!!
+I'm going to change the firmware when I actually get the kb
