@@ -15,4 +15,6 @@ x2 Cherry Switch (Any color) 2.0 size
 x2 Cherry Switch (Any color) 2.25 size
 x1 Cherry Switch (Any color) 2.75 size
 x1 Cherry Switch (Any color) 6.25 size
-x1 128x64 OLED screenP
+x1 128x64 OLED screen
+x1 Rotary Encoder Switch
+x1 MCP23017_SO IO Expander
