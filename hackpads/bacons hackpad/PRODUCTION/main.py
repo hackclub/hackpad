@@ -25,7 +25,8 @@ oled = Oled(
 
 keyboard.extensions.append()
 
-KEYMAP_1 = [
+keyboard.keymap = [    
+    
     owo = KC.MACRO(
         "OwO"
     )
@@ -39,8 +40,5 @@ KEYMAP_1 = [
         "3:<"
     )
 ]
-
-keyboard.keymap = [
-
 if __name__ == '__main__':
     keyboard.go()
