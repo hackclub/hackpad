@@ -5,8 +5,7 @@ I came across this event just from a random email, and knew I had to try it out.
 So much thanks goes to whoever made "Ducc's fidget toy". I even ended up stealing their BOM, with slight adjustments
 
 ### Extra info
-So all the required images for this, won't be in the readme, I added them in a seperate folder, as I wasn't too sure on how to add images to a README.md
-
+None
 
 ### Specifications
 
@@ -26,3 +25,8 @@ Others:
 - KMK Firmware
 - FrontPlate.step
 - BackPlate.Step
+
+Images:
+![Schematic_Screenshot](https://github.com/user-attachments/assets/08919581-c4a5-4150-9384-e8a36ab13654)
+![PCB_Screenshot](https://github.com/user-attachments/assets/e849a1c9-5d95-47f8-beb2-cbfadebc2ec3)
+![Case_Screenshot](https://github.com/user-attachments/assets/a219568d-d7e5-445a-a565-2be9e3697372)
