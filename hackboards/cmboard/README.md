@@ -18,3 +18,6 @@ x1 Cherry Switch (Any color) 6.25 size
 x1 128x64 OLED screen
 x1 Rotary Encoder Switch
 x1 MCP23017_SO IO Expander
+
+# Layout
+Standard keyboard similar to the ones found on Thinkpads. 79 keys, OLED Screen, Rotary Encoder, and IO expander are the major parts, while using the Orpheus Pico as the main microcontroller. 
