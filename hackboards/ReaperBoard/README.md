@@ -4,7 +4,7 @@
 
 Features:
 - 85x keys!
-- Compact laypout most suitable for coding.
+- Compact layout most suitable for coding.
 - 87 RGB Neopixel, keep those RGB Animations coming...
 - 0.91" OLED display to display anything you want.
 - KMK firmware to edit those keymaps and all sorts of customization options.
