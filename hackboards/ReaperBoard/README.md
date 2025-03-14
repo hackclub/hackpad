@@ -1,6 +1,6 @@
 # ReaperBoard - A unconventional Tenkeyless Keyboard
 
-
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2e8d755e0d745ef5e5e4bb9521d3990edac383f7_full_render_keyboard.png)
 
 Features:
 - 85x keys!
