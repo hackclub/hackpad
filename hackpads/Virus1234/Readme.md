@@ -13,11 +13,11 @@ Made by @meddy ben ayed on slack
 
 | Front assembly |
 | - |
-| 
+| <img width="843" alt="Screenshot 2025-03-13 at 7 52 01 PM" src="https://github.com/user-attachments/assets/52db4bfd-8c13-447f-8c1f-4636a95973f8" /> |
 
 | Back assembly |
 | - |
-|
+|<img width="854" alt="Screenshot 2025-03-13 at 7 52 25 PM" src="https://github.com/user-attachments/assets/f1f7c29a-c5e6-450e-a1cb-b541982be2ad" /> |
 
 | 3D render |
 | - |
@@ -30,7 +30,8 @@ Made by @meddy ben ayed on slack
 ## Case
 | 3D render |
 | - |
-| 
+| <img width="893" alt="Screenshot 2025-03-13 at 7 53 35 PM" src="https://github.com/user-attachments/assets/0e04aced-5291-4b37-ab00-fd60b045b52d" /> |
+
 
 
 ## BOM
