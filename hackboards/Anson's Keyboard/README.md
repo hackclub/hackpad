@@ -72,7 +72,12 @@ and moved on to a new design. At this point, I also decided to make a triangle w
 I wanted an integrated USB C port directly on the PCB, but when I redesigned the case and PCB to fit it, I realized that it would be close to impossible for someone with my skill level to hand solder the USB C port and it
 would have stuck up at an angle anyway (this stresses the cable)
 
-For the final design, I came up a solution. Instead of mounting the USB C port directly onto the PCB, I would purchase a USB C breakout board instead and connect it via cables to the PCB.
+For the final design, I came up a solution. Instead of mounting the USB C port directly onto the PCB, I would purchase a USB C breakout board instead and connect it via cables to the PCB. 
+
+(This is when the routing hell begins as I reroute the entire thing at least 3 times)
+The first time was my extremely inefficient matrix which was a 8x11 matrix. The traces were extremely messy and I've counted about 1.1k traces and 500 vias in total. (I'm so glad I don't have to see it again). I've then updated it to a 7x14 matrix which made routing much easier.
+The second time was when I had to move all LEDs down by 2mm since they didn't align with the cutout in the switches.
+Not even an hour after posting about my rerouting, someone from Slack recommmended that I wire my LEDs from top to bottom instead of side to side as to reduce via usage. This is the current version of the PCB and I'm quite happy with it
 
 # Pictures
 ## Schematic
