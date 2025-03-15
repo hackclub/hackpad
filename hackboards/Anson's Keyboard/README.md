@@ -143,8 +143,8 @@ For the final design, I came up a solution. Instead of mounting the USB C port d
 
 | QTY  | Name | Local Price | Conversion Upcharge | Price |
 |------|------|------------|---------------------|-------|
-| 9x   | [USB C Breakout Board](https://shopee.com.my/product/145270449/29272008539) | RM8.13 | +$0.15 | $2.10 |
-| 15x  | [0.91" OLED](https://shopee.com.my/product/145270449/4639327724) | RM10.62 | +$0.15 | $2.65 |
+| 5x   | [USB C Breakout Board](https://shopee.com.my/product/145270449/29272008539) | RM8.13 | +$0.15 | $2.10 |
+| 1x  | [0.91" OLED](https://shopee.com.my/product/145270449/4639327724) | RM10.62 | +$0.15 | $2.65 |
 | 1x   | SPX Express Shipping | RM5.20 | +$0.15 | $1.40 |
 
 ---
