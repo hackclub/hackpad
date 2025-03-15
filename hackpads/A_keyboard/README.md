@@ -14,6 +14,8 @@ The layout is based on a standard iso 75%, with some small changes to allow for 
 1x stabiliser set * or *** <br/>
 > 3x 2u stabiliser <br/>
 > 1x 6.25u stabiliser <br/>
+4x m3 x 6 screw** <br/>
+4x m3 heatinsert** <br/>
 
 *bought from maxgaming.se (the only kinda cheap store with keyboard stuff in sweden aprt from amazon)<br/>
 **bought from electrokit.com <br/>
