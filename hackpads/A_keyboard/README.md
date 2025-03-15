@@ -1,5 +1,5 @@
 # A Keyboard
-This is a very simple keyboard, almost nothing special except 3 macro/shortcut buttons. The case is a simple minemalistic black design. This is my first keyboard apart from the macropad, so almost evereything with layouts and size and stuff are new for me.
+This is a very simple keyboard, almost nothing special except 3 macro/shortcut buttons. The case is a simple minemalistic black design. This is my first keyboard apart from the macropad, so almost evereything with layouts and size and stuff are new for me. The design is verry similar to The emergency pad!, so i hope they go good together.
 # A bit about layout and such<br/>
 The layout is based on a standard iso 75%, with some small changes to allow for integrated arrowkeys. The layout is otherwise standard nordic/swedish. 
 # BOM:
@@ -25,7 +25,7 @@ Plz contact me if i should do it any other way.<br/>
 # Pictures:<br/>
 ![picture case](https://hc-cdn.hel1.your-objectstorage.com/s/v3/713f14c007156979ab2d62fa181ba3199d9b3687_bild.png)<br/>
 ![picture case](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b6cee3b850f5e413c0a8e765d15ba0027956b2d8_bild.png)
-![picture pcb]()
-![picture schematic]()
+![picture pcb](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3dd1374705814089c18b9d3f2526d185ff6953a3_bild.png)
+![picture schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/df08ed899b3d83887248b42b02e7d9603923b7ab_bild.png)
 
-Made by Hilding Lind, hiding@lind.pp.se @HildingL
+Made by Hilding Lind, hiding@lind.pp.se, @HildingL
