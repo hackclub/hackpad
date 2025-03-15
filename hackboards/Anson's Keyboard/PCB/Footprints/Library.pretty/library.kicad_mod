@@ -1,0 +1,198 @@
+(footprint "library"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED79"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b03f0f8d-81ea-49cd-ac18-6246ea0be5e6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812MINI"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8b360ef4-8427-46dc-a22d-3cb40755dee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "RPI:SK6812MINI-E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a8124de-1a81-4215-bc27-c9a8b36bbede")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cae01974-d6ac-4336-bb17-8db584dbd0bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGB LED with integrated controller"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0397b63f-e88e-4542-befb-37342be9564f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "aa7302ea-ccc6-4a2f-864f-04205e48a13d")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e14d3364-f5e9-43e2-947a-b85ddde7a482")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end -1.6 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7d1887a6-5402-49b6-9f88-c4370dc35307")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "72a6e35d-db4c-48ec-8912-bd19d51119d3")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bab2b98e-95f9-4073-aa75-bd20e4da6695")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d22c52c6-d890-41c8-a47c-46be5f5febdd")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2aba25f9-84e0-4794-bb8d-bb000eedc093")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8e10fee-9c04-43e8-bc2f-a93e87636ce6")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "101c99d5-36bb-4dea-a32d-301d9069f43b")
+	)
+	(pad "1" smd rect
+		(at -2.6 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fdda17a2-e2da-47a1-911a-a6abeb17f56c")
+	)
+	(pad "2" smd roundrect
+		(at 2.6 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_right)
+		(uuid "31dbbe5a-fe1c-4da1-bbbf-a5e1ecb5b7da")
+	)
+	(pad "3" smd rect
+		(at 2.6 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c1ab774-0365-4128-9bdf-5293e6e1d5cc")
+	)
+	(pad "4" smd rect
+		(at -2.6 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6cc1d199-e280-4f18-b4ec-eb805d290192")
+	)
+	(model "C:/Users/Anson/Downloads/Anson's Keyboard PCB/3d/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 5 -1.76)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)
