@@ -4,25 +4,29 @@ Made by @meddy ben ayed on slack
 ## PCB
 | Schematic |
 | - | 
-| <img width="1048" alt="Screenshot 2025-03-13 at 2 44 56 PM" src="https://github.com/user-attachments/assets/525d7d2b-5499-40bf-a00b-7bf4ac88f8d5" /> |
+| <img width="1021" alt="Screenshot 2025-03-16 at 12 34 00 PM" src="https://github.com/user-attachments/assets/2ba43933-c46d-4c5f-89ba-f516678ca48d" /> |
+
 
 | PCB Sides |
 | - |
-| <img width="1365" alt="Screenshot 2025-03-13 at 3 13 55 PM" src="https://github.com/user-attachments/assets/9ad8b9c7-c911-4900-9821-9daa7b7bafb7" /> |
-| <img width="1360" alt="Screenshot 2025-03-13 at 3 14 26 PM" src="https://github.com/user-attachments/assets/3b0ef67d-57a3-4f88-9b39-79f930016fea" /> |
+| <img width="1291" alt="Screenshot 2025-03-16 at 12 34 32 PM" src="https://github.com/user-attachments/assets/1e805e3c-5375-4afe-806a-b60c52d59e4f" /> |
+| <img width="1304" alt="Screenshot 2025-03-16 at 12 35 01 PM" src="https://github.com/user-attachments/assets/c87016d1-951b-4ccd-bb9a-03d39591abc3" /> |
 
-| Front assembly |
+| Front case |
 | - |
-| <img width="843" alt="Screenshot 2025-03-13 at 7 52 01 PM" src="https://github.com/user-attachments/assets/52db4bfd-8c13-447f-8c1f-4636a95973f8" /> |
+| <img width="966" alt="Screenshot 2025-03-16 at 12 40 40 PM" src="https://github.com/user-attachments/assets/6ea04c97-6135-45d4-b060-5d95b43e3b95" /> |
 
-| Back assembly |
+
+
+| Back case |
 | - |
-|<img width="854" alt="Screenshot 2025-03-13 at 7 52 25 PM" src="https://github.com/user-attachments/assets/f1f7c29a-c5e6-450e-a1cb-b541982be2ad" /> |
+| <img width="998" alt="Screenshot 2025-03-16 at 12 41 14 PM" src="https://github.com/user-attachments/assets/7afb4273-8312-4317-ad8f-7708f0b7334f" /> |
+
 
 | 3D render |
 | - |
-| <img width="974" alt="Screenshot 2025-03-13 at 3 57 01 PM" src="https://github.com/user-attachments/assets/86cb4720-1816-4b6e-b05a-e3d4c0c148ed" /> |
-| <img width="934" alt="Screenshot 2025-03-13 at 3 57 21 PM" src="https://github.com/user-attachments/assets/0dcbb2f2-c32f-41c3-b9e4-7ba82137fb7f" /> |
+| <img width="1022" alt="Screenshot 2025-03-16 at 12 38 07 PM" src="https://github.com/user-attachments/assets/c4964d18-9adc-443e-85c4-f6660b41b973" /> |
+| <img width="984" alt="Screenshot 2025-03-16 at 12 38 41 PM" src="https://github.com/user-attachments/assets/ed51a7ed-95ec-42c6-b187-fe845728458b" /> |
 
 
 
