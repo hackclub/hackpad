@@ -34,7 +34,7 @@ Made by @meddy ben ayed on slack
 ## Case
 | 3D render |
 | - |
-| <img width="893" alt="Screenshot 2025-03-13 at 7 53 35 PM" src="https://github.com/user-attachments/assets/0e04aced-5291-4b37-ab00-fd60b045b52d" /> |
+| <img width="974" alt="Screenshot 2025-03-16 at 12 42 16 PM" src="https://github.com/user-attachments/assets/287cd94f-4e73-4981-ac09-8e6b08e41132" /> |
 
 
 
