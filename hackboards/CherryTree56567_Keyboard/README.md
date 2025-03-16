@@ -1,5 +1,6 @@
 # MX Keyboard
 A cool Keyboard made in KiCad, OnShape and Blender
+![gif](https://hc-cdn.hel1.your-objectstorage.com/s/v3/feea19395a16cd392c0e3264e8fdf9a931bc45ca_0001-0180.gif)
 
 ## Info
  - 0.25mm Tolerance
