@@ -1,6 +1,8 @@
 # nespad-v1
 
-![nespad-v1-assembled](https://github.com/user-attachments/assets/784b0309-0f16-405e-b097-b6b2ea8484a3)
+![Screenshot 2025-03-17 171458](https://github.com/user-attachments/assets/e12af4a7-7cb5-4899-8bf7-65ebd0827f68)
+
+![Screenshot 2025-03-17 171512](https://github.com/user-attachments/assets/3b0b1c7f-de64-47e8-bb6a-54803773356e)
 
 ### Inspiration
 
