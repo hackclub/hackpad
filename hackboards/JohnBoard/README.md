@@ -60,4 +60,3 @@ Use discount code **"NABI"** for $10 off + Free shipping.
 ---
 
 Everything should be good to go!
-
