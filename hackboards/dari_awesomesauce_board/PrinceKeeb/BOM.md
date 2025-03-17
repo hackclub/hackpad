@@ -13,9 +13,9 @@ All prices include shipping(to the best of my ability)
 ## Keycaps
 |Name |Vendor | Price |
 |:--- |:---- |:----:|
-|XVX Low Profile Black Keycaps |Aliexpress |$17.15|
+|KBDiy GMK Keycap Double Shot |Aliexpress |$15.08|
 |1.5u DSA Keycaps |Aliexpress |$2.92|
-Subtotal:20.07
+Subtotal:18.00
 
 ## Stabilizers
 |Name |Vendor | Price |
@@ -41,4 +41,4 @@ Subtotal:10.14
 2 Orpheus Picos please!
 
 ## Total
-Approximately $127.43
+Approximately $125.36
