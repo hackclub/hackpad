@@ -5,6 +5,213 @@
 	(uuid "35b95c36-fb19-4dba-9ddf-1eec4e233c11")
 	(paper "User" 508 381)
 	(lib_symbols
+		(symbol "Custom-Components:TZT_1.9in_TFT_ST7789"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LCD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TZT_1.9in_TFT_ST7789_0_1"
+				(rectangle
+					(start -11.43 8.89)
+					(end 11.43 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TZT_1.9in_TFT_ST7789_1_1"
+				(pin input line
+					(at -8.89 11.43 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 11.43 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 11.43 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 11.43 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 11.43 270)
+					(length 2.54)
+					(name "RES"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 11.43 270)
+					(length 2.54)
+					(name "DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 11.43 270)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 11.43 270)
+					(length 2.54)
+					(name "BLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2643,6 +2850,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5073,16 +5400,8 @@
 		(uuid "178ecbe4-769e-42ef-8a12-e4cbdbb10d04")
 	)
 	(no_connect
-		(at 480.06 88.9)
-		(uuid "227c730c-b08a-44d3-9b3d-780b0a94ddf7")
-	)
-	(no_connect
 		(at 58.42 39.37)
 		(uuid "320e9b7a-e5d3-407a-902e-2ae27d8b1691")
-	)
-	(no_connect
-		(at 58.42 36.83)
-		(uuid "42b22c99-96dc-483c-8f3b-b1f2933f01af")
 	)
 	(no_connect
 		(at 58.42 29.21)
@@ -5129,20 +5448,12 @@
 		(uuid "de93ef92-e30c-4466-bfdd-bf394313c6c4")
 	)
 	(no_connect
-		(at 480.06 83.82)
-		(uuid "f5eaa652-84c4-4713-b5bb-b8e088be875f")
-	)
-	(no_connect
 		(at 480.06 73.66)
 		(uuid "f91cee89-4744-4356-ae8a-70c4769f5493")
 	)
 	(no_connect
 		(at 480.06 81.28)
 		(uuid "f9821816-2ffd-4bb8-b03d-b1f60d5e8b96")
-	)
-	(no_connect
-		(at 480.06 86.36)
-		(uuid "fff270e7-816c-41cb-b75b-3eaf263c5e0c")
 	)
 	(wire
 		(pts
@@ -8166,6 +8477,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 147.32) (xy 27.94 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e31946d-cd7d-4e2c-84cd-4be1df154f4d")
+	)
+	(wire
+		(pts
 			(xy 196.85 71.12) (xy 196.85 91.44)
 		)
 		(stroke
@@ -8423,6 +8744,16 @@
 			(type default)
 		)
 		(uuid "af9dde31-6c3f-4c8e-9b89-77e2cfa13aad")
+	)
+	(wire
+		(pts
+			(xy 30.48 143.51) (xy 30.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0688afa-6df7-4f0b-a7bc-c91a63d4e825")
 	)
 	(wire
 		(pts
@@ -9446,6 +9777,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 143.51) (xy 38.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e467ab7f-38ab-4c95-a8fe-036b26f3df04")
+	)
+	(wire
+		(pts
 			(xy 273.05 91.44) (xy 273.05 111.76)
 		)
 		(stroke
@@ -9643,6 +9984,16 @@
 			(type default)
 		)
 		(uuid "f0086328-49f1-42c6-bf5e-75c39253bee5")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 45.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ed27ef-cc55-4a14-8620-24985565388c")
 	)
 	(wire
 		(pts
@@ -10184,6 +10535,50 @@
 			)
 		)
 	)
+	(global_label "LCD-SDA"
+		(shape input)
+		(at 35.56 149.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20ceec97-ad05-41bc-8522-d07e331aeb23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 138.1662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD-DC"
+		(shape input)
+		(at 40.64 149.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24bc1de4-a6c3-43a3-87ed-0d6f79c28306")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 139.1943 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 0"
 		(shape input)
 		(at 95.25 25.4 90)
@@ -10272,6 +10667,50 @@
 			)
 		)
 	)
+	(global_label "Row 5"
+		(shape input)
+		(at 480.06 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "393611b1-41ff-4b40-ba17-7874241aa51a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.9718 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 3"
+		(shape input)
+		(at 480.06 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c61667b-681d-4623-9f1b-6b84ec070230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.9718 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row 1"
 		(shape input)
 		(at 88.9 63.5 180)
@@ -10285,28 +10724,6 @@
 		(uuid "3cd58872-88dc-4442-aaad-45c164cd9237")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.9882 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 3"
-		(shape input)
-		(at 27.94 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3de41fab-ea9b-4904-ba3b-a4ea3bf2920c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0282 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,6 +10839,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD-SDA"
+		(shape input)
+		(at 27.94 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fd8367a-cd67-41ec-888d-6794ae830c52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.2462 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10888,6 +11327,28 @@
 			)
 		)
 	)
+	(global_label "LCD-SCL"
+		(shape input)
+		(at 33.02 149.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab47d17d-be1e-40d7-8b20-04ccf20f7ce1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 138.2267 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "E2B"
 		(shape input)
 		(at 49.53 96.52 180)
@@ -11020,6 +11481,28 @@
 			)
 		)
 	)
+	(global_label "LCD-SCL"
+		(shape input)
+		(at 27.94 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c231c20d-56bc-462c-9958-b739af0b1ca0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.3067 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 2"
 		(shape input)
 		(at 27.94 46.99 180)
@@ -11086,6 +11569,28 @@
 			)
 		)
 	)
+	(global_label "Row 4"
+		(shape input)
+		(at 480.06 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1bea1d0-10c0-49a3-820b-8135d915d3e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.9718 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col E"
 		(shape input)
 		(at 58.42 49.53 0)
@@ -11104,6 +11609,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD-CS"
+		(shape input)
+		(at 27.94 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4ac91a5-f13c-468d-8a9a-79f4df834e83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.3348 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11152,24 +11679,24 @@
 			)
 		)
 	)
-	(global_label "Row 5"
+	(global_label "LCD-CS"
 		(shape input)
-		(at 27.94 36.83 180)
+		(at 43.18 149.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "e0b63330-3937-4f29-9537-53c52b6f09dc")
+		(uuid "e454abe7-035a-4490-94dc-bc4eed332add")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0282 36.83 0)
+			(at 43.18 139.2548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11262,28 +11789,6 @@
 			)
 		)
 	)
-	(global_label "Row 4"
-		(shape input)
-		(at 27.94 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3db2028-239a-4221-a0fa-a01fabeba417")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0282 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col 8"
 		(shape input)
 		(at 196.85 25.4 90)
@@ -11297,6 +11802,28 @@
 		(uuid "f6b368a1-d118-40d0-8bf3-ac649652152e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.85 17.1535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD-DC"
+		(shape input)
+		(at 58.42 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9197ece-218f-436a-bd2b-84a3bd084eca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.0857 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12752,6 +13279,72 @@
 			(project "keyboard"
 				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
 					(reference "S49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 30.48 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cf309d0-976b-4624-b586-8ac45faa7fb7")
+		(property "Reference" "#PWR034"
+			(at 30.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75317836-1d2d-48e1-927a-2013440df7ba")
+		)
+		(instances
+			(project ""
+				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23263,6 +23856,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79d861d8-2b81-4d1d-b804-590b1f6b93cd")
+		(property "Reference" "#PWR036"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa67a4b7-2749-4421-bc25-7d97435cafc4")
+		)
+		(instances
+			(project "keyboard"
+				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 100.33 100.33 90)
 		(unit 1)
@@ -26048,6 +26707,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 45.72 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ae74ce6-6026-4716-833e-e03abe536e90")
+		(property "Reference" "#PWR035"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7f15f8-7322-426e-87ac-813579c8e6d5")
+		)
+		(instances
+			(project "keyboard"
+				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 151.13 59.69 90)
 		(unit 1)
@@ -26835,6 +27560,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a19c8d58-9334-4f5a-a958-03be7ef95fee")
+		(property "Reference" "#PWR011"
+			(at 27.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "050d98fa-d31c-4ea6-81dd-c557126c733b")
+		)
+		(instances
+			(project ""
+				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 135.89 53.34 0)
 		(unit 1)
@@ -27269,6 +28060,94 @@
 			(project "keyboard"
 				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
 					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom-Components:TZT_1.9in_TFT_ST7789")
+		(at 36.83 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c52945-579a-4bc3-aeaf-87cd0b28ee43")
+		(property "Reference" "LCD1"
+			(at 49.53 155.5749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CustomLibrary:TZT_1.9in_TFT_ST7789"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b73dd7f9-92b6-4e50-bc78-c867be397ee4")
+		)
+		(pin "8"
+			(uuid "23ceee7b-574d-4c92-9e2f-3f9b52a816b8")
+		)
+		(pin "5"
+			(uuid "40e16f57-01ae-411e-a3db-45d5c184513c")
+		)
+		(pin "2"
+			(uuid "03e30088-0420-4899-b44f-a6051a28ead7")
+		)
+		(pin "4"
+			(uuid "50ef5af7-e7da-4bb4-9907-13aab4313c6b")
+		)
+		(pin "3"
+			(uuid "f0530849-cd80-499e-b93b-283bb063f58a")
+		)
+		(pin "1"
+			(uuid "55c2dfc4-e7fb-422a-b60f-3421193ad857")
+		)
+		(pin "7"
+			(uuid "ffde0665-88db-4340-9105-6acfb836aff4")
+		)
+		(instances
+			(project ""
+				(path "/35b95c36-fb19-4dba-9ddf-1eec4e233c11"
+					(reference "LCD1")
 					(unit 1)
 				)
 			)
