@@ -15,7 +15,7 @@ All prices include shipping(to the best of my ability)
 |:--- |:---- |:----:|
 |KBDiy GMK Keycap Double Shot |Aliexpress |$15.08|
 |1.5u DSA Keycaps |Aliexpress |$2.92|
-Subtotal:18.00
+Subtotal:$18.00
 
 ## Stabilizers
 |Name |Vendor | Price |
@@ -27,7 +27,7 @@ Subtotal:18.00
 |:--- |:---- |:----:|
 | M2 X L3 Heatset Inserts| AliExpress | $1.20 |
 | M2 X L12 Screws| AliExpress |$1.07  |
-Subtotal:2.27
+Subtotal:$2.27
 
 ## Misc Electronics
 |Name |Vendor | Price |
