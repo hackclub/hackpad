@@ -18,7 +18,9 @@ This is a keyboard that tries to mimic the feel of the Apple Magic Keyboard but 
 DO NOT PRINT THE CASE! I am currently making one with wood (no CNC) so stay updated. If I give up still don't make the case because I'll have a better one eventually. 
 
 # CAD
-Will be added through Github, please hold
+![Schematic](https://github.com/Omegon0/hackpad/blob/8d51c22a4dad73814eff892e6db910a267227f93/hackboards/targetpractice/schematic.png)
+![PCB](https://github.com/Omegon0/hackpad/blob/8d51c22a4dad73814eff892e6db910a267227f93/hackboards/targetpractice/pcb.png)
+![CAD](https://github.com/Omegon0/hackpad/blob/8d51c22a4dad73814eff892e6db910a267227f93/hackboards/targetpractice/cad.png)
 
 # Firmware
 Uses QMK because I don't know how to use KMK
