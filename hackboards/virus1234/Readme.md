@@ -1,6 +1,8 @@
 ## Virus1234 - definately not a virus :)
 Made by @meddy ben ayed on slack
 
+My inspiration for this is that my guinea pig was hanging out on my desk and chewed my keyboard wire, so this seemed like a cool project where I can make a keyboard and replace the one that my guinea pig destroyed. 
+
 ## PCB
 | Schematic |
 | - | 
