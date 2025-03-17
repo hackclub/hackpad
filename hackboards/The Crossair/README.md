@@ -15,6 +15,7 @@ The layout of my keyboard was from my CORSAIR K55 RGB Pro, but I cut off the vol
 - 4x [M3 Heatset](https://a.co/d/5gRKhQB) ~$0.04/unit (set of 200 total $7.99)
 - 4x [M3x16 Bolt](https://a.co/d/axPe6Du) ~$0.16/unit total: $7.99
 - 1x [YMDK Keycaps Set](https://a.co/d/c98JH9Q) $18.00
+- 1x [DS Stabs](https://divinikey.com/collections/keyboard-stabilizers/products/designer-studio-ds-adaptive-stabilizers)
 - PCB $35.35
 - Case (3d printed)
 - [Foam](https://a.co/d/8Bgm3h6) $7.89
