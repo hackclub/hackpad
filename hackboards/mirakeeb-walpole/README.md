@@ -4,16 +4,15 @@ Now, you may ask yourself: 'why the hell does this exist?' and my answer would b
 ## BOM \
 | part | count | link |
 | ---- | ----- | ---- |
-| gateron g pro browns | 45 | [gateron store](https://www.gateron.co/collections/hand-lubed-switches/products/gateron-switch-set?variant=40017397448793) |
-| DO-35 THT diodes | 45 | [digikey]() |
-| these cool walnut keycaps i found | 45, but just get a set | [amazon](https://www.amazon.com/OHY-Double-Shot-Mechanical-Keyboard-Textures/dp/B0D7GXPVF4/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_3_2/132-0840256-0410633?pd_rd_w=HVmxX&content-id=amzn1.sym.bb57ff9c-59bb-4b04-a98f-485dda19cac2&pf_rd_p=bb57ff9c-59bb-4b04-a98f-485dda19cac2&pf_rd_r=TKBTP9K0HTRFXQSX4GFF&pd_rd_wg=9C41i&pd_rd_r=d7562c73-5f63-4194-a7fd-4d20bd10f10b&pd_rd_i=B0D7GXPVF4&th=1) |
-| adafruit reverse mount neopixels | 45 | [adafruit](https://www.adafruit.com/product/4960) |
+| gateron g pro browns | 48 | [gateron store](https://www.gateron.co/collections/hand-lubed-switches/products/gateron-switch-set?variant=40017397448793) |
+| DO-35 THT diodes | 48 | whatever you have on hand |
+| these cool walnut keycaps i found | 48, but just get a set | [amazon](https://www.amazon.com/OHY-Double-Shot-Mechanical-Keyboard-Textures/dp/B0D7GXPVF4/ref=pb_allspark_dp_sims_pao_desktop_session_based_d_sccl_3_2/132-0840256-0410633?pd_rd_w=HVmxX&content-id=amzn1.sym.bb57ff9c-59bb-4b04-a98f-485dda19cac2&pf_rd_p=bb57ff9c-59bb-4b04-a98f-485dda19cac2&pf_rd_r=TKBTP9K0HTRFXQSX4GFF&pd_rd_wg=9C41i&pd_rd_r=d7562c73-5f63-4194-a7fd-4d20bd10f10b&pd_rd_i=B0D7GXPVF4&th=1) |
+| adafruit reverse mount neopixels | 48 | [adafruit](https://www.adafruit.com/product/4960) |
 | 128x64 oled display | 1 | whatever hq has |
 | EC11e vert rotary encoder | 1 | [mouser](https://www.mouser.com/ProductDetail/Alps-Alpine/EC1110120201?qs=6EGMNY9ZYDQZuRRlni99ZQ%3D%3D) |
 | Bourns PEC09 horzontal rotary | 1 | [digikey](https://www.digikey.be/en/products/detail/bourns-inc/PEC09-2315F-N0015/4699158) |
 | orpheus pico (apparently pin compatible with pi pico) | 1 | no idea where the link is |
 
-\
 ## images \
 
 ### case \
