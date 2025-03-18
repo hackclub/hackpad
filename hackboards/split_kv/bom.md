@@ -1,38 +1,34 @@
 ## PCB
 |Vendor | Price |
 |:---- |:----:|
-| JLCPCB | $34.51 |
+| JLCPCB | $17 |
 
 ## Switches
 |Name |Vendor | Price |
 |:--- |:---- |:----:|
-|Gateron G Brown Pro 3.0 Pre-lubed Switches |Amazon |43.18|
-~0.48 per switch
+|Kailh Choc v1 Switches |ChosFox |$43.18|
+
 
 ## Keycaps
 |Name |Vendor | Price |
 |:--- |:---- |:----:|
-|KBDiy GMK Keycap Double Shot |Aliexpress |$15.08|
-|1.5u DSA Keycaps |Aliexpress |$2.92|
-Subtotal:$18.00
+|MBK PBT Blank Choc Keycaps |Keebio |$25.00|
+
 
 ## Fasteners
 |Name |Vendor | Price |
 |:--- |:---- |:----:|
-| M2 X L3 Heatset Inserts| AliExpress | $1.20 |
-| M2 X L12 Screws| AliExpress |$1.07  |
-Subtotal:$2.27
+| M3 Inserts| AliExpress | $1.20 |
+| M3 Heat Set| AliExpress |$3.07  |
 
 ## Misc Electronics
 |Name |Vendor | Price |
 |:--- |:---- |:----:|
-| RJ11 Cable| Aliexpress| $1.97|
-| RJ11 Female Connector| AliExpress |$0.99  | 
-| Kailh Hotswap Sockets| AliExpress | $7.18 |
+| 1N4148W-7-F Diode| DigiKey| $3|
+| R-666994 Reset Switch| DigiKey| $4|
+| 2 DPDT Switches| DigiKey | $3.64 |
+| 3.3v lipo| YDL Battery | $7.24 |
+| Kailh Choc v1 Hotswap Sockets| AliExpress | $8.18 |
+| supermini nrf52840| AliExpress | $6.25| 
 Subtotal:10.14
 
-## MCU
-2 Orpheus Picos please!
-
-## Total
-Approximately $125.36
