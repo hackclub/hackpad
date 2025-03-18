@@ -30,5 +30,4 @@
 | 3.3v lipo| YDL Battery | $7.24 |
 | Kailh Choc v1 Hotswap Sockets| AliExpress | $8.18 |
 | supermini nrf52840| AliExpress | $6.25| 
-Subtotal:10.14
 
