@@ -17,6 +17,9 @@ export default function App() {
             <div className="bg-green-400 inline-block py-2 px-4 mb-8 rounded-sm">
               <h1 className="text-5xl sm:text-6xl font-bold">HACKPAD</h1>
             </div>
+            <div className="border-4 border-dashed border-black bg-green-200 px-2 rounded-sm absolute -rotate-12 text-4xl ml-56 mt-16">
+              v2!
+            </div>              
           </div>
           <img
             src="orpheuspadpic.png"
@@ -67,7 +70,7 @@ export default function App() {
               learn how to make your own macropad, and then we ship{" "}
               <b className="font-bold">your</b> design to you! Join{" "}
               <a>#hackpad</a> in the slack to stay up to date and see what other
-              people are working on! Ends October 21st.
+              people are working on! Ends February 16th.
             </p>
             <br></br>
             <p>
@@ -125,7 +128,7 @@ export default function App() {
               <div>
                 <ul className="list-disc max-w-96 space-y-2 pb-2">
                   <li>
-                    The overall design uses 20 or less inputs/switches. This
+                    The overall design uses 16 or less inputs/switches. This
                     includes rotary encoders!
                   </li>
 
@@ -145,6 +148,12 @@ export default function App() {
                 </ul>
               </div>
             </div>
+          </div>
+          <div>
+            <h2 className="text-xl py-3">What's new in V2?</h2>
+            <p>
+              After making a macropad and getting approved, you'll get to make an entire  {" "} <b>keyboard</b> after. Check the <a href="/faq">docs</a> to find out more!
+            </p>
           </div>
         </div>
       </div>

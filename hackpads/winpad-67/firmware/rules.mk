@@ -1,0 +1,14 @@
+OLED_ENABLE = yes
+OLED_TRANSPORT = i2c
+OLED_DRIVER = ssd1306
+
+RGBLIGHT_ENABLE = yes
+WS2812_DRIVER = vendor
+
+ENCODER_ENABLE = yes
+
+LTO_ENABLE = yes
+
+# for DDC/CI
+RAW_ENABLE = yes
+

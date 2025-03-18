@@ -1,0 +1,12 @@
+Bill of Materials:
+- 1x Xiao rp2040 Thru-Hole
+- 9x Gateron Milky Yellows
+- Keycaps
+- 10 Diodes
+- 2 4.7K thru-hole resistors
+- 1x Rotary Encoder
+- 1x Rotary Encoder Cap
+- 1x 0.91 OLED Display
+- 4 heatset inserts
+- 2 M3 16mm screws
+- 2 M3 12mm screws

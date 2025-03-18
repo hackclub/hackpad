@@ -6,9 +6,11 @@
 - 4x 18mm M3 Screws
 - 2x Green LED
 - 2x 36ohm resistors
+- Keycaps
 
 # Colors:
 - Bottom Part in acrylic
 - Middle Part in white
 - Top  in Lime
 - PCB in white if possible!
+## The parts top.obj bottom.obj and middle.obj !

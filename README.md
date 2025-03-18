@@ -1,6 +1,6 @@
 # Hackpad
 
-https://hackpad.hackclub.com/ <- website is live! this is probably a better place to start
+https://hackpad.hackclub.com/ <- website is live! This is probably a better place to start
 
 ## Overview
 This is a limited-time introductory YSWS (you ship, we ship) where *you* design your own macropad, and we'll ship it to you for free! This is something you definitely don't want to miss out, so make sure to join #hackpad in the slack!

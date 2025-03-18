@@ -1,0 +1,412 @@
+# Advanced DIY Guide
+
+Are you not satisfied with a simple macropad? Here you have more information on advanced parts & different CADs!
+
+- [Ground Pour](#ground)
+- [Switch Matrix](#matrix)
+- [Silkscreen Art](#silkscreen)
+- [OLED](#oled)
+- [Jumper Wire Holes](#jumpers)
+- [Reverse Mount Neopixels](#rneopixels)
+- [Rotary Encoder](#rotary_encoder)
+- [IO Expander](#expander)
+
+- [FreeCAD Case Design](#case_design_freecad)
+  - [Creating the plate](#freecad_plate)
+  - [Creating the bottom](#freecad_bottom)
+
+<a name="ground pour"/>
+## Ground Pour
+
+Do you have too many neopixels? A ground pour is a good way to remove the need to route the GND traces, and would allow current a shorter return circuit.
+
+Let's take this macropad for example:
+
+<img src="/docs/v2/pourstart.png" className="max-w-96" />
+
+You can see 4 neopixels and the OLED missing the ground traces. Thus we would like to add a ground pour. Click on the Add Filled Zone button on the right hand side:
+
+<img src="/docs/v2/pouraddzone.png" className="max-w-96" />
+
+Click on one corner of your board. You will get a new window, where you select GND in the middle, and check both F.Cu and B.Cu on the left side:
+
+<img src="/docs/v2/pouradd.png" className="max-w-96" />
+
+Click ok, and then draw the outline around your Edge.Cuts (It can be bigger then it, but then it won't be that pretty :P). When you have finished, press B to fill. You should press B each time you make a change so the fill can get updated (well not each time, but you get what I mean). The end result is like this:
+
+<img src="/docs/v2/pourfilled.png" className="max-w-96" />
+
+Oh no! Do you see the empty areas on the back of the board? Those are places where the ground pour can't reach. To fix this, you need to add some vias.
+
+<img src="/docs/v2/pouraddvias.png" className="max-w-96" />
+
+Click on that button, and place a few vias on the parts where the ground pour is missing (and feel free to put some even the in places where it isn't missing). And don't forget to press B again to refill! Your end product should look like this:
+
+<img src="/docs/v2/pourfinish.png" className="max-w-96" />
+
+<a name="matrix"/>
+## Switch Matrix
+
+[If you want, here is a detailed explenation of how key matrices works.](https://pcbheaven.com/wikipages/How_Key_Matrices_Works/)
+
+Now you aren't satisfied with the number of keys you have? With switch matrices you can have more switches on less pins! (Wow this is a good sales pitch, hire me adafruit :3)
+
+First, open up your schematic and place the switches in a grid shape:
+
+<img src="/docs/v2/keymatrixschematic.png" className="max-w-96" />
+
+If you want a non-symetric shape for your keys, it's fine to delete any switch you don't want.
+
+Now add diodes. Their schematic name is `D`. Place them at one end of the switch (any end, but it should be the same for all the switches), **pointing away from the switch**:
+
+<img src="/docs/v2/keymatrixschematicdiode.png" className="max-w-96" />
+
+Now, connect each row of diode heads together to form a row, and connect the each row to a GPIO pin. Do the same with the each column of switches (on the side without the diode) to form a column. Connect each column to a GPIO pin too.
+
+<img src="/docs/v2/keymatrixschematicconnected.png" className="max-w-96" />
+
+Now you do the same things assigning the footprints, but for diodes you will use D_DO-35_SOD27_P7.62mm_Horizontal as the footprint.
+
+<img src="/docs/v2/keymatrixschematicassign.png" className="max-w-96" />
+
+Congrats! You got a working key matrix. Nothing really changed for the PCB routing part. Just as a side note, don't put the diodes directly on the switches (or they will collide in real life). I recommend putting them on the other side of the board (flip using F) and between the switches:
+
+<img src="/docs/v2/keymatrixdiode.png" className="max-w-96" />
+
+NOTE: When making the bom, write 1N4148 instead of diode
+
+<a name="silkscreen"/>
+## Silkscreen Art
+
+Is your board too plain? Add some silkscreen art!
+
+First, you need to find the art. The best resource is google of course. I recommend you find a picture with well defined lines, and a good color contrast. This is needed since we will only have two colors: black and white. (Not even gray).
+
+PS. Find cute anime pics on pixiv.net UwU
+
+I'm taking this image as a example:
+
+<img src="/docs/v2/silkgura.png" className="max-w-96" />
+
+Credit: https://www.pixiv.net/en/artworks/124874618
+
+It has a good color contrast and well defined lines, which is perfect to use as silkscreen art.
+
+Now that you have your art. Open up kicad and launch the image converter.
+
+<img src="/docs/v2/silkconverter.png" className="max-w-96" />
+
+Click the "Load Source Image" button on the right hand side and select your image, you should see something like thiis:
+
+<img src="/docs/v2/silkbadsilk.png" className="max-w-96" />
+
+As you can see, the image isn't that good. Now play with the "Black / white threshold" slider on the right, and maybe try ticking the "Negative" checkbox. You should be able to find a point where you are satisfied:
+
+<img src="/docs/v2/silkgoodsilk.png" className="max-w-96" />
+
+If you can't find a good point, try finding another image, or open up a paint program, and make the contrast stronger.
+
+Now, at the bottom right, change the "Pcb Layer for Graphics" to "Front silk screen", and change the output format to "Footprint (.kicad_mod file)"
+
+<img src="/docs/v2/silkoptions.png" className="max-w-96" />
+
+Click on the "Export to Clipboard button", and go to your PCB editor. Click Control+V (Or Command+V on Macs), and place your silkscreen down. If your image is too small/big, try editing the size in "Output Size", and export to clipboard then paste again.
+
+If there is a "G***" text in your silkscreen, just select it and press del (or right click and delete).
+
+I placed mine on the back side of the PCB, and this is the final result:
+
+<img src="/docs/v2/silkfinal.png" className="max-w-96" />
+<img src="/docs/v2/silkfinal3d.png" className="max-w-96" />
+
+Pretty right? UwU
+
+<a name="jumpers"/>
+## Jumper Wire Holes
+
+Do you want some jumper wire holes? You can create a split macropad, or have some components away from the PCB with this!
+
+Just add the symbol named "Conn_01xNUM_Pin" to your schematic (Replace NUM by the number of pins you want).
+
+Wire it up and associate the footprint SolderWire-0.1sqmm_1xNUM_P3.6mm_D0.4mm_OD1mm (Replace NUM by the number of pins you want)
+
+<a name="rneopixels"/>
+## Reverse Mount Neopixels
+
+I highly recommend you to look into how to make [a ground pour](#ground) first.
+
+To add reverse mounted neopixels, [download this footprint library and unzip it](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fcheyao%2Fmacropad%2Ftree%2Fmain%2FPCB%2Fthird_party%2Fneopixel.petty). You need to use the built-in SK6812MINI symbol with it.
+
+You already know how to wire neopixels from the general tutorial (aka DIN to DOUT, VDD to +5V and VSS to GND).
+
+The only difference is that you need to assign SK6812MINI-E footprint to the neopixel
+
+<img src="/docs/v2/neoassoc.png" className="max-w-96" />
+
+You can put them anywhere as usual, but if you want to put them under your switches, follow this:
+
+First, select the **center** of the neopixel, then move it to the **center** of the corresponding switch:
+
+<img src="/docs/v2/neomiddle.png" className="max-w-96" />
+
+Now click E, and enter +5.08 at the Y fiels on the bottom left
+
+<img src="/docs/v2/neoedit.png" className="max-w-96" />
+
+Click ok and you should see your neopixel move down. Now click F to flip it onto the other side. (They will be shining towards the top, since they are reverse mounted).
+
+Repeate for all your leds, and you should be done!
+
+<img src="/docs/v2/neofinal.png" className="max-w-96" />
+
+NOTE: You shouldn't route inside the white border of the neopixel, since it will be drilled out. KiCAD should prevent you from doing it, but you will need to move any existing traces.
+
+<a name="rotary_encoder"/>
+## Rotary Encoder
+
+So you want a rotating knob! Good idea!
+
+First, add the symbol RotaryEncoder_Switch to your schematic.
+
+<img src="/docs/v2/rotarysym.png" className="max-w-96" />
+
+The right side of the symbol acts the same as a normal switch, you can just wire it into your key matrix/together with your switches. Connect the middle pin (C) to GND, then the top and bottom pins (A and B) to a GPIO pin:
+
+<img src="/docs/v2/rotarywired.png" className="max-w-128" />
+
+Now, you should associate the symbol to the RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles footprint.
+
+After that, just route your PCB as normal.
+
+<a name="expander"/>
+## IO Expander
+
+Not enough IO pins? Want to add like a ton of rotatory encoders?? It's time for an IO expander!
+
+We are going to use the MCP23017 io expander chip. For the symbol select MCP23017_SO.
+
+<img src="/docs/v2/expandersym.png" className="max-w-96" />
+
+First, connect VDD to +3.3V and VSS to GND. The reset pin should also be connected to +3.3V. Connect A0, A1 adn A2 to GND.
+
+Connect SDA to the SDA pin of the Xiao, and SCL to the SCL pin. You need to add pull-up resistors on SDA and SCL.
+
+Search for the symbol named `R` and place one on each SDA and SCL lines, and wire the other end of the resistors to a +3.3V symbol (Find it using P). Don't forget to add a +3.3V symbol to the Xiao!
+
+<img src="/docs/v2/expanderwired.png" className="max-w-128" />
+
+NOTE: In your BOM, you need to specify that the resistors are 4.7kΩ.
+
+Now you got 16 additional IO pins! (GPA0-7 and GPB0-7) Use them wisely :D
+
+When associating the symbols to the footprint. Select R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal for the resistors. The MCP23017_SO should already be pre-assigned, but it's corresponding footprint is SOIC-28W_7.5x17.9mm_P1.17mm.
+
+<a name="case_design_freecad"/>
+## Creating your case in FreeCad
+
+As a forenote, FreeCAD comes with a lot of quirks, so when you are blocked, google will be your best friend.
+
+<a name="freecad_plate"/>
+### Plate
+
+First, download [FreeCAD](https://www.freecad.org/), and open the application. Click on "New File". You should have something like this:
+
+<img src="/docs/v2/newfreecad.png" className="max-w-112" />
+
+Here is the layout of the view you should see:
+
+<img src="https://wiki.freecad.org/images/d/d8/FreeCAD_interface_base_divisions.svg" className="max-w-112" />
+
+Here are the names of the most important parts I will use in the tutorial:
+
+- 1 and 2. The 3D view, showing the 3D model of your macropad.
+- 3. The tree view, shows the hierarchy of objects in the document
+- 4. The property editor, which allows viewing and modifying properties of the selected objects.
+- 9. The toolbar area, where the toolbars are docked.
+- 10. The workbench selector, where you select the active workbench.
+- 11. The standard menu, which holds basic operations of the program.
+
+After that, select the "Draft" workbench in the workbench selector, and draw your dxf file from the file explorer into FreeCAD ([learn how here](/guide#case), continue until the part where you download the DXF). You should have something like this:
+
+<img src="/docs/v2/draft.png" className="max-w-112" />
+
+Now, select the outer lines that surround the keys, and delete them (Del key or rightclick and Delete). You should have something like this:
+
+<img src="/docs/v2/freecadkeyhole.png" className="max-w-112" />
+
+After that, go to the tree view, open up "layers" and then "0", then shift select all the items with the blue square icon:
+
+<img src="/docs/v2/freecadselect.png" className="max-w-112" />
+
+Click the draft to sketch button: (You might need to expand the toolbar menu by pressing ">>")
+
+<img src="/docs/v2/drafttosketch.png" className="max-w-112" />
+
+Now, add "layers" and "0" in the tree view to your selection and click delete. You should be left with something like this:
+
+<img src="/docs/v2/deletelayer.png" className="max-w-112" />
+
+Switch to the "Sketcher" workbench in the workbench selector. Click (**NOT** double click) the Sketch in the tree view, and click on validate sketch.
+
+<img src="/docs/v2/validatesketch.png" className="max-w-112" />
+
+Click the "Find" button under "Missing coincidences", then click the "Fix" button. After this click "Close". You should see something like this:
+
+<img src="/docs/v2/goodsketch.png" className="max-w-112" />
+
+Tip: You can click the "Top" on the cube on the 3d cube present at the top right of your screen to re-orientate your view!
+
+Let's create the outline of the plate! First go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end.
+
+<img src="/docs/v2/ruler.png" className="max-w-96" />
+<img src="/docs/v2/pcbsize.png" className="max-w-96" />
+
+Now we know that the width of the board is the absolute value of x (41mm in my case), and the height is the absolute value of y (62.702mm) in my case. Go back to FreeCAD, select the "Part Design" workbench and click this button to create a new sketch:
+
+<img src="/docs/v2/newsketch.png" className="max-w-96" />
+
+On the left menu bar, select XY-plane and click Ok. Now click the small arrow next to the square at the top menu, and select Rounded rectangle.
+
+<img src="/docs/v2/roundedrect.png" className="max-w-96" />
+
+Draw the rounded rectangle around your keys, click to start drawing it and click again to end the rectangle. Click a third time to set the edge radius. The measurement doesn't matter at the moment.
+
+NOTE: **Never** start a drawing by clicking on the axis (The red or green line).
+
+<img src="/docs/v2/roundedrect2.png" className="max-w-128" />
+
+Now select the dimension tool at the top.
+
+<img src="/docs/v2/dimension.png" className="max-w-128" />
+
+First, click on the quater circles at the edges and enter 5mm. (You can tweak this!)
+
+<img src="/docs/v2/edges.png" className="max-w-128" />
+
+Click ok. Now click on the straight line at the top, click again and enter "width-2\*radius+10\*2" (replace width with your board width, radius with your radius. The 10 at the end is our margin). In my case it is "41-2\*5+10\*2".
+
+<img src="/docs/v2/toplength.png" className="max-w-128" />
+
+Now do the same with the line at the right, but replace the width with the height.
+
+After all these, click escape multiple times (sometimes the escape just doesn't register TwT). Click and drag the "Sketch" onto the "Body", you should have something like this:
+
+<img src="/docs/v2/body.png" className="max-w-128" />
+
+Double click Sketch001 again, now select the External Geometry tool and click on the bottom left and down lines:
+
+<img src="/docs/v2/externalgeometry.png" className="max-w-128" />
+
+Now go to KiCAD, measure how far your Edge.Cuts is to the yellow Silkscreen of your bottom-left switch.
+
+<img src="/docs/v2/swoffset.png" className="max-w-96" />
+
+Select the dimension tool again, click on the dotted wire on the left side, and the left edge of the case. Set the distance to the x distance you just measured + 10.5 (for me it's 3.99+10.5). Same for the bottom line and bottom dotted wire, y distance + 10.5.
+
+<img src="/docs/v2/halfdonefreecadsketch.png" className="max-w-128" />
+
+Now draw 4 circles on the edges with the circle tool:
+
+<img src="/docs/v2/circletool.png" className="max-w-128" />
+
+Use the dimension tool to set their diameter to 3.4mm (Click on the circles). And then set their distance to the edge by clicking on the center point, then one edge. It should be 5mm (margin/2) for both sides. You should have something like this:
+
+<img src="/docs/v2/doneplatesketch.png" className="max-w-96" />
+
+Now go to kicad and measure the distance from the edge of the PCB to the USB port.
+
+<img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
+
+Then open back FreeCAD, select the rectangle tool and draw a rectangle at the top:
+
+<img src="/docs/v2/freecadrectangle.png" className="max-w-96" />
+
+Use the dimension tool to define a width of 18.5mm and height of 31mm. Click T and click on the top of the rectangle, then the top of the rounded rectangle. After that use the distance tool to set the distance from the left of the rectangle to the left edge of the rounded rectangle to x_distance_in_kicad+5.75mm
+
+<img src="/docs/v2/freecadplatehole.png" className="max-w-96" />
+
+Select the Trim edge tool:
+
+<img src="/docs/v2/freecadtrimedge.png" className="max-w-96" />
+
+Then click two times the top side of the rectangle you just drew:
+
+<img src="/docs/v2/freecadtrimmed.png" className="max-w-96" />
+
+Double click escape, and you are done with the sketch!!! (My fingers are going to break tbh)
+
+Now click on the pad button:
+
+<img src="/docs/v2/freecadpad.png" className="max-w-96" />
+
+And change the length to 3mm. Then rotate to the other side of the board! You can either use the middle mouse button+left mouse button, or the cube at the top-right. Go to the Model tab, select the sketch and click pocket button now
+
+<img src="/docs/v2/freecadpocket.png" className="max-w-96" />
+<img src="/docs/v2/selectsketch.png" className="max-w-128" />
+
+Enter 10mm, check the Reversed radio button and press Ok
+
+<img src="/docs/v2/holefreecad.png" className="max-w-128" />
+
+Congrats! You finished the top plate.
+
+Click File > Save to save the freecad project, and click on the Body in the tree view, then go to File > Export to export, select STL mesh as file format.
+
+<a name="freecad_bottom"/>
+### Bottom
+
+First, create a new file, then a new sketch (Make sure you are in the Part Design workbench, still on the XY-plane).  Add a rounded rectangle, and make it have the same dimensions as the previous one (Use the distance tool to set the size).
+
+<img src="/docs/v2/freecadbase.png" className="max-w-96" />
+
+After that, draw the four circles like last time. with the same dimensions. Then click C (This selects constraint coincident), click on any point of the rectangle, then the center of the xy axis:
+
+<img src="/docs/v2/freecadbasewhole.png" className="max-w-96" />
+
+Double click escape, and click pad again. Enter 13mm:
+
+<img src="/docs/v2/freecadbaseextrude.png" className="max-w-96" />
+
+Now click the top side of the case, and click on Create Sketch again. This time create a rectangle with the rectangle tool at the middle:
+
+<img src="/docs/v2/freecadrectangle.png" className="max-w-96" />
+
+After that, use the external geometry tool and click on all 4 sides of our extruded case. Then use the dimension tool to set a distance between the edge of our rectangle and the edges of our extruded case of 9.5 mm.
+
+<img src="/docs/v2/freecadholesketch.png" className="max-w-96" />
+
+Double click escape, click the pocket tool and enter 10mm. You should have something like this:
+
+<img src="/docs/v2/freecadpocket2.png" className="max-w-96" />
+
+Click on one of the smaller sides of the case, and create a new sketch. Now go to kicad and measure the distance from the left edge of the PCB to the USB port.
+
+<img src="/docs/v2/kicadusbdist.png" className="max-w-96" />
+
+Now draw a rectangle (non-rounded) in freecad. Use the external geometry tool to click on the right and top edges of the case. Set the width of the rectangle to 18.5mm and the height to 7.5mm. Click T, then click the top of the rectangle and the top edge of the case. After that use the distance tool to set the distance from the right of the rectangle to the right edge of the case to x_distance_in_kicad+5.75mm
+
+<img src="/docs/v2/freecadusbsketch.png" className="max-w-96" />
+
+Double click escape, and click the pocket tool, then enter 11mm. 
+
+<img src="/docs/v2/freecadcase.png" className="max-w-96" />
+
+Turn to the back case of your case, click on the back surface, then create a new sketch. Draw 4 circles, define their diameter of 6mm. Use the external geometry tool to import the 4 small circles of our case. Then use the coincident tool (click C to activate) to make the circles coincident (click on the center of one circle, then the other one).
+
+<img src="/docs/v2/freecadbothole.png" className="max-w-96" />
+
+Double click escape, and make a pocket of 3.1mm.
+
+And you finished your case!!! 🎊🎊 (I'm going to die writing all this) The steps to save it are the same.
+
+And finally to test fit the case! Export the 3d model of your PCB. Open a new FreeCAD file, click File > Import, and select all your components (case, plate and 3d PCB).
+
+Use the property editor to modify the position of the objects, so that they align: (The x, y, z fields, and rotate using the angle field)
+
+<img src="/docs/v2/freecadproperty.png" className="max-w-96" />
+
+After all this, you can assemble a 3d model like this and verify that everything fits:
+
+<img src="/docs/v2/freecadfinal.png" className="max-w-96" />
+
+PS. Yours should fit better, I make a tiny error to the measurements while creating the models :P. But I've corrected the sizes in the guide UwU

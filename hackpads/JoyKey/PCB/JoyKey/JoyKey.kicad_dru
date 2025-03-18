@@ -1,0 +1,7 @@
+(version 1)
+(rule "Exclude Reverse Mount LED edge clearance"
+	# ignore the reverse mount LEDS right next to the pads
+	(severity exclusion)
+	(condition "A.memberOfFootprint('SK6812MINI-E:*')")
+	(constraint edge_clearance (min 0.0mm))
+)

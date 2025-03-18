@@ -2,18 +2,30 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 
-import Tutorial from "./pages/Tutorial.mdx";
-import Submission from "./pages/Submission.mdx";
-import ApprovedParts from "./pages/ApprovedParts.mdx";
-import Faq from "./pages/Faq.mdx";
-import Braindump from "./pages/Braindump.mdx"
-import Resources from "./pages/Resources.mdx"
-import OrpheusPad from "./pages/OrpheusPad.mdx"
-import ResearchNote from "./pages/ResearchNote.mdx"
+import Tutorial from "./pages/hackpad/Tutorial.mdx";
+import AdvancedTutorial from "./pages/hackpad/AdvancedTutorial.mdx";
+import Errors from "./pages/hackpad/Errors.mdx";
+import Submission from "./pages/hackpad/Submission.mdx";
+import ApprovedParts from "./pages/hackpad/ApprovedParts.mdx";
+import Faq from "./pages/hackpad/Faq.mdx";
+import Braindump from "./pages/hackpad/Braindump.mdx"
+import Resources from "./pages/hackpad/Resources.mdx"
+import GetKeycap from "./pages/hackpad/GetKeycap.mdx"
+
+import Overview from "./pages/hackboard/Overview.mdx"
+import Faq2 from "./pages/hackboard/Faq2.mdx"
 
 import DocPage from "./layouts/DocPage.tsx";
+import SideBarKeyboard from "./components/SideBarKeyboard.tsx";
+import SideBar from "./components/SideBar.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+
+
+// IMPORT YOUR PROJECTS HERE
+import OrpheusPad from "./pages/submissions/Orpheuspad/OrpheusPad.mdx"
+import CyaoPad from "./pages/submissions/Cyaopad/CyaoPad.mdx"
+import Wang01 from "./pages/submissions/Wang01/Wang01.mdx"
 
 const router = createBrowserRouter([
   {
@@ -23,36 +35,62 @@ const router = createBrowserRouter([
   {
     path: "/guide",
     element: (
-      <DocPage Content={Tutorial} />
+      <DocPage Content={Tutorial} SideBar={ SideBar } />
     ),
   },
   {
+    path: "/advancedguide",
+    element: <DocPage Content={ AdvancedTutorial } SideBar={ SideBar } />,
+  },
+  {
     path: "/submitting",
-    element: <DocPage Content={Submission} />,
+    element: <DocPage Content={ Submission } SideBar={ SideBar } />,
   },
   {
     path: "/parts",
-    element: <DocPage Content={ ApprovedParts } />,
+    element: <DocPage Content={ ApprovedParts } SideBar={ SideBar } />,
   },
   {
     path: "/faq",
-    element: <DocPage Content={ Faq } />,
+    element: <DocPage Content={ Faq } SideBar={ SideBar } />,
   },
   {
     path: "/braindump",
-    element: <DocPage Content={ Braindump } />,
+    element: <DocPage Content={ Braindump } SideBar={ SideBar } />,
   },
   {
     path: "/resources",
-    element: <DocPage Content={ Resources } />,
+    element: <DocPage Content={ Resources } SideBar={ SideBar } />,
   },
   {
-    path: "/note",
-    element: <DocPage Content={ ResearchNote } />,
+    path: "/get-keycap",
+    element: <DocPage Content={ GetKeycap } SideBar={ SideBar } />,
   },
   {
-    path: "/projects/demopage",
-    element: <DocPage Content={ OrpheusPad } />
+    path: "/errors",
+    element: <DocPage Content={ Errors } SideBar={ SideBar } />,
+  },
+  {
+    path: "/keyboard",
+    element: <DocPage Content={ Overview } SideBar={ SideBarKeyboard } />,
+  },
+  {
+    path: "/keyboard/faq",
+    element: <DocPage Content={ Faq2 } SideBar={ SideBarKeyboard } />,
+  },
+
+  // Submitting? Great! Do something like this:
+  {
+    path: "/projects/orpheuspad",
+    element: <DocPage Content={ OrpheusPad } SideBar={ SideBar } />
+  },
+  {
+    path: "/projects/cyaopad",
+    element: <DocPage Content={ CyaoPad } SideBar={ SideBar } />
+  },
+  {
+    path: "/projects/wang01",
+    element: <DocPage Content={ Wang01 } SideBar={ SideBar } />
   }
 ]);
 

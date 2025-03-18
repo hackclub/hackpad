@@ -14,8 +14,13 @@ const SideBar = () => {
             </a>
           </li>
           <li>
+            <a href="/advancedguide" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
+              Advanced DIY guide
+            </a>
+          </li>
+          <li>
             <a href="/resources" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Resources
+              Resources & Tips
             </a>
           </li>
           <li>
@@ -31,6 +36,11 @@ const SideBar = () => {
           <li>
             <a href="/faq" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
               FAQ
+            </a>
+          </li>
+          <li>
+            <a href="/keyboard" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-400 hover:text-red-500">
+              Make a keyboard
             </a>
           </li>
         </ul>

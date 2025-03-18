@@ -1,0 +1,47 @@
+[package]
+name = "gamepad-bin"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+
+#rp2040
+embassy-rp = { workspace = true, optional = true }
+pio = { workspace = true, optional = true }
+cortex-m-rt = { workspace = true, optional = true }
+
+embassy-executor.workspace = true
+embassy-sync.workspace = true
+embassy-time.workspace = true
+embassy-futures.workspace = true
+embassy-usb.workspace = true
+
+portable-atomic.workspace = true
+
+ssd1306.workspace = true
+
+static_cell.workspace = true
+cfg-if.workspace = true
+
+defmt.workspace = true
+defmt-rtt.workspace = true
+panic-probe.workspace = true
+
+gamepad-lib = { path = "../lib" }
+
+[features]
+
+default = ["rp2040"]
+
+rp2040 = ["dep:embassy-rp", "dep:pio", "dep:cortex-m-rt"]
+
+esp32c3 = [
+#   "esp-wifi/esp32c3",
+#   "esp-hal/esp32c3",
+#   "esp-println/esp32c3",
+#   "esp-hal-embassy/esp32c3",
+#   "esp-backtrace/esp32c3",
+#   "common/esp32c3",
+]
