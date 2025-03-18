@@ -33,7 +33,7 @@ The firmware is written using KMK and uses the Steno layout
 | M3 x 16mm Screws                        | 2 (2pcs)   | $2.25                          | [Home Depot](https://www.homedepot.com/p/Everbilt-M3-0-5x16mm-Stainless-Steel-Flat-Head-Phillips-Drive-Machine-Screw-2-Pieces-863838/323370692) |
 | M3 X D5.0 X L5.5                        | 4          | $2.72                          | [AliExpress](https://www.aliexpress.us/item/4000232858343.html)                                                                                 |
 | 1N4148                                  | 42         | $2.48                          | [DigiKey](https://www.digikey.ca/en/products/detail/onsemi/1N4148/458603)                                                                       |
-| **Total**                               | -          | **69.05**                      |
+| **Total**                               | -          | **83.75**                      |
 
 # Inspiration
 
