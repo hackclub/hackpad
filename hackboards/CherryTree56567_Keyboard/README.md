@@ -37,7 +37,7 @@ A cool Keyboard made in KiCad, OnShape and Blender
 - [815-ABM8-272-T3 $0.54](https://au.mouser.com/ProductDetail/815-ABM8-272-T3) x1
 - [855-M80-2430000B $2.16](https://au.mouser.com/ProductDetail/855-M80-2430000B) x12
 - [710-970060244 $1.72](https://au.mouser.com/ProductDetail/710-970060244) x4
-- [Mill Max 0305 $14.03](https://au.mouser.com/ProductDetail/575-0305215804780) x122
+- [Kailh Sockets $3.95 70pcs](https://www.aliexpress.com/item/1005007225352311.html?mp=1) x1
 - [M2.10mm Wafer Head $2.40 x2](https://www.ebay.com.au/itm/363744921549?var=632961986863) x2
 - [Durock V3 Stabilizers $14.29](https://www.aliexpress.com/item/1005006628741999.html?mp=1) x1
 - [Kailh SMD Red $19.35](https://www.aliexpress.com/item/1005007016258336.html?mp=1) x1
