@@ -16,11 +16,6 @@
 |1.5u DSA Keycaps |Aliexpress |$2.92|
 Subtotal:$18.00
 
-## Stabilizers
-|Name |Vendor | Price |
-|:--- |:---- |:----:|
-|DUROCK Plate Mount Stabilizer V3 |Amazon |$17.26|
-
 ## Fasteners
 |Name |Vendor | Price |
 |:--- |:---- |:----:|
