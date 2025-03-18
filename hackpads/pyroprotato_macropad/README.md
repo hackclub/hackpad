@@ -24,10 +24,10 @@ The firmware was my biggest challenge, it was hard to figure out where to start 
  - Custom PCB
 
 ## Schematic
-![schematic](https://github.com/user-attachments/assets/0d374f77-1217-4337-aa21-c4f15a2e2000)
+![Screenshot 2025-03-17 135143](https://github.com/user-attachments/assets/ee9f6614-3cb6-4d6b-a318-82756306de9a)
 
 ## PCB
-![pcb](https://github.com/user-attachments/assets/100a4a16-a348-44c5-b388-be668339840e)
+![Screenshot 2025-03-17 135118](https://github.com/user-attachments/assets/6952f802-2e0e-455a-a484-da38ed7e552c)
 
 ## Case
 ![cad](https://github.com/user-attachments/assets/35b27b04-344b-4a22-821a-f19fc7d0c576)
