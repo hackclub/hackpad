@@ -1,6 +1,6 @@
 Bill Of Materials From HQ:
 
-- 1x 3D printed case, top plate in red, bottom case in black if possible.
+- 1x 3D printed case, top and middle plates in red, bottom case in black if possible.
 - 1x PCB
 - 1 Orpheus Pico MRC
 
@@ -16,3 +16,6 @@ Keycaps:
 
 Stabilisers:
 - Sarini 7pc Stabilisers 2U etc. (£9.99): https://www.amazon.co.uk/Sarini-Stabilizers-Stabilizer-Replacement-Accessories/dp/B0D6VF4SQB/ref=sr_1_4?crid=2KCKFSMH49UTE&dib=eyJ2IjoiMSJ9.Y7bI0HCJ5jJu9W8mk2Oc1jZz8aztxGKzlwEJmlLEbcRRkfR2VJwT15xxfYmwPCxdecmvbbx0UCYbv0bYzhmw6_KEjYpbUicMTkmWZ1qLPceNrKuxlnGPSgWjK1o6_mTKLA9uMO5w3p0bU2btaNV6d-m2vIa96hq-Rni3JlgGRGFo_7mpruQ6XpebJdEU2NYDZ4J7557-R2a2XTXv44W93TsBCPXOYgEYkYBHqoPf14w.TrMGy3DaCrDZfB0lNJzvSSh8TvosaJTck1p1SynDWvM&dib_tag=se&keywords=keyboard+stabilisers&qid=1742170441&s=instant-video&sprefix=keyboard+stabilisers%2Cinstant-video%2C63&sr=1-4
+
+Screws And Insets:
+- 100pc 3x16mm Steel Screws (£3.99)- https://www.amazon.co.uk/16mm-Small-Steel-Countersunk-Screws/dp/B083M983XD/ref=sr_1_1?crid=2YCIW8N84CPBZ&dib=eyJ2IjoiMSJ9.sxY40KHto88NbNTRrNYqFNL_xAMeXLNzbxHxQnpeCfi-GY3AuMJ3yvpAIIYh_KnruBCnlyq_gDdp6uj0aEKvaA-7iQr3zwnGwd5Fk3rww1SoOPqroQInLNOEuiwm7JWGc2ndfOiMKpbjvQqAovhuFJ5Pg_adaYuQfy6zO36taAhByr5hqUsc2U4WogbjRkfpIwopi3Ss-tReO-OjxC_CeQ5LFdwkFd0GdVhTrONCpo4.mlhAqYAFh7roaa1RBOHHbjo9X3jp3TkcGUi6Nq6y4FE&dib_tag=se&keywords=3x16mm+screws+and+inserts&qid=1742393021&s=instant-video&sprefix=3x16mm+screws+and+insets%2Cinstant-video%2C53&sr=1-1
