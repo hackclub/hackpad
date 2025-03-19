@@ -14,7 +14,8 @@ Arguably the easiest part of the project, the schematic was more just tedious in
 However, it didn't take me too long to make the whole schematic, people on slack helped me with choosing the correct MRC to wire it all to.
 
 PCB:
-![image](https://github.com/user-attachments/assets/803a2887-6a9a-4668-bb07-e77ac93b76c2)
+
+![image](https://github.com/user-attachments/assets/b9e77ff6-5e77-4458-ab15-53570393a945)
 
 Ever felt like wiring 700 wires on a pcb? Well now you can!
 The pcb design was probably my favourite part and took me more than a few hours over a few days to get all the wiring done to a point where I was happy with it.
@@ -22,8 +23,6 @@ The initial positioning also took a while because I was pulling my hair out tryi
 That *was* until I was helping someone on slack and saw they had different sized outlines for the keycaps and decided to take a second look at the footprint library... and lo and behold, people aren't masochists and made different sized footprints for the different keys...
 Good news - I got all the measurements right on my own :D.
 Bad news - I wasted about an hour doing that :(.
-
-I didn't add all the 3D models for the switches since I'm *very* out of time for this (currently 11:30pm on a Sunday :c) but lmk if I need to and I'll update all the images and this readme!
 
 Case:
 
@@ -35,11 +34,11 @@ Fully Assembled:
 
 Top Case:
 
-![image](https://github.com/user-attachments/assets/7d688780-1679-46d3-81bc-67f8b491f849)
+![image](https://github.com/user-attachments/assets/d4b6cd0a-bf35-4c06-92d8-75ab300db509)
 
 Middle Case:
 
-![image](https://github.com/user-attachments/assets/d4b6cd0a-bf35-4c06-92d8-75ab300db509)
+![image](https://github.com/user-attachments/assets/7d688780-1679-46d3-81bc-67f8b491f849)
 
 Bottom Case (Top):
 
