@@ -6,7 +6,7 @@ But seriously, this is a 75% keyboard which I designed over the course of a coup
 Spoilers: It was difficult.
 
 Schematic:
-![image](https://github.com/user-attachments/assets/995d8fcf-d1aa-4701-a841-ec692e2b851e)
+![image](https://github.com/user-attachments/assets/e7a38927-3d77-436f-b328-701bc1124f09)
 ![image](https://github.com/user-attachments/assets/6f2aa29f-deaf-46ef-ac56-3ba0a11f4d1b)
 ![image](https://github.com/user-attachments/assets/6607ca3a-f9d2-424d-bef2-c37913acca1f)
 
