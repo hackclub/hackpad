@@ -15,7 +15,7 @@ However, it didn't take me too long to make the whole schematic, people on slack
 
 PCB:
 
-![image](https://github.com/user-attachments/assets/b9e77ff6-5e77-4458-ab15-53570393a945)
+![image](https://github.com/user-attachments/assets/79c1f397-91e0-4369-9c15-ad88463334f2)
 
 Ever felt like wiring 700 wires on a pcb? Well now you can!
 The pcb design was probably my favourite part and took me more than a few hours over a few days to get all the wiring done to a point where I was happy with it.
