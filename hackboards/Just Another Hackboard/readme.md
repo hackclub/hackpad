@@ -26,31 +26,37 @@ Bad news - I wasted about an hour doing that :(.
 I didn't add all the 3D models for the switches since I'm *very* out of time for this (currently 11:30pm on a Sunday :c) but lmk if I need to and I'll update all the images and this readme!
 
 Case:
-Top Plate:
-![image](https://github.com/user-attachments/assets/88872136-6cb2-4fa4-95ba-4c3f6e1b1ae6)
 
-Cutout Under Art:
-![image](https://github.com/user-attachments/assets/7847d267-b314-471c-9009-b9db5ed48c5a)
+Fully Assembled:
 
-Back Plate:
-![image](https://github.com/user-attachments/assets/2b08dbfc-efa7-4d10-93f1-09cf3876aa3b)
+![Screenshot 2025-03-19 131045](https://github.com/user-attachments/assets/6b96a7e5-b404-4ddf-ba90-d164c1382b23)
 
-Underside Of Back Plate:
-![image](https://github.com/user-attachments/assets/20276ce0-2502-481e-8fe0-9f99cd33e8ac)
+![Screenshot 2025-03-19 132216](https://github.com/user-attachments/assets/2ced3a89-f7ac-4f6c-bd33-fe66bea3cc22)
 
-This is the part I underestimated this time around.
-I thought this might take a couple of hours (like maybe 4 or 5??). But no, this took me 8-9 hours to make and made me realise how slow of a worker I am.
-That doesn't matter now though, because I'm done! (or at least I hope I am).
-The case is just a normal rectangular case with some touches from me, them being:
-- My *spectacular* art at the top of the top plate. These are cutouts of orpheus and chiikawa (whom I DID NOT do justice to in my drawing) which I will put another coloured 3D printed plate behind in order to add colour. You can see this in image 2, where under the cutouts the thickness of the top plate is 1mm instead of 2mm.
-- Some stabilising holes inside the bottom plate to help align the pcb when I build the keyboard.
-- Holes for the keyboard feet to fit inside of along with the hinge for them.
-I've modelled the parts for the feet and stabilising holes separately and can most likely ask a friend to print them for me instead of asking for them from HQ - if I need to add the files anyway just lmk!
+Top Case:
+
+![image](https://github.com/user-attachments/assets/7d688780-1679-46d3-81bc-67f8b491f849)
+
+Middle Case:
+
+![image](https://github.com/user-attachments/assets/d4b6cd0a-bf35-4c06-92d8-75ab300db509)
+
+Bottom Case (Top):
+
+![image](https://github.com/user-attachments/assets/b8876218-29e2-4c5d-81bf-4acff671e48e)
+
+Bottom Case (Underside):
+
+![image](https://github.com/user-attachments/assets/61f3a54f-e2ba-4bb9-9c73-c83517b58732)
+
+This is the part I changed after my initial PR since there was an issue with the switch holes not aligning properly with the switches themselves along with there not being holes for the stabilsers and 2 screws. This in itself took a while seeing as I initially eyeballed the measurements for the stabilisers before being told to just go to ai03's plate generator (which I should've done from the start). That turned out to be much quicker than scouring the internet for the dimensions thankfully).
+After fixing those issues, I saw a nice design from aryatajne28's reaperboard (the middle plate which allowed for depth in the design) and decided to make one of my own - making the original topPlate the middle plate and creating a completely new top plate with pretty much a massive hole in it (but it works!).
+I also changed how the art for my board is done - I liked the idea of seeing the MRC through the case but thought that a grate would look weird on the board. The top of my case also looked barren at the top due to it having a "massive forehead" (thanks ben) so I also had to find a solution for that. Luckily, I thought of the idea of using the top of the PCB (also barren) as the art, putting a lot of silkscreen art there to make it look nicer! This not only solved the art problem, but also lets me see the MRC (yay!).
+The art includes boywithuke, chiikawa, orpheus and some handpicked quotes from my friends. I've put a gap in the top plate so I can put an acrylic plate there when I order my parts.
+The feet of the case were ***heavily inspired*** (carbon copied) from my current keyboard (Logitech G513) since imo they're pretty perfect and I like them. Plus my hands are already used to the angle of my current keyboard so copying the feet in theory should make this keyboard also feel nice!
+I've modelled the parts for the feet and stabilising holes separately and can ask a friend to print them for me instead of asking for them from HQ - if I need to add the files anyway just lmk!
 
 Firmware:
 
 There's not much to put here since I've learned a lot from the hackpad firmware incident, meaning this part only took like 30 minutes to do :D.
 It's basic firmware (led controls, matrix and rotary encoder controls) which I plan on expanding and developing when I have the board to experiment with since it'll be easier to do then.
-
-Note:
-The things in this PR will be modified to improve upon them, I just didn't have time to improve upon them tonight (sorry) but any needed fixes and changes will be made tomorrow (or today even).
