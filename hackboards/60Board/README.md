@@ -17,12 +17,12 @@ Classic sandwich mount case with threaded inserts
 <img width="1157" alt="image" src="https://github.com/user-attachments/assets/3b69da07-9739-4130-ac1d-40570cf6c106" />
 
 ## BOM
-1x EC11E Encoder (I will buy this myself, needs to be a shorter variant)
-1x 0.91 in OLED (The same one as Hackpad)
-1x Orpheus Pico
-4x M2 3mm threaded inserts
-4x M2 10mm Button head screws
-Switches: Gateron Milky Yellow Pro Linears
-Keycaps: PBT Soymilk keycaps (from Amazon)
-Stabilizers: Durock ones (haven't decided on an exact variant)
-Mill-Max Hotswap Sockets (Depending on money left in grant)
+- 1x EC11E Encoder (I will buy this myself, needs to be a shorter variant)
+- 1x 0.91 in OLED (The same one as Hackpad)
+- 1x Orpheus Pico
+- 4x M2 3mm threaded inserts
+- 4x M2 10mm Button head screws
+- Switches: Gateron Milky Yellow Pro Linears
+- Keycaps: PBT Soymilk keycaps (from Amazon)
+- Stabilizers: Durock ones (haven't decided on an exact variant)
+- Mill-Max Hotswap Sockets (Depending on money left in grant)
