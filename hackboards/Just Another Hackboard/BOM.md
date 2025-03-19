@@ -8,6 +8,7 @@ PCB Cost:
 
 Under Switch Grant:
 - 90pcs Red MX Gateron Switches (£26.99): https://www.amazon.co.uk/Gateron-KS-9-Mechanical-Type-Switch/dp/B07X1SSLVN?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1Y4RJERMOCWA6&gQT=2&th=1
+- EC11 Rotary Encoder (£0.67): https://www.aliexpress.com/item/4000911785652.html?spm=a2g0o.productlist.main.5.62b32671VAKecz&algo_pvid=9e0890ab-3a0f-4ae8-9276-73388fd81955&algo_exp_id=9e0890ab-3a0f-4ae8-9276-73388fd81955-2&pdp_ext_f=%7B%22order%22%3A%2247%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21GBP%210.90%210.78%21%21%211.13%210.98%21%40211b618e17424131559716674e1e90%2110000010539216633%21sea%21UK%210%21ABX&curPageLogUid=ffkDZnXSsCcj&utparam-url=scene%3Asearch%7Cquery_from%3A
 
 Misc Electronics:
 - 100pcs SK6812 MINIE LEDs (£10.48): https://www.aliexpress.com/item/1005004249903121.html?spm=a2g0o.productlist.main.37.7af85pmJ5pmJqk&algo_pvid=8c7a5ea7-f458-4e97-aaa2-8f9b79d97329&algo_exp_id=8c7a5ea7-f458-4e97-aaa2-8f9b79d97329-18&pdp_ext_f=%7B%22order%22%3A%2234%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21GBP%2115.33%2110.96%21%21%2119.27%2113.78%21%40211b613917421674405453531e93e5%2112000028520276327%21sea%21UK%210%21ABX&curPageLogUid=JZ6IYBnz0uC4&utparam-url=scene%3Asearch%7Cquery_from%3A
