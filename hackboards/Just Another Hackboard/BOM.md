@@ -1,8 +1,10 @@
 Bill Of Materials From HQ:
 
 - 1x 3D printed case, top and middle plates in red, bottom case in black if possible.
-- 1x PCB
 - 1 Orpheus Pico MRC
+
+PCB Cost:
+- £21.44 5pcs (minimum), £9.16 shipping.
 
 Under Switch Grant:
 - 90pcs Red MX Gateron Switches (£26.99): https://www.amazon.co.uk/Gateron-KS-9-Mechanical-Type-Switch/dp/B07X1SSLVN?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1Y4RJERMOCWA6&gQT=2&th=1
