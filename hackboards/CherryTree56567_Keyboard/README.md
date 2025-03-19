@@ -40,7 +40,7 @@ A cool Keyboard made in KiCad, OnShape and Blender
 - [Kailh Sockets $3.95 70pcs](https://www.aliexpress.com/item/1005007225352311.html?mp=1) x1
 - [M2.10mm Wafer Head $2.40 x2](https://www.ebay.com.au/itm/363744921549?var=632961986863) x2
 - [Durock V3 Stabilizers $14.29](https://www.aliexpress.com/item/1005006628741999.html?mp=1) x1
-- [Kailh SMD Red $19.35](https://www.aliexpress.com/item/1005007016258336.html?mp=1) x1
+- [Kailh SMD Red $19.35 x65](https://www.aliexpress.com/item/1005003944834891.html?mp=1) x1
 - [Dye-Sublimation Key Caps $22.89](https://www.aliexpress.com/item/1005007016258336.html?mp=1) x1
 - [SL2.1A $1.33](https://www.aliexpress.com/item/1005005552905296.html?mp=1) x1
 - [Type-C Recipictal $1.35](https://www.aliexpress.com/item/1005003285152827.html?mp=1) x1
