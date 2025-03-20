@@ -1,7 +1,7 @@
 **Just Another Hackboard**
 
 It's what the title says, just another hackboard.
-But seriously, this is a 75% keyboard which I designed over the course of a couple of days (and the case the night before :l) for fun and to see just how hard designing a keyboard could be!
+But seriously, this is a 75% keyboard which I designed over the course of a couple of days for fun and to see just how hard designing a keyboard could be!
 
 Spoilers: It was difficult.
 
