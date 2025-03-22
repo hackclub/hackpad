@@ -3,8 +3,6 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 
 import Tutorial from "./pages/hackpad/Tutorial.mdx";
-import AdvancedTutorial from "./pages/hackpad/AdvancedTutorial.mdx";
-import Errors from "./pages/hackpad/Errors.mdx";
 import Submission from "./pages/hackpad/Submission.mdx";
 import ApprovedParts from "./pages/hackpad/ApprovedParts.mdx";
 import Faq from "./pages/hackpad/Faq.mdx";
