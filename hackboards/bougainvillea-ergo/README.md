@@ -10,8 +10,8 @@
 ![Bougainvillea Keyboard Case](assets/IMG_0325.jpg)
 
 ## PCB and Schematic
-![Bougainvillea Keyboard PCB](assets/Screenshot_2023-12-26_at_12.42.48_AM.png)
-![Bougainvillea Keyboard Schematic](assets/Screenshot_2023-12-26_at_12.42.57_AM.png)
+![Bougainvillea Keyboard PCB](assets/PCB.png)
+![Bougainvillea Keyboard Schematic](assets/Schematic.png)
 
 ##BOM
 - 40x choc v1 jade switches | neomacro.in | 1920 INR = 22.08 USD
