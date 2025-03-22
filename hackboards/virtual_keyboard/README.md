@@ -1,5 +1,7 @@
 # virtual_keyboard
 
+[Original repo](https://codeberg.org/virtualfuzz/virtual_keyboard)
+
 ![Screenshot of the full keyboard](./screenshots/full-screenshot.png)
 
 Uses kmk for the firmware, maybe in the future I will switch to Rust.
