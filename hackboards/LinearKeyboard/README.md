@@ -1,5 +1,6 @@
 **Linear Keyboard**
-
+Main repo:
+https://github.com/Jyst7/Linear_Keyboard
 
 ![Keyboard_Case_V2](https://github.com/user-attachments/assets/025b06d9-29a8-478c-b9c2-a58ff3d1d071)
 
