@@ -28,28 +28,26 @@ Case:
 
 Fully Assembled:
 
-![Screenshot 2025-03-19 131045](https://github.com/user-attachments/assets/6b96a7e5-b404-4ddf-ba90-d164c1382b23)
+![image](https://github.com/user-attachments/assets/4ea43f57-9278-49d4-b2c0-d80f60a2ee00)
 
-![Screenshot 2025-03-19 132216](https://github.com/user-attachments/assets/2ced3a89-f7ac-4f6c-bd33-fe66bea3cc22)
+![image](https://github.com/user-attachments/assets/c912326d-1a4c-4c4a-937b-f37688a0bf6c)
+
+(Note: MRC pins are clipping through the case in the second screenshot, this shouldn't be an issue when building the keyboard to the best of my knowledge)
 
 Top Case:
 
-![image](https://github.com/user-attachments/assets/d4b6cd0a-bf35-4c06-92d8-75ab300db509)
+![image](https://github.com/user-attachments/assets/c15ccecc-b048-4b0d-b3d6-72bb347be2b7)
 
-Middle Case:
+![image](https://github.com/user-attachments/assets/7147ca92-0de1-4036-9acf-cbc7e33c0398)
 
-![image](https://github.com/user-attachments/assets/7d688780-1679-46d3-81bc-67f8b491f849)
+Bottom Case:
 
-Bottom Case (Top):
+![image](https://github.com/user-attachments/assets/411e294e-dc8e-4765-ad6c-d305704a2e55)
 
-![image](https://github.com/user-attachments/assets/b8876218-29e2-4c5d-81bf-4acff671e48e)
-
-Bottom Case (Underside):
-
-![image](https://github.com/user-attachments/assets/61f3a54f-e2ba-4bb9-9c73-c83517b58732)
+![image](https://github.com/user-attachments/assets/40052b47-057d-46b4-a31c-3b82b084adfb)
 
 This is the part I changed after my initial PR since there was an issue with the switch holes not aligning properly with the switches themselves along with there not being holes for the stabilsers and 2 screws. This in itself took a while seeing as I initially eyeballed the measurements for the stabilisers before being told to just go to ai03's plate generator (which I should've done from the start). That turned out to be much quicker than scouring the internet for the dimensions thankfully).
-After fixing those issues, I saw a nice design from aryatajne28's reaperboard (the middle plate which allowed for depth in the design) and decided to make one of my own - making the original topPlate the middle plate and creating a completely new top plate with pretty much a massive hole in it (but it works!).
+After fixing those issues, I saw a nice design from aryatajne28's reaperboard and decided to make one of my own - initially making a separate top and middle plate but merging them in the end in order to fix an issue where screwing the case together wouldn't actually attach the case layers.
 I also changed how the art for my board is done - I liked the idea of seeing the MRC through the case but thought that a grate would look weird on the board. The top of my case also looked barren at the top due to it having a "massive forehead" (thanks ben) so I also had to find a solution for that. Luckily, I thought of the idea of using the top of the PCB (also barren) as the art, putting a lot of silkscreen art there to make it look nicer! This not only solved the art problem, but also lets me see the MRC (yay!).
 The art includes boywithuke, chiikawa, orpheus and some handpicked quotes from my friends. I've put a gap in the top plate so I can put an acrylic plate there when I order my parts.
 The feet of the case were ***heavily inspired*** (carbon copied) from my current keyboard (Logitech G513) since imo they're pretty perfect and I like them. Plus my hands are already used to the angle of my current keyboard so copying the feet in theory should make this keyboard also feel nice!
