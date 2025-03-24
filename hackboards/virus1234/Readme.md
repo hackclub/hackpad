@@ -50,7 +50,7 @@ My inspiration for this is that my guinea pig was hanging out on my desk and che
 | 100 diode pack                                                        | 1   | $4.99 |
 | 0.96 oled                                                             | 1   | $6.99 |
 | Orpheus pico                                                          | 1   | High Seas |
-| Case                                                                  | 1   | Print Legion or my teacher |
+| Case                                                                  | 1   | Print Legion or myself |
 | Fasteners (0.45 inch hex standoff + screw)                            | 3   | no clue |
 
 | Total Price | PCB      | Switches | Fasteners | Keycaps  | Stabilizers | Other     |
