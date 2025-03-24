@@ -1,5 +1,5 @@
 ## Virus1234 - definately not a virus :)
-Made by @meddy ben ayed on slack
+Made by @meddy on slack
 
 My inspiration for this is that my guinea pig was hanging out on my desk and chewed my keyboard wire, so this seemed like a cool project where I can make a keyboard and replace the one that my guinea pig destroyed. 
 
@@ -56,7 +56,3 @@ My inspiration for this is that my guinea pig was hanging out on my desk and che
 | Total Price | PCB      | Switches | Fasteners | Keycaps  | Stabilizers | Other     |
 | ----------- | -------- | -------- | --------- | -------- | ----------- | --------- |
 | $123.77     | $27.22   | $48.30   | $5.00 ?  | $27.28    | $8.99       | uh $5 |
- 
-
-
-If anything is overbudget, please hit me up on slack at @meddy ben ayed and I can transfer money :)
