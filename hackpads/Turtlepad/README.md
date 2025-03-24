@@ -6,7 +6,7 @@ Inspiration: I love turtles :)
 
 ![image](https://github.com/user-attachments/assets/018ac9ab-8a66-448f-8747-fd8aa082d2aa)
 
-![image](https://github.com/user-attachments/assets/c9007fe9-e673-49d3-a1d4-4f1509a068ab)
+![image](https://github.com/user-attachments/assets/c760807c-a552-41ca-a2d4-b832cb44141a)
 
 ![image](https://github.com/user-attachments/assets/53044650-d402-443d-8245-8016f9b75caa)
 
