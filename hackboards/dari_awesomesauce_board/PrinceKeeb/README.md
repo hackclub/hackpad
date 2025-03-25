@@ -3,7 +3,14 @@
 ## Overview
 The PrinceKeeb is an ortholinear, 84-key split keyboard. It is designed for ergonomic typing, and the use of RJ11(6p4c) jacks makes it hotpluggable.
 
-###Schematic and PCB
+### PCB
+I designed the pcb in KICAD. This keyboard is hotswappable, so I used a MX hotswap switch footprint I found on Github. Since this keyboard is split, the two halves are connected with RJ11 jacks via the UART protocol. I chose this connection method because it is hotpluggable, which means that you can plug and unplug the power cable without damaging the microcontroller(in this case the orpheus pico). 
+
+### Cases
+I designed the the cases in Fusion 360. Each one consists of a bottom case and a plate to hold the keyswitches. The bottom case has standoffs to place heatset inserts. The plate has 
+
+### Firmware
+I used KMK for the firmware, as it fully supports wired UART. [Link to the page in the KMK repository I used](https://github.com/KMKfw/kmk_firmware/blob/main/docs/en/split_keyboards.md)
 
 ## Schematic
 Left
