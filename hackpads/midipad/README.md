@@ -21,10 +21,10 @@ so that became my initial motivation for this device.
 
 ## 📝 Bill of Materials
 
-- 128x32 OLED Display
-- 3 EC11 Rotary encoders
-- 12 Keys
-- 3 SK6812 LEDs
+- 1x 128x32 OLED Display
+- 3x EC11 Rotary encoders
+- 12x Keys
+- 3x SK6812 LEDs
 
 ## 📸 Pictures
 
