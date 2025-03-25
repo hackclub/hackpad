@@ -1,4 +1,4 @@
-All prices include shipping(to the best of my ability)
+toAll prices include shipping(to the best of my ability)
 ## PCB
 |Vendor | Price |
 |:---- |:----:|
@@ -35,10 +35,11 @@ Subtotal:$2.27
 | RJ11 Cable| Aliexpress| $1.97|
 | RJ11 Female Connector| AliExpress |$0.99  | 
 | Kailh Hotswap Sockets| AliExpress | $7.18 |
+|1n4148 diodes|AliExpress|$2.48|
 Subtotal:10.14
 
 ## MCU
 2 Orpheus Picos please!
 
 ## Total
-Approximately $125.36
+Approximately $127.84
