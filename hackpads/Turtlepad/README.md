@@ -1,4 +1,4 @@
-I finished my Turtlepad, by Om Tagdiwala
+# I finished my Turtlepad, by Om Tagdiwala
 
 ![image](https://github.com/user-attachments/assets/435322c5-1c7f-4979-a6d4-87571f9224d4)
 
@@ -17,12 +17,12 @@ Inspiration: I love turtles :)
 "SW15","RotaryEncoder_Switch","~","Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles","1",""
 "U1","XIAO-RP2040-DIP","","tlibfootprint:XIAO-RP2040-DIP","1",""
 ______
-12x Cherry MX Switches_______
-2x SK6812 MINI Leds_______
-1x XIAO RP2040______
-12x Blank DSA Keycaps________
-4x M3x16 Bolt______
-4x M3 Heatset <--idk what this is but it was in the demo thing so im leaving it_______
-16x 1N4148 diodes_______
-4x same screws as orpheuspad and corresponding nuts________
-1x Rotary encoder (RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm) (whatever the standard encoder was in the advanced guide)______
+12x Cherry MX Switches_______<br>
+2x SK6812 MINI Leds_______<br>
+1x XIAO RP2040______<br>
+12x Blank DSA Keycaps________<br>
+4x M3x16 Bolt______<br>
+4x M3 Heatset <--idk what this is but it was in the demo thing so im leaving it_______<br>
+16x 1N4148 diodes_______<br>
+4x same screws as orpheuspad and corresponding nuts________<br>
+1x Rotary encoder (RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm) (whatever the standard encoder was in the advanced guide)______<br>
