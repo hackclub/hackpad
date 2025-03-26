@@ -30,7 +30,9 @@ Barni Keyboard is a cool custom keyboard with 106 keys and colorful lights for e
 
 - PCB --> Total: $110.00
 
-- 3D print (no price, included)  
+- 3D print (no price, included)
+
+Total $312.00  
 
 
 ## Images of the keyboard
