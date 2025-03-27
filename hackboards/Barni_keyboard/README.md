@@ -12,11 +12,11 @@ Barni Keyboard is a cool custom keyboard with 106 keys and colorful lights for e
 
 - 105 LEDs (SK6812MINI for per-key lighting, ~$0.50 each) --> Total: ~$52.50
 
-- Keycap set (YMDK Transparent PBT, ~$25.00 total) --> Total: ~$25.00
+- Keycap set (YMDK White Backlit 108 Keycaps(Cherry Profile Double Shot Shine Through/108 TKL 61 Using), ~$23.00 total) --> Total: ~$23.00
 
 - Stabilizers (Durock V2, high-quality for smooth feel, ~$20.00 total) --> Total: ~$20.00
 
-- Fasteners (screws, nuts, etc., assorted, ~$15.00 total) --> Total: ~$15.00
+- Fasteners (screws, nuts, etc., assorted) --> Total: ~$8.00
 
 - Misc Electronics (resistors, Kailh hotswap sockets, etc., ~$15.00 total) --> Total: ~$15.00
 
@@ -28,11 +28,11 @@ Barni Keyboard is a cool custom keyboard with 106 keys and colorful lights for e
 
 - Rotary Encoder (Alps EC11, ~$1.00 each) --> Total: ~$1.00 
 
-- PCB --> Total: $110.00
+- PCB --> Total: $110.00 (I checked on a locak manufacturer)  
 
 - 3D print (no price, included)
 
-Total $312.00  
+Total $302.00  
 
 
 ## Images of the keyboard
