@@ -12,13 +12,13 @@ Inspiration: I love turtles :)
 
 
 
-| "Reference" | "Value" | "Datasheet" | "Footprint" | "Qty" | "DNP" |
-|-------------|---------|-------------|-------------|-------|-------|
-| "D1,D14" | "SK6812MINI" | "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" | "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" | "2" | "" |
-| "D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13" | "D" | "~" | "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" | "12" | "" |
-| "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12" | "SW_Push" | "~" | "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" | "12" | "" |
-| "SW15"|"RotaryEncoder_Switch" | "~" | "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" | "1" | "" |
-| "U1" | "XIAO-RP2040-DIP" | "" | "tlibfootprint:XIAO-RP2040-DIP" | "1" | "" |
+| Value | Footprint | Qty |
+|---------|---------|-------|
+| SK6812MINI | LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm | 2 |
+| Diode | Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal | 12 |
+| SW_Push | Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB | 12 |
+| RotaryEncoder_Switch | Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles | 1 |
+| XIAO-RP2040-DIP | tlibfootprint:XIAO-RP2040-DIP | 1 |
 ______
 12x Cherry MX Switches<br>
 2x SK6812 MINI Leds<br>
