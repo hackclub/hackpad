@@ -19,4 +19,4 @@ ______
 | M3 Heatset (idk what this is but it was in the demo thing so im leaving it) | N/A | 4 |
 | Screws (same as orpheuspad) and corresponding nuts | N/A | 4 |
 | Rotary encoder Knob/cap/cover | N/A | 1 |
-| Blank DSA Keycaps (preferably green or black/grey) | N/A | 12 |
+| Blank DSA Keycaps (preferably black/grey) | N/A | 12 |
