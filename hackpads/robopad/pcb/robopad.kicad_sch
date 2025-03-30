@@ -3240,6 +3240,28 @@
 			)
 		)
 	)
+	(global_label "scl"
+		(shape input)
+		(at 72.39 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e722b83-9bfe-4769-9326-3d4120667483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.1571 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row 3"
 		(shape input)
 		(at 241.3 157.48 0)
@@ -3803,6 +3825,28 @@
 		(uuid "e359cd58-d71b-4c09-a5b4-9a6db4f9fe5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.728 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sda"
+		(shape input)
+		(at 72.39 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9e94494-37e8-4833-92f8-445759a70269")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.7013 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,6 +8304,72 @@
 			(project "robopad"
 				(path "/cfb0e649-3652-4627-a470-22ef61c07fac"
 					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db659991-31ef-434d-a22f-b90e6cec24e9")
+		(property "Reference" "#PWR031"
+			(at 62.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3f16b49-8b81-4823-a2f3-eb5276c9665e")
+		)
+		(instances
+			(project "robopad"
+				(path "/cfb0e649-3652-4627-a470-22ef61c07fac"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
