@@ -20,6 +20,13 @@ The aim of this macropad is to have it on the side for quick binds. I hope I can
 Huge thanks to the other people in the repository. I probably would've not figured out how to do it without references and/or help from Slack.
 Also kudos to Hack Club for this crazy opportunity. :D
 
+Images of stuff:
+[Schematic](images/Schematic.png)
+[The hackpad, broken apart](images/Hackpad_Case_Full.png)
+[Bottom of case](images/Hackpad_bottom.png)
+[Top of case](images/Hackpad_top.png)
+[The hackpad, assembled](images/Hackpad_Full.png)
+
 ### Kudos to ScottoKeebs(https://github.com/joe-scotto/scottokeebs) for the library that saved my project
 
 # PROUD CAT AND DOG FATHER!!! :3
