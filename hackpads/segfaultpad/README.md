@@ -8,9 +8,8 @@ had the most difficulties with the CAD modeling, as FreeCAD kept crashing and er
 ## CAD
 This is a screenshot of how it all fits together. I couldn't find good ways of positioning models, so
 it does not have the MCU or keyswitch + keycap models in it. All CAD models can be found in the `cad/`
-directory. The CAD models were designed with FreeCAD (not something I want to repeat) and tweaked with
-PrusaSlicer. I included the FreeCAD documents as well because the final result does contain some meshes,
-and so I wanted it to be more accessible. The STEP file is zipped so Git doesn't get mad.
+directory. The CAD models were originally designed with FreeCAD (not something I want to repeat) and tweaked with
+PrusaSlicer, but were remodeled in Fusion 360. I included the FreeCAD documents as well because the final result does contain some meshes, and so I wanted it to be more accessible.
 
 ![CAD model](https://cdn.hackclubber.dev/slackcdn/adc4e25d2d4dbb5d4699b475fb0dc19b.png)
 
