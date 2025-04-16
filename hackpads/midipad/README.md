@@ -21,22 +21,33 @@ so that became my initial motivation for this device.
 
 ## 📝 Bill of Materials
 
-- 128x32 OLED Display
-- 3 EC11 Rotary encoders
-- 12 Keys
-- 3 SK6812 LEDs
+Electronics
+
+- 1x Seeed XIAO RP2040 _(Microcontroller)_
+- 1x MCP23017-E/SO _(IO expander)_
+- 12x Choc V2 switches
+- 12x Through-hole 1N4148 Diodes
+- 3x SK6812 MINI-E LEDs
+- 3x EC11 Rotary encoders
+- 2x 4.7kΩ Resistors
+- 1x 0.91 inch OLED display (HS HS91L02W2C01)
+
+Physical
+
+- 4x M3x5mx4mm heatset inserts
+- 4x M3x16mm screws
+- 4x M3 hex nuts
+- 5x Blank DSA keycaps (Black)
+- 7x Blank DSA keycaps (White)
 
 ## 📸 Pictures
 
 ![PCB view of midipad in KiCad](https://github.com/user-attachments/assets/e291a786-e8bb-4892-b345-8339b5e39b9f)
 
-![3-D view of the entire case](https://github.com/user-attachments/assets/a71cd22a-a47e-4b95-8770-f265110977b5)
+![3-D view of the entire case](https://github.com/user-attachments/assets/bb3579b9-1218-4698-a2f8-db43de450aad)
 
-^ Yes I'm missing a few models. Yes this is a screenshot of Onshape.
+![3-D view of the PCB](https://github.com/user-attachments/assets/9d02af57-4bf4-4724-8494-3c31c4919a5e)
 
-![3-D view of the PCB](https://github.com/user-attachments/assets/93470769-9958-4fc9-a9b4-fbe5257d9d89)
-
-^ 3D render in KiCad
 
 ![Half of the schematic view of midipad](https://github.com/user-attachments/assets/3db30f81-78f0-42c3-90d1-1a9fae4ef9c9)
 
