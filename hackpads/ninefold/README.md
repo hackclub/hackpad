@@ -2,7 +2,7 @@
 
 
 **BOM:**
-- 9x Gateron G Pro Reds
+- 9x Gateron G Pro Browns
 - 9x Blank Black DSA Keycaps
 - 9x Through-hole 1N4148 Diodes
 - 1x Seeed XIAO RP2040
