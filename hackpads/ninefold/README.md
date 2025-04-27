@@ -2,7 +2,7 @@
 
 
 **BOM:**
-- 9x Gateron G Pro Browns
+- 9x Gateron Baby Kangaroo
 - 9x Blank Black DSA Keycaps
 - 9x MX Hotswap Sockets
 - 9x Through-hole 1N4148 Diodes
