@@ -4,6 +4,7 @@
 **BOM:**
 - 9x Gateron G Pro Browns
 - 9x Blank Black DSA Keycaps
+- 9x MX Hotswap Sockets
 - 9x Through-hole 1N4148 Diodes
 - 1x Seeed XIAO RP2040
 - 4x M3x16mm screws
