@@ -22,6 +22,10 @@ I've looked at the apollo keyboard, one that I have which is eva themed, and wan
 - 1x center screw used in orpheuspad
 - 12x Kailh Hotswap sockets
 - 1x EC11 Rotary encoders 
+# Photos!
+![image](https://github.com/user-attachments/assets/a4ca5ff4-5e0b-4d12-93c7-b23f5f393722)
+![image](https://github.com/user-attachments/assets/167d1434-1f35-4383-ba14-bc19d75eb498)
+![image](https://github.com/user-attachments/assets/8d222fd5-8d97-447f-9564-54bed26015f4)
 
 
 ## Colors
