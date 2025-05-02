@@ -35,3 +35,7 @@ BOM:
 4x M3 Heatset
 
 **3D prints BLACK**
+
+Images:
+| ![3D](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/PCB/PCB%20Picturres/3DJPG.jpg) | ![Layout](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/PCB/PCB%20Picturres/LayoutJPG.jpg) | ![Schematic](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/PCB/PCB%20Picturres/SchematicJPG.jpg) |
+|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
