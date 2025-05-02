@@ -1,6 +1,5 @@
 **Summary:** This project started out with a YouTube tutorial. I learnt quite a lot and later(i challenged myself to do the whole macropad without looking at the video) I managed to make my own macropad(with the help of many people on the hack club slack). While it was challenging to make my first PCB, the community helped me fix errors and I eventually overcame the issues I had been facing. The whole experiene left me more confident in my skills and I feel ready to take on the challenge of building a full keyboard now!
 
-# Note: This is not the PCB I'll order - I switched out the 3 pin switches for 5 pin switches with pcb mounting
 
 
 **BOM:**
