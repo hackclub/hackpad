@@ -5,12 +5,6 @@ Primarily intended as a general-use hackpad, intend to use most of the extra F-k
 
 ### Pictures
 
-#### Above
-![Above View](endpad-assets/endpad-above.png)
-#### Diagonal
-![Diagonal View](endpad-assets/endpad-diagonal.png)
-#### Below
-![Below View](endpad-assets/endpad-below.png)
 #### PCB
 ![PCB View](endpad-assets/endpad-pcb.png)
 #### 3D PCB
