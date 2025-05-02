@@ -5,6 +5,7 @@
 **BOM:**
 - 9x Akko Lavender Purple Pro v3s
 - 9x Blank Black DSA Keycaps
+- 9x Kailh Hotswap Sockets
 - 9x Through-hole 1N4148 Diodes
 - 1x Seeed XIAO RP2040
 - 4x M3x16mm screws
