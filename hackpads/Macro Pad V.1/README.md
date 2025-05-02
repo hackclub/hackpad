@@ -36,6 +36,9 @@ BOM:
 
 **3D prints BLACK**
 
-Images:
+PCB Images:
 | ![3D](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/PCB/PCB%20Picturres/3DJPG.jpg) | ![Layout](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/PCB/PCB%20Picturres/LayoutJPG.jpg) | ![Schematic](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/PCB/PCB%20Picturres/SchematicJPG.jpg) |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+Case Images:
+| ![AssmembledCase](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/CAD/Case%20Pictures/AssembledCase.jpg) | ![BottomCase](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/CAD/Case%20Pictures/BottomCase.jpg) | ![TopCase](https://github.com/KiaKia86/hackpad/blob/main/hackpads/Macro%20Pad%20V.1/CAD/Case%20Pictures/TopCase.jpg) |
+|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
