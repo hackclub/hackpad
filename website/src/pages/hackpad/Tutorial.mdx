@@ -21,10 +21,6 @@ If you're unsure about anything, send a message in #hackpad! We have so many eag
 
 There's also [this](/resources) giant wall of resources to reference!
 
-Here is also a guide on [advanced PCB components](/advancedguide).
-
-[Look up DRC errors here :D](/errors)
-
 Lets start with:
 
 <a name="pcb_design"/>
@@ -185,8 +181,6 @@ If you aren't satisfied and wan't something more advanced, [check out the advanc
 
 This guide uses [Fusion360](https://www.autodesk.com/products/fusion-360/personal) for designing the case. You can use other software, but it may be harder to follow along!
 
-If you are interested for guides on how to use different software, look into the [advanced DIY guide!](/advancedguide)
-
 First thing first, go to [ai03's plate generator](https://kbplate.ai03.com/).
 
 Then, open [keyboard-layout-editor.com](https://www.keyboard-layout-editor.com/) in a new tab. 
@@ -318,13 +312,13 @@ Now select everything and click on the Lock button
 Go back to KiCAD PCB editor and measure the dimensions of your board with the ruler tool. Click on one end of your Edge.Cuts and click again on the other end. You can also select your Edge.Cuts and find the width and height in the bottom right.
 
 <img src="/docs/v2/ruler.png" className="max-w-96" />
-<img src="/docs/v2/pcbsize.png" className="max-w-96" />
+<img src="/docs/v2/swoffset.png" className="max-w-96" />
 
-Now lets create a new rectangle, define it's width and height be the same as the size of the top plate. Set the distance between the left keyhole end and the left rectangle edge the x distance you just measured + 10.5 (for me it's 3.99+10.5). Same for the bottom edge of the keyhole and bottom edge of the rectangle, y distance + 10.5.
+Now lets create a new rectangle, define it's width and height be the same as the size of the top plate. Set the distance between the left keyhole end and the left rectangle edge the x distance you just measured + 9.5 (for me it's 3.99+9.5). Same for the bottom edge of the keyhole and bottom edge of the rectangle, y distance + 9.5.
 
 <img src="/docs/v2/fusionalmost.png" className="max-w-96" />
 
-Add another rectangle, this time with it's start starting on the top line of our rectangle. Set it's width to 18.5mm and height to 31mm. After that use the distance tool to set the distance from the left of the rectangle to the left edge of the rounded rectangle to x_distance_in_kicad+5.75mm
+Add another rectangle, this time with it's start starting on the top line of our rectangle. Set it's width to 18.5mm and height to 31mm. After that use the distance tool to set the distance from the left of the innder rectangle to the left edge of the outer rectangle to x_distance_in_kicad+5.75mm
 
 Add 4 more circles of 3.4mm and set their position to 5mm from the edges with the distance tool:
 
@@ -416,8 +410,6 @@ The board should automatically restart and be recognised as a new external drive
 
 # Next steps
 We just made a pretty cool macropad, but obviously there's a lot of cooler stuff out there - that's up to you to figure out! Again, don't copy this guide 1:1, add your own design into it.
-
-You might want to check out the [advanced guide](/advancedguide).
 
 Or maybe do you think you are done? Check out how to submit [here](/submitting)
 

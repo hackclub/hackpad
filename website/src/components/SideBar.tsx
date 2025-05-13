@@ -14,11 +14,6 @@ const SideBar = () => {
             </a>
           </li>
           <li>
-            <a href="/advancedguide" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Advanced DIY guide
-            </a>
-          </li>
-          <li>
             <a href="/resources" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
               Resources & Tips
             </a>

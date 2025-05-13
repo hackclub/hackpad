@@ -1,0 +1,4 @@
+#define ENCODER_A_PINS GP29
+
+#define ENCODER_B_PINS GP3
+
