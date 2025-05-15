@@ -3,7 +3,7 @@
 
 
 **BOM:**
-- 9x Akko Lavender Purple Pro v3s
+- 9x Haimu Mulberry Tactile Switches
 - 9x Blank Black DSA Keycaps
 - 9x Kailh Hotswap Sockets
 - 9x Through-hole 1N4148 Diodes
