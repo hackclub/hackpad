@@ -7,6 +7,7 @@ This is my macropad! This was made for Highway.
 <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8ef83b658ef45691606cfae5e65c6c1fdec9aea8_screenshot_2025-05-18_at_2.01.11___pm.png"/>
 <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a525f0c7558fddc539c4945b69bb3893ff08e493_screenshot_2025-05-18_at_12.53.38___pm.png"/>
 <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/b4a293b1c2c098d1b42eb6b38815fb69151e322f_screenshot_2025-05-18_at_12.54.39___pm.png"/>
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/baa1d5076996570429f3c13fb66d62608217343b_image.png"/>
 
 ## BOM:
 * 1x RP2040 XIAO
