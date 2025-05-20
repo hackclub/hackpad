@@ -1,5 +1,7 @@
 # ezpad
 
+by Eddy Zhao (@eddyzow)
+
 ![image](https://github.com/user-attachments/assets/6eca65f7-fa06-414b-b9ac-68b172981000)
 
 A macropad (mini-keyboard) with 9 mechanical keys, 0.91" OLED screen, and rotary encoder. Custom-built and wired PCB. Powered by a Seeed XIAO RP2040.
