@@ -11,4 +11,6 @@ Precursor project to a larger custom mechanical keyboard I'll be making soon! (t
 - 1x Seeed XIAO RP2040
 - 1x EC11 Rotary Encoder Switch
 - 1x 3D Printed Case
-- 4x M3 16mm Screws
+
+parts I already have:
+- 4x 20mm M4 screws
