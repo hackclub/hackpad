@@ -6,9 +6,9 @@ Precursor project to a larger custom mechanical keyboard I'll be making soon! (t
 
 # BOM
 
-1x 0.91" OLED (SSD1306)
-9x Cherry MX Switch
-1x Seeed XIAO RP2040
-1x EC11 Rotary Encoder Switch
-1x 3D Printed Case
-4x M3 16mm Screws
+- 1x 0.91" OLED (SSD1306)
+- 9x Cherry MX Switch
+- 1x Seeed XIAO RP2040
+- 1x EC11 Rotary Encoder Switch
+- 1x 3D Printed Case
+- 4x M3 16mm Screws
