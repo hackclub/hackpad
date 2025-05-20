@@ -8,9 +8,9 @@ by Eddy Zhao (@eddyzow)
 
 A macropad (mini-keyboard) with 9 mechanical keys, 0.91" OLED screen, and rotary encoder. Custom-built and wired PCB. Powered by a Seeed XIAO RP2040.
 
-After many failed attempts at using the correct footprints, I finally my very first PCB! I then put it in a case that I created on Onshape.
+This project was really fun to work on! I learned a lot about how key matrices work and expanded my knowledge of electronics along the way. I had to rewire the PCB three times because I had accidentally flipped the switch sockets to the front, then I used the wrong socket, etc... it was a painful process. However, after many failed attempts, I finally created my very first PCB! I then put it in a case that I created on Onshape. The rotary encoder turns the volume up and down, but unfortunately due to pin constraints the button press does not work.
 
-This is my submission for Hackpad V3 and my second submission for Highway! It's also hopefully a precursor project to a larger custom mechanical keyboard I'll be making soon!
+This is my submission for Hackpad V3 and my second submission for Highway! I'm a mechanical keyboard person who owns five mechanical keyboards, but only one of them is custom (not the PCB) -- this is thus also hopefully a precursor project to a larger custom mechanical keyboard I'll be making soon!
 
 # Images
 
