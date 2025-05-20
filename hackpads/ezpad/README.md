@@ -2,6 +2,8 @@
 
 by Eddy Zhao (@eddyzow)
 
+* Note: the full CAD file was greater than 25 MB and thus I had to zip it for github to allow it onto the servers. otherwise all other files should follow the correct structure
+
 ![image](https://github.com/user-attachments/assets/6eca65f7-fa06-414b-b9ac-68b172981000)
 
 A macropad (mini-keyboard) with 9 mechanical keys, 0.91" OLED screen, and rotary encoder. Custom-built and wired PCB. Powered by a Seeed XIAO RP2040.
