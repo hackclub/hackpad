@@ -25,6 +25,7 @@ This is my submission for Hackpad V3 and my second submission for Highway! I'm a
 - 9x Cherry MX Switch
 - 9x DSA Keycaps
 - 9x 1N4148 Diodes
+- 9x Kailh Hotswap Sockets
 - 9x NeoPixels (SK6812 MINI-E LEDs)
 - 1x Seeed XIAO RP2040
 - 1x EC11 Rotary Encoder Switch
