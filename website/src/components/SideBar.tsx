@@ -33,11 +33,11 @@ const SideBar = () => {
               FAQ
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/keyboard" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-400 hover:text-red-500">
               Make a keyboard
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </aside>
