@@ -1,0 +1,62 @@
+{
+    "manufacturer": "Volkov08",
+    "maintainer": "Volkov08",
+    "keyboard_name": "atlaspad",
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["GP26", "GP27", "GP28", "GP29"],
+        "rows": ["GP4", "GP3", "GP2", "GP1"]
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0xA7A5",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "SW1", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "SW2", "matrix": [1, 0], "x": 3, "y": 0 },
+                { "label": "SW3", "matrix": [2, 0], "x": 0, "y": 1 },
+                { "label": "SW4", "matrix": [3, 0], "x": 3, "y": 1 },
+                { "label": "SW5", "matrix": [0, 1], "x": 0, "y": 2 },
+                { "label": "SW6", "matrix": [1, 1], "x": 1, "y": 2 },
+                { "label": "SW7", "matrix": [2, 1], "x": 2, "y": 2 },
+                { "label": "SW8", "matrix": [3, 1], "x": 3, "y": 2 },
+                { "label": "SW9", "matrix": [0, 2], "x": 0, "y": 2 },
+                { "label": "SW10", "matrix": [1, 2], "x": 1, "y": 2 },
+                { "label": "SW11", "matrix": [2, 2], "x": 2, "y": 2 },
+                { "label": "SW12", "matrix": [3, 2], "x": 3, "y": 2 }
+            ]
+        }
+    },
+    "dip_switch": {
+        "enabled": true,
+        "matrix_grid": [
+            [1, 3],
+            [0, 3],
+            [3, 3],
+            [2, 3]
+        ]
+    },
+    "rgblight": {
+        "led_count": 14,
+        "animations": {
+            "rainbow_mood": true
+        },
+        "default": {
+            "animation": "rainbow_mood"
+        },
+        "driver": "ws2812"
+    }
+}
