@@ -20,7 +20,7 @@ const SideBar = () => {
           </li>
           <li>
             <a href="/parts" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Approved Parts
+              Approved Parts / Kit Contents
             </a>
           </li>
           <li>
