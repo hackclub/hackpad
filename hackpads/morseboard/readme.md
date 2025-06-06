@@ -1,6 +1,6 @@
 # Morseboard
 
-My hackpad keyboard is a keyboard that types in morse code. The rotary encoder is for volume.
+My hackpad keyboard is a keyboard that types in morse code. The rotary encoder is for volume. I was inspired to do this because I kept making smaller and smaller keyboards, and this is the next step in my journey. Maybe one day, I'll make a 1-key keyboard. The reason I chose to use morse code, was because I coincidentally was learning it for fun. This was also my first time truly designing my own keyboard with my previous keyboards just being half of a pre-built split keyboard, so I had to learn how to use real CAD tools.
 
 ## Features
 - Rotary Encoder
