@@ -1,6 +1,8 @@
 # Speedykeeb
 
-This is my Keyboard. It has compartments on the left for screws and such and a compartment on the top for my Pinecil. The color style is inspired by the NES
+This is my Keyboard. It has compartments on the left for screws and such and a compartment on the top for my Pinecil. The color style is inspired by the NES.
+
+I made it becazse i really want a mechanical keyboard and always wanted to make one myself so it fits my requirements. So this was the perfect opportunity. 
 
 | Amount | Unit | Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ------ | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
