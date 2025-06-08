@@ -60,6 +60,8 @@ It's basic firmware (led controls, matrix and rotary encoder controls) which I p
 
 BOM:
 
+Case: Can 3D print myself.
+
 | Item | Quantity | Price | Notes |
 |------|----------|-------|-------|
 | Orpheus Pico | 1 | N/A (from HQ) | None |
