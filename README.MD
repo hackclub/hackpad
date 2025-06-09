@@ -2,7 +2,8 @@ Talk to @Ace (Zohair shaik) on slack Gmail: Zohairshaik7@gmail.com Discord: auto
 
 ________________________________________________
 Why I made it:
-Was pretty bored
+
+Was pretty bored and saw some macropads on insta so i got inspired..
 ________________________________________________
 What I need:
 
