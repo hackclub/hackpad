@@ -1,6 +1,9 @@
 Talk to @Ace (Zohair shaik) on slack Gmail: Zohairshaik7@gmail.com Discord: autohackingcodes2079Hi this is my hackpad submission:
 
 ________________________________________________
+Why I made it:
+Was pretty bored
+________________________________________________
 What I need:
 
 7x Cherry MX switches
