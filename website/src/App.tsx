@@ -144,7 +144,7 @@ export default function App() {
                             </div>
                         </p>
                     </div>
-                    <div>
+                    {/* <div>
                         <h2 className="text-2xl py-3 font-semibold">
                             Requirements
                         </h2>
@@ -179,7 +179,7 @@ export default function App() {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div>
                         <s>
                             <h2 className="text-xl py-3">What's new in V2?</h2>
