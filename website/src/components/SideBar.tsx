@@ -14,18 +14,13 @@ const SideBar = () => {
             </a>
           </li>
           <li>
-            <a href="/advancedguide" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Advanced DIY guide
-            </a>
-          </li>
-          <li>
             <a href="/resources" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
               Resources & Tips
             </a>
           </li>
           <li>
             <a href="/parts" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-slate-900 hover:text-cyan-800">
-              Approved Parts
+              Approved Parts / Kit Contents
             </a>
           </li>
           <li>
@@ -38,11 +33,11 @@ const SideBar = () => {
               FAQ
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/keyboard" className="block py-2 px-4 rounded hover:bg-slate-200 transition-all text-red-400 hover:text-red-500">
               Make a keyboard
             </a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </aside>
