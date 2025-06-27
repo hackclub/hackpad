@@ -82,7 +82,7 @@ See a more detailed BOM [here](https://docs.google.com/spreadsheets/d/11py9m45Hc
 |mfg name|	Description|	        Price|	        shipping|	total|	    type|	grant$$|
 | --- |     --- |                   --- |           --- |       --- |       --- | --- |
 | AMAZON|	keycap|	                12.99|	        0|	        12.99|	    keycap|	25|
-|AMAZON|	keyswitch(90)	        52.99|		    0|          52.99|	    keyswitch|	41|
+|AMAZON|	keyswitch(90)|	        52.99|		    0|          52.99|	    keyswitch|	41|
 |AMAZON|	hot swap, diode(100)|	12.5*90%+4.74|	0|	        14.74|	    misc|	15|
 |AMAZON|	stabilizer|         	19.99|		    0|          19.99|	    stabilizer|	20|
 |ALIEXPRESS|bolts(2M*8mm*50)|   	1.76|		    0|          1.76|	    fastener|	15|
