@@ -86,7 +86,8 @@ See a more detailed BOM [here](https://docs.google.com/spreadsheets/d/11py9m45Hc
 |AMAZON|	hot swap, diode(100)|	12.5*90%+4.74|	0|	        14.74|	    misc|	15|
 |AMAZON|	stabilizer|         	19.99|		    0|          19.99|	    stabilizer|	20|
 |ALIEXPRESS|bolts(2M*8mm*50)|   	1.76|		    0|          1.76|	    fastener|	15|
-|LCPCB|	    pcb|                    20.9|	        15.23|	    36.13|		pcb|        #NaN
+|JLCPCB|	    pcb|                    20.9|	        15.23|	    36.13|		pcb|        #NaN
 |CAD case(bottom left and right can be printed anywhere, but the upper plate and plate are around 330*120mm)|
 | 1 Orpheus Pico |
+
 *PRICES IN USD									
