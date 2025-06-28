@@ -1,5 +1,8 @@
 # blipyboard
-An 8 key macropad with an OLED screen and potentiometer for HackPad. It also has 8 SK6812 leds for lighting and utilizes custom KMK firmware.
+An 8 key macropad with an OLED screen and potentiometer for HackPad. It also has 8 SK6812 leds for lighting and utilizes custom KMK firmware. <br>
+
+<img width="766" alt="Screenshot 2025-06-27 at 11 23 31 PM" src="https://github.com/user-attachments/assets/6e3c9dde-a176-4343-b056-4c9db792f5e7" />
+
 
 # **CAD Model**
 <img width="841" alt="Screenshot 2025-06-27 at 9 58 29 PM" src="https://github.com/user-attachments/assets/e92d7d4b-3a6b-4e37-8724-f523f06b017e" /><br>
@@ -28,4 +31,4 @@ Schematic and PCB created using KiCad
 I will print my own case
 
 # **Inspiration/Challenges**
-I created this macropad to learn more about hardware and firmware creation. While working on this hackpad, I encountered issues with the firmware, the pcb, and 3d models associated with the footprints. By looking at other people's submissions and asking for help on slack, I overcame these issues.
+I created this macropad to learn more about hardware and firmware creation. I wanted to be able to perform my most used functions with singular key presses such as copy/paste and inserting long strings. While working on this hackpad, I encountered issues with the firmware, the pcb, and 3d models associated with the footprints. By looking at other people's submissions and asking for help on slack, I overcame these issues. In the future I want to learn how to integrate QMK firmware and add more advanced animations for the OLED.
