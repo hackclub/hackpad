@@ -8,7 +8,8 @@ I wanted to follow the tutorial on [hackpad.hackclub.com](hackpad.hackclub.com) 
 ### Specs
 BOM:
 - 4x Cherry MX Switches
-- 2x SK6812 MINI Leds
+- 1x SK6812 MINI Leds
+- 1x RotaryEncoder_Switch
 - 1x XIAO RP2040
 - 4x Blank DSA Keycaps
 - 4x M3x16 Bolt
