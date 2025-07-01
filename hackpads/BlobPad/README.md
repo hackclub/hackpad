@@ -1,8 +1,7 @@
 # BlobPad
 
 - 8x MX switches
-- 1x 0.96' OLED
-- 1x VL6180X ToF distance sensor
+- 1x 0.91' OLED
 - 2x EC11 rotary encoders
 - 1x IO Expander
 - 1x XIAO
