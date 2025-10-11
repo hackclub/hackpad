@@ -195,8 +195,8 @@ export default function App() {
                         <h2 className="text-xl py-3">What's new in V3?</h2>
                         <p>
                             Hackpad is now a guided part of{" "}
-                            <a href="https://highway.hackclub.com">Highway</a>!
-                            It's a similar program where you can make{" "}
+                            <a href="https://blueprint.hackclub.com">Blueprint</a>!
+                            It's a program where you can receive a grant to make{" "}
                             <i>any hardware project</i> instead!
                         </p>
                     </div>
