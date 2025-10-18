@@ -42,3 +42,6 @@ Clicking any button will slightly adjust the color of the power LED, and the mut
 - 4x M3x5mx4mm heatset inserts
 - 1x MCP23017 io expander chip
 - 1x Case (2 printed parts)
+
+### TODO:
+- Double check BOM & try to find prices
