@@ -2,10 +2,21 @@
 
 Finally finished your hackpad? Nice job! Follow along and we're going to make sure you have everything necessary to *ship* your project, which includes:
 
-- [Structuring your project](#structure)
-- [Exporting the production files](#export)
-- [Adding README files](#readme)
-- [Publishing the design](#publishing)
+- Creating a new GitHub Repository
+- Structuring your project files
+- Creating production files
+- Adding a README
+- Filling out the submission form
+
+
+## Create a new GitHub Repository
+GitHub is a website that allows you to host your project files! A GitHub repository is an individual project that you can share with others
+
+GitHub has an awesome guide on how to create & manage repositories. You can find it here: [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+
+Once you create a repository, make sure to clone it! Cloning it downloads a local copy to your computer & lets you sync it with the version on GitHub servers. GitHub also has a guide on this! You can find it here: [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+**Once you have it cloned locally, drag and drop all your project files into the folder!**
 
 <a name="structure"/>
 ## Structuring your project design files
@@ -23,9 +34,9 @@ Additionally, make sure you meet the following requirements:
 - Your PCB is smaller or equal to 100mmx100mm
 - Your case fits within 200x200x100mm (length / width / height)
 - You have less than 16 inputs (switches, encoders, etc)
-- You are using approved parts only
+- You are using [approved parts only](/parts)
 - The PCB only uses 2 layers
-- Your case only has 3D printed parts
+- Your case only has 3D printed parts, no acrylic or laser cut parts
 
 If you have all of that, it should be ready to go!
 
@@ -36,9 +47,9 @@ The above is a LOT of files! To make organization easy, you should create a fold
 This should contain a single file containing your ENTIRE hackpad. This should be a .STEP, .STP, or .3MF file
 
 **PCB:**
-This should contain your PCB Design files
+This should contain your PCB Design files. This includes the .kicad_pro, .kicad_sch, and .kicad_pcb file if you're using KiCAD!
 
-**Firmware: **
+**Firmware:**
 This should contain the source files for your firmware. main.py if you're using KMK, and then several files if you're using QMK
 
 In total, you should have 3 folders in your project folder.
@@ -94,7 +105,21 @@ It'll be different for each hackpad, but good examples of what I'm looking for a
 - [Ducc's Fidget Toy](https://github.com/hackclub/hackpad/blob/main/hackpads/Duccs%20Fidget%20Toy/README.md)
 - [Cyaopad](https://github.com/hackclub/hackpad/blob/main/hackpads/cyaopad/README.md)
 
-### Make a PR 
+## Make a ship post!
+
+Next, you should make a ship post in #highway-pitstop on slack! Format it like so:
+
+**Hackpad name:** Orpheuspad
+
+**GitHub Repo:** https://github.com/qcoral/orpheuspad
+
+**Description:** This is a 4-key macropad with a rotary encoder, OLED, and neopixel! It's meant to showcase all the different parts in a small, polished project
+
+(attach some images of your hackpad)
+
+**You'll need to make a post to get feedback on your project, so don't forget this step!**
+
+## Fill out the form!
 First, double check your submission against the [Orpheuspad](https://github.com/hackclub/hackpad/tree/main/hackpads/orpheuspad) example to make sure you have the correct structure. Everything should match exactly, except for the filenames.
 
 Here's what it should look like
@@ -103,16 +128,19 @@ Here's what it should look like
 
 If anything is unclear, make sure to ask in #hackpad!
 
-Once everything is organized, you can make a PR to the repository [here](https://github.com/hackclub/hackpad)!
+Once everything is organized, you can fill out the following form!
+
+[Submission Form](https://forms.hackclub.com/highway)
 
 ### After submitting
-If everything went correctly, your PR will be reviewed (and hopefully approved!) by @alexren. If it's approved, then you'll get:
-- All of your parts from the approved list shipped from HQ
-- A soldering iron
-- A $20 grant for your PCB + custom components
-- Your 3D printed case
+If everything went correctly, your submission will be reviewed (and hopefully approved!) by @alexren. You'll get a reply to your #highway-pitstop post, so MAKE SURE TO MAKE ONE!
 
-Fulfillment will begin during march break. You can work on your keyboard immediately after it's approved and merged
+If it's approved, then you'll get:
+- A hackpad kit with all the parts you need to build your hackpad.
+- A $18 Card grant to buy a soldering iron, if requested.
+- A $15 Card grant to buy your PCB + Get a 3D printed case from another Hack Clubber!
+
+If it's rejected, you'll get feedback on what you need to change!
 
 For many of you, the firmware may not work the first try. That's okay! Keep working at it until it's fixed; if you send a video in #hackpad showing it working, I'll ship you a free custom hack-club keycap and sticker!
 
