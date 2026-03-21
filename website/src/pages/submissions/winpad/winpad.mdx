@@ -1,0 +1,83 @@
+import schematicImage from './schematic.png';
+import pcbImage from './pcb.png';
+import cadImage from './cad.png';
+import monitorImage from './monitor.png';
+import glowImage from './glow.png';
+
+# winpad
+
+winpad is a 3 layer, 8 key macropad with a rotary encoder and an OLED display. It has 3 WS2812B leds and uses QMK firmware. It's for controlling window arrangement and display attributes.
+
+## Features:
+- 128x32 OLED Display
+- 8 keys
+- Rotary encoder
+- 3 WS2812B RGB LEDs
+
+## CAD Model:
+The case and plate fits together using 4 M2 Screws. It has two optional side stands which require two additional M2 screws.
+
+It has 3 laser cut pieces - the plate and the two stands, and two 3d printed pieces - the case top and bottom.
+
+<img src={cadImage} alt="Schematic" width="500"/>
+
+Case was made in Onshape.
+
+## PCB
+
+PCB was made in Kicad.
+
+Schematic
+<img src={schematicImage} alt="Schematic" width="300"/>
+
+PCB
+<img src={pcbImage} alt="Schematic" width="300"/>
+
+## Firmware Overview
+This hackpad uses [QMK](https://qmk.fm/) firmware for everything. 
+
+The top left button changes the layer.
+
+### Layer 1 - i3/Sway Window Arrangement
+
+- **Rotary encoder**: Volume/mute
+- **OLED**: Sway icon
+- **Keys**: Tiling layout/arrangement
+
+### Layer 2 - DDC Monitor/Display Control
+
+***Note***: This mode requires `winpadd`, a host-side daemon for relaying DDC controls. (Source code can be found in `hackpads/winpad-67` folder). An HID udev rule is provided as well.
+
+- **Rotary encoder**: Brightness (press to reset to 20%)
+- **OLED**: Display details
+- **Top right key**: Change current display
+- **Other keys**: Change input source
+
+<img src={monitorImage} alt="OLED monitor details" width="300"/>
+
+### Layer 3 - Settings
+
+- **Rotary encoder**: Change underglow hue in static mode
+- **OLED**: Current hue
+- **Middle keys**: Change current underglow effect
+- **Lower keys**: Enter bootloder (so I don't have to do RST + BOOT), reboot
+
+<img src={glowImage} alt="Orange underglow" width="300"/>
+
+## BOM:
+Here should be everything you need to make this hackpad
+
+- 8x Cherry MX Switches
+- 8x Keycaps
+- 8x M2 screws
+- 9x 1N4148 Diodes.
+- 3x WS2812B LEDs
+- 1x 0.91" 128x32 OLED Display
+- 1x EC11 Rotary Encoder
+- 1x XIAO RP2040
+- 1x Case (2 printed parts, 3 laser cut parts)
+
+
+## Extra stuff
+
+The USB slot on the initial case didn't account for the pin headers. The rotary encoder cap in the pictures is from a random model I found online.

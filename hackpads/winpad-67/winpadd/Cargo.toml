@@ -1,0 +1,13 @@
+[package]
+name = "winpadd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.11.6"
+hidapi = "2.6.3"
+log = "0.4.25"
+ddc-i2c = { git = 'https://github.com/grimsteel/ddc-i2c-rs.git', features = ['with-linux', 'with-linux-enumerate'] }
+ddc = "0.2.2"
+mccs = "0.2.0"
+mccs-caps = "0.2.0"
