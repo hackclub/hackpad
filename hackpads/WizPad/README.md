@@ -32,6 +32,7 @@ The WizPad was born out of a need for a compact, versatile tool to speed up my c
 
 ### Case
 Files located in `/case`:
+- `wizpad_case.stl` (3D Printable)
 - `wizpad-top.dxf`
 - `wizpad-bottom.dxf`
 
