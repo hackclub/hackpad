@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "active_profile": 0,
+  "profiles": [
+    {
+      "name": "Media",
+      "target_os": "mac",
+      "keys": [
+        { "label": "Prev",  "action": { "type": "media", "code": "PREV_TRACK" } },
+        { "label": "Play",  "action": { "type": "media", "code": "PLAY_PAUSE" } },
+        { "label": "Next",  "action": { "type": "media", "code": "NEXT_TRACK" } },
+        { "label": "Vol-",  "action": { "type": "media", "code": "VOLUME_DOWN" } },
+        { "label": "Mute",  "action": { "type": "media", "code": "MUTE" } },
+        { "label": "Vol+",  "action": { "type": "media", "code": "VOLUME_UP" } },
+        { "label": "Hi",    "action": { "type": "string", "text": "Hallo vom Hackpad!" } },
+        { "label": "Copy",  "action": { "type": "combo", "keys": ["GUI", "C"] } },
+        { "label": "Seq",   "action": { "type": "sequence", "steps": [
+            { "type": "key", "key": "ENTER" },
+            { "type": "string", "text": "fertig" },
+            { "type": "key", "key": "ENTER" }
+        ] } }
+      ]
+    },
+    {
+      "name": "Coding",
+      "target_os": "mac",
+      "keys": [
+        { "label": "Copy",  "action": { "type": "combo", "keys": ["GUI", "C"] } },
+        { "label": "Paste", "action": { "type": "combo", "keys": ["GUI", "V"] } },
+        { "label": "Cut",   "action": { "type": "combo", "keys": ["GUI", "X"] } },
+        { "label": "Undo",  "action": { "type": "combo", "keys": ["GUI", "Z"] } },
+        { "label": "Redo",  "action": { "type": "combo", "keys": ["GUI", "SHIFT", "Z"] } },
+        { "label": "Save",  "action": { "type": "combo", "keys": ["GUI", "S"] } },
+        { "label": "Find",  "action": { "type": "combo", "keys": ["GUI", "F"] } },
+        { "label": "Log",   "action": { "type": "string", "text": "console.log()" } },
+        { "label": "NL",    "action": { "type": "sequence", "steps": [
+            { "type": "string", "text": "console.log()" },
+            { "type": "key", "key": "LEFT_ARROW" }
+        ] } }
+      ]
+    }
+  ]
+}
