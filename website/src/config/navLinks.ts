@@ -9,7 +9,6 @@ export const navLinks: NavLink[] = [
     { href: "/resources", label: "Resources & Tips" },
     { href: "/parts", label: "Approved Parts" },
     { href: "/submitting", label: "Submit your project!" },
-    { href: "/assembly", label: "Assembly" },
     { href: "/gallery", label: "Gallery" },
     { href: "/faq", label: "FAQ" },
 ];

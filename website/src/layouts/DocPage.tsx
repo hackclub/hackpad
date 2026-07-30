@@ -48,7 +48,7 @@ const DocPage = ({ SideBar }: { SideBar: any }) => {
                 </aside>
 
                 {/* Main Content */}
-                <main className="flex-1 p-8 prose prose-sm xl:prose-base prose-ul:list-disc prose-ol:list-decimal prose-headings:my-2 prose-headings:font-semibold font-sans max-w-sm md:max-w-3xl mx-auto sm:ml-56 xl:mr-56">
+                <main className="flex-1 p-8 prose prose-sm xl:prose-base prose-ul:list-disc prose-ol:list-decimal prose-headings:my-2 prose-headings:font-semibold font-sans max-w-sm md:max-w-3xl mx-auto sm:ml-56 md:mr-56">
                     <Outlet />
                     <br />
                     <br />
@@ -61,7 +61,7 @@ const DocPage = ({ SideBar }: { SideBar: any }) => {
                     <br />
                 </main>
 
-                <aside className="hidden xl:block w-56 fixed top-20 right-4 h-[calc(100vh-5rem)] overflow-y-auto p-4">
+                <aside className="hidden md:block w-56 fixed top-20 right-4 h-[calc(100vh-5rem)] overflow-y-auto p-4">
                     <TableOfContents />
                 </aside>
             </div>

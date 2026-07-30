@@ -2,39 +2,65 @@
 
 *Finally* finished your hackpad? Nice work! Follow along and we're going to make sure you everything necessary to *ship* your project.
 
-Shipping your project is the process of adding in all the final changes to make your project exist in the real world and off your computer! This includes:
+Shipping your project is the process of adding in all the final changes to make your project exist in the real world! This includes:
 
-- Structuring your project files, so that you ca
-- Creating production files
-- Creating a new GitHub Repository, so that you can share your files
-- Adding a README.md file, wso that
+1. **Going through a pre-flight checklist** to watch for common mistakes in macropad designs!
+2. **Structuring your project**, so that your project is organized
+3. **Creating production files**, so that you can actually produce your macropad
+4. **Creating a new GitHub Repository**, so that you can share your files with other people!
+5. **Adding a README.md file**, so that other people know what your project does!
 
-And lastly, filling out the submission
+And lastly, filling out the submission form!
 
+---
+
+## 1. Preflight checklist!
+*Before* you get anywhere with submitting, make sure your project is good to go!
+
+*Here are some important things to catch:*
+
+**Check that your project to make sure your project follows the [approved parts](/parts) list!**
+
+**Make sure you have tolerances where any 3D printed parts meet** to make sure your PCB will fit! This is because plastic expands and shrinks as it's being 3D printed, which means your case won't 100% match your CAD exactly.
+
+I recommend leaving about **0.2mm** between any two parts that may touch. 
+
+![image](https://cdn.hackclub.com/019fb39b-77a3-7a53-bcee-dd9628ef92b5/paste-1785424737566.png)
+
+*this isn't going to work! The case is going to shrink during 3D printing and the PCB won't go in!*
+
+![image](https://cdn.hackclub.com/019fb39c-dc0f-7698-bbd4-030a06243023/paste-1785424826998.png)
+
+*notice how there's a gap between the PCB and case? Gives you some leeway!*
+
+**Make sure your PCB has no errors!** You should be running **DRC** in KiCAD, and you should see 0 errors. If you have any, your PCB will *not* work!**
+
+![image](https://cdn.hackclub.com/019fb3a8-cbbe-706f-a7ba-fc837ec69b93/paste-1785425610657.png)
+
+*It's OK to have some warnings, especially about the silkscreen! If you're unsure, ask in [#hackpad](http://hack.club/hackpad-slack)*
+
+**Lastly, make sure all your files are committed on GitHub!** If you made any changes, sometimes you might've forgotten to commit. Check the last commit date!
+
+![image](https://cdn.hackclub.com/019fb3ac-0baa-77cc-81e0-2e617bc63862/paste-1785425824202.png)
+*here's a snippet from my personal site. 3 days ago!*
+
+---
 
 <a name="structure"/>
-## Structuring your project design files
+## 2. Structuring your project design files
 To make reviewing easier, we need to make sure that the source files of our project are formatted in a way that's complete & easy to navigate.
 
-### 1) Make sure you have everything necessary:
+### a) Make sure you have everything necessary:
 
-Before we organize anything, make sure 
+Before we organize anything, make sure you have all the files!
 - A *complete* CAD model of the assembled case in .STEP, .STP or .3MF format
     - This should include the PCB (a blank rectangle is okay!) and all parts of the case
-- Original firmware for your macropad. QMK, KMK, ZMK, etc derivatives are valid
+- Your PCB design files!
+- Original firmware for your macropad. **QMK, KMK, ZMK, etc derivatives are valid!**
 
-Additionally, make sure you meet the following requirements:
-- Your design uses a through-hole Seeed XIAO RP2040 as the main MCU
-- Your PCB is smaller or equal to 100mmx100mm
-- Your case fits within 200x200x100mm (length / width / height)
-- You have less than 16 inputs (switches, encoders, etc)
-- You are using [approved parts only](/parts)
-- The PCB only uses 2 layers
-- Your case only has 3D printed parts, no acrylic or laser cut parts
+And also meet the [submission requirements](/parts)
 
-If you have all of that, it should be ready to go!
-
-### 2) Organize your folders
+### b) Organize your folders
 The above is a LOT of files! To make organization easy, you should create a folder for each part of your macropad:
 
 **CAD:**
@@ -48,22 +74,24 @@ This should contain the source files for your firmware. main.py if you're using 
 
 In total, you should have 3 folders in your project folder.
 
+---
+
 <a name="export"/>
-## Creating production files
+## 3. Creating production files
 Nice job on organizing your design files! Next, we need to create the manufacturing files that will actually be used to build your project.
 
 This is separate from the source files, which are usually a reference to check out & iterate on your design.
 
 Before moving on, create a folder called "production"
 
-### 1) Export your PCB
+### a) Export your PCB
 Depending on your tool of choice, the exact workflow will be different. What you want to do is export your PCB as a set of files called Gerbers, which are basically instructions for the manufacturer to build your PCB. It should be compressed into a .zip file.
 
 The internet will help you out on this one. The end file you get should be named gerbers.zip and contain all the production files in it.
 
 Put it inside the "production" folder
 
-### 2) Export your Case parts
+### b) Export your Case parts
 Each individual part of the case should be exported into its respective files. For example, if you have a top, bottom, and middle part, you should have 3 files:
 - Top.STEP
 - Bottom.STEP
@@ -73,14 +101,16 @@ If you can't export them as STEPs, STLs are okay too!
 
 Put all of these files in the "production" folder as well
 
-### 3) Compile your firmware
+### c) Compile your firmware
 This step is going to depend on what you used specifically, for QMK the resulting file should be named firmware.uf2
 
 If you are using KMK, you'll just have a main.py file.
 
 Either way, put them in the "production" folder
 
-## Create a new GitHub Repository
+---
+
+## 4. Creating a new GitHub Repository
 GitHub is a website that allows you to host your project files! A GitHub repository is an individual project that you can share with others
 
 GitHub has an awesome guide on how to create & manage repositories. You can find it here: [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
@@ -89,10 +119,10 @@ Once you create a repository, make sure to clone it! Cloning it downloads a loca
 
 **Once you have it cloned locally, drag and drop all your project files into the folder!**
 
-*In the future
+---
 
 <a name="readme"/>
-## Adding a README
+## 5. Adding a README!
 A README is essential to all open-source projects. It allows people to know more about you and your project without having to dig into every single 
 
 The README is pretty flexible, but you MUST include the following parts:
@@ -135,20 +165,22 @@ If anything is unclear, make sure to ask in #hackpad!
 
 Once everything is organized, you can fill out the project submission form!
 
-<div className="bg-red-500 max-w-56 py-2 px-3 rounded-sm">
+<div className="bg-red-500 max-w-48 py-2 px-3 rounded-sm">
 <a href="https://forms.hackclub.com/hackpad" target="_blank" rel="noopener noreferrer" className="!text-white no-underline"> Submit Your Project -> </a>
 </div>
 
+---
+
 ### After submitting
-If everything went correctly, your submission will be reviewed (and hopefully approved!) by @alexren. You'll get a reply to your #highway-pitstop post, so MAKE SURE TO MAKE ONE!
+If everything went correctly, your submission will be reviewed by a reviewer!
 
 If it's approved, then you'll get:
 - A hackpad kit with all the parts you need to build your hackpad.
 - A $18 Card grant to buy a soldering iron, if requested.
-- A $15 Card grant to buy your PCB + Get a 3D printed case from another Hack Clubber!
+- A $15 Card grant to buy your PCB + Get a 3D printed case from another Hack Clubber via [Printing Legion](https://printlegion.hackclub.com)
 
-If it's rejected, you'll get feedback on what you need to change!
+If it gets returned, you'll get feedback on what you need to change!
 
-For many of you, the firmware may not work the first try. That's okay! Keep working at it until it's fixed; if you send a video in #hackpad showing it working, I'll ship you a free custom hack-club keycap and sticker!
+{/* For many of you, the firmware may not work the first try. That's okay! Keep working at it until it's fixed! */}
 
 Any questions? Check out the [FAQ](/faq)

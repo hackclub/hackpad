@@ -54,8 +54,8 @@ const TableOfContents = () => {
                             href={`#${h.id}`}
                             className={`block -ml-0.5 pl-3 py-1 border-none transition-none font-medium ${
                                 activeId === h.id
-                                    ? "border-cyan-700 text-cyan-800"
-                                    : "border-transparent text-slate-600 hover:text-cyan-800"
+                                    ? "border-cyan-700 text-cyan-800 font-semibold"
+                                    : "border-transparent text-slate-600 hover:text-cyan-800 font-medium"
                             }`}
                         >
                             {h.text}
