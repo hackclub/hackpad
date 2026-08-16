@@ -24,6 +24,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 import Gallery from "./pages/Gallery";
+import NotFound from "./pages/NotFound";
 
 // IMPORT YOUR PROJECTS HERE
 import OrpheusPad from "./pages/submissions/Orpheuspad/OrpheusPad.mdx";
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
             { path: "/keyboard/faq", element: <Faq2 /> },
         ],
     },
+    {
+        path: "*",
+        element: <NotFound />,
+    }
 ]);
 
 createRoot(document.getElementById("root")!).render(
