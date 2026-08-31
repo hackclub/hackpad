@@ -15,10 +15,10 @@ _click on links to check out their datasheets!_
 - 1 unsoldered [Seeed XIAO RP2040](https://wiki.seeedstudio.com/XIAO-RP2040/)
 - 20x through-hole [1N4148 Diodes](https://www.vishay.com/docs/81857/1n4148.pdf)
 - 16x [MX-Style switches](https://cdn.shopify.com/s/files/1/0565/8070/2297/files/SPEC-KS-3Y10B050NW-X1-Yellow_Switch.pdf?v=1675841028)
-- 2x EC11 Rotary encoders
+- 2x [EC11E Rotary encoders](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6727/alps_alps-s-a0008379064-1-1733314-1-13.pdf) (with switch!)
 - 1x 0.91 inch OLED display (the pin order is GND-VCC-SCL-SDA, MAKE SURE YOUR PCB MATCHES)
 - 16x white blank DSA keycaps
-- 20x [SK6812 MINI-E LEDs](https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf)
+- 16x [SK6812 MINI-E LEDs](https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf)
 - 6x M3x16mm screws
 - 6x [M3x5mx4mm heatset inserts](https://www.aliexpress.us/item/2255800046543591.html)
 
