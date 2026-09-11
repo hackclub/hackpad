@@ -220,9 +220,10 @@ export default function App() {
                     <div>
                         <h2 className="text-xl py-3">What's new in V5?</h2>
                         <p>
-                            Hackpad is once again its own program! You now also
-                            get an allen key with your kit to make it easier to
-                            assemble!
+                            Hackpad is now part of{" "}
+                            <a href="https://stardance.hackclub.com">
+                                Stardance!
+                            </a>
                         </p>
                     </div>
                 </div>

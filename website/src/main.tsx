@@ -46,7 +46,7 @@ const router = createBrowserRouter([
         children: [
             { path: "/guide", element: <SimpleTutorial /> },
             { path: "/add-components", element: <OtherParts /> },
-            { path: "/guide2", element: <Guide /> },
+            { path: "/guide-staging", element: <Guide /> },
             { path: "/assembly", element: <Assembly /> },
             { path: "/submitting", element: <Submission /> },
             { path: "/parts", element: <KitContents /> },

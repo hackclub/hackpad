@@ -61,7 +61,7 @@ const DocPage = ({ SideBar }: { SideBar: any }) => {
                     <br />
                 </main>
 
-                <aside className="hidden md:block w-56 fixed top-20 right-4 h-[calc(100vh-5rem)] overflow-y-auto p-4">
+                <aside className="hidden md:block w-56 fixed top-20 right-0 h-[calc(100vh-5rem)] overflow-y-auto p-4">
                     <TableOfContents />
                 </aside>
             </div>
