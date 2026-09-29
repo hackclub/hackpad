@@ -77,7 +77,7 @@ You'll have ot unzip it, and then add it to your project library - there's a ton
 
 _for those of you curious: this is just a cherry-picked XIAO footprint from Seeed Studio, and a fixed SK6812MINI-E footprint for the reverse mount version_
 
-After that, come back here! You're officially done all the setup, so now we can move onto...
+After that, come back here! You're officially done with all the setup, so now we can move onto...
 
 ## Designing your Circuit Board:
 
