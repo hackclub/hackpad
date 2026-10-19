@@ -3,7 +3,7 @@ import { navLinks } from "../config/navLinks";
 
 const SideBar = () => {
     return (
-        <aside className="bg-slate-100 space-y-2 max-w-xl p-4 h-screen border-r-2 border-slate-500/80">
+        <aside className="bg-slate-100 space-y-2 max-w-xl p-4 h-screen border-r-2 border-slate-500/50">
             <nav>
                 <ul>
                     {navLinks.map((link) => (

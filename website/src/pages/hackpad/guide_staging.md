@@ -111,13 +111,22 @@ Schematics consists of symbols & wires. Symbols represent your components
 
 Once you're in, press the A key on your keyboard. This should open up a menu where you can add **symbols** for your different components! Search for the following to add them:
 
-Start by placing these symbols down. They don't have to be in any particular order, but place them somewhat close together.
+- SW_Push
+-
 
-To rotate the symbols, click R. And to mirror them, click X.
+Start by placing these symbols down. They don't have to be in any particular order, but place them somewhat close together. Here's what I landed with!
+
+(image of my schematic)
+
+_To rotate the symbols, click R. And to mirror them, click X._
+
+### Assigning footprints
+
+Once you're done with your schematic, you need to actually define what physical part maps to each symbol; otherwise it doesn't really mean much!
 
 ### Placing parts & routing
 
-Once you're done your schematic, you can actually
+Once you're done your schematic, you can actually start creating your PCB!
 
 ## Designing your case!
 
@@ -128,8 +137,6 @@ Once you're done your schematic, you can actually
 ### Putting it all together
 
 ## Coding your firmware!
-
-Sans sabotage
 
 ## Next steps
 
