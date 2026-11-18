@@ -8,7 +8,7 @@ const DocPage = ({ SideBar }: { SideBar: any }) => {
     return (
         <div className="flex flex-col min-h-screen">
             {/* Header */}
-            <header className="bg-slate-100 text-white fixed top-0 z-10 w-full border-b-4 border-slate-500 border-dashed">
+            <header className="bg-slate-100 text-white fixed top-0 z-10 w-full border-b-2 border-slate-500/50 border">
                 <div>
                     <h1 className="text-2xl font-bold font-mono flex justify-between ml-4">
                         <Link

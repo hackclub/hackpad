@@ -9,10 +9,14 @@ const {
     fetchAllHackpads,
     fetchHackpadById,
     computeStats,
+    createSignup,
 } = require("./lib/airtable");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Behind a reverse proxy in prod, so req.ip reflects the real client
+app.set("trust proxy", 1);
 
 app.use(cors());
 app.use(express.json());
@@ -108,6 +112,56 @@ app.get("/api/stats", async (req, res) => {
     } catch (error) {
         console.error("Error fetching stats:", error);
         res.status(500).json({ error: "Failed to fetch stats" });
+    }
+});
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// Simple in-memory rate limit: N signups per IP per window. Kept loose since
+// schools/events often share one public IP. Disabled outside production.
+const SIGNUP_WINDOW_MS = 10 * 60 * 1000; // 10 minutes
+const SIGNUP_MAX_PER_WINDOW = 30;
+const signupHits = new Map();
+
+function isRateLimited(ip) {
+    if (!IS_PROD) return false;
+    const now = Date.now();
+    const hits = (signupHits.get(ip) || []).filter(
+        (t) => now - t < SIGNUP_WINDOW_MS,
+    );
+    if (hits.length >= SIGNUP_MAX_PER_WINDOW) {
+        signupHits.set(ip, hits);
+        return true;
+    }
+    hits.push(now);
+    signupHits.set(ip, hits);
+    if (signupHits.size > 10000) signupHits.clear();
+    return false;
+}
+
+app.post("/api/signup", async (req, res) => {
+    const email = String(req.body?.email ?? "")
+        .trim()
+        .toLowerCase();
+    const source = String(req.body?.source ?? "landing").slice(0, 100);
+
+    if (!email || email.length > 254 || !EMAIL_RE.test(email)) {
+        return res.status(400).json({ error: "Please enter a valid email" });
+    }
+
+    if (isRateLimited(req.ip)) {
+        return res
+            .status(429)
+            .json({ error: "Too many signups, try again later" });
+    }
+
+    try {
+        await createSignup({ email, source, ipAddress: req.ip });
+        // Same response for new + duplicate so we don't leak who's signed up
+        res.json({ ok: true });
+    } catch (error) {
+        console.error("Error creating signup:", error);
+        res.status(500).json({ error: "Failed to sign up" });
     }
 });
 

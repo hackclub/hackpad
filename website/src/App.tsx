@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import EmailSignup from "./components/EmailSignup";
 import OrpheusFlag from "/OrpheusFlag.svg";
 
 export default function App() {
@@ -23,7 +24,7 @@ export default function App() {
                             </h1>
                         </div>
                         <div className="border-4 border-dashed border-black bg-green-200 px-2 rounded-sm absolute -rotate-12 text-4xl ml-56 mt-16">
-                            v5!
+                            v6!
                         </div>
                     </div>
                     <img
@@ -59,12 +60,19 @@ export default function App() {
                             </div>
                         </div>
                         <div>
-                            <a href="/guide" className="flex justify-center">
-                                <p className="text-xl sm:text-2xl text-center bg-red-500 text-slate-50 max-w-54 sm:max-w-xl px-3 py-2 rounded-sm font-semibold border-black border-4">
-                                    Learn how to make a hackpad ➜
-                                </p>
-                            </a>
-                            <p className="text-xl font-semibold pt-2">
+                            <div className="flex justify-center">
+                                {/* Stacked (signup matches button width) until lg, then side by side */}
+                                <div className="inline-flex flex-col items-stretch lg:flex-row lg:items-start gap-3 lg:gap-4">
+                                    <EmailSignup />
+                                    <a href="/guide">
+                                        <p className="text-xl sm:text-2xl text-center bg-red-500 hover:bg-red-600  text-slate-50 sm:max-w-xl px-3 py-2 rounded-sm font-semibold border-black border-4">
+                                            Learn how to make a hackpad ➜
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <br />
+                            {/* <p className="text-xl font-semibold pt-2">
                                 ...and join{" "}
                                 <a
                                     href="https://hackclub.slack.com/archives/C07LESGH0B0/p1727813799029559"
@@ -82,12 +90,14 @@ export default function App() {
                                     Hack Club Slack
                                 </a>
                                 . Or else...
-                            </p>
+                            </p> */}
                         </div>
                     </div>
 
                     <div>
-                        <h2 className="text-xl py-3">What exactly is this?</h2>
+                        <h2 className="text-xl py-3 font-semibold">
+                            What exactly is this?
+                        </h2>
                         <p>
                             Hackpad is a You Ship, We Ship (YSWS) where you can
                             learn how to make your own macropad, and then we
@@ -218,12 +228,22 @@ export default function App() {
                         </s>
                     </div>
                     <div>
-                        <h2 className="text-xl py-3">What's new in V5?</h2>
+                        <s>
+                            <h2 className="text-xl py-3">What's new in V5?</h2>
+
+                            <p>
+                                Hackpad is now part of{" "}
+                                <a href="https://stardance.hackclub.com">
+                                    Stardance!
+                                </a>
+                            </p>
+                        </s>
+                    </div>
+                    <div>
+                        <h2 className="text-xl py-3">What's new in V6?</h2>
                         <p>
-                            Hackpad is now part of{" "}
-                            <a href="https://stardance.hackclub.com">
-                                Stardance!
-                            </a>
+                            Hackpad is now it's own program again, and there's a
+                            revamped guide! You can only do hackpad once.
                         </p>
                     </div>
                 </div>
