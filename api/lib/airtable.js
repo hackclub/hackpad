@@ -117,7 +117,31 @@ function computeStats(hackpads) {
   };
 }
 
+const SIGNUPS_TABLE_ID =
+  process.env.AIRTABLE_SIGNUPS_TABLE_ID || "tblTGUmUnqZ6NlCUL";
+
+async function signupExists(email) {
+  const escaped = email.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+  const records = await base(SIGNUPS_TABLE_ID)
+    .select({
+      filterByFormula: `LOWER({email}) = "${escaped}"`,
+      maxRecords: 1,
+      fields: ["email"],
+    })
+    .firstPage();
+  return records.length > 0;
+}
+
+async function createSignup({ email, source, ipAddress }) {
+  if (await signupExists(email)) return { duplicate: true };
+  await base(SIGNUPS_TABLE_ID).create([
+    { fields: { email, source, ip_address: ipAddress } },
+  ]);
+  return { duplicate: false };
+}
+
 module.exports = {
+  createSignup,
   fetchAllHackpads,
   fetchHackpadById,
   computeStats,
